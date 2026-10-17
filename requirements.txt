@@ -1,0 +1,6 @@
+# Procesamiento de Datos y Análisis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Base de Datos de Alto Rendimiento
+duckdb>=0.9.0
