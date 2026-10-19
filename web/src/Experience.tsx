@@ -5,9 +5,13 @@ import { askChat } from "./api";
 import type { ChatGroupResult, ChatResult } from "./api";
 
 const MIN_THINKING_MS = 2200;
+const LEGACY_HISTORY_KEY = "pulso:recent-questions:v1";
+const MAX_RECENT_QUESTIONS = 6;
 
 type Group = { label: string; percentages: Record<string, number | null> };
 type ResultView = "total" | "sex" | "age";
+type SavedQuestion = { id: string; question: string; answer: ChatResult };
+
 const formatNumber = (value: number) =>
   new Intl.NumberFormat("es-ES", { maximumFractionDigits: 2 }).format(value);
 
@@ -168,9 +172,21 @@ function Indicator({ evidence }: { evidence: Record<string, unknown> }) {
 
 function ThinkingStatus() {
   return (
-    <div className="thinking-status" role="status" aria-label="Preparando resultados">
-      <div className="thinking-logo" aria-hidden="true">
-        puls<span className="thinking-mark"><span /></span>
+    <div className="result-skeleton" role="status" aria-label="Preparando resultados">
+      <div className="result-skeleton-heading">
+        <div className="thinking-logo" aria-hidden="true">
+          puls<span className="thinking-mark"><span /></span>
+        </div>
+        <p>Preparando resultados…</p>
+      </div>
+      <div className="skeleton-result-card" aria-hidden="true">
+        {[0, 1, 2].map((index) => (
+          <div className="skeleton-result-row" key={index}>
+            <span className="skeleton-line skeleton-label" />
+            <span className="skeleton-line skeleton-value" />
+            <span className="skeleton-line skeleton-track" />
+          </div>
+        ))}
       </div>
     </div>
   );
@@ -201,35 +217,63 @@ function ResultContent({ data }: { data: ChatResult }) {
 
 export default function Experience() {
   const [draft, setDraft] = useState("");
-  const [active, setActive] = useState<string | null>(null);
-  const [answer, setAnswer] = useState<ChatResult | null>(null);
+  const [history, setHistory] = useState<SavedQuestion[]>([]);
+  const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [attemptedQuestion, setAttemptedQuestion] = useState<string | null>(null);
   const [queryError, setQueryError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const resultRef = useRef<HTMLElement>(null);
+  const previousSelection = useRef(selectedId);
+  const selected = history.find((item) => item.id === selectedId);
+  const active = attemptedQuestion ?? selected?.question;
+  const answer = busy || queryError ? null : selected?.answer;
+  const previousQuestions = history
+    .filter((item) => item.id !== selectedId)
+    .slice(0, MAX_RECENT_QUESTIONS - 1)
+    .reverse();
 
   useEffect(() => {
-    if (answer || queryError)
+    try {
+      sessionStorage.removeItem(LEGACY_HISTORY_KEY);
+    } catch {
+      // The in-memory history still works when browser storage is unavailable.
+    }
+  }, []);
+
+  useEffect(() => {
+    const selectionChanged = previousSelection.current !== selectedId;
+    previousSelection.current = selectedId;
+    if ((selectionChanged || busy || queryError) && (answer || busy || queryError))
       resultRef.current?.scrollIntoView({
         behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
           ? "instant"
           : "smooth",
         block: "start",
       });
-  }, [answer, queryError]);
+  }, [answer, busy, selectedId, queryError]);
 
   async function submitChatQuestion(text: string) {
     if (busy || text.length < 8 || text.length > 900) return;
     const minimumWait = new Promise<void>((resolve) =>
       window.setTimeout(resolve, MIN_THINKING_MS),
     );
-    setActive(text);
-    setAnswer(null);
+    setAttemptedQuestion(text);
+    setSelectedId(null);
     setQueryError(null);
     setBusy(true);
     try {
       const result = await askChat(text);
       await minimumWait;
-      setAnswer(result);
+      const entry = {
+        id: `${Date.now()}-${Math.random().toString(36).slice(2)}`,
+        question: text,
+        answer: result,
+      };
+      setHistory((current) =>
+        [entry, ...current].slice(0, MAX_RECENT_QUESTIONS),
+      );
+      setSelectedId(entry.id);
+      setAttemptedQuestion(null);
       setDraft("");
     } catch (error) {
       setQueryError(
@@ -245,6 +289,13 @@ export default function Experience() {
   function submitChat(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     void submitChatQuestion(draft.trim());
+  }
+
+  function selectQuestion(id: string) {
+    if (busy) return;
+    setSelectedId(id);
+    setAttemptedQuestion(null);
+    setQueryError(null);
   }
 
   return (
@@ -328,42 +379,63 @@ export default function Experience() {
                     </button>
                   </div>
                 </form>
-                <div className="thinking-space">
-                  {busy && <ThinkingStatus />}
-                </div>
               </div>
             </div>
             <section
               className="result-panel"
               ref={resultRef}
               aria-label="Resultado de la consulta"
-              aria-live="polite"
+              aria-busy={busy}
             >
-              {active && !busy && (
-                <>
-                  <div className="asked-question">
-                    <span>Tu pregunta</span>
-                    <p>{active}</p>
+              {active && (
+                <div
+                  className="question-stack"
+                  style={{ "--stack-count": previousQuestions.length } as CSSProperties}
+                >
+                  {previousQuestions.map((item, index) => (
+                    <button
+                      className="history-card"
+                      type="button"
+                      key={item.id}
+                      style={{ "--stack-index": index } as CSSProperties}
+                      onClick={() => selectQuestion(item.id)}
+                      disabled={busy}
+                      aria-label={`Ver resultados de: ${item.question}`}
+                    >
+                      <span className="history-card-heading">
+                        <span className="history-card-label">Anterior</span>
+                        <span className="history-card-summary" aria-hidden="true">{item.question}</span>
+                        <span className="history-card-arrow" aria-hidden="true">↗</span>
+                      </span>
+                      <span className="history-card-detail" aria-hidden="true">{item.question}</span>
+                    </button>
+                  ))}
+                  <div className="foreground-result" key={active}>
+                    <div className={`asked-question${busy ? " asked-question--loading" : ""}`} aria-live="polite">
+                      <span>{busy ? "Tu pregunta · en curso" : "Tu pregunta"}</span>
+                      <p>{active}</p>
+                    </div>
+                    <div className="result-body">
+                      {busy && <ThinkingStatus />}
+                      {queryError && (
+                        <div className="query-error" role="alert">
+                          <p>{queryError}</p>
+                          <button
+                            type="button"
+                            onClick={() => void submitChatQuestion(active)}
+                          >
+                            Reintentar
+                          </button>
+                        </div>
+                      )}
+                      {answer && (
+                        <div className="result-reveal">
+                          <ResultContent key={selectedId} data={answer} />
+                        </div>
+                      )}
+                    </div>
                   </div>
-                  <div className="result-body">
-                    {queryError && (
-                      <div className="query-error" role="alert">
-                        <p>{queryError}</p>
-                        <button
-                          type="button"
-                          onClick={() => void submitChatQuestion(active)}
-                        >
-                          Reintentar
-                        </button>
-                      </div>
-                    )}
-                    {answer && (
-                      <div className="result-reveal">
-                        <ResultContent data={answer} />
-                      </div>
-                    )}
-                  </div>
-                </>
+                </div>
               )}
             </section>
           </div>

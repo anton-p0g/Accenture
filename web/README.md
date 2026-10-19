@@ -4,6 +4,8 @@ Frontend en React, TypeScript y Vite. La portada usa la paleta y tipografía de 
 
 La portada presenta un único formulario para escribir preguntas. Envía cada consulta a `POST /escenarios/chat`, que devuelve el total y, cuando hay datos, desgloses por sexo y edad. El año se puede incluir en el texto de la pregunta; si no se indica, se usa 2026. Solo aparecen vistas para las que hay resultados. Los porcentajes de cada subgrupo se calculan dentro de ese grupo; no se suman entre grupos.
 
+Las seis consultas completadas más recientes se conservan en memoria junto con sus resultados. Las anteriores aparecen como cartas detrás de la pregunta seleccionada; al elegir una se recupera su resultado sin otra llamada a la API. Al recargar la página, el historial se borra para empezar una demo desde cero.
+
 ```bash
 cd web
 npm install
