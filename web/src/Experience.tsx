@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import type { CSSProperties, FormEvent } from "react";
-import spainDots from "./assets/spain-dots.svg";
+import ParticleScene from "./ParticleScene";
 import { askChat } from "./api";
 import type { ChatGroupResult, ChatResult } from "./api";
 
-const MIN_THINKING_MS = 2200;
+const MIN_THINKING_MS = 5000;
 const LEGACY_HISTORY_KEY = "pulso:recent-questions:v1";
 const MAX_RECENT_QUESTIONS = 6;
 
@@ -82,14 +82,17 @@ function ScenarioViews({
   bySex,
   byAge,
   filtered = false,
+  view,
+  onViewChange,
 }: {
   year: number;
   total: Record<string, number | null>;
   bySex: Group[];
   byAge: Group[];
   filtered?: boolean;
+  view: ResultView;
+  onViewChange: (view: ResultView) => void;
 }) {
-  const [view, setView] = useState<ResultView>("total");
   const options = Object.keys(total);
   const hasGroups = bySex.length > 0 || byAge.length > 0;
   const activeGroups = view === "sex" ? bySex : byAge;
@@ -98,12 +101,12 @@ function ScenarioViews({
     <>
       {hasGroups && (
         <div className="result-view-switch" aria-label="Ver resultados">
-          <button type="button" aria-pressed={view === "total"} onClick={() => setView("total")}>General</button>
+          <button type="button" aria-pressed={view === "total"} onClick={() => onViewChange("total")}>General</button>
           {bySex.length > 0 && (
-            <button type="button" aria-pressed={view === "sex"} onClick={() => setView("sex")}>Por sexo</button>
+            <button type="button" aria-pressed={view === "sex"} onClick={() => onViewChange("sex")}>Por sexo</button>
           )}
           {byAge.length > 0 && (
-            <button type="button" aria-pressed={view === "age"} onClick={() => setView("age")}>Por edad</button>
+            <button type="button" aria-pressed={view === "age"} onClick={() => onViewChange("age")}>Por edad</button>
           )}
         </div>
       )}
@@ -192,7 +195,7 @@ function ThinkingStatus() {
   );
 }
 
-function ResultContent({ data }: { data: ChatResult }) {
+function ResultContent({ data, view, onViewChange }: { data: ChatResult; view: ResultView; onViewChange: (view: ResultView) => void }) {
   const total = data.desgloses?.total;
   if (total?.porcentajes) {
     const query = data.consulta_interpretada;
@@ -207,6 +210,8 @@ function ResultContent({ data }: { data: ChatResult }) {
       bySex={chatGroups(data.desgloses?.por_sexo, "sex")}
       byAge={chatGroups(data.desgloses?.por_edad, "age")}
       filtered={hasFilters}
+      view={view}
+      onViewChange={onViewChange}
     />;
   }
   if (data.consulta_interpretada?.tipo === "indicador" && data.evidencias[0]) {
@@ -222,8 +227,9 @@ export default function Experience() {
   const [attemptedQuestion, setAttemptedQuestion] = useState<string | null>(null);
   const [queryError, setQueryError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
-  const resultRef = useRef<HTMLElement>(null);
-  const previousSelection = useRef(selectedId);
+  const [view, setView] = useState<ResultView>("total");
+  const introRef = useRef<HTMLDivElement>(null);
+  const submissionLock = useRef(false);
   const selected = history.find((item) => item.id === selectedId);
   const active = attemptedQuestion ?? selected?.question;
   const answer = busy || queryError ? null : selected?.answer;
@@ -241,19 +247,31 @@ export default function Experience() {
   }, []);
 
   useEffect(() => {
-    const selectionChanged = previousSelection.current !== selectedId;
-    previousSelection.current = selectedId;
-    if ((selectionChanged || busy || queryError) && (answer || busy || queryError))
-      resultRef.current?.scrollIntoView({
-        behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
-          ? "instant"
-          : "smooth",
-        block: "start",
-      });
-  }, [answer, busy, selectedId, queryError]);
+    const intro = introRef.current;
+    if (!intro) return;
+    let frame = 0;
+    const update = () => {
+      const progress = Math.max(0, Math.min(1, -intro.getBoundingClientRect().top / (window.innerHeight * .55)));
+      intro.style.opacity = String(1 - progress);
+      intro.style.transform = `translateY(${progress * -35}px)`;
+      frame = 0;
+    };
+    const scroll = () => { if (!frame) frame = requestAnimationFrame(update); };
+    window.addEventListener("scroll", scroll, { passive: true });
+    window.addEventListener("resize", scroll);
+    update();
+    return () => { window.removeEventListener("scroll", scroll); window.removeEventListener("resize", scroll); cancelAnimationFrame(frame); };
+  }, []);
+
+  function initialView(result: ChatResult, question: string): ResultView {
+    if (/edad|jóven|joven|mayores|años/i.test(question) && chatGroups(result.desgloses?.por_edad, "age").length) return "age";
+    if (/sexo|género|genero|mujer|hombre/i.test(question) && chatGroups(result.desgloses?.por_sexo, "sex").length) return "sex";
+    return "total";
+  }
 
   async function submitChatQuestion(text: string) {
-    if (busy || text.length < 8 || text.length > 900) return;
+    if (submissionLock.current || text.length < 8 || text.length > 900) return;
+    submissionLock.current = true;
     const minimumWait = new Promise<void>((resolve) =>
       window.setTimeout(resolve, MIN_THINKING_MS),
     );
@@ -272,6 +290,7 @@ export default function Experience() {
       setHistory((current) =>
         [entry, ...current].slice(0, MAX_RECENT_QUESTIONS),
       );
+      setView(initialView(result, text));
       setSelectedId(entry.id);
       setAttemptedQuestion(null);
       setDraft("");
@@ -282,6 +301,7 @@ export default function Experience() {
           : "No se ha podido completar la consulta.",
       );
     } finally {
+      submissionLock.current = false;
       setBusy(false);
     }
   }
@@ -293,6 +313,8 @@ export default function Experience() {
 
   function selectQuestion(id: string) {
     if (busy) return;
+    const item = history.find((entry) => entry.id === id);
+    if (item) setView(initialView(item.answer, item.question));
     setSelectedId(id);
     setAttemptedQuestion(null);
     setQueryError(null);
@@ -309,9 +331,10 @@ export default function Experience() {
           pulso<span>.</span>
         </a>
       </header>
-      <main id="inicio">
-        <section className="hero wrap" aria-labelledby="hero-title">
-          <div className="hero-copy">
+      <main id="inicio" className="experience-layout wrap">
+        <div className="experience-copy">
+        <section className="hero" aria-labelledby="hero-title">
+          <div className="hero-copy" ref={introRef}>
             <h1 id="hero-title">
               Pregúntale a una
               <br />
@@ -326,23 +349,18 @@ export default function Experience() {
               Haz tu pregunta <span aria-hidden="true">↓</span>
             </a>
           </div>
-          <figure className="hero-map">
-            <img
-              src={spainDots}
-              alt="Ilustración de España formada por puntos"
-            />
-          </figure>
         </section>
         <section
           className="ask-section"
           id="preguntar"
           aria-labelledby="chat-title"
         >
-          <div className="wrap">
+          <div>
             <div className="chat-area">
               <div className="chat-heading">
-                <h2 id="chat-title">Haz tu pregunta</h2>
-                <p>Explora respuestas basadas en los datos disponibles.</p>
+                <span className="chat-eyebrow">EL PULSO DE LA SOCIEDAD</span>
+                <h2 id="chat-title">¿Qué quieres saber<br />de España?</h2>
+                <p>Haz una pregunta. Descubre cómo cambia la respuesta entre generaciones y perfiles.</p>
               </div>
               <div className="chat-input-column">
                 <form className="chat-form" onSubmit={submitChat}>
@@ -383,7 +401,6 @@ export default function Experience() {
             </div>
             <section
               className="result-panel"
-              ref={resultRef}
               aria-label="Resultado de la consulta"
               aria-busy={busy}
             >
@@ -430,7 +447,7 @@ export default function Experience() {
                       )}
                       {answer && (
                         <div className="result-reveal">
-                          <ResultContent key={selectedId} data={answer} />
+                          <ResultContent key={selectedId} data={answer} view={view} onViewChange={setView} />
                         </div>
                       )}
                     </div>
@@ -440,6 +457,19 @@ export default function Experience() {
             </section>
           </div>
         </section>
+        </div>
+        <aside className="experience-visual" aria-label="Visualización de la sociedad española">
+          <div className="visual-sticky">
+            <ParticleScene busy={busy} groups={busy || !answer?.desgloses?.total?.porcentajes ? [] : view === "sex" ? chatGroups(answer.desgloses.por_sexo, "sex") : view === "age" ? chatGroups(answer.desgloses.por_edad, "age") : [{ label: "General", percentages: answer.desgloses.total.porcentajes }]} title={view === "sex" ? "Respuestas por sexo" : view === "age" ? "Respuestas por edad" : "El pulso de España"} />
+            {answer?.desgloses?.total?.porcentajes && !busy && <div className="scene-controls">
+              <div className="result-view-switch" aria-label="Cambiar gráfico de puntos">
+                <button type="button" aria-pressed={view === "total"} onClick={() => setView("total")}>General</button>
+                {chatGroups(answer.desgloses.por_sexo, "sex").length > 0 && <button type="button" aria-pressed={view === "sex"} onClick={() => setView("sex")}>Por sexo</button>}
+                {chatGroups(answer.desgloses.por_edad, "age").length > 0 && <button type="button" aria-pressed={view === "age"} onClick={() => setView("age")}>Por edad</button>}
+              </div>
+            </div>}
+          </div>
+        </aside>
       </main>
       <footer className="site-footer wrap">
         <span className="footer-brand">
