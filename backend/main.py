@@ -9,6 +9,7 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import FileResponse
 from pydantic import BaseModel, Field
 
+from backend.config import OLLAMA_MODEL
 from backend.database import (
     RUTA_BD,
     obtener_metadata,
@@ -94,7 +95,7 @@ def comprobar_estado():
             if RUTA_BD.is_file()
             else "Archivo no encontrado"
         ),
-        "llm": "Configurado con Ollama y Qwen3",
+        "llm": f"Configurado con Ollama y {OLLAMA_MODEL}",
         "escenarios": "Rutas de escenarios registradas"
     }
 

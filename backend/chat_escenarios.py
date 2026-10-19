@@ -15,11 +15,13 @@ import json
 import logging
 import re
 import unicodedata
+from typing import Annotated, Literal
 
 from fastapi import APIRouter, HTTPException
 from ollama import chat
-from pydantic import BaseModel, Field, ValidationError
+from pydantic import BaseModel, Field, StringConstraints, ValidationError
 
+from backend.config import OLLAMA_MODEL
 from backend.escenarios import (
     SolicitudEscenario,
     consulta_escenario,
@@ -36,7 +38,7 @@ router = APIRouter(
 
 logger = logging.getLogger(__name__)
 
-MODELO = "qwen3:4b"
+MODELO = OLLAMA_MODEL
 
 
 # Defino los rangos de edad que quiero utilizar.
@@ -59,15 +61,27 @@ class PreguntaChat(BaseModel):
     pregunta: str = Field(min_length=8, max_length=900)
 
 
-class InterpretacionPregunta(BaseModel):
-    tipo: str = "no_disponible"
-    pregunta_id: str | None = None
+class ClasificacionPregunta(BaseModel):
+    tipo: Literal["escenario", "indicador", "no_disponible"] = "no_disponible"
+    pregunta_id: Literal["P1", "P2", "P3", "P4"] | None = None
+    filtros: dict[
+        str, Annotated[str, StringConstraints(max_length=100)]
+    ] = Field(default_factory=dict)
+    indicador: Literal[
+        "internet_ultimos_3_meses",
+        "internet_diario",
+        "compras_internet_ultimos_3_meses",
+        "tasa_paro_cuarto_trimestre",
+        "uso_ia_generativa_ultimos_3_meses",
+        "uso_banca_internet_ultimos_3_meses"
+    ] | None = None
+
+
+class InterpretacionPregunta(ClasificacionPregunta):
     anio: int = 2027
-    filtros: dict[str, str] = Field(default_factory=dict)
     edad_min: int | None = None
     edad_max: int | None = None
     agrupar_por: str | None = None
-    indicador: str | None = None
 
 
 # --------------------------------------------------
@@ -85,6 +99,9 @@ P1: IA para ayudar a cuidar a familiares mayores.
 P2: Prohibición o limitación de pisos turísticos.
 P3: Campañas de ahorro energético y medioambiente.
 P4: Motivos para cambiar de banco.
+
+Indicadores disponibles: uso de internet, compras por internet,
+tasa de paro del cuarto trimestre, uso de IA generativa y banca por internet.
 
 Años: 2020-2027. Por defecto, 2027.
 
@@ -255,6 +272,32 @@ def detectar_tema(pregunta):
     return None
 
 
+def detectar_indicador(pregunta):
+    texto = normalizar(pregunta)
+
+    if re.search(r"\bparo\b|desempleo", texto) and re.search(
+        r"cuarto trimestre|ultimo trimestre|\b4t\b", texto
+    ):
+        return "tasa_paro_cuarto_trimestre"
+
+    if re.search(r"compras? (?:por |en )?internet", texto):
+        return "compras_internet_ultimos_3_meses"
+
+    if re.search(r"\bia generativa\b|inteligencia artificial generativa", texto):
+        return "uso_ia_generativa_ultimos_3_meses"
+
+    if re.search(r"banca (?:por )?internet|banca online", texto):
+        return "uso_banca_internet_ultimos_3_meses"
+
+    if "internet" in texto:
+        if re.search(r"diario|cada dia|a diario", texto):
+            return "internet_diario"
+        if re.search(r"ultimos? (?:los )?3 meses|ultimos? tres meses", texto):
+            return "internet_ultimos_3_meses"
+
+    return None
+
+
 # --------------------------------------------------
 # INTERPRETACIÓN DE LA PREGUNTA
 # --------------------------------------------------
@@ -267,11 +310,12 @@ def interpretar(pregunta):
             {"role": "system", "content": INSTRUCCIONES},
             {"role": "user", "content": pregunta}
         ],
-        format=InterpretacionPregunta.model_json_schema(),
+        format=ClasificacionPregunta.model_json_schema(),
         think=False,
         options={
             "temperature": 0,
-            "num_ctx": 8192
+            "num_ctx": 8192,
+            "num_predict": 512
         }
     )
 
@@ -333,6 +377,13 @@ def interpretar(pregunta):
     if tema:
         datos.tipo = "escenario"
         datos.pregunta_id = tema
+        datos.indicador = None
+    else:
+        indicador = detectar_indicador(pregunta)
+        if indicador:
+            datos.tipo = "indicador"
+            datos.pregunta_id = None
+            datos.indicador = indicador
 
     return datos
 

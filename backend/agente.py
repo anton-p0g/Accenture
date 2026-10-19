@@ -5,12 +5,13 @@ import re
 from ollama import chat
 from pydantic import ValidationError
 
+from backend.config import OLLAMA_MODEL
 from backend.database import obtener_distribucion
 from backend.segmentos import SolicitudSegmento, calcular_segmento
 
 
-# Indico el modelo local que utilizo mediante Ollama.
-MODELO = "qwen3:4b"
+# El modelo se configura en .env mediante OLLAMA_MODEL.
+MODELO = OLLAMA_MODEL
 
 
 # Defino las variables que el agente puede analizar.

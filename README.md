@@ -4,8 +4,30 @@
 
 `data/poblacion_sintetica.csv` is the seed dataset for the synthetic Spanish society model.
 
-- 150,000 synthetic records, with 25,000 records for each year from 2021 through 2026.
-- 21 columns covering demographics, household circumstances, health, internet and AI use, ideology, and religion.
+- 25,000 synthetic records for 2025.
+- 59 columns covering demographics, household circumstances, health, internet and AI use, ideology, and religion.
 - Record IDs are unique within this file.
 
 This file contains synthetic records, not official survey microdata or observed individual respondents. Model outputs require calibration and validation against suitable real-world statistics before they are used as predictions.
+
+The separate `data/escenarios_sinteticos.duckdb` contains simulated scenarios for 2020–2027. Opinions P1–P4 are hypothetical and are not observed survey responses.
+
+## Arranque local del backend con uv
+
+Desde la raíz del repositorio:
+
+```bash
+uv venv --python 3.12 .venv
+uv pip install --python .venv/bin/python -r requirements.txt
+cp -n .env.example .env
+```
+
+En `.env`, cambia `OLLAMA_MODEL` por el nombre exacto de un modelo instalado en Ollama (por ejemplo, `gemma4:26b`) y `BACKEND_PORT` si el puerto 8000 está ocupado. Comprueba el modelo con `ollama list`. El archivo `.env` es local y está ignorado por Git; `.env.example` documenta los valores iniciales.
+
+Con Ollama en marcha, inicia la API:
+
+```bash
+.venv/bin/python -m backend.run
+```
+
+Con `BACKEND_PORT=8001`, la documentación interactiva está en `http://127.0.0.1:8001/docs` y el chat de pruebas en `http://127.0.0.1:8001/chat`.
