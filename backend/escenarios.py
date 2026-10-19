@@ -77,7 +77,7 @@ INDICADORES = {
 
 class SolicitudEscenario(BaseModel):
     pregunta_id: Literal["P1", "P2", "P3", "P4"]
-    anio: int = Field(default=2027, ge=2020, le=2027)
+    anio: int = Field(default=2026, ge=2020, le=2027)
     filtros: dict[str, str] = Field(default_factory=dict)
     edad_min: int | None = Field(default=None, ge=18, le=110)
     edad_max: int | None = Field(default=None, ge=18, le=110)

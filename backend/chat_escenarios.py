@@ -78,7 +78,7 @@ class ClasificacionPregunta(BaseModel):
 
 
 class InterpretacionPregunta(ClasificacionPregunta):
-    anio: int = 2027
+    anio: int = 2026
     edad_min: int | None = None
     edad_max: int | None = None
     agrupar_por: str | None = None
@@ -103,7 +103,7 @@ P4: Motivos para cambiar de banco.
 Indicadores disponibles: uso de internet, compras por internet,
 tasa de paro del cuarto trimestre, uso de IA generativa y banca por internet.
 
-Años: 2020-2027. Por defecto, 2027.
+Años: 2020-2027. Por defecto, 2026.
 
 Filtros permitidos:
 sexo, ccaa, grupo_edad, vivienda,
@@ -325,7 +325,7 @@ def interpretar(pregunta):
 
     # Solo aplico un año mencionado en la pregunta.
     anios = re.findall(r"\b20\d{2}\b", pregunta)
-    datos.anio = int(anios[0]) if anios else 2027
+    datos.anio = int(anios[0]) if anios else 2026
 
     # No acepto edades inventadas por Qwen3.
     datos.edad_min, datos.edad_max = detectar_edad(pregunta)
