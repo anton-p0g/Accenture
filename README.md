@@ -31,3 +31,23 @@ Con Ollama en marcha, inicia la API:
 ```
 
 Con `BACKEND_PORT=8001`, la documentación interactiva está en `http://127.0.0.1:8001/docs` y el chat de pruebas en `http://127.0.0.1:8001/chat`.
+
+## Iniciar la web app
+
+La primera vez, prepara `.venv` y `.env` con los pasos anteriores e instala Node.js y npm. Asegúrate de que Ollama está en marcha y de que el modelo indicado en `.env` aparece en `ollama list`.
+
+Abre dos terminales desde la raíz del repositorio:
+
+```bash
+# Terminal 1: API
+.venv/bin/python -m backend.run
+```
+
+```bash
+# Terminal 2: web
+cd web
+npm install
+npm run dev
+```
+
+Abre en el navegador la URL que muestra Vite, normalmente `http://127.0.0.1:5173`. La web usa automáticamente el `BACKEND_PORT` definido en el `.env` de la raíz. Para empezar la demo sin preguntas anteriores, recarga la página.
