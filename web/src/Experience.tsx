@@ -173,28 +173,6 @@ function Indicator({ evidence }: { evidence: Record<string, unknown> }) {
   );
 }
 
-function ThinkingStatus() {
-  return (
-    <div className="result-skeleton" role="status" aria-label="Preparando resultados">
-      <div className="result-skeleton-heading">
-        <div className="thinking-logo" aria-hidden="true">
-          puls<span className="thinking-mark"><span /></span>
-        </div>
-        <p>Preparando resultados…</p>
-      </div>
-      <div className="skeleton-result-card" aria-hidden="true">
-        {[0, 1, 2].map((index) => (
-          <div className="skeleton-result-row" key={index}>
-            <span className="skeleton-line skeleton-label" />
-            <span className="skeleton-line skeleton-value" />
-            <span className="skeleton-line skeleton-track" />
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-}
-
 function ResultContent({ data, view, onViewChange }: { data: ChatResult; view: ResultView; onViewChange: (view: ResultView) => void }) {
   const total = data.desgloses?.total;
   if (total?.porcentajes) {
@@ -228,15 +206,10 @@ export default function Experience() {
   const [queryError, setQueryError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const [view, setView] = useState<ResultView>("total");
-  const introRef = useRef<HTMLDivElement>(null);
   const submissionLock = useRef(false);
   const selected = history.find((item) => item.id === selectedId);
   const active = attemptedQuestion ?? selected?.question;
   const answer = busy || queryError ? null : selected?.answer;
-  const previousQuestions = history
-    .filter((item) => item.id !== selectedId)
-    .slice(0, MAX_RECENT_QUESTIONS - 1)
-    .reverse();
 
   useEffect(() => {
     try {
@@ -244,23 +217,6 @@ export default function Experience() {
     } catch {
       // The in-memory history still works when browser storage is unavailable.
     }
-  }, []);
-
-  useEffect(() => {
-    const intro = introRef.current;
-    if (!intro) return;
-    let frame = 0;
-    const update = () => {
-      const progress = Math.max(0, Math.min(1, -intro.getBoundingClientRect().top / (window.innerHeight * .55)));
-      intro.style.opacity = String(1 - progress);
-      intro.style.transform = `translateY(${progress * -35}px)`;
-      frame = 0;
-    };
-    const scroll = () => { if (!frame) frame = requestAnimationFrame(update); };
-    window.addEventListener("scroll", scroll, { passive: true });
-    window.addEventListener("resize", scroll);
-    update();
-    return () => { window.removeEventListener("scroll", scroll); window.removeEventListener("resize", scroll); cancelAnimationFrame(frame); };
   }, []);
 
   function initialView(result: ChatResult, question: string): ResultView {
@@ -320,162 +276,85 @@ export default function Experience() {
     setQueryError(null);
   }
 
+  const total = answer?.desgloses?.total?.porcentajes;
+  const bySex = chatGroups(answer?.desgloses?.por_sexo, "sex");
+  const byAge = chatGroups(answer?.desgloses?.por_edad, "age");
+  const groups = !total ? [] : view === "sex" ? bySex : view === "age" ? byAge : [{ label: "General", percentages: total }];
+
+  function resetScene() {
+    if (busy) return;
+    setSelectedId(null);
+    setAttemptedQuestion(null);
+    setQueryError(null);
+    setView("total");
+    setDraft("");
+  }
+
   return (
-    <div className="site-shell">
-      <header className="site-header wrap">
-        <a
-          className="wordmark"
-          href="#inicio"
-          aria-label="Pulso, volver al inicio"
-        >
+    <div className="site-shell immersive-shell">
+      <header className="scene-header">
+        <button className="wordmark" type="button" onClick={resetScene} disabled={busy} aria-label="Pulso, volver al mapa">
           pulso<span>.</span>
-        </a>
+        </button>
+        {history.length > 0 && <details className="history-menu">
+          <summary>Consultas anteriores <span aria-hidden="true">↗</span></summary>
+          <div className="history-menu-list">
+            {history.map((item) => <button type="button" key={item.id} disabled={busy} aria-current={selectedId === item.id ? "true" : undefined} onClick={(event) => {
+              selectQuestion(item.id);
+              event.currentTarget.closest("details")?.removeAttribute("open");
+            }}>{item.question}</button>)}
+          </div>
+        </details>}
       </header>
-      <main id="inicio" className="experience-layout wrap">
-        <div className="experience-copy">
-        <section className="hero" aria-labelledby="hero-title">
-          <div className="hero-copy" ref={introRef}>
-            <h1 id="hero-title">
-              Pregúntale a una
-              <br />
-              <span>España sintética</span>
-            </h1>
-            <p>
-              Pulso construye perfiles sintéticos con estadísticas del INE y del
-              CIS. Haz una pregunta y compara las respuestas por edad, comunidad
-              o año. Cada resultado indica cuánto puedes fiarte de él.
-            </p>
-            <a className="primary-link" href="#preguntar">
-              Haz tu pregunta <span aria-hidden="true">↓</span>
-            </a>
-          </div>
-        </section>
-        <section
-          className="ask-section"
-          id="preguntar"
-          aria-labelledby="chat-title"
-        >
-          <div>
-            <div className="chat-area">
-              <div className="chat-heading">
-                <span className="chat-eyebrow">EL PULSO DE LA SOCIEDAD</span>
-                <h2 id="chat-title">¿Qué quieres saber<br />de España?</h2>
-                <p>Haz una pregunta. Descubre cómo cambia la respuesta entre generaciones y perfiles.</p>
-              </div>
-              <div className="chat-input-column">
-                <form className="chat-form" onSubmit={submitChat}>
-                  <label className="sr-only" htmlFor="question-input">
-                    Tu pregunta
-                  </label>
-                  <textarea
-                    id="question-input"
-                    value={draft}
-                    onChange={(event) => setDraft(event.target.value)}
-                    onKeyDown={(event) => {
-                      if (
-                        event.key === "Enter" &&
-                        !event.shiftKey &&
-                        !event.nativeEvent.isComposing
-                      ) {
-                        event.preventDefault();
-                        event.currentTarget.form?.requestSubmit();
-                      }
-                    }}
-                    minLength={8}
-                    maxLength={900}
-                    rows={2}
-                    required
-                    disabled={busy}
-                    placeholder="Escribe una pregunta sobre la sociedad española…"
-                  />
-                  <div className="chat-form-bottom">
-                    <button
-                      type="submit"
-                      disabled={busy || draft.trim().length < 8}
-                    >
-                      Enviar <span aria-hidden="true">↗</span>
-                    </button>
-                  </div>
-                </form>
-              </div>
-            </div>
-            <section
-              className="result-panel"
-              aria-label="Resultado de la consulta"
-              aria-busy={busy}
-            >
-              {active && (
-                <div
-                  className="question-stack"
-                  style={{ "--stack-count": previousQuestions.length } as CSSProperties}
-                >
-                  {previousQuestions.map((item, index) => (
-                    <button
-                      className="history-card"
-                      type="button"
-                      key={item.id}
-                      style={{ "--stack-index": index } as CSSProperties}
-                      onClick={() => selectQuestion(item.id)}
-                      disabled={busy}
-                      aria-label={`Ver resultados de: ${item.question}`}
-                    >
-                      <span className="history-card-heading">
-                        <span className="history-card-label">Anterior</span>
-                        <span className="history-card-summary" aria-hidden="true">{item.question}</span>
-                        <span className="history-card-arrow" aria-hidden="true">↗</span>
-                      </span>
-                      <span className="history-card-detail" aria-hidden="true">{item.question}</span>
-                    </button>
-                  ))}
-                  <div className="foreground-result" key={active}>
-                    <div className={`asked-question${busy ? " asked-question--loading" : ""}`} aria-live="polite">
-                      <span>{busy ? "Tu pregunta · en curso" : "Tu pregunta"}</span>
-                      <p>{active}</p>
-                    </div>
-                    <div className="result-body">
-                      {busy && <ThinkingStatus />}
-                      {queryError && (
-                        <div className="query-error" role="alert">
-                          <p>{queryError}</p>
-                          <button
-                            type="button"
-                            onClick={() => void submitChatQuestion(active)}
-                          >
-                            Reintentar
-                          </button>
-                        </div>
-                      )}
-                      {answer && (
-                        <div className="result-reveal">
-                          <ResultContent key={selectedId} data={answer} view={view} onViewChange={setView} />
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                </div>
-              )}
-            </section>
-          </div>
-        </section>
-        </div>
-        <aside className="experience-visual" aria-label="Visualización de la sociedad española">
-          <div className="visual-sticky">
-            <ParticleScene busy={busy} groups={busy || !answer?.desgloses?.total?.porcentajes ? [] : view === "sex" ? chatGroups(answer.desgloses.por_sexo, "sex") : view === "age" ? chatGroups(answer.desgloses.por_edad, "age") : [{ label: "General", percentages: answer.desgloses.total.porcentajes }]} title={view === "sex" ? "Respuestas por sexo" : view === "age" ? "Respuestas por edad" : "El pulso de España"} />
-            {answer?.desgloses?.total?.porcentajes && !busy && <div className="scene-controls">
+      <main id="inicio" className={`scene-experience${total ? " scene-experience--results" : ""}`}>
+        <section className="scene-workspace" aria-label="Explora la sociedad española">
+          <div className="scene-toolbar">
+            {active && <h1 className="scene-question" title={active}>{active}</h1>}
+            {total && <div className="scene-result-tools">
               <div className="result-view-switch" aria-label="Cambiar gráfico de puntos">
                 <button type="button" aria-pressed={view === "total"} onClick={() => setView("total")}>General</button>
-                {chatGroups(answer.desgloses.por_sexo, "sex").length > 0 && <button type="button" aria-pressed={view === "sex"} onClick={() => setView("sex")}>Por sexo</button>}
-                {chatGroups(answer.desgloses.por_edad, "age").length > 0 && <button type="button" aria-pressed={view === "age"} onClick={() => setView("age")}>Por edad</button>}
+                {bySex.length > 0 && <button type="button" aria-pressed={view === "sex"} onClick={() => setView("sex")}>Por sexo</button>}
+                {byAge.length > 0 && <button type="button" aria-pressed={view === "age"} onClick={() => setView("age")}>Por edad</button>}
               </div>
+              <span className="scene-year">{answer?.consulta_interpretada?.anio ?? 2026}</span>
             </div>}
           </div>
-        </aside>
+          <ParticleScene busy={busy} groups={groups} orientation="horizontal" title={view === "sex" ? "Respuestas por sexo" : view === "age" ? "Respuestas por edad" : "El pulso de España"} />
+          {answer && !total && <div className="scene-text-answer" aria-live="polite">
+            <ResultContent data={answer} view={view} onViewChange={setView} />
+          </div>}
+        </section>
+        <section className="scene-composer" id="preguntar" aria-label="Haz una pregunta">
+          {queryError && <div className="query-error" role="alert">
+            <p>{queryError}</p>
+            <button type="button" onClick={() => void submitChatQuestion(active ?? draft.trim())}>Reintentar</button>
+          </div>}
+          <form className="chat-form" onSubmit={submitChat}>
+            <label className="sr-only" htmlFor="question-input">Tu pregunta</label>
+            <textarea id="question-input" value={draft} onChange={(event) => setDraft(event.target.value)}
+              onKeyDown={(event) => {
+                if (event.key === "Enter" && !event.shiftKey && !event.nativeEvent.isComposing) {
+                  event.preventDefault();
+                  event.currentTarget.form?.requestSubmit();
+                }
+              }}
+              minLength={8} maxLength={900} rows={1} required disabled={busy}
+              placeholder="Pregunta algo sobre la sociedad española…"
+            />
+            <button className="scene-send" type="submit" disabled={busy || draft.trim().length < 8} aria-label={busy ? "Preparando respuesta" : "Enviar pregunta"}>
+              <span className={busy ? "send-spinner" : ""} aria-hidden="true">{busy ? "" : "↑"}</span>
+            </button>
+          </form>
+          <div className="composer-meta">
+            <span>Perfiles sintéticos · Resultados experimentales</span>
+            {total && <button type="button" className="details-link" onClick={() => { const detail = document.getElementById("detalle") as HTMLDetailsElement | null; if (detail) { detail.open = !detail.open; if (detail.open) detail.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth", block: "start" }); } }}>Ver cifras y fuentes ↓</button>}
+          </div>
+        </section>
+        {total && answer && <details className="answer-details" id="detalle">
+          <summary>Cifras y fuentes de la respuesta</summary>
+          <ResultContent data={answer} view={view} onViewChange={setView} />
+        </details>}
       </main>
-      <footer className="site-footer wrap">
-        <span className="footer-brand">
-          pulso<span>.</span>
-        </span>
-      </footer>
     </div>
   );
 }
