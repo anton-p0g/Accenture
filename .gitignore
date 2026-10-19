@@ -1,0 +1,36 @@
+
+# Entornos virtuales de Python
+.venv/
+venv/
+env/
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Variables de entorno y contraseñas
+.env
+.env.*
+!.env.example
+
+# Configuración local
+.vscode/
+.idea/
+
+# Archivos temporales
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Archivos temporales de DuckDB
+*.duckdb.wal
+*.duckdb.tmp
+
+# Datos intermedios regenerables
+data/escenarios/escenarios_perfiles_2020_2027.csv
+
+# No ignoramos las bases DuckDB necesarias
+# para ejecutar el backend.

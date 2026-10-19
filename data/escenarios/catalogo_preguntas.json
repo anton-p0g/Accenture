@@ -1,0 +1,44 @@
+{
+  "P1": {
+    "texto": "¿Aceptarías que una IA ayudara a cuidar a un familiar mayor, como apoyo humano?",
+    "opciones": [
+      "Sí",
+      "Depende",
+      "No"
+    ],
+    "ambito": "actitud_ia_cuidados",
+    "procedencia": "SIMULACION_HIPOTETICA"
+  },
+  "P2": {
+    "texto": "¿Prohibirías los pisos turísticos en el centro de tu ciudad?",
+    "opciones": [
+      "Sí, prohibir",
+      "Limitar sin prohibir",
+      "No prohibir",
+      "No sabe"
+    ],
+    "ambito": "regulacion_vivienda_turismo",
+    "procedencia": "SIMULACION_HIPOTETICA"
+  },
+  "P3": {
+    "texto": "¿Qué mensaje te convence más para ahorrar energía en casa: 200 euros/año o menor huella de carbono?",
+    "opciones": [
+      "Ahorro económico",
+      "Huella de carbono",
+      "Indiferente"
+    ],
+    "ambito": "preferencia_mensaje",
+    "procedencia": "SIMULACION_HIPOTETICA"
+  },
+  "P4": {
+    "texto": "¿Qué te haría cambiar de banco: cero comisiones, atención humana 24/7 o app de IA?",
+    "opciones": [
+      "Cero comisiones",
+      "Atención humana 24/7",
+      "App con IA",
+      "Ninguna"
+    ],
+    "ambito": "preferencia_producto",
+    "procedencia": "SIMULACION_HIPOTETICA"
+  }
+}
