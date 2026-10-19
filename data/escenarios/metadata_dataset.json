@@ -1,0 +1,73 @@
+{
+  "version": "demo_escenarios_1.0",
+  "semilla": 20261018,
+  "anios": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026,
+    2027
+  ],
+  "filas_por_anio": 25000,
+  "filas_totales": 200000,
+  "peso_relativo_anual": "suma = 1; NO representa 48 millones de adultos",
+  "dataset_base": "25.000 perfiles sintéticos de 2025; no contiene serie real microdatos 2020-2024",
+  "2020_2024": "reconstrucciones hipotéticas desde plantilla 2025; NO observaciones históricas",
+  "2025": "perfiles 2025 de fuente sintética + respuestas calculadas por supuestos",
+  "2026_2027": "escenarios hipotéticos + proyecciones macro heurísticas; NO predicciones validadas",
+  "opiniones": "P1-P4 SIMULADAS; no hay calibración directa con encuestas sobre esas preguntas",
+  "equivalencia_cis": "La pregunta CIS sobre CONTROLAR pisos turísticos no es la pregunta P2 sobre PROHIBIR; NO calibrada P2",
+  "prohibido": "presentar respuestas simuladas como preferencias observadas o como probabilidad de éxito verificable",
+  "preguntas": {
+    "P1": {
+      "texto": "¿Aceptarías que una IA ayudara a cuidar a un familiar mayor, como apoyo humano?",
+      "opciones": [
+        "Sí",
+        "Depende",
+        "No"
+      ],
+      "ambito": "actitud_ia_cuidados",
+      "procedencia": "SIMULACION_HIPOTETICA"
+    },
+    "P2": {
+      "texto": "¿Prohibirías los pisos turísticos en el centro de tu ciudad?",
+      "opciones": [
+        "Sí, prohibir",
+        "Limitar sin prohibir",
+        "No prohibir",
+        "No sabe"
+      ],
+      "ambito": "regulacion_vivienda_turismo",
+      "procedencia": "SIMULACION_HIPOTETICA"
+    },
+    "P3": {
+      "texto": "¿Qué mensaje te convence más para ahorrar energía en casa: 200 euros/año o menor huella de carbono?",
+      "opciones": [
+        "Ahorro económico",
+        "Huella de carbono",
+        "Indiferente"
+      ],
+      "ambito": "preferencia_mensaje",
+      "procedencia": "SIMULACION_HIPOTETICA"
+    },
+    "P4": {
+      "texto": "¿Qué te haría cambiar de banco: cero comisiones, atención humana 24/7 o app de IA?",
+      "opciones": [
+        "Cero comisiones",
+        "Atención humana 24/7",
+        "App con IA",
+        "Ninguna"
+      ],
+      "ambito": "preferencia_producto",
+      "procedencia": "SIMULACION_HIPOTETICA"
+    }
+  },
+  "fuentes": {
+    "INE_TIC": "https://www.ine.es/dyngs/Prensa/TICH2025.htm",
+    "INE_EPA": "https://www.ine.es/prensa/epa_tabla.htm",
+    "CIS_3471": "https://www.cis.es/documents/d/cis/es3471sdMT_a"
+  }
+}
