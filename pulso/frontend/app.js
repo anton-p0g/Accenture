@@ -33,9 +33,10 @@ async function buscarPreparada(q, extra) {
     .sort((a, b) => b[0] - a[0]);
   return { mejor: puntuadas[0] && puntuadas[0][0] >= .5 ? puntuadas[0] : null, sugerencias: puntuadas.slice(0, 4).map(x => x[1]) };
 }
+let ELEGIDA = null;   // consulta elegida en el catálogo (se carga tal cual, sin buscar la más parecida)
 async function preguntarEstatico(q, extra) {
   setSteps(0); await sleep(500);
-  const { mejor, sugerencias } = await buscarPreparada(q, extra);
+  const { mejor, sugerencias } = ELEGIDA ? { mejor: [1, ELEGIDA] } : await buscarPreparada(q, extra); ELEGIDA = null;
   if (!mejor) throw Object.assign(new Error("NO_PREPARADA"), { sugerencias });
   setSteps(1); await sleep(450);
   setSteps(2); for (let k = 10; k <= 100; k += 15) { $("#stProg").textContent = ` · ${k} de 100 perfiles`; await sleep(90); }
@@ -542,7 +543,7 @@ async function toApp() {
   const ghost = ask.cloneNode(true); ghost.removeAttribute("id"); ghost.querySelectorAll("[id]").forEach(n => n.removeAttribute("id"));
   Object.assign(ghost.style, { position: "fixed", left: first.left + "px", top: first.top + "px", width: first.width + "px", height: first.height + "px", margin: 0, transform: "none", zIndex: 50, pointerEvents: "none" });
   document.body.appendChild(ghost);
-  inTransition = true; MODE = "app"; document.body.classList.replace("home", "app"); ask.style.opacity = 0; $("#q").placeholder = "Haz otra pregunta…";
+  inTransition = true; MODE = "app"; document.body.classList.replace("home", "app"); ask.style.opacity = 0; $("#q").placeholder = ESTATICO ? "Desactivado (sin LLM)" : "Haz otra pregunta…";
   resize();
   const last = ask.getBoundingClientRect();
   ghost.animate([{ left: first.left + "px", top: first.top + "px", width: first.width + "px", height: first.height + "px", borderRadius: "999px" },
@@ -627,7 +628,7 @@ const EJEMPLOS = [["¿Te preocupa el cambio climático?"], ["¿Te sientes solo a
 const exampleChips = target => chips(EJEMPLOS.map(([t, q]) => [t, () => ask(q || t)]), target);
 function followChips() { chips([["Ver por comunidades", () => ask("Ver por comunidades")], ["Ver por sexo", () => ask("Ver por sexo")], ["Ver por edad", () => ask("Ver por edad")],
   ...(RES && RES.modo === "evidencia" && (!ESTATICO || (RES._entrada && RES._entrada.comparar)) ? [["LLM sin datos vs pulso", abrirComparacion]] : []),
-  ["¿Cómo lo sabemos?", abrirValidacion], ["Otra pregunta", () => { exampleChips(); $("#q").focus(); }]]); }
+  ["¿Cómo lo sabemos?", abrirValidacion], ["Otra pregunta", () => { if (ESTATICO) return abrirCatalogo(); exampleChips(); $("#q").focus(); }]]); }
 
 /* ================= diseñador de encuesta ================= */
 const TOPICS = ["Vivienda", "Soledad", "Tecnología e IA", "Medio ambiente", "Salud", "Consumo"];
@@ -696,7 +697,7 @@ function abrirDiseno() {
   curTopic = null; $("#topicAuto").textContent = "se detecta automáticamente"; renderTopics();
   $("#diseno").classList.add("open"); $("#scrim").classList.add("on"); setTimeout(() => $("#cq").focus(), 120);
 }
-function closePanels() { $("#diseno").classList.remove("open"); $("#cfg").classList.remove("open"); $("#hist").classList.remove("open"); $("#valid").classList.remove("open"); $("#comp").classList.remove("open"); $("#scrim").classList.remove("on"); }
+function closePanels() { $("#catalogo").classList.remove("open"); $("#diseno").classList.remove("open"); $("#cfg").classList.remove("open"); $("#hist").classList.remove("open"); $("#valid").classList.remove("open"); $("#comp").classList.remove("open"); $("#scrim").classList.remove("on"); }
 $("#cfgBtn").onclick = openCfg; $("#disBtn").onclick = abrirDiseno; $("#disClose").onclick = closePanels; $("#validClose").onclick = () => closePanels(); $("#cfgClose").onclick = closeCfg; $("#scrim").onclick = closePanels; $("#histClose").onclick = closePanels;
 addEventListener("keydown", e => { if (e.key === "Escape") { closePanels(); if (SELREG) elegirComunidad(null); } });
 
@@ -924,13 +925,62 @@ async function ask(q, opciones = null, fromPanel = false, extra = null) {
 }
 
 /* ================= entrada ================= */
-$("#ask").addEventListener("submit", e => { e.preventDefault(); const v = $("#q").value; if (!v.trim()) return; $("#q").value = ""; $("#q").style.height = ""; ask(v); });
+$("#ask").addEventListener("submit", e => { e.preventDefault(); if (ESTATICO) return abrirCatalogo(); const v = $("#q").value; if (!v.trim()) return; $("#q").value = ""; $("#q").style.height = ""; ask(v); });
 $("#q").addEventListener("keydown", e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); $("#ask").requestSubmit(); } });
 $("#q").addEventListener("input", () => { const q = $("#q"); q.style.height = "auto"; q.style.height = Math.min(120, q.scrollHeight) + "px"; });
 
+/* ================= versión publicada sin LLM: catálogo de preguntas ================= */
+// Sin motor no se pueden responder preguntas nuevas: el chat queda bloqueado y se elige entre las consultas ya calculadas.
+const TEMAS_CAT = ["Vivienda", "Soledad", "Tecnología e IA", "Medio ambiente", "Salud", "Consumo", "Sociedad"];
+const FUENTE_CAT = { evidencia: "Datos reales del CIS", analogia: "IA anclada en el CIS", simulacion: "Simulación con IA" };
+let temaCat = "Todas";
+const tituloCat = e => e.tipo === "ab" ? `«${e.mensajes[0]}» vs «${e.mensajes[1]}»` : e.tipo === "campana" ? `«${e.mensajes[0]}»` : e.pregunta.replace(/^[“"]|[”"]$/g, "");
+async function abrirCatalogo() {
+  closePanels(); $("#catalogo").classList.add("open"); $("#scrim").classList.add("on");
+  const idx = await indice(); $("#catN").textContent = idx.length; renderCatalogo();
+}
+async function renderCatalogo() {
+  const idx = await indice(), b = normTxt($("#catBuscar").value), temas = TEMAS_CAT.filter(t => idx.some(e => e.tema === t));
+  $("#catTemas").innerHTML = ["Todas", ...temas].map(t => `<button type="button" class="${t === temaCat ? "on" : ""}" data-t="${t}">${t}<em>${t === "Todas" ? idx.length : idx.filter(e => e.tema === t).length}</em></button>`).join("");
+  const lista = idx.map((e, i) => ({ e, i })).filter(({ e }) => (temaCat === "Todas" || e.tema === temaCat) && (!b || normTxt(tituloCat(e) + " " + e.tema + " " + { ab: "test a b ab", campana: "campana" }[e.tipo]).includes(b)));
+  if (!lista.length) { $("#catLista").innerHTML = `<p class="cat-vacio">Ninguna pregunta preparada coincide con «${$("#catBuscar").value}». Prueben con otra palabra o elijan un tema.</p>`; return; }
+  const item = ({ e, i }) => `<button type="button" class="qi" data-i="${i}"><span class="sem s-${e.modo}" title="${FUENTE_CAT[e.modo]}"></span>
+    <span class="tx"><b>${tituloCat(e)}</b><small>${FUENTE_CAT[e.modo]} · ${Math.round(e.valor)} % «${e.lider.length > 28 ? e.lider.slice(0, 27) + "…" : e.lider}»</small></span>
+    ${e.tipo !== "pregunta" ? `<span class="tipo">${e.tipo === "ab" ? "Test A/B" : "Campaña"}</span>` : ""}<svg class="ir" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></button>`;
+  $("#catLista").innerHTML = temaCat !== "Todas" || b ? lista.map(item).join("")
+    : temas.map(t => `<h4>${t}</h4>` + lista.filter(x => x.e.tema === t).map(item).join("")).join("");
+}
+async function elegirPreparada(i) {
+  const e = (await indice())[i]; if (!e || busy) return;
+  closePanels(); ELEGIDA = e; await toApp();
+  ask(e.pregunta, null, false, e.tipo === "pregunta" ? null : { tipo: e.tipo, mensajes: e.mensajes });
+}
+if (ESTATICO) {
+  document.body.classList.add("estatico");
+  $("#q").readOnly = true; $("#q").placeholder = innerWidth < 600 ? "Escribir: desactivado" : "Escribir preguntas nuevas está desactivado en esta versión (sin LLM)";
+  $("#q").addEventListener("click", abrirCatalogo);
+  $("#send").setAttribute("aria-label", "Elegir una pregunta disponible");
+  $("#send").innerHTML = `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg><span class="lbl-l">Elegir pregunta</span><span class="lbl-s">Elegir</span>`;
+  $("#disBtn").querySelector(".lbl-l").textContent = "Preguntas disponibles"; $("#disBtn").querySelector(".lbl-s").textContent = "Preguntas";
+  $("#disBtn").onclick = abrirCatalogo; $("#disBtn").querySelector("svg").innerHTML = `<path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/>`;
+  $(".home-below small").textContent = "Versión de demostración sin LLM · solo preguntas ya calculadas"; $(".home-below small").classList.add("est");
+  $(".badge").classList.add("est"); $(".badge").firstChild.textContent = "Demo sin LLM · preguntas preparadas";
+  $(".hero p").textContent = "1.200 personas sintéticas calibradas con INE y CIS · elijan una pregunta";
+  $("#catClose").onclick = closePanels;
+  $("#catBuscar").addEventListener("input", renderCatalogo);
+  $("#catTemas").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; temaCat = b.dataset.t; renderCatalogo(); });
+  $("#catLista").addEventListener("click", e => { const b = e.target.closest(".qi"); if (b) elegirPreparada(+b.dataset.i); });
+}
+
 /* ================= arranque ================= */
-if (innerWidth < 600) $("#q").placeholder = "Pregunta algo sobre España…";
+if (innerWidth < 600 && !ESTATICO) $("#q").placeholder = "Pregunta algo sobre España…";
 resize(); renderTopics(); renderOpts(); syncAge();
-exampleChips("#homeChips");
+if (ESTATICO) indice().then(idx => {
+  const dest = ["¿Te preocupa el cambio climático?", "¿Tienes miedo a quedarte solo?", "Test A/B: «Ahorra 200 € al año en tu factura»", "¿Prohibirías los pisos turísticos en el centro de tu ciudad?"]
+    .map(t => idx.findIndex(e => e.pregunta.startsWith(t))).filter(i => i >= 0);
+  chips([[`Ver las ${idx.length} preguntas`, abrirCatalogo], ...dest.map(i => [idx[i].tipo === "ab" ? "Test A/B: ahorro o huella de carbono" : idx[i].pregunta, () => elegirPreparada(i)])], "#homeChips");
+  $("#homeChips").firstChild.classList.add("prim");
+  if (/[?&]preguntas\b/.test(location.search)) abrirCatalogo();   // el QR abre directamente el catálogo
+}); else exampleChips("#homeChips");
 requestAnimationFrame(frame);
 (async () => { await sleep(300); await streamBot(`Hola. Soy <b>pulso</b>. Cada punto es una persona sintética de la España real, con actitudes estimadas a partir de encuestas del CIS.`); })();
