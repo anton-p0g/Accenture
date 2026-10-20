@@ -26,7 +26,7 @@ def compactar(r):
 
 
 def web():
-    for f in ["estilos.css", "app.js", "mapa_datos.js"]:
+    for f in ["estilos.css", "app.js", "mapa_datos.js", "mapa_ccaa.js"]:
         shutil.copy(FRONTEND / f, DESTINO / f)
     html = (FRONTEND / "index.html").read_text(encoding="utf-8")
     html = html.replace('<script src="mapa_datos.js', '<script>window.PULSO_ESTATICO = true;</script>\n<script src="mapa_datos.js', 1)

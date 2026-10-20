@@ -22,7 +22,8 @@ Las preguntas de `resultados/cache_consultas/` responden al instante. Las nuevas
 | Carpeta | Contenido |
 |---|---|
 | `trabajo/` | Motor: `armonizar.py` (CIS ↔ población), `modelo.py`, `banco_preguntas.py`, `simulador.py` (LLM), `motor.py`, `servidor.py` (API + web) y scripts 01–07 |
-| `frontend/` | Web nueva (inicio con mapa de puntos, 5 vistas, campañas y A/B, «LLM sin datos vs pulso», validación) |
+| `frontend/` | Web nueva (inicio con mapa de puntos, 4 vistas, mapa de comunidades con zoom, filtros, «Diseña tu encuesta», campañas y A/B, «LLM sin datos vs pulso», validación) |
+| `datos_geo/` | Fronteras de las comunidades (es-atlas 0.6.0, IGN, CC BY 4.0); `trabajo/09_mapa_ccaa.py` genera con ellas `frontend/mapa_ccaa.js` |
 | `resultados/perfiles/` | Actitudes CIS de cada persona sintética (24 preguntas) y sus modelos |
 | `resultados/banco_ampliado/` | Banco de 297 preguntas CIS reescritas con su enunciado real y su modelo por pregunta |
 | `resultados/calibracion_simulador/` | Validación del LLM con preguntas reales tratadas como nuevas |
