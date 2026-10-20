@@ -1,0 +1,5144 @@
+[
+ {
+  "id": "3528_OPOSICIONES_3",
+  "estudio": 3528,
+  "variable": "OPOSICIONES_3",
+  "texto": "¿Favorece más a quienes tienen tiempo y recursos para prepararse?",
+  "etiqueta": "Favorece más a quienes tienen tiempo y recursos para prepararse",
+  "tema": "Sociedad",
+  "fecha": "oct 2025",
+  "n": 4029,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.62
+ },
+ {
+  "id": "3528_OPOSICIONES_7",
+  "estudio": 3528,
+  "variable": "OPOSICIONES_7",
+  "texto": "¿Valora adecuadamente las competencias profesionales?",
+  "etiqueta": "Valora adecuadamente las competencias profesionales",
+  "tema": "Sociedad",
+  "fecha": "oct 2025",
+  "n": 4029,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.27
+ },
+ {
+  "id": "3528_ECOPER",
+  "estudio": 3528,
+  "variable": "ECOPER",
+  "texto": "¿Cómo valoraría la situación económica personal actual?",
+  "etiqueta": "Valoración de la situación económica personal actual",
+  "tema": "Consumo",
+  "fecha": "oct 2025",
+  "n": 4029,
+  "opciones": [
+   "Muy buena",
+   "Buena",
+   "Regular",
+   "Mala",
+   "Muy mala",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.62
+ },
+ {
+  "id": "3528_ECOESP",
+  "estudio": 3528,
+  "variable": "ECOESP",
+  "texto": "¿Cómo valoraría la situación económica general de España?",
+  "etiqueta": "Valoración de la situación económica general de España",
+  "tema": "Consumo",
+  "fecha": "oct 2025",
+  "n": 4029,
+  "opciones": [
+   "Muy buena",
+   "Buena",
+   "Regular",
+   "Mala",
+   "Muy mala",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.35
+ },
+ {
+  "id": "3535_INTPOL",
+  "estudio": 3535,
+  "variable": "INTPOL",
+  "texto": "¿Cuánto interés tiene en política?",
+  "etiqueta": "Grado de interés por la política",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Mucho",
+   "Bastante",
+   "Regular",
+   "Poco",
+   "Nada",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.68
+ },
+ {
+  "id": "3535_IMPIDEAS",
+  "estudio": 3535,
+  "variable": "IMPIDEAS",
+  "texto": "¿Cree que hay que favorecer la igualdad y la solidaridad entre las personas, o que cada cual llegue a lo más alto que pueda con su esfuerzo y trabajo?",
+  "etiqueta": "Posición respecto a favorecer la igualdad y solidaridad entre las personas o que la posición se alcance con el esfuerzo y el trabajo",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Hay que favorecer la igualdad y la solidaridad entre las personas",
+   "Hay que dejar que cada cual llegue a lo más alto que pueda con su esfuerzo y trabajo",
+   "Un equilibrio entre los dos aspectos",
+   "Está en duda",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.7
+ },
+ {
+  "id": "3535_INESTADO1",
+  "estudio": 3535,
+  "variable": "INESTADO1",
+  "texto": "¿Cree que el Estado debe intervenir en la economía?",
+  "etiqueta": "Posicionamiento respecto al papel del Estado en la economía",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "El Estado no debe intervenir en la vida económica",
+   "El Estado sí debe intervenir en la economía",
+   "Depende de las condiciones económicas",
+   "Está en duda",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.42
+ },
+ {
+  "id": "3535_INESTADO2",
+  "estudio": 3535,
+  "variable": "INESTADO2",
+  "texto": "¿Cree que el Estado debe planificar toda la actividad económica?",
+  "etiqueta": "Posición respecto a la planificación completa de la economía por el Estado o solo determinados sectores",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "El Estado debe dirigir y planificar toda la actividad económica",
+   "El Estado debe intervenir solo en determinados sectores de interés público y fijando orientaciones generales",
+   "Está en duda",
+   "El Estado debe intervenir lo mínimo, y solo en determinados casos",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.32
+ },
+ {
+  "id": "3535_FUTUR1",
+  "estudio": 3535,
+  "variable": "FUTUR1",
+  "texto": "¿Cree que habrá muchos cambios económicos y sociales en los próximos 10 años?",
+  "etiqueta": "Valoración prospectiva (10 años) de los cambios económicos y sociales",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Muchos cambios",
+   "Bastantes cambios",
+   "Regular, ni muchos ni pocos",
+   "Pocos cambios",
+   "Ningún o casi ningún cambio",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.39
+ },
+ {
+  "id": "3535_FUTUR2",
+  "estudio": 3535,
+  "variable": "FUTUR2",
+  "texto": "¿Qué valor le dan a los futuros cambios políticos y sociales?",
+  "etiqueta": "Valoración de los futuros cambios políticos y sociales",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Muy positivos",
+   "Positivos",
+   "Negativos",
+   "Muy negativos",
+   "Indiferentes",
+   "En parte positivos y en parte negativos",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.35
+ },
+ {
+  "id": "3535_INFLUPAISES_2",
+  "estudio": 3535,
+  "variable": "INFLUPAISES_2",
+  "texto": "¿Cree que en 10 años el grado de influencia en el mundo de los Estados Unidos será mayor, igual o menor que ahora?",
+  "etiqueta": "Estados Unidos",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Mayor que ahora",
+   "Igual que ahora",
+   "Menor que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.33
+ },
+ {
+  "id": "3535_INFLUPAISES_7",
+  "estudio": 3535,
+  "variable": "INFLUPAISES_7",
+  "texto": "¿Cree que en 10 años la influencia de los países latinoamericanos en el mundo será mayor, igual o menor que ahora?",
+  "etiqueta": "Países latinoamericanos",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Mayor que ahora",
+   "Igual que ahora",
+   "Menor que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.82
+ },
+ {
+  "id": "3535_SAT1",
+  "estudio": 3535,
+  "variable": "SAT1",
+  "texto": "¿Cree que en 10 años habrá muchos más robots y sistemas automáticos en las empresas?",
+  "etiqueta": "Valoración prospectiva (10 años) del número de robots y sistemas automáticos en las empresas",
+  "tema": "Tecnología e IA",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Aumentarán mucho",
+   "Aumentarán bastante",
+   "Aumentarán algo",
+   "Aumentarán poco",
+   "No aumentarán nada o casi nada",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.27
+ },
+ {
+  "id": "3535_SAT2",
+  "estudio": 3535,
+  "variable": "SAT2",
+  "texto": "¿Cree que la utilización de robots y sistemas automáticos en el ámbito del trabajo tendrá un impacto en el empleo en los próximos 10 años?",
+  "etiqueta": "Valoración prospectiva (10 años) del impacto de la utilización de robots y sistemas automáticos en el ámbito del trabajo",
+  "tema": "Tecnología e IA",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Dará lugar a un aumento del paro",
+   "Dará lugar a la creación de más puestos de trabajo",
+   "Cree que todo seguirá prácticamente igual, que no influirá en el empleo",
+   "Está en duda",
+   "Se destruirá empleo y también se crearán nuevos puestos de trabajo",
+   "Cambiará el modelo productivo, el tipo de trabajo",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.54
+ },
+ {
+  "id": "3535_DESIN_1",
+  "estudio": 3535,
+  "variable": "DESIN_1",
+  "texto": "¿Cuánto valorará en diez años el desarrollo de los robots industriales y los sistemas automáticos de trabajo?",
+  "etiqueta": "Los robots industriales y los sistemas automáticos de trabajo",
+  "tema": "Tecnología e IA",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Mucho",
+   "Bastante",
+   "Regular",
+   "Poco",
+   "Nada o casi nada",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.29
+ },
+ {
+  "id": "3535_DESIN_2",
+  "estudio": 3535,
+  "variable": "DESIN_2",
+  "texto": "¿Cuánto valorará en diez años la biotecnología, por ejemplo, alimentos transgénicos?",
+  "etiqueta": "La biotecnología (por ejemplo, alimentos transgénicos)",
+  "tema": "Tecnología e IA",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Mucho",
+   "Bastante",
+   "Regular",
+   "Poco",
+   "Nada o casi nada",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.48
+ },
+ {
+  "id": "3535_DESIN_3",
+  "estudio": 3535,
+  "variable": "DESIN_3",
+  "texto": "¿Cuánto valorará en diez años las nuevas fuentes de energía (solar, eólica)?",
+  "etiqueta": "Las nuevas fuentes de energía (solar, eólica)",
+  "tema": "Tecnología e IA",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Mucho",
+   "Bastante",
+   "Regular",
+   "Poco",
+   "Nada o casi nada",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.51
+ },
+ {
+  "id": "3535_DESIN_4",
+  "estudio": 3535,
+  "variable": "DESIN_4",
+  "texto": "¿Cuánto valorará en diez años la microelectrónica y los ordenadores?",
+  "etiqueta": "La microelectrónica, los ordenadores",
+  "tema": "Tecnología e IA",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Mucho",
+   "Bastante",
+   "Regular",
+   "Poco",
+   "Nada o casi nada",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.32
+ },
+ {
+  "id": "3535_DESIN_5",
+  "estudio": 3535,
+  "variable": "DESIN_5",
+  "texto": "¿Cuánto desarrollará la ingeniería genética en diez años?",
+  "etiqueta": "La ingeniería genética",
+  "tema": "Tecnología e IA",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Mucho",
+   "Bastante",
+   "Regular",
+   "Poco",
+   "Nada o casi nada",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.12
+ },
+ {
+  "id": "3535_DESIN_6",
+  "estudio": 3535,
+  "variable": "DESIN_6",
+  "texto": "¿Cuánto cree que se desarrollarán las nuevas tecnologías del ocio y del esparcimiento en los próximos diez años?",
+  "etiqueta": "Las nuevas tecnologías del ocio y del esparcimiento (por ejemplo, los videojuegos)",
+  "tema": "Tecnología e IA",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Mucho",
+   "Bastante",
+   "Regular",
+   "Poco",
+   "Nada o casi nada",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.43
+ },
+ {
+  "id": "3535_DESIN_7",
+  "estudio": 3535,
+  "variable": "DESIN_7",
+  "texto": "¿Cuánto cree que se desarrollarán las nuevas tecnologías del hogar en los próximos diez años?",
+  "etiqueta": "Las nuevas tecnologías del hogar (por ejemplo, robots domésticos polivalentes, como el Optimus)",
+  "tema": "Tecnología e IA",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Mucho",
+   "Bastante",
+   "Regular",
+   "Poco",
+   "Nada o casi nada",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.42
+ },
+ {
+  "id": "3535_DESIN_8",
+  "estudio": 3535,
+  "variable": "DESIN_8",
+  "texto": "¿Cuánto valorará en diez años el desarrollo de los transportes, por ejemplo, los vehículos eléctricos?",
+  "etiqueta": "Los transportes (por ejemplo, los vehículos eléctricos...)",
+  "tema": "Tecnología e IA",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Mucho",
+   "Bastante",
+   "Regular",
+   "Poco",
+   "Nada o casi nada",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.29
+ },
+ {
+  "id": "3535_DESIN_9",
+  "estudio": 3535,
+  "variable": "DESIN_9",
+  "texto": "¿Cuánto desarrollará la inteligencia artificial en diez años?",
+  "etiqueta": "La inteligencia artificial",
+  "tema": "Tecnología e IA",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Mucho",
+   "Bastante",
+   "Regular",
+   "Poco",
+   "Nada o casi nada",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.41
+ },
+ {
+  "id": "3535_IDEASPROS1_1",
+  "estudio": 3535,
+  "variable": "IDEASPROS1_1",
+  "texto": "¿Cree que en diez años habrá más personas con creencias religiosas, menos o igual que ahora?",
+  "etiqueta": "Personas con creencias religiosas",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.33
+ },
+ {
+  "id": "3535_IDEASPROS1_2",
+  "estudio": 3535,
+  "variable": "IDEASPROS1_2",
+  "texto": "¿Cree que en diez años habrá más interés en las cosas materiales en nuestro país?",
+  "etiqueta": "Interés en las cosas materiales (propiedades)",
+  "tema": "Consumo",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.29
+ },
+ {
+  "id": "3535_IDEASPROS1_3",
+  "estudio": 3535,
+  "variable": "IDEASPROS1_3",
+  "texto": "¿Cree que en el futuro habrá más o menos interés por el propio éxito en nuestro país?",
+  "etiqueta": "Interés por el propio éxito",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.31
+ },
+ {
+  "id": "3535_IDEASPROS1_4",
+  "estudio": 3535,
+  "variable": "IDEASPROS1_4",
+  "texto": "¿Cree que en diez años habrá más libertad sexual en nuestro país, menos o la misma que ahora?",
+  "etiqueta": "Libertad sexual",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.12
+ },
+ {
+  "id": "3535_IDEASPROS1_6",
+  "estudio": 3535,
+  "variable": "IDEASPROS1_6",
+  "texto": "¿Cree que en diez años habrá más, menos o igual número de mujeres en puestos de responsabilidad?",
+  "etiqueta": "Mujeres en puestos de responsabilidad",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.65
+ },
+ {
+  "id": "3535_IDEASPROS1_7",
+  "estudio": 3535,
+  "variable": "IDEASPROS1_7",
+  "texto": "¿Cree que en diez años habrá más, menos o igual integración de las personas con discapacidad en nuestro país?",
+  "etiqueta": "Integración de las personas con discapacidad",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.32
+ },
+ {
+  "id": "3535_IDEASPROS2_1",
+  "estudio": 3535,
+  "variable": "IDEASPROS2_1",
+  "texto": "¿Cree que en diez años tendrá más, menos o la misma relación con la familia que ahora?",
+  "etiqueta": "Relación con la familia o lazos familiares",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.12
+ },
+ {
+  "id": "3535_IDEASPROS2_2",
+  "estudio": 3535,
+  "variable": "IDEASPROS2_2",
+  "texto": "¿Cree que habrá más, menos o igual separaciones y divorcios en nuestro país en diez años?",
+  "etiqueta": "Separaciones y divorcios",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.56
+ },
+ {
+  "id": "3535_IDEASPROS2_3",
+  "estudio": 3535,
+  "variable": "IDEASPROS2_3",
+  "texto": "¿Cree que habrá más nacimientos, menos nacimientos o igual número de nacimientos en nuestro país en diez años?",
+  "etiqueta": "Nacimientos, natalidad",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.41
+ },
+ {
+  "id": "3535_IDEASPROS2_4",
+  "estudio": 3535,
+  "variable": "IDEASPROS2_4",
+  "texto": "¿Cree que en diez años habrá más soledad o aislamiento en nuestro país?",
+  "etiqueta": "Soledad o aislamiento",
+  "tema": "Soledad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.31
+ },
+ {
+  "id": "3535_IDEASPROS2_5",
+  "estudio": 3535,
+  "variable": "IDEASPROS2_5",
+  "texto": "¿Cree que en diez años habrá más, menos o igual cuidado a los mayores en las familias?",
+  "etiqueta": "Cuidados familiares a los/as mayores",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.44
+ },
+ {
+  "id": "3535_IDEASPROS2_6",
+  "estudio": 3535,
+  "variable": "IDEASPROS2_6",
+  "texto": "¿Cree que en diez años habrá más tiempo libre para el ocio en nuestro país?",
+  "etiqueta": "Tiempo libre para el ocio",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.74
+ },
+ {
+  "id": "3535_IDEASPROS2_7",
+  "estudio": 3535,
+  "variable": "IDEASPROS2_7",
+  "texto": "¿Cree que en diez años habrá más personas realizadas o que disfruten con su trabajo?",
+  "etiqueta": "Personas realizadas o que disfruten con su trabajo",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.22
+ },
+ {
+  "id": "3535_IDEASPROS2_8",
+  "estudio": 3535,
+  "variable": "IDEASPROS2_8",
+  "texto": "¿Cree que en diez años habrá más interés por la salud y el cuidado personal en nuestro país?",
+  "etiqueta": "Interés por la salud y el cuidado personal",
+  "tema": "Salud",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.34
+ },
+ {
+  "id": "3535_IDEASPROS3_1",
+  "estudio": 3535,
+  "variable": "IDEASPROS3_1",
+  "texto": "¿Cree que habrá más, menos o igual paro o falta de trabajo en nuestro país en diez años?",
+  "etiqueta": "Paro o falta de trabajo",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.65
+ },
+ {
+  "id": "3535_IDEASPROS3_2",
+  "estudio": 3535,
+  "variable": "IDEASPROS3_2",
+  "texto": "¿Cree que en diez años habrá más, menos o igual diferencia social y económica en nuestro país?",
+  "etiqueta": "Diferencias sociales y económicas",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.34
+ },
+ {
+  "id": "3535_IDEASPROS3_3",
+  "estudio": 3535,
+  "variable": "IDEASPROS3_3",
+  "texto": "¿Cree que en diez años habrá más, menos o igual consumo de drogas en nuestro país?",
+  "etiqueta": "Consumo de drogas",
+  "tema": "Consumo",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.43
+ },
+ {
+  "id": "3535_IDEASPROS3_4",
+  "estudio": 3535,
+  "variable": "IDEASPROS3_4",
+  "texto": "¿Cree que en diez años habrá más, menos o igual personas con SIDA y otras enfermedades víricas en nuestro país?",
+  "etiqueta": "SIDA y otras enfermedades víricas",
+  "tema": "Salud",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.4
+ },
+ {
+  "id": "3535_IDEASPROS3_6",
+  "estudio": 3535,
+  "variable": "IDEASPROS3_6",
+  "texto": "¿Cree que en diez años la protección social del Estado será más, menos o igual que ahora?",
+  "etiqueta": "Protección social del Estado",
+  "tema": "Salud",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.67
+ },
+ {
+  "id": "3535_IDEASPROS3_7",
+  "estudio": 3535,
+  "variable": "IDEASPROS3_7",
+  "texto": "¿Cree que en nuestro país habrá más, menos o igual igualdad de oportunidades en el empleo en diez años?",
+  "etiqueta": "Igualdad de oportunidades",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.62
+ },
+ {
+  "id": "3535_IDEASPROS4_1",
+  "estudio": 3535,
+  "variable": "IDEASPROS4_1",
+  "texto": "¿Cree que en diez años habrá más deterioro del medio ambiente en nuestro país que ahora?",
+  "etiqueta": "Deterioro del medio ambiente",
+  "tema": "Medio ambiente",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.55
+ },
+ {
+  "id": "3535_IDEASPROS4_2",
+  "estudio": 3535,
+  "variable": "IDEASPROS4_2",
+  "texto": "¿Cree que en diez años habrá más, menos o igual muertes por cáncer en nuestro país que ahora?",
+  "etiqueta": "Muertes por cáncer",
+  "tema": "Salud",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.92
+ },
+ {
+  "id": "3535_IDEASPROS4_3",
+  "estudio": 3535,
+  "variable": "IDEASPROS4_3",
+  "texto": "¿Cree que en diez años habrá más robots que sustituyan a trabajadores/as que ahora?",
+  "etiqueta": "Robots que sustituyen a trabajadores/as",
+  "tema": "Tecnología e IA",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.34
+ },
+ {
+  "id": "3535_IDEASPROS4_4",
+  "estudio": 3535,
+  "variable": "IDEASPROS4_4",
+  "texto": "¿Cree que en diez años habrá más, menos o igual racismo y xenofobia en nuestro país?",
+  "etiqueta": "Racismo y xenofobia",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.61
+ },
+ {
+  "id": "3535_IDEASPROS4_5",
+  "estudio": 3535,
+  "variable": "IDEASPROS4_5",
+  "texto": "¿Cree que en diez años habrá más personas teletrabajando en casa, menos o igual que ahora?",
+  "etiqueta": "Personas teletrabajando en casa",
+  "tema": "Tecnología e IA",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.22
+ },
+ {
+  "id": "3535_IDEASPROS4_6",
+  "estudio": 3535,
+  "variable": "IDEASPROS4_6",
+  "texto": "¿Cree que en los próximos diez años habrá más, menos o igual epidemias graves como la de COVID-19 que ahora?",
+  "etiqueta": "Epidemias graves como la de COVID-19",
+  "tema": "Salud",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.28
+ },
+ {
+  "id": "3535_IDEASPROS4_7",
+  "estudio": 3535,
+  "variable": "IDEASPROS4_7",
+  "texto": "¿Cree que en los próximos diez años habrá más, menos o igual desastres naturales en nuestro país?",
+  "etiqueta": "Desastres naturales",
+  "tema": "Medio ambiente",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Más que ahora",
+   "Menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.23
+ },
+ {
+  "id": "3535_IDEASPROS5_1",
+  "estudio": 3535,
+  "variable": "IDEASPROS5_1",
+  "texto": "¿Cree que en diez años las desigualdades entre países pobres y ricos serán mayores, menores o iguales que ahora?",
+  "etiqueta": "Desigualdades entre países pobres y ricos",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Mayores/más que ahora",
+   "Menores/menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.1
+ },
+ {
+  "id": "3535_IDEASPROS5_2",
+  "estudio": 3535,
+  "variable": "IDEASPROS5_2",
+  "texto": "¿Cree que habrá más guerras y conflictos internacionales en los próximos diez años?",
+  "etiqueta": "Guerras y conflictos internacionales",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Mayores/más que ahora",
+   "Menores/menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.49
+ },
+ {
+  "id": "3535_IDEASPROS5_3",
+  "estudio": 3535,
+  "variable": "IDEASPROS5_3",
+  "texto": "¿Cree que en los próximos diez años habrá más personas emigrando de los países pobres a los ricos?",
+  "etiqueta": "Personas que emigren de los países pobres a los ricos",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Mayores/más que ahora",
+   "Menores/menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.18
+ },
+ {
+  "id": "3535_IDEASPROS5_4",
+  "estudio": 3535,
+  "variable": "IDEASPROS5_4",
+  "texto": "¿Considera que la ONU será más eficaz, menos eficaz o igual de eficaz en los próximos diez años?",
+  "etiqueta": "Eficacia de la ONU (Organización de Naciones Unidas)",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4031,
+  "opciones": [
+   "Mayores/más que ahora",
+   "Menores/menos que ahora",
+   "Igual que ahora",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.17
+ },
+ {
+  "id": "3536_P1",
+  "estudio": 3536,
+  "variable": "P1",
+  "texto": "¿Cuánto le preocupa el cambio climático?",
+  "etiqueta": "Grado de preocupación por el cambio climático",
+  "tema": "Medio ambiente",
+  "fecha": "dic 2025",
+  "n": 4017,
+  "opciones": [
+   "Mucho",
+   "Bastante",
+   "Regular",
+   "Poco",
+   "Nada",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.3
+ },
+ {
+  "id": "3536_P2",
+  "estudio": 3536,
+  "variable": "P2",
+  "texto": "¿Cuánto se preocupa por la invasión de Rusia a Ucrania?",
+  "etiqueta": "Grado de preocupación por la invasión de Rusia a Ucrania",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4017,
+  "opciones": [
+   "Muy preocupado/a",
+   "Bastante preocupado/a",
+   "Algo preocupado/a",
+   "Poco preocupado/a",
+   "Nada preocupado/a",
+   "No tiene criterio",
+   "Le es indiferente",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.14
+ },
+ {
+  "id": "3536_P3",
+  "estudio": 3536,
+  "variable": "P3",
+  "texto": "¿Cuánto se preocupa por la situación de la guerra en Oriente Próximo?",
+  "etiqueta": "Grado de preocupación por la guerra en Oriente Próximo",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4017,
+  "opciones": [
+   "Muy preocupado/a",
+   "Bastante preocupado/a",
+   "Algo preocupado/a",
+   "Poco preocupado/a",
+   "Nada preocupado/a",
+   "Le es indiferente",
+   "No tiene información, no sabe de qué guerra se trata",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.19
+ },
+ {
+  "id": "3536_ECOPER",
+  "estudio": 3536,
+  "variable": "ECOPER",
+  "texto": "¿Cómo valoraría la situación económica personal actual?",
+  "etiqueta": "Valoración de la situación económica personal actual",
+  "tema": "Consumo",
+  "fecha": "dic 2025",
+  "n": 4017,
+  "opciones": [
+   "Muy buena",
+   "Buena",
+   "Regular",
+   "Mala",
+   "Muy mala",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.74
+ },
+ {
+  "id": "3536_ECOESP",
+  "estudio": 3536,
+  "variable": "ECOESP",
+  "texto": "¿Cómo valoraría la situación económica general de España?",
+  "etiqueta": "Valoración de la situación económica general de España",
+  "tema": "Consumo",
+  "fecha": "dic 2025",
+  "n": 4017,
+  "opciones": [
+   "Muy buena",
+   "Buena",
+   "Regular",
+   "Mala",
+   "Muy mala",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.94
+ },
+ {
+  "id": "3536_P8_1",
+  "estudio": 3536,
+  "variable": "P8_1",
+  "texto": "¿Le importaría alquilar una vivienda de su propiedad a alguien de un grupo étnico, raza o religión diferente a la mayoría de la población española?",
+  "etiqueta": "Alquilara una vivienda de su propiedad",
+  "tema": "Vivienda",
+  "fecha": "dic 2025",
+  "n": 4017,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.71
+ },
+ {
+  "id": "3536_P8_2",
+  "estudio": 3536,
+  "variable": "P8_2",
+  "texto": "¿Cuánto le importaría que fuera un profesor de raza o religión diferente a la mayoría de la población español el que educara a sus hijos?",
+  "etiqueta": "Fuera el/la profesor/a de sus hijos/as",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4017,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.61
+ },
+ {
+  "id": "3536_P8_3",
+  "estudio": 3536,
+  "variable": "P8_3",
+  "texto": "¿Cuánto le importaría que su jefe/a en el trabajo fuera de un grupo étnico, raza o religión diferente a la mayoría de la población española?",
+  "etiqueta": "Fuera su jefe/a en el trabajo",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4017,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.09
+ },
+ {
+  "id": "3536_P8_4",
+  "estudio": 3536,
+  "variable": "P8_4",
+  "texto": "¿Cuánto le importaría vivir en su mismo edificio o comunidad de vecinos con personas de un grupo étnico, raza o religión diferente a la mayoría de la población española?",
+  "etiqueta": "Viviera en su mismo edificio o comunidad de vecinos/as",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4017,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.78
+ },
+ {
+  "id": "3536_P8_5",
+  "estudio": 3536,
+  "variable": "P8_5",
+  "texto": "¿Cuánto le importaría que fuera elegido/a alcalde/sa de su municipio una persona de grupo étnico, raza o religión diferente a la mayoría de la población española?",
+  "etiqueta": "Fuera elegido/a alcalde/sa de su municipio",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4017,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.93
+ },
+ {
+  "id": "3536_P8_6",
+  "estudio": 3536,
+  "variable": "P8_6",
+  "texto": "¿Le importaría que un familiar cercano tuviera una relación sentimental con alguien de una raza o religión diferente a la mayoría de la población española?",
+  "etiqueta": "Tuviera una relación sentimental con un/a familiar cercano/a (hijo/a, hermano/a)",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4017,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.59
+ },
+ {
+  "id": "3536_P9_1",
+  "estudio": 3536,
+  "variable": "P9_1",
+  "texto": "¿Cuántos de sus vecinos y vecinas son de un origen étnico, raza o religión diferente a la mayoría de la población española?",
+  "etiqueta": "Vecinos y vecinas",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4017,
+  "opciones": [
+   "Muchos",
+   "Bastantes",
+   "Pocos",
+   "Ninguno",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.36
+ },
+ {
+  "id": "3536_P9_2",
+  "estudio": 3536,
+  "variable": "P9_2",
+  "texto": "¿Tiene amigos y amigas de un origen étnico, raza o religión diferente a la mayoría de la población española?",
+  "etiqueta": "Amigos y amigas",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4017,
+  "opciones": [
+   "Muchos",
+   "Bastantes",
+   "Pocos",
+   "Ninguno",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.71
+ },
+ {
+  "id": "3536_P9_3",
+  "estudio": 3536,
+  "variable": "P9_3",
+  "texto": "¿Cuántas personas de un origen étnico, raza o religión diferente a la mayoría de la población española conoce en su entorno de compañeros/as de trabajo o estudios?",
+  "etiqueta": "Compañeros/as de trabajo o estudios",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4017,
+  "opciones": [
+   "Muchos",
+   "Bastantes",
+   "Pocos",
+   "Ninguno",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.39
+ },
+ {
+  "id": "3536_P10",
+  "estudio": 3536,
+  "variable": "P10",
+  "texto": "¿Ha presenciado o sido testigo de alguna situación violenta o agresión a una persona por motivos étnicos, de raza o religión?",
+  "etiqueta": "Ha presenciado o sido testigo de alguna situación violenta o agresión a una persona por motivos étnicos, de raza o religión",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4017,
+  "opciones": [
+   "Sí, a menudo",
+   "Sí, en alguna ocasión",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.11
+ },
+ {
+  "id": "3536_P11",
+  "estudio": 3536,
+  "variable": "P11",
+  "texto": "¿Recuerda haber visto en las redes sociales contenido que exprese ideas ofensivas o violentas contra personas por motivos étnicos, de raza o religión?",
+  "etiqueta": "Recuerdo de haber visto en las redes sociales contenido que exprese ideas ofensivas o violentas contra personas por motivos étnicos, de raza o religión",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4017,
+  "opciones": [
+   "Sí, a menudo",
+   "Sí, en alguna ocasión",
+   "No",
+   "No usa redes sociales",
+   "N.R.",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.38
+ },
+ {
+  "id": "3536_P12_1",
+  "estudio": 3536,
+  "variable": "P12_1",
+  "texto": "¿Dónde se ubicaría Ud. mismo/a en una escala de 0 a 10 de racismo?",
+  "etiqueta": "Dónde se ubicaría Ud. mismo/a",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4017,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.2
+ },
+ {
+  "id": "3536_P12_2",
+  "estudio": 3536,
+  "variable": "P12_2",
+  "texto": "¿Dónde ubicaría Ud. a la sociedad española en su conjunto en una escala de 0 a 10, donde 0 es nada racista y 10 es muy racista?",
+  "etiqueta": "Dónde ubicaría Ud. a la sociedad española en su conjunto",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4017,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.73
+ },
+ {
+  "id": "3536_NUM_MUESTRA",
+  "estudio": 3536,
+  "variable": "NUM_MUESTRA",
+  "texto": "¿Tiene ficheros de teléfonos de contacto en su teléfono fijo o móvil?",
+  "etiqueta": "Ficheros de teléfonos de contacto",
+  "tema": "Tecnología e IA",
+  "fecha": "dic 2025",
+  "n": 4017,
+  "opciones": [
+   "E3536_FIJOSCNMC__MUESTRA_1",
+   "E3536_FIJOSCNMC__MUESTRA_2",
+   "E3536_FIJOSCNMC__MUESTRA_3",
+   "E3536_MOVILESCNMC_MUESTRA_4",
+   "E3536_MOVILESCNMC_MUESTRA_5",
+   "E3536_MOVILESCNMC_MUESTRA_6",
+   "E3536_MOVILESCNMC_MUESTRA_7",
+   "E3536_MOVILESCNMC_MUESTRA_8",
+   "E3536_MOVILESCNMC_MUESTRA_9"
+  ],
+  "error_calibracion_pts": 0.43
+ },
+ {
+  "id": "3536_ITEMCOMIENZOP8",
+  "estudio": 3536,
+  "variable": "ITEMCOMIENZOP8",
+  "texto": "¿Alguna vez ha tenido que alquilar una vivienda de su propiedad?",
+  "etiqueta": "Ítem por el que se comenzó a preguntar en P8",
+  "tema": "Vivienda",
+  "fecha": "dic 2025",
+  "n": 4017,
+  "opciones": [
+   "Alquilara una vivienda de su propiedad",
+   "Fuera el/la profesor/a de sus hijos/as",
+   "Fuera su jefe/a en el trabajo",
+   "Viviera en su mismo edificio o comunidad de vecinos/as",
+   "Fuera elegido/a alcalde/sa de su municipio",
+   "Tuviera una relación sentimental con un/a familiar cercano/a (hijo/a, hermano/a)"
+  ],
+  "error_calibracion_pts": 0.34
+ },
+ {
+  "id": "3536_ITEMCOMIENZOP12",
+  "estudio": 3536,
+  "variable": "ITEMCOMIENZOP12",
+  "texto": "¿Dónde se ubica en la escala de racismo la sociedad española?",
+  "etiqueta": "Ítem por el que se comenzó a preguntar en P12",
+  "tema": "Sociedad",
+  "fecha": "dic 2025",
+  "n": 4017,
+  "opciones": [
+   "Autoubicación en la escala de racismo",
+   "Ubicación de la sociedad española en la escala de racismo"
+  ],
+  "error_calibracion_pts": 0.29
+ },
+ {
+  "id": "3554_P2_1",
+  "estudio": 3554,
+  "variable": "P2_1",
+  "texto": "¿Cuánto miedo o temor le suscita contraer una enfermedad como el COVID?",
+  "etiqueta": "Contraer una enfermedad como el COVID",
+  "tema": "Salud",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.21
+ },
+ {
+  "id": "3554_P2_2",
+  "estudio": 3554,
+  "variable": "P2_2",
+  "texto": "¿Cuánto miedo o temor le suscita tener una infección de transmisión sexual?",
+  "etiqueta": "Tener una infección de transmisión sexual",
+  "tema": "Salud",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.98
+ },
+ {
+  "id": "3554_P2_3",
+  "estudio": 3554,
+  "variable": "P2_3",
+  "texto": "¿A qué nivel de miedo le suscita contraer un cáncer?",
+  "etiqueta": "A contraer un cáncer",
+  "tema": "Salud",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.72
+ },
+ {
+  "id": "3554_P2_4",
+  "estudio": 3554,
+  "variable": "P2_4",
+  "texto": "¿Le suscita miedo o temor que su trabajo o pensión no le permitan vivir con dignidad?",
+  "etiqueta": "Que su trabajo o pensión no le permitan vivir con dignidad",
+  "tema": "Salud",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.97
+ },
+ {
+  "id": "3554_P2_5",
+  "estudio": 3554,
+  "variable": "P2_5",
+  "texto": "¿Cuánto miedo o temor le suscita el temor a la soledad?",
+  "etiqueta": "Temor a la soledad",
+  "tema": "Soledad",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.49
+ },
+ {
+  "id": "3554_P2_6",
+  "estudio": 3554,
+  "variable": "P2_6",
+  "texto": "¿Cuánto miedo o temor le suscita perder a un familiar cercano?",
+  "etiqueta": "Perder a un/a familiar cercano/a",
+  "tema": "Salud",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.16
+ },
+ {
+  "id": "3554_P2_7",
+  "estudio": 3554,
+  "variable": "P2_7",
+  "texto": "¿Le suscita miedo o temor no tener a una persona a la que amar?",
+  "etiqueta": "No tener a una persona a la que amar",
+  "tema": "Soledad",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.4
+ },
+ {
+  "id": "3554_P2_9",
+  "estudio": 3554,
+  "variable": "P2_9",
+  "texto": "¿Le suscita el máximo miedo o temor perder la vista?",
+  "etiqueta": "Perder la vista",
+  "tema": "Salud",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.34
+ },
+ {
+  "id": "3554_P2_10",
+  "estudio": 3554,
+  "variable": "P2_10",
+  "texto": "¿Cuánto miedo o temor le suscita perder su trabajo o no encontrar un trabajo estable?",
+  "etiqueta": "Perder su trabajo o no encontrar un trabajo estable",
+  "tema": "Sociedad",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.08
+ },
+ {
+  "id": "3554_P2_11",
+  "estudio": 3554,
+  "variable": "P2_11",
+  "texto": "¿Cuánto miedo o temor le suscita no poder pagar su vivienda o alquiler?",
+  "etiqueta": "No poder pagar su vivienda/alquiler/hipoteca",
+  "tema": "Vivienda",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.62
+ },
+ {
+  "id": "3554_P2_12",
+  "estudio": 3554,
+  "variable": "P2_12",
+  "texto": "¿Cuánto miedo o temor le suscita perder la vida?",
+  "etiqueta": "Perder la vida",
+  "tema": "Salud",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.68
+ },
+ {
+  "id": "3554_P2_13",
+  "estudio": 3554,
+  "variable": "P2_13",
+  "texto": "¿Cuánto miedo o temor le suscita perder la salud?",
+  "etiqueta": "Perder la salud",
+  "tema": "Salud",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.42
+ },
+ {
+  "id": "3554_P2A_1",
+  "estudio": 3554,
+  "variable": "P2A_1",
+  "texto": "¿Cuánto miedo o temor le suscita el deterioro ambiental?",
+  "etiqueta": "El deterioro ambiental",
+  "tema": "Medio ambiente",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.44
+ },
+ {
+  "id": "3554_P2A_2",
+  "estudio": 3554,
+  "variable": "P2A_2",
+  "texto": "¿Le suscita el máximo miedo o temor una crisis de la democracia?",
+  "etiqueta": "Una crisis de la democracia",
+  "tema": "Sociedad",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.52
+ },
+ {
+  "id": "3554_P2A_3",
+  "estudio": 3554,
+  "variable": "P2A_3",
+  "texto": "¿Le suscita el máximo miedo o temor una crisis económica?",
+  "etiqueta": "Una crisis económica",
+  "tema": "Sociedad",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.28
+ },
+ {
+  "id": "3554_P2A_4",
+  "estudio": 3554,
+  "variable": "P2A_4",
+  "texto": "¿Le suscita algún miedo o temor que le persigan por sus ideas políticas?",
+  "etiqueta": "Que le persigan por sus ideas políticas",
+  "tema": "Sociedad",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.89
+ },
+ {
+  "id": "3554_P2A_5",
+  "estudio": 3554,
+  "variable": "P2A_5",
+  "texto": "¿Le suscita miedo o temor ser juzgado o perseguido por un delito que no ha cometido?",
+  "etiqueta": "Ser juzgado/a o perseguido/a por un delito que no ha cometido",
+  "tema": "Sociedad",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.5
+ },
+ {
+  "id": "3554_P2A_6",
+  "estudio": 3554,
+  "variable": "P2A_6",
+  "texto": "¿A una guerra civil le suscita el máximo miedo o temor?",
+  "etiqueta": "A una guerra civil",
+  "tema": "Sociedad",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.42
+ },
+ {
+  "id": "3554_P2A_7",
+  "estudio": 3554,
+  "variable": "P2A_7",
+  "texto": "¿A una guerra mundial le suscita algún miedo o temor?",
+  "etiqueta": "A una guerra mundial",
+  "tema": "Sociedad",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.33
+ },
+ {
+  "id": "3554_P3",
+  "estudio": 3554,
+  "variable": "P3",
+  "texto": "¿Cree que en el futuro puede haber una guerra con armas nucleares?",
+  "etiqueta": "Creencia en la posibilidad futura de una guerra con armas nucleares",
+  "tema": "Sociedad",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.24
+ },
+ {
+  "id": "3554_P4",
+  "estudio": 3554,
+  "variable": "P4",
+  "texto": "¿Cree que una guerra con armas nucleares supondría el fin de la humanidad?",
+  "etiqueta": "Creencia en que una guerra con armas nucleares supondría el fin de la humanidad",
+  "tema": "Sociedad",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Cree que sería el fin de la humanidad",
+   "No cree que sea el fin de la humanidad",
+   "No lo sabe, no tiene información",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.31
+ },
+ {
+  "id": "3554_P5",
+  "estudio": 3554,
+  "variable": "P5",
+  "texto": "¿Cree que disponer de unas Fuerzas Armadas preparadas es garantía para evitar abusos por terceros países?",
+  "etiqueta": "Creencia en que disponer de unas Fuerzas Armadas preparadas es garantía para evitar abusos por terceros países",
+  "tema": "Sociedad",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Sí lo cree",
+   "No lo cree",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.13
+ },
+ {
+  "id": "3554_P6",
+  "estudio": 3554,
+  "variable": "P6",
+  "texto": "¿Considera que los conflictos sociales van en aumento en la sociedad española?",
+  "etiqueta": "Consideración de que los conflictos sociales van en aumento en la sociedad española",
+  "tema": "Sociedad",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.09
+ },
+ {
+  "id": "3554_P7",
+  "estudio": 3554,
+  "variable": "P7",
+  "texto": "¿Cuál es su grado de deterioro de la democracia española en la actualidad?",
+  "etiqueta": "Grado de deterioro de la democracia española en la actualidad",
+  "tema": "Sociedad",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Mucho",
+   "Bastante",
+   "Regular",
+   "Poco",
+   "Ningún",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.5
+ },
+ {
+  "id": "3554_P7A",
+  "estudio": 3554,
+  "variable": "P7A",
+  "texto": "¿Cuánto le preocupa el deterioro de la democracia española en la actualidad?",
+  "etiqueta": "Grado de preocupación por el deterioro de la democracia española en la actualidad",
+  "tema": "Sociedad",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Mucho",
+   "Bastante",
+   "Regular",
+   "Poco",
+   "Nada",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.38
+ },
+ {
+  "id": "3554_P8",
+  "estudio": 3554,
+  "variable": "P8",
+  "texto": "¿Cree que los medios de comunicación influyen en su sensación de miedo y temor social?",
+  "etiqueta": "Papel de los medios de comunicación en la sensación de miedo y temor social",
+  "tema": "Sociedad",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.14
+ },
+ {
+  "id": "3554_P16",
+  "estudio": 3554,
+  "variable": "P16",
+  "texto": "¿Cuánto temor le inspira la posibilidad de quedarse solo o sin apoyo emocional en momentos difíciles?",
+  "etiqueta": "Grado de temor personal a quedarse solo/a o sin apoyo emocional en momentos difíciles",
+  "tema": "Soledad",
+  "fecha": "feb 2026",
+  "n": 5015,
+  "opciones": [
+   "Mucho temor",
+   "Bastante temor",
+   "Poco temor",
+   "Ningún temor",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.43
+ },
+ {
+  "id": "3560_P2",
+  "estudio": 3560,
+  "variable": "P2",
+  "texto": "¿Cuánta habilidad tiene para realizar gestiones bancarias habituales a través de Internet?",
+  "etiqueta": "Grado de habilidad para realizar gestiones bancarias habituales a través de Internet",
+  "tema": "Tecnología e IA",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Mucha",
+   "Bastante",
+   "Poca",
+   "Nula",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.0
+ },
+ {
+  "id": "3560_P3",
+  "estudio": 3560,
+  "variable": "P3",
+  "texto": "¿Cuál es su nivel de conocimientos sobre temas bancarios y financieros?",
+  "etiqueta": "Nivel de conocimientos sobre temas bancarios y financieros",
+  "tema": "Consumo",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Muy alto",
+   "Alto",
+   "Regular",
+   "Bajo",
+   "Muy bajo",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.18
+ },
+ {
+  "id": "3560_P4_1",
+  "estudio": 3560,
+  "variable": "P4_1",
+  "texto": "¿Ha tenido depósitos y/o cuentas de ahorro en los últimos cinco años?",
+  "etiqueta": "Depósitos y/o cuentas de ahorro",
+  "tema": "Consumo",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Sí",
+   "No",
+   "No conozco el producto",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 2.8
+ },
+ {
+  "id": "3560_P4_2",
+  "estudio": 3560,
+  "variable": "P4_2",
+  "texto": "¿Ha tenido una tarjeta de débito o crédito en los últimos cinco años?",
+  "etiqueta": "Tarjeta de débito o crédito",
+  "tema": "Consumo",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.23
+ },
+ {
+  "id": "3560_P4_4",
+  "estudio": 3560,
+  "variable": "P4_4",
+  "texto": "¿Ha tenido un préstamo personal en los últimos cinco años?",
+  "etiqueta": "Préstamo personal",
+  "tema": "Consumo",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Sí",
+   "No"
+  ],
+  "error_calibracion_pts": 2.69
+ },
+ {
+  "id": "3560_P4_5",
+  "estudio": 3560,
+  "variable": "P4_5",
+  "texto": "¿Ha tenido un plan de pensiones en los últimos cinco años?",
+  "etiqueta": "Plan de pensiones",
+  "tema": "Consumo",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Sí",
+   "No",
+   "No conozco el producto",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 2.28
+ },
+ {
+  "id": "3560_P4_6",
+  "estudio": 3560,
+  "variable": "P4_6",
+  "texto": "¿Ha poseído un fondo de inversión o acciones en los últimos cinco años?",
+  "etiqueta": "Fondo de inversión o acciones",
+  "tema": "Consumo",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Sí",
+   "No",
+   "No conozco el producto",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 2.64
+ },
+ {
+  "id": "3560_P4_8",
+  "estudio": 3560,
+  "variable": "P4_8",
+  "texto": "¿Ha tenido un seguro de vida en los últimos cinco años?",
+  "etiqueta": "Seguro de vida",
+  "tema": "Consumo",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 2.82
+ },
+ {
+  "id": "3560_P5_1",
+  "estudio": 3560,
+  "variable": "P5_1",
+  "texto": "¿Cuántas veces ha retirado dinero en efectivo en los últimos doce meses?",
+  "etiqueta": "Retirar dinero en efectivo",
+  "tema": "Consumo",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Mucha",
+   "Bastante",
+   "Poca",
+   "Nunca",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.97
+ },
+ {
+  "id": "3560_P5_2",
+  "estudio": 3560,
+  "variable": "P5_2",
+  "texto": "¿Ha consultado el saldo de su cuenta bancaria en los últimos doce meses?",
+  "etiqueta": "Consultar el saldo de la cuenta bancaria",
+  "tema": "Consumo",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Mucha",
+   "Bastante",
+   "Poca",
+   "Nunca",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.99
+ },
+ {
+  "id": "3560_P5_3",
+  "estudio": 3560,
+  "variable": "P5_3",
+  "texto": "¿Ha pagado recibos o impuestos a través de su banco en los últimos doce meses?",
+  "etiqueta": "Pagar recibos o impuestos por el banco",
+  "tema": "Consumo",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Mucha",
+   "Bastante",
+   "Poca",
+   "Nunca",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 2.11
+ },
+ {
+  "id": "3560_P5_4",
+  "estudio": 3560,
+  "variable": "P5_4",
+  "texto": "¿Ha realizado transferencias en los últimos doce meses?",
+  "etiqueta": "Realizar transferencias",
+  "tema": "Consumo",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Mucha",
+   "Bastante",
+   "Poca",
+   "Nunca",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.17
+ },
+ {
+  "id": "3560_P5_5",
+  "estudio": 3560,
+  "variable": "P5_5",
+  "texto": "¿Ha contratado un producto de inversión o solicitado un préstamo en los últimos doce meses?",
+  "etiqueta": "Contratar un producto de inversión o solicitar un préstamo",
+  "tema": "Consumo",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Mucha",
+   "Bastante",
+   "Poca",
+   "Nunca",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.53
+ },
+ {
+  "id": "3560_P5_6",
+  "estudio": 3560,
+  "variable": "P5_6",
+  "texto": "¿Ha contratado seguros en los últimos doce meses?",
+  "etiqueta": "Contratar seguros",
+  "tema": "Consumo",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Mucha",
+   "Bastante",
+   "Poca",
+   "Nunca",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.63
+ },
+ {
+  "id": "3560_P5_8",
+  "estudio": 3560,
+  "variable": "P5_8",
+  "texto": "¿Ha pagado con el teléfono móvil en los últimos doce meses?",
+  "etiqueta": "Pagar con el teléfono móvil (Apple Pay, Google Pay, u otras aplicaciones de pago)",
+  "tema": "Tecnología e IA",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Mucha",
+   "Bastante",
+   "Poca",
+   "Nunca",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.66
+ },
+ {
+  "id": "3560_P5_9",
+  "estudio": 3560,
+  "variable": "P5_9",
+  "texto": "¿Cuántas veces ha pagado con tarjeta (crédito/débito) en los últimos doce meses?",
+  "etiqueta": "Pagar con tarjeta (crédito/débito)",
+  "tema": "Consumo",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Mucha",
+   "Bastante",
+   "Poca",
+   "Nunca",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.35
+ },
+ {
+  "id": "3560_P6_1",
+  "estudio": 3560,
+  "variable": "P6_1",
+  "texto": "¿Cómo consulta habitualmente el saldo de su cuenta bancaria?",
+  "etiqueta": "Consultar el saldo de la cuenta bancaria",
+  "tema": "Consumo",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Visitando personalmente alguna oficina bancaria o agente financiero",
+   "Usando un cajero automático",
+   "Llamando por teléfono",
+   "Usando la página web o la aplicación del banco",
+   "Acudiendo personalmente a una oficina móvil bancaria (autobús)",
+   "Prefiere que lo hagan otras personas en su nombre (familiares, amigos, etc.)",
+   "De otra manera",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.53
+ },
+ {
+  "id": "3560_P6_2",
+  "estudio": 3560,
+  "variable": "P6_2",
+  "texto": "¿Cómo prefiere consultar el saldo de su cuenta bancaria?",
+  "etiqueta": "Consultar el saldo de la cuenta bancaria",
+  "tema": "Consumo",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Visitando personalmente alguna oficina bancaria o agente financiero",
+   "Usando un cajero automático",
+   "Llamando por teléfono",
+   "Usando la página web o la aplicación del banco",
+   "Acudiendo personalmente a una oficina móvil bancaria (autobús)",
+   "Prefiere que lo hagan otras personas en su nombre (familiares, amigos, etc.)",
+   "De otra manera",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.47
+ },
+ {
+  "id": "3560_P6_3",
+  "estudio": 3560,
+  "variable": "P6_3",
+  "texto": "¿Cómo paga habitualmente los recibos o impuestos del banco?",
+  "etiqueta": "Pagar recibos o impuestos del banco",
+  "tema": "Consumo",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Visitando personalmente alguna oficina bancaria o agente financiero",
+   "Usando un cajero automático",
+   "Llamando por teléfono",
+   "Usando la página web o la aplicación del banco",
+   "Acudiendo personalmente a una oficina móvil bancaria (autobús)",
+   "Mediante domiciliación",
+   "Prefiere que lo hagan otras personas en su nombre (familiares, amigos, etc.)",
+   "De otra manera",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.98
+ },
+ {
+  "id": "3560_P6_4",
+  "estudio": 3560,
+  "variable": "P6_4",
+  "texto": "¿Cómo prefiere pagar recibos o impuestos?",
+  "etiqueta": "Pagar recibos o impuestos del banco",
+  "tema": "Consumo",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Visitando personalmente alguna oficina bancaria o agente financiero",
+   "Usando un cajero automático",
+   "Llamando por teléfono",
+   "Usando la página web o la aplicación del banco",
+   "Acudiendo personalmente a una oficina móvil bancaria (autobús)",
+   "Mediante domiciliación",
+   "Prefiere que lo hagan otras personas en su nombre (familiares, amigos, etc.)",
+   "De otra manera",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.34
+ },
+ {
+  "id": "3560_P6_5",
+  "estudio": 3560,
+  "variable": "P6_5",
+  "texto": "¿Cómo realiza habitualmente las transferencias?",
+  "etiqueta": "Realizar transferencias",
+  "tema": "Consumo",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Visitando personalmente alguna oficina bancaria o agente financiero",
+   "Llamando por teléfono",
+   "Usando la página web o la aplicación del banco",
+   "Acudiendo personalmente a una oficina móvil bancaria (autobús)",
+   "Prefiere que lo hagan otras personas en su nombre (familiares, amigos, etc.)",
+   "De otra manera",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.67
+ },
+ {
+  "id": "3560_P6_6",
+  "estudio": 3560,
+  "variable": "P6_6",
+  "texto": "¿Cómo prefiere realizar transferencias?",
+  "etiqueta": "Realizar transferencias",
+  "tema": "Consumo",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Visitando personalmente alguna oficina bancaria o agente financiero",
+   "Llamando por teléfono",
+   "Usando la página web o la aplicación del banco",
+   "Acudiendo personalmente a una oficina móvil bancaria (autobús)",
+   "Prefiere que lo hagan otras personas en su nombre (familiares, amigos, etc.)",
+   "De otra manera",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.68
+ },
+ {
+  "id": "3560_P7A",
+  "estudio": 3560,
+  "variable": "P7A",
+  "texto": "¿Cómo retira habitualmente efectivo de su banco?",
+  "etiqueta": "Forma habitual de retirada de efectivo del banco",
+  "tema": "Consumo",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Visitando personalmente alguna sucursal/oficina bancaria (se incluye aquí agente financiero)",
+   "Usando un cajero automático",
+   "Retirada en tienda",
+   "Acudiendo personalmente a una oficina móvil bancaria (autobús)",
+   "Lo hacen otras personas en su nombre (familiares, amigos, etc.)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.15
+ },
+ {
+  "id": "3560_P7B",
+  "estudio": 3560,
+  "variable": "P7B",
+  "texto": "¿Cómo prefiere retirar dinero de su banco?",
+  "etiqueta": "Preferencia de la forma retirada dinero del banco",
+  "tema": "Consumo",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Visitando personalmente alguna sucursal/oficina bancaria (se incluye aquí agente financiero)",
+   "Usando un cajero automático",
+   "Servicio de efectivo de correos (Correos Cash)",
+   "Retirada en tienda",
+   "Acudiendo personalmente a una oficina móvil bancaria (autobús)",
+   "Que lo hagan otras personas en su nombre (familiares, amigos, etc.)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.18
+ },
+ {
+  "id": "3560_P8",
+  "estudio": 3560,
+  "variable": "P8",
+  "texto": "¿Uso habitual del cajero automático?",
+  "etiqueta": "Uso habitual del cajero automático",
+  "tema": "Consumo",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 3.04
+ },
+ {
+  "id": "3560_P9",
+  "estudio": 3560,
+  "variable": "P9",
+  "texto": "¿Uso habitual de la banca online o app del banco?",
+  "etiqueta": "Uso habitual de la banca online o app del banco",
+  "tema": "Tecnología e IA",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Sí",
+   "No"
+  ],
+  "error_calibracion_pts": 1.49
+ },
+ {
+  "id": "3560_P10",
+  "estudio": 3560,
+  "variable": "P10",
+  "texto": "¿Asiste habitualmente a su oficina bancaria?",
+  "etiqueta": "Asistencia habitual a su oficina bancaria",
+  "tema": "Consumo",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 2.79
+ },
+ {
+  "id": "3560_P10A",
+  "estudio": 3560,
+  "variable": "P10A",
+  "texto": "¿Cuál es la razón principal por la que no acude a su oficina bancaria?",
+  "etiqueta": "Razón para no acudir a su oficina bancaria",
+  "tema": "Consumo",
+  "fecha": "may 2026",
+  "n": 1597,
+  "opciones": [
+   "Prefiero retirar dinero en el cajero",
+   "No suelo manejar dinero en efectivo",
+   "Realizo los trámites online",
+   "No hay oficinas cercanas a mi domicilio o trabajo",
+   "Problemas de accesibilidad (barreras de acceso a la oficina…)",
+   "Mi banco no tiene sucursales físicas",
+   "Pocas facilidades (horarios, esperas, citas previas, etc.)",
+   "No lo necesita",
+   "Falta de personal, mala atención bancaria",
+   "Lo hace un familiar o tercero por mí",
+   "Por comodidad y/o falta de tiempo",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.73
+ },
+ {
+  "id": "3575_P1_1_1",
+  "estudio": 3575,
+  "variable": "P1_1_1",
+  "texto": "¿Ha comprado un automóvil o moto?",
+  "etiqueta": "Sí, él/ella ha adquirido",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Sí",
+   "No"
+  ],
+  "error_calibracion_pts": 0.77
+ },
+ {
+  "id": "3575_P1_1_2",
+  "estudio": 3575,
+  "variable": "P1_1_2",
+  "texto": "¿Ha adquirido otra persona de su hogar un automóvil o moto en el último año?",
+  "etiqueta": "Sí, lo ha adquirido otra persona de su hogar",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Sí",
+   "No"
+  ],
+  "error_calibracion_pts": 0.26
+ },
+ {
+  "id": "3575_P1_2_1",
+  "estudio": 3575,
+  "variable": "P1_2_1",
+  "texto": "¿Ha comprado un automóvil o moto?",
+  "etiqueta": "Sí, él/ella ha adquirido",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Sí",
+   "No"
+  ],
+  "error_calibracion_pts": 1.41
+ },
+ {
+  "id": "3575_P1_2_2",
+  "estudio": 3575,
+  "variable": "P1_2_2",
+  "texto": "¿Ha adquirido otra persona de su hogar un automóvil o moto en el último año?",
+  "etiqueta": "Sí, lo ha adquirido otra persona de su hogar",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Sí",
+   "No"
+  ],
+  "error_calibracion_pts": 0.55
+ },
+ {
+  "id": "3575_P1_3_1",
+  "estudio": 3575,
+  "variable": "P1_3_1",
+  "texto": "¿Ha comprado un automóvil o moto?",
+  "etiqueta": "Sí, él/ella ha adquirido",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Sí",
+   "No"
+  ],
+  "error_calibracion_pts": 0.46
+ },
+ {
+  "id": "3575_P1_3_2",
+  "estudio": 3575,
+  "variable": "P1_3_2",
+  "texto": "¿Ha adquirido otra persona de su hogar un automóvil o moto en el último año?",
+  "etiqueta": "Sí, lo ha adquirido otra persona de su hogar",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Sí",
+   "No"
+  ],
+  "error_calibracion_pts": 0.61
+ },
+ {
+  "id": "3575_P1_4_1",
+  "estudio": 3575,
+  "variable": "P1_4_1",
+  "texto": "¿Ha comprado un automóvil o moto?",
+  "etiqueta": "Sí, él/ella ha adquirido",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Sí",
+   "No"
+  ],
+  "error_calibracion_pts": 0.22
+ },
+ {
+  "id": "3575_P1_4_2",
+  "estudio": 3575,
+  "variable": "P1_4_2",
+  "texto": "¿Ha adquirido otra persona de su hogar un automóvil o moto en el último año?",
+  "etiqueta": "Sí, lo ha adquirido otra persona de su hogar",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Sí",
+   "No"
+  ],
+  "error_calibracion_pts": 1.43
+ },
+ {
+  "id": "3575_P2",
+  "estudio": 3575,
+  "variable": "P2",
+  "texto": "¿Cuál es la situación de ahorro mensual en su hogar?",
+  "etiqueta": "Capacidad de ahorro mensual en el hogar",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Le resulta difícil llegar a final de mes, por lo que ha tenido que contraer deudas",
+   "Le resulta difícil llegar a final de mes, por lo que ha tenido que echar mano de sus ahorros",
+   "Llega justo a final de mes",
+   "Ahorra un poco de dinero cada mes",
+   "Ahorra bastante dinero cada mes",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.43
+ },
+ {
+  "id": "3575_P3",
+  "estudio": 3575,
+  "variable": "P3",
+  "texto": "¿Cómo valoraría la situación económica de su hogar en los últimos 6 meses?",
+  "etiqueta": "Valoración retrospectiva de la situación económica del hogar (6 meses)",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Mejor",
+   "Igual",
+   "Peor",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.93
+ },
+ {
+  "id": "3575_NUMPERSONAS",
+  "estudio": 3575,
+  "variable": "NUMPERSONAS",
+  "texto": "¿Cuántas personas del entorno están en paro y buscando trabajo?",
+  "etiqueta": "Número de personas del entorno en paro y buscando trabajo",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "0",
+   "1 persona",
+   "2 personas",
+   "3 personas",
+   "4 personas",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.54
+ },
+ {
+  "id": "3575_P6",
+  "estudio": 3575,
+  "variable": "P6",
+  "texto": "¿Ha notado cambios en el número de personas del entorno que están en paro y buscando trabajo en los últimos 6 meses?",
+  "etiqueta": "Evolución del número de personas del entorno en paro y buscando trabajo (6 meses)",
+  "tema": "Sociedad",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Más",
+   "El mismo número",
+   "Menos",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.23
+ },
+ {
+  "id": "3575_P7",
+  "estudio": 3575,
+  "variable": "P7",
+  "texto": "¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en España en los últimos 6 meses?",
+  "etiqueta": "Valoración retrospectiva de la posibilidad de mejorar o encontrar empleo en España (6 meses)",
+  "tema": "Sociedad",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Mejor",
+   "Igual",
+   "Peor",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 3.13
+ },
+ {
+  "id": "3575_P7_1",
+  "estudio": 3575,
+  "variable": "P7_1",
+  "texto": "¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en su comunidad autónoma en los últimos 6 meses?",
+  "etiqueta": "Valoración retrospectiva de la posibilidad de mejorar o encontrar empleo en la comunidad autónoma (6 meses)",
+  "tema": "Sociedad",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Mejor",
+   "Igual",
+   "Peor",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 2.79
+ },
+ {
+  "id": "3575_P8",
+  "estudio": 3575,
+  "variable": "P8",
+  "texto": "¿Cómo valoraría la situación económica de España en los últimos 6 meses?",
+  "etiqueta": "Valoración retrospectiva de la situación económica de España (6 meses)",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Mejor",
+   "Igual",
+   "Peor",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.74
+ },
+ {
+  "id": "3575_P8_1",
+  "estudio": 3575,
+  "variable": "P8_1",
+  "texto": "¿Cómo valoraría la situación económica de la comunidad autónoma en los últimos 6 meses?",
+  "etiqueta": "Valoración retrospectiva de la situación económica de la comunidad autónoma (6 meses)",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Mejor",
+   "Igual",
+   "Peor",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.78
+ },
+ {
+  "id": "3575_P9",
+  "estudio": 3575,
+  "variable": "P9",
+  "texto": "¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en España en los próximos seis meses?",
+  "etiqueta": "Valoración prospectiva de la posibilidad de mejorar o encontrar empleo en España (6 meses)",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Mejor",
+   "Igual",
+   "Peor",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.51
+ },
+ {
+  "id": "3575_P9_1",
+  "estudio": 3575,
+  "variable": "P9_1",
+  "texto": "¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en la comunidad autónoma en los próximos 6 meses?",
+  "etiqueta": "Valoración prospectiva de la posibilidad de mejorar o encontrar empleo en la comunidad autónoma (6 meses)",
+  "tema": "Sociedad",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Mejor",
+   "Igual",
+   "Peor",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.27
+ },
+ {
+  "id": "3575_P10",
+  "estudio": 3575,
+  "variable": "P10",
+  "texto": "¿Piensa usted que en el próximo año tendrá más, igual o menos probabilidades de comprar bienes duraderos para su hogar?",
+  "etiqueta": "Valoración prospectiva de la probabilidad de adquirir para el hogar bienes duraderos (1 año)",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Mayores",
+   "Iguales",
+   "Menores",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.52
+ },
+ {
+  "id": "3575_P11",
+  "estudio": 3575,
+  "variable": "P11",
+  "texto": "¿Cómo cree que ha sido la evolución de su capacidad de ahorro en los últimos 12 meses?",
+  "etiqueta": "Evolución de la capacidad de ahorro personal (1 año)",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Mayores",
+   "Iguales",
+   "Menores",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.95
+ },
+ {
+  "id": "3575_P12",
+  "estudio": 3575,
+  "variable": "P12",
+  "texto": "¿Cómo cree que estará la situación económica de su hogar en los próximos 6 meses?",
+  "etiqueta": "Valoración prospectiva de la situación económica del hogar (6 meses)",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Mejor",
+   "Igual",
+   "Peor",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.27
+ },
+ {
+  "id": "3575_P14",
+  "estudio": 3575,
+  "variable": "P14",
+  "texto": "¿Cómo valoraría la situación económica de España en los próximos seis meses?",
+  "etiqueta": "Valoración prospectiva de la situación económica de España (6 meses)",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Mejor",
+   "Igual",
+   "Peor",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.33
+ },
+ {
+  "id": "3575_P14_1",
+  "estudio": 3575,
+  "variable": "P14_1",
+  "texto": "¿Cómo cree que estará la situación económica de la comunidad autónoma en los próximos 6 meses?",
+  "etiqueta": "Valoración prospectiva de la situación económica de la comunidad autónoma (6 meses)",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Mejor",
+   "Igual",
+   "Peor",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.51
+ },
+ {
+  "id": "3575_P15",
+  "estudio": 3575,
+  "variable": "P15",
+  "texto": "¿Qué cree que será la inflación en España en el próximo año?",
+  "etiqueta": "Valoración prospectiva de la inflación en España (1 año)",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Más",
+   "Igual",
+   "Menos",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.61
+ },
+ {
+  "id": "3575_P16",
+  "estudio": 3575,
+  "variable": "P16",
+  "texto": "¿Cree que los tipos de interés en España subirán en el próximo año?",
+  "etiqueta": "Evolución de los tipos de interés en España (1 año)",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Subirá",
+   "Se mantendrá",
+   "Bajará",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.5
+ },
+ {
+  "id": "3575_P17",
+  "estudio": 3575,
+  "variable": "P17",
+  "texto": "¿Cree que el precio de la vivienda en España subirá, se mantendrá o bajará en el próximo año?",
+  "etiqueta": "Evolución del precio de la vivienda en España (1 año)",
+  "tema": "Vivienda",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Subirá",
+   "Se mantendrá",
+   "Bajará",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.44
+ },
+ {
+  "id": "3575_P18",
+  "estudio": 3575,
+  "variable": "P18",
+  "texto": "¿Tiene intención de comprar una vivienda en el próximo año?",
+  "etiqueta": "Intención de comprar una vivienda en el próximo año",
+  "tema": "Vivienda",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.58
+ },
+ {
+  "id": "3575_CURSOMULTIPLE_1_1",
+  "estudio": 3575,
+  "variable": "CURSOMULTIPLE_1_1",
+  "texto": "¿Tiene en curso un estudio oficial sobre educación primaria?",
+  "etiqueta": "Educación primaria",
+  "tema": "Sociedad",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.31
+ },
+ {
+  "id": "3575_CURSOMULTIPLE_1_3",
+  "estudio": 3575,
+  "variable": "CURSOMULTIPLE_1_3",
+  "texto": "¿Ha cursado educación secundaria obligatoria?",
+  "etiqueta": "Educación secundaria obligatoria",
+  "tema": "Sociedad",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.31
+ },
+ {
+  "id": "3575_CURSOMULTIPLE_1_4",
+  "estudio": 3575,
+  "variable": "CURSOMULTIPLE_1_4",
+  "texto": "¿Tiene la persona alguna formación profesional de grado medio en curso?",
+  "etiqueta": "FP de grado medio",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.5
+ },
+ {
+  "id": "3575_CURSOMULTIPLE_1_6",
+  "estudio": 3575,
+  "variable": "CURSOMULTIPLE_1_6",
+  "texto": "¿Tiene la persona alguna formación profesional de grado superior?",
+  "etiqueta": "FP de grado superior",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.35
+ },
+ {
+  "id": "3575_CURSOMULTIPLE_1_7",
+  "estudio": 3575,
+  "variable": "CURSOMULTIPLE_1_7",
+  "texto": "¿Está realizando estudios universitarios?",
+  "etiqueta": "Estudios universitarios",
+  "tema": "Sociedad",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.94
+ },
+ {
+  "id": "3575_CURSOMULTIPLE_1_8",
+  "estudio": 3575,
+  "variable": "CURSOMULTIPLE_1_8",
+  "texto": "¿Está realizando estudios oficiales de posgrado o doctorado?",
+  "etiqueta": "Estudios oficiales de posgrado y doctorado",
+  "tema": "Sociedad",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.07
+ },
+ {
+  "id": "3575_CURSOMULTIPLE_1_9",
+  "estudio": 3575,
+  "variable": "CURSOMULTIPLE_1_9",
+  "texto": "¿Participa en otros estudios oficiales?",
+  "etiqueta": "Otros estudios",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.12
+ },
+ {
+  "id": "3575_CURSOMULTIPLE_1_10",
+  "estudio": 3575,
+  "variable": "CURSOMULTIPLE_1_10",
+  "texto": "¿No está cursando estudios?",
+  "etiqueta": "No está cursando estudios",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.49
+ },
+ {
+  "id": "3575_P25B",
+  "estudio": 3575,
+  "variable": "P25B",
+  "texto": "¿Cuántas personas hay en su hogar con ingresos?",
+  "etiqueta": "Número de personas en el hogar con ingresos",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Ninguna",
+   "1 persona",
+   "2 personas",
+   "3 personas",
+   "4 personas",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.99
+ },
+ {
+  "id": "3575_PERPRIN",
+  "estudio": 3575,
+  "variable": "PERPRIN",
+  "texto": "¿Quién es la persona a la que se le considera la cabeza de familia en su hogar?",
+  "etiqueta": "Cabeza de familia",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "La persona entrevistada",
+   "Otra persona",
+   "La persona entrevistada y otra casi a partes iguales",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 4.17
+ },
+ {
+  "id": "3575_INGREHOG",
+  "estudio": 3575,
+  "variable": "INGREHOG",
+  "texto": "¿Cuál es el nivel de ingresos del hogar?",
+  "etiqueta": "Nivel de ingresos del hogar",
+  "tema": "Consumo",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Menos de 1.100 €",
+   "De 1.100 a 1.800 €",
+   "De 1.801 a 2.700 €",
+   "De 2.701 a 3.900 €",
+   "Más de 3.900 €",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 2.54
+ },
+ {
+  "id": "3575_MOMENNAC",
+  "estudio": 3575,
+  "variable": "MOMENNAC",
+  "texto": "¿Cuándo adquirió la nacionalidad española?",
+  "etiqueta": "Momento de la adquisición de la nacionalidad española",
+  "tema": "Sociedad",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Desde que nació",
+   "La ha adquirido con posterioridad",
+   "No tiene nacionalidad española"
+  ],
+  "error_calibracion_pts": 0.29
+ },
+ {
+  "id": "3575_VIVIENDA",
+  "estudio": 3575,
+  "variable": "VIVIENDA",
+  "texto": "¿Cómo es el régimen de tenencia de la vivienda en la que reside?",
+  "etiqueta": "Régimen de tenencia de vivienda",
+  "tema": "Vivienda",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "En propiedad por compra, totalmente pagada",
+   "En propiedad por compra y con pagos o hipotecas pendientes",
+   "En alquiler",
+   "En propiedad por herencia o donación",
+   "Cedida gratis o a bajo precio por un/a familiar, la empresa, etc.",
+   "Otra forma",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.71
+ },
+ {
+  "id": "3575_P36",
+  "estudio": 3575,
+  "variable": "P36",
+  "texto": "¿Cuál es su situación de tenencia de vivienda?",
+  "etiqueta": "Régimen de tenencia de vivienda [recodificada]",
+  "tema": "Vivienda",
+  "fecha": "jul 2026",
+  "n": 3004,
+  "opciones": [
+   "Propietarios/as",
+   "Propietarios/as con hipoteca",
+   "En alquiler",
+   "Otra situación",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.98
+ },
+ {
+  "id": "3577_P1",
+  "estudio": 3577,
+  "variable": "P1",
+  "texto": "¿Ha tenido conocimiento del cruce de la frontera en Ceuta ocurrido en el verano de 2026?",
+  "etiqueta": "Conocimiento del cruce de la frontera en Ceuta ocurrido en el verano del 2026",
+  "tema": "Sociedad",
+  "fecha": "sep 2026",
+  "n": 4042,
+  "opciones": [
+   "Sí, está informado/a",
+   "No, no está informado/a",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.09
+ },
+ {
+  "id": "3577_P2",
+  "estudio": 3577,
+  "variable": "P2",
+  "texto": "¿Necesita refuerzo de las fronteras para evitar entradas masivas de personas?",
+  "etiqueta": "Necesidad de refuerzo de las fronteras para evitar entradas masivas de personas",
+  "tema": "Sociedad",
+  "fecha": "sep 2026",
+  "n": 4042,
+  "opciones": [
+   "Sí, cree que es necesario",
+   "No, cree que no es necesario",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.15
+ },
+ {
+  "id": "3577_P3",
+  "estudio": 3577,
+  "variable": "P3",
+  "texto": "¿Cuánta importancia le da a que España y Marruecos tengan un buen entendimiento para mantener la seguridad de las fronteras?",
+  "etiqueta": "Grado de importancia del entendimiento entre España y Marruecos para garantizar la seguridad de las fronteras",
+  "tema": "Sociedad",
+  "fecha": "sep 2026",
+  "n": 4042,
+  "opciones": [
+   "Mucha importancia",
+   "Bastante importancia",
+   "Ni mucha ni poca importancia",
+   "Poca importancia",
+   "Ninguna importancia",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.16
+ },
+ {
+  "id": "3577_P4",
+  "estudio": 3577,
+  "variable": "P4",
+  "texto": "¿Cree que la Unión Europea debería colaborar más con España para gestionar la situación de Ceuta?",
+  "etiqueta": "Colaboración o no de la Unión Europea con España para gestionar la situación de Ceuta",
+  "tema": "Sociedad",
+  "fecha": "sep 2026",
+  "n": 4042,
+  "opciones": [
+   "Sí, debería colaborar más",
+   "No, la colaboración actual es suficiente",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.26
+ },
+ {
+  "id": "3577_P5",
+  "estudio": 3577,
+  "variable": "P5",
+  "texto": "¿Cómo valora la situación de integración territorial de Ceuta y Melilla?",
+  "etiqueta": "Opinión sobre la situación de integración territorial de Ceuta y Melilla",
+  "tema": "Sociedad",
+  "fecha": "sep 2026",
+  "n": 4042,
+  "opciones": [
+   "Son territorios tan españoles como cualquier otro territorio de la península",
+   "Tienen una situación ambigua y especial que debe ser objeto de acuerdos y entendimiento con Marruecos",
+   "Otra respuesta",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.2
+ },
+ {
+  "id": "3577_P6",
+  "estudio": 3577,
+  "variable": "P6",
+  "texto": "¿Cuál es el grado de importancia que le otorga a mantener una política amistosa entre España y Marruecos?",
+  "etiqueta": "Grado de importancia de mantener una política amistosa entre España y Marruecos",
+  "tema": "Sociedad",
+  "fecha": "sep 2026",
+  "n": 4042,
+  "opciones": [
+   "Mucha importancia",
+   "Bastante importancia",
+   "Ni mucha ni poca importancia",
+   "Poca importancia",
+   "Ninguna importancia",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.38
+ },
+ {
+  "id": "3577_P7",
+  "estudio": 3577,
+  "variable": "P7",
+  "texto": "¿Han existido actores que han interferido en las relaciones entre España y Marruecos?",
+  "etiqueta": "Existencia de actores que han interferido en las relaciones entre España y Marruecos con motivo de los incidentes fronterizos del verano del 2026",
+  "tema": "Sociedad",
+  "fecha": "sep 2026",
+  "n": 4042,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.67
+ },
+ {
+  "id": "3577_P8",
+  "estudio": 3577,
+  "variable": "P8",
+  "texto": "¿Cuánto le preocupa la situación de los incendios en España?",
+  "etiqueta": "Grado de preocupación por los incendios",
+  "tema": "Medio ambiente",
+  "fecha": "sep 2026",
+  "n": 4042,
+  "opciones": [
+   "Mucho",
+   "Bastante",
+   "Regular",
+   "Poco",
+   "Nada",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.11
+ },
+ {
+  "id": "3577_P9",
+  "estudio": 3577,
+  "variable": "P9",
+  "texto": "¿Ha sido afectado personal o familiarmente por los incendios del verano de 2026?",
+  "etiqueta": "Afectación personal o familiar por los incendios del verano del 2026",
+  "tema": "Medio ambiente",
+  "fecha": "sep 2026",
+  "n": 4042,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.13
+ },
+ {
+  "id": "3577_P10",
+  "estudio": 3577,
+  "variable": "P10",
+  "texto": "¿Cree que en el futuro su familia o usted mismo podrán ser afectados por algún incendio?",
+  "etiqueta": "Afectación personal o familiar futura por algún incendio",
+  "tema": "Medio ambiente",
+  "fecha": "sep 2026",
+  "n": 4042,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.18
+ },
+ {
+  "id": "3577_P11",
+  "estudio": 3577,
+  "variable": "P11",
+  "texto": "¿Qué competencias debería tener el Gobierno central en la prevención y lucha contra los incendios?",
+  "etiqueta": "Atribución de competencias en la prevención y lucha contra los incendios",
+  "tema": "Medio ambiente",
+  "fecha": "sep 2026",
+  "n": 4042,
+  "opciones": [
+   "Deben continuar en las comunidades autónomas",
+   "Deben pasar a ser competencia del Gobierno central",
+   "De ambos en colaboración",
+   "Otras respuestas",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.41
+ },
+ {
+  "id": "3577_P12",
+  "estudio": 3577,
+  "variable": "P12",
+  "texto": "¿Necesita un pacto de Estado para hacer frente a las emergencias del cambio climático?",
+  "etiqueta": "Necesidad de un pacto de Estado para hacer frente a las emergencias del cambio climático",
+  "tema": "Medio ambiente",
+  "fecha": "sep 2026",
+  "n": 4042,
+  "opciones": [
+   "Sí es necesario",
+   "No es necesario",
+   "Depende de la evolución de la situación",
+   "Otras respuestas",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.15
+ },
+ {
+  "id": "3577_P13",
+  "estudio": 3577,
+  "variable": "P13",
+  "texto": "¿Cuánto le preocupa el cambio climático?",
+  "etiqueta": "Grado de preocupación por el cambio climático",
+  "tema": "Medio ambiente",
+  "fecha": "sep 2026",
+  "n": 4042,
+  "opciones": [
+   "Mucho",
+   "Bastante",
+   "Regular",
+   "Poco",
+   "Nada",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.37
+ },
+ {
+  "id": "3577_P14",
+  "estudio": 3577,
+  "variable": "P14",
+  "texto": "¿Cuánto se preocupa sobre la invasión de Rusia a Ucrania?",
+  "etiqueta": "Grado de preocupación por la invasión de Rusia a Ucrania",
+  "tema": "Sociedad",
+  "fecha": "sep 2026",
+  "n": 4042,
+  "opciones": [
+   "Muy preocupado/a",
+   "Bastante preocupado/a",
+   "Algo preocupado/a",
+   "Poco preocupado/a",
+   "Nada preocupado/a",
+   "No tiene criterio",
+   "Le es indiferente",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.23
+ },
+ {
+  "id": "3577_P15",
+  "estudio": 3577,
+  "variable": "P15",
+  "texto": "¿Cuánto se preocupa por el conflicto en Oriente Próximo?",
+  "etiqueta": "Grado de preocupación por el conflicto en Oriente Próximo",
+  "tema": "Sociedad",
+  "fecha": "sep 2026",
+  "n": 4042,
+  "opciones": [
+   "Muy preocupado/a",
+   "Bastante preocupado/a",
+   "Algo preocupado/a",
+   "Poco preocupado/a",
+   "Nada preocupado/a",
+   "No tiene criterio",
+   "Le es indiferente",
+   "No tiene información, no sabe de qué guerra se trata",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.07
+ },
+ {
+  "id": "3577_ECOPER",
+  "estudio": 3577,
+  "variable": "ECOPER",
+  "texto": "¿Cómo valoraría la situación económica personal actual?",
+  "etiqueta": "Valoración de la situación económica personal actual",
+  "tema": "Consumo",
+  "fecha": "sep 2026",
+  "n": 4042,
+  "opciones": [
+   "Muy buena",
+   "Buena",
+   "Regular",
+   "Mala",
+   "Muy mala",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.53
+ },
+ {
+  "id": "3577_ECOESP",
+  "estudio": 3577,
+  "variable": "ECOESP",
+  "texto": "¿Cómo valoraría la situación económica general de España?",
+  "etiqueta": "Valoración de la situación económica general de España",
+  "tema": "Consumo",
+  "fecha": "sep 2026",
+  "n": 4042,
+  "opciones": [
+   "Muy buena",
+   "Buena",
+   "Regular",
+   "Mala",
+   "Muy mala",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.42
+ },
+ {
+  "id": "8825_P1",
+  "estudio": 8825,
+  "variable": "P1",
+  "texto": "¿Cómo valoraría el funcionamiento del sistema sanitario español?",
+  "etiqueta": "Valoración del funcionamiento del sistema sanitario español",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "En general, funciona bastante bien",
+   "Funciona bien, aunque son necesarios algunos cambios",
+   "Necesita cambios fundamentales, aunque algunas cosas funcionan",
+   "Funciona mal y necesita cambios profundos",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.06
+ },
+ {
+  "id": "8825_P2",
+  "estudio": 8825,
+  "variable": "P2",
+  "texto": "¿Cuál es su nivel de satisfacción con el funcionamiento del sistema sanitario español?",
+  "etiqueta": "Escala de satisfacción (1-10) con el funcionamiento del sistema sanitario español",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.61
+ },
+ {
+  "id": "8825_P3_1",
+  "estudio": 8825,
+  "variable": "P3_1",
+  "texto": "¿Qué tipo de servicio sanitario utilizaría en caso de necesitar acudir a una consulta de médico de cabecera o pediatría?",
+  "etiqueta": "Consultas de médicos/as de cabecera (o de familia) y pediatría",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Público",
+   "Privado",
+   "Ambos",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.31
+ },
+ {
+  "id": "8825_P3_2",
+  "estudio": 8825,
+  "variable": "P3_2",
+  "texto": "¿Qué tipo de servicio sanitario utilizaría en caso de necesitar acudir a una consulta de especialista?",
+  "etiqueta": "Consultas de especialistas",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Público",
+   "Privado",
+   "Ambos",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.31
+ },
+ {
+  "id": "8825_P3_3",
+  "estudio": 8825,
+  "variable": "P3_3",
+  "texto": "¿En caso de necesitar ingreso en hospital, utilizaría un servicio sanitario público, privado o ambos?",
+  "etiqueta": "Ingreso en hospital",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Público",
+   "Privado",
+   "Ambos",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.38
+ },
+ {
+  "id": "8825_P4ES_1",
+  "estudio": 8825,
+  "variable": "P4ES_1",
+  "texto": "¿Cuán satisfecho está con las consultas de atención primaria en centros de salud?",
+  "etiqueta": "Consultas de atención primaria en centros de salud (médicos/as de familia o de cabecera)",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.92
+ },
+ {
+  "id": "8825_P4ES_2",
+  "estudio": 8825,
+  "variable": "P4ES_2",
+  "texto": "¿Cuán satisfecho está con las consultas de atención especializada con especialistas?",
+  "etiqueta": "Consultas de atención especializada (especialistas)",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.94
+ },
+ {
+  "id": "8825_P4ES_3",
+  "estudio": 8825,
+  "variable": "P4ES_3",
+  "texto": "¿Cuál es tu nivel de satisfacción con las urgencias en hospitales públicos?",
+  "etiqueta": "Urgencias en hospitales públicos",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.51
+ },
+ {
+  "id": "8825_P4ES_4",
+  "estudio": 8825,
+  "variable": "P4ES_4",
+  "texto": "¿Cuál es tu nivel de satisfacción con el servicio de Urgencias 061 y 112?",
+  "etiqueta": "Urgencias 061 y 112",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.72
+ },
+ {
+  "id": "8825_P4ES_5",
+  "estudio": 8825,
+  "variable": "P4ES_5",
+  "texto": "¿Cuál es tu nivel de satisfacción con las urgencias de los centros de atención primaria?",
+  "etiqueta": "Urgencias de centros de atención primaria",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.15
+ },
+ {
+  "id": "8825_P4ES_6",
+  "estudio": 8825,
+  "variable": "P4ES_6",
+  "texto": "¿Cuán satisfecho está con el ingreso y la asistencia en hospitales públicos?",
+  "etiqueta": "Ingreso y asistencia en hospitales públicos",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.34
+ },
+ {
+  "id": "8825_P5",
+  "estudio": 8825,
+  "variable": "P5",
+  "texto": "¿En qué tipo de sanidad ha acudido en el último año?",
+  "etiqueta": "Asistencia al/la médico/a de familia de la sanidad pública o privada en el último año",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "En la sanidad pública",
+   "En la sanidad privada o médico/a privado/a",
+   "En ambas, en la pública y en la privada",
+   "En ninguna, no ha tenido consultas",
+   "N.R.",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.26
+ },
+ {
+  "id": "8825_P5A",
+  "estudio": 8825,
+  "variable": "P5A",
+  "texto": "¿Alguna vez ha necesitado consultar con su médico/a de familia de la sanidad pública y no lo ha conseguido?",
+  "etiqueta": "Imposibilidad de consultar con el/la médico/a de familia de la sanidad pública (en los últimos doce meses)",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Sí, alguna vez ha necesitado consultar y no lo ha conseguido",
+   "No, cuando lo ha necesitado ha podido consultar",
+   "No ha necesitado consultar con su médico/a de familia de la sanidad pública",
+   "Le/la atienden a través de una mutualidad del Estado en la sanidad privada",
+   "N.R.",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.49
+ },
+ {
+  "id": "8825_P5_1_1",
+  "estudio": 8825,
+  "variable": "P5_1_1",
+  "texto": "¿Ha mencionado síntomas, molestias o enfermedades nuevas como motivo para asistir al médico de familia de la sanidad pública?",
+  "etiqueta": "Síntomas, molestias o enfermedades nuevas",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Menciona",
+   "No menciona",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.78
+ },
+ {
+  "id": "8825_P5_1_2",
+  "estudio": 8825,
+  "variable": "P5_1_2",
+  "texto": "¿Ha mencionado una enfermedad ya diagnosticada como motivo de asistencia al médico de familia de la sanidad pública?",
+  "etiqueta": "Una enfermedad ya diagnosticada",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Menciona",
+   "No menciona",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.5
+ },
+ {
+  "id": "8825_P5_1_4",
+  "estudio": 8825,
+  "variable": "P5_1_4",
+  "texto": "¿Ha mencionado una renovación de recetas o consulta sobre recetas como motivo para asistir al médico de familia de la sanidad pública?",
+  "etiqueta": "Una renovación de recetas o consulta sobre recetas",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Menciona",
+   "No menciona",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.41
+ },
+ {
+  "id": "8825_P5_1_5",
+  "estudio": 8825,
+  "variable": "P5_1_5",
+  "texto": "¿Ha solicitado o renovado una baja médica a un médico de familia de la sanidad pública?",
+  "etiqueta": "Una solicitud o renovación de baja",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Menciona",
+   "No menciona",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.39
+ },
+ {
+  "id": "8825_P5_1_6",
+  "estudio": 8825,
+  "variable": "P5_1_6",
+  "texto": "¿Menciona el chequeo, revisión médica y protocolos de prevención como motivo de la asistencia al médico de familia de la sanidad pública?",
+  "etiqueta": "Chequeo, revisión médica y protocolos de prevención",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Menciona",
+   "No menciona",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.15
+ },
+ {
+  "id": "8825_P5_1_7",
+  "estudio": 8825,
+  "variable": "P5_1_7",
+  "texto": "¿Ha solicitado análisis y resultados (pruebas médicas y análisis) en su visita al médico de familia de la sanidad pública?",
+  "etiqueta": "Petición de analíticas y resultados (pruebas médicas y análisis)",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Menciona",
+   "No menciona",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.19
+ },
+ {
+  "id": "8825_P5_1_8",
+  "estudio": 8825,
+  "variable": "P5_1_8",
+  "texto": "¿Ha mencionado la petición de derivación a un especialista como motivo de asistencia al médico de familia de la sanidad pública?",
+  "etiqueta": "Petición de la derivación a un/a especialista",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Menciona",
+   "No menciona",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.15
+ },
+ {
+  "id": "8825_P5_1_9",
+  "estudio": 8825,
+  "variable": "P5_1_9",
+  "texto": "¿Ha mencionado un accidente o lesión como motivo para asistir al médico de familia de la sanidad pública?",
+  "etiqueta": "Accidente, lesión",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Menciona",
+   "No menciona",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.15
+ },
+ {
+  "id": "8825_P5_1_10",
+  "estudio": 8825,
+  "variable": "P5_1_10",
+  "texto": "¿Menciona que el motivo de la asistencia al médico de familia de la sanidad pública es procedimientos de enfermería (vacunación, puntos, curas)?",
+  "etiqueta": "Procedimientos de enfermería (vacunación, puntos, curas)",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Menciona",
+   "No menciona",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.17
+ },
+ {
+  "id": "8825_P5_1_11",
+  "estudio": 8825,
+  "variable": "P5_1_11",
+  "texto": "¿Ha ingresado en un hospital por una operación o intervención?",
+  "etiqueta": "Ingreso hospitalario (operación, intervención)",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Menciona",
+   "No menciona",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.17
+ },
+ {
+  "id": "8825_P5_1_98",
+  "estudio": 8825,
+  "variable": "P5_1_98",
+  "texto": "¿Menciona el motivo de la asistencia al médico de familia de la sanidad pública?",
+  "etiqueta": "(NO LEER) N.R.",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Menciona",
+   "No menciona",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.13
+ },
+ {
+  "id": "8825_P5B",
+  "estudio": 8825,
+  "variable": "P5B",
+  "texto": "¿Cómo ha consultado al médico de familia en el último año?",
+  "etiqueta": "Modo de consulta al/la médico/a de familia en el último año",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "En la consulta",
+   "Por teléfono",
+   "En el domicilio",
+   "Por correo electrónico o chat",
+   "Por videoconsulta",
+   "N.R./No está seguro/a",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.08
+ },
+ {
+  "id": "8825_P5C",
+  "estudio": 8825,
+  "variable": "P5C",
+  "texto": "¿Cuánto tiempo tardó en ser atendido/a por el médico/a de familia de la sanidad pública la última vez?",
+  "etiqueta": "Tiempo transcurrido hasta que le/la atendió el/la médico/a de familia de la sanidad pública la última vez",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Le/la atendió ese mismo día que la pidió",
+   "Le/la atendió al día siguiente",
+   "Pasó más de un día porque no había cita antes",
+   "Pasó más de un día porque la cita que le daban no le venía bien",
+   "Solo ha tenido citas programadas en los últimos doce meses",
+   "En su centro de salud no hay que pedir cita",
+   "N.R.",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.27
+ },
+ {
+  "id": "8825_P5D_1",
+  "estudio": 8825,
+  "variable": "P5D_1",
+  "texto": "¿Pudo dar su opinión o participar en las decisiones sobre su problema de salud y su tratamiento, tanto como Ud. hubiera deseado?",
+  "etiqueta": "Pudo dar su opinión o participar en las decisiones sobre su problema de salud y su tratamiento, tanto como Ud. hubiera deseado",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.84
+ },
+ {
+  "id": "8825_P5D_2",
+  "estudio": 8825,
+  "variable": "P5D_2",
+  "texto": "¿Le dio el médico la oportunidad de hacer preguntas o plantear preocupaciones?",
+  "etiqueta": "Le dio el/la médico/a la oportunidad de hacer preguntas o plantear preocupaciones",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.58
+ },
+ {
+  "id": "8825_P5D_3",
+  "estudio": 8825,
+  "variable": "P5D_3",
+  "texto": "¿Tuvo que esperar más de una hora en la sala de espera hasta entrar en la consulta?",
+  "etiqueta": "Tuvo Ud. que esperar más de una hora en la sala de espera hasta entrar en la consulta (le atendieron en la consulta)",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.52
+ },
+ {
+  "id": "8825_P5D_4",
+  "estudio": 8825,
+  "variable": "P5D_4",
+  "texto": "¿El médico o la médica de atención primaria le explicó las cosas de una forma fácil de entender?",
+  "etiqueta": "El médico o la médica de atención primaria le explicó las cosas de una forma fácil de entender",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.19
+ },
+ {
+  "id": "8825_P5E_1",
+  "estudio": 8825,
+  "variable": "P5E_1",
+  "texto": "¿Cuánta confianza y seguridad le transmite el personal médico en la atención primaria de la sanidad pública?",
+  "etiqueta": "La confianza y seguridad que transmite el personal médico",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.63
+ },
+ {
+  "id": "8825_P5E_2",
+  "estudio": 8825,
+  "variable": "P5E_2",
+  "texto": "¿Cuánta confianza y seguridad le transmite la/el profesional de enfermería?",
+  "etiqueta": "La confianza y seguridad que transmite la/el profesional de enfermería",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.54
+ },
+ {
+  "id": "8825_P5E_3",
+  "estudio": 8825,
+  "variable": "P5E_3",
+  "texto": "¿Cuánto tiempo dedican los médicos a cada paciente en la atención primaria de la sanidad pública?",
+  "etiqueta": "El tiempo dedicado por el personal médico a cada enfermo/a",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.47
+ },
+ {
+  "id": "8825_P5E_4",
+  "estudio": 8825,
+  "variable": "P5E_4",
+  "texto": "¿Cuán satisfecho está con el conocimiento del historial y seguimiento de los problemas de salud por parte de la atención primaria?",
+  "etiqueta": "El conocimiento del historial y seguimiento de los problemas de salud",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.65
+ },
+ {
+  "id": "8825_P5E_5",
+  "estudio": 8825,
+  "variable": "P5E_5",
+  "texto": "¿Cuán satisfecho/a está con la información recibida sobre su problema de salud?",
+  "etiqueta": "La información recibida sobre su problema de salud",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.7
+ },
+ {
+  "id": "8825_P5F",
+  "estudio": 8825,
+  "variable": "P5F",
+  "texto": "¿Cómo valoraría la atención recibida en las consultas de medicina de familia de la sanidad pública?",
+  "etiqueta": "Valoración de la atención recibida en las consultas de medicina de familia de la sanidad pública",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Muy buena",
+   "Buena",
+   "Regular",
+   "Mala",
+   "Muy mala",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.46
+ },
+ {
+  "id": "8825_P5G",
+  "estudio": 8825,
+  "variable": "P5G",
+  "texto": "¿Ha realizado una consulta telefónica con su médico de familia en la sanidad pública en el último año?",
+  "etiqueta": "Consulta telefónica con el/la médico/a de familia de la sanidad pública en el último año",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.8
+ },
+ {
+  "id": "8825_P6",
+  "estudio": 8825,
+  "variable": "P6",
+  "texto": "¿En qué tipo de sanidad ha acudido en el último año al servicio de urgencias?",
+  "etiqueta": "Asistencia al servicio de urgencias durante el último año",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "La sanidad pública",
+   "La sanidad privada",
+   "Ambas, pública y privada",
+   "Ninguna, no ha tenido que acudir a urgencias",
+   "N.R.",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.75
+ },
+ {
+  "id": "8825_P7",
+  "estudio": 8825,
+  "variable": "P7",
+  "texto": "¿Ha asistido a un médico de atención especializada en el último año?",
+  "etiqueta": "Asistencia al/la médico/a de atención especializada durante el último año",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "En la sanidad pública",
+   "En la sanidad privada o un/a médico/a privado/a",
+   "En ambas",
+   "En ninguna, no ha tenido consultas con especialistas",
+   "N.R.",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.26
+ },
+ {
+  "id": "8825_P8",
+  "estudio": 8825,
+  "variable": "P8",
+  "texto": "¿Ha consultado a un profesional sanitario de salud mental durante el último año?",
+  "etiqueta": "Consulta a un/a profesional sanitario/a de salud mental durante el último año",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.75
+ },
+ {
+  "id": "8825_P9",
+  "estudio": 8825,
+  "variable": "P9",
+  "texto": "¿En qué tipo de establecimiento hospitalario ha estado ingresado en el último año?",
+  "etiqueta": "Ingreso hospitalario en el último año",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "En un hospital público",
+   "En un hospital privado o clínica privada",
+   "En ambos (público y privado)",
+   "En ninguno, no ha estado ingresado/a",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.17
+ },
+ {
+  "id": "8825_P11",
+  "estudio": 8825,
+  "variable": "P11",
+  "texto": "¿Cómo valora la comunicación y coordinación entre distintos servicios médicos del sistema público?",
+  "etiqueta": "Opinión personal sobre la buena comunicación y coordinación entre distintos servicios médicos del sistema público",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Muy buena",
+   "Buena",
+   "Regular",
+   "Mala",
+   "Muy mala",
+   "Otra respuesta",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.39
+ },
+ {
+  "id": "8825_P12",
+  "estudio": 8825,
+  "variable": "P12",
+  "texto": "¿Cómo ha sido la situación de las listas de espera en la sanidad pública en los últimos 12 meses?",
+  "etiqueta": "Valoración retrospectiva (1 año) de las listas de espera en la sanidad pública",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Ha mejorado",
+   "Ha empeorado",
+   "Sigue igual",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.17
+ },
+ {
+  "id": "8825_P13",
+  "estudio": 8825,
+  "variable": "P13",
+  "texto": "¿En el último año le ha sido imposible tomar el medicamento recetado por su coste económico?",
+  "etiqueta": "Imposibilidad de tomar el medicamento recetado por su coste económico en el último año",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Sí",
+   "No",
+   "No le han recetado medicamentos en la sanidad pública",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.62
+ },
+ {
+  "id": "8825_P14",
+  "estudio": 8825,
+  "variable": "P14",
+  "texto": "¿Tiene acceso a su historia clínica a través de Internet?",
+  "etiqueta": "Acceso a la historia clínica por Internet",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Sí",
+   "No",
+   "No utiliza la sanidad pública",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.07
+ },
+ {
+  "id": "8825_P15",
+  "estudio": 8825,
+  "variable": "P15",
+  "texto": "¿Sabe que los médicos pueden acceder a la historia clínica de los pacientes por Internet desde otra comunidad autónoma?",
+  "etiqueta": "Conocimiento de la posibilidad del acceso de los/las médicos/as a la historia clínica por Internet desde otra comunidad autónoma",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Sí lo sabía",
+   "No lo sabía",
+   "No utiliza la sanidad pública",
+   "La persona dice que no es cierto que se puedan consultar",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.61
+ },
+ {
+  "id": "8825_P16",
+  "estudio": 8825,
+  "variable": "P16",
+  "texto": "¿Ha recibido asistencia médica en otro lugar que no sea su comunidad autónoma de residencia en el último año?",
+  "etiqueta": "Asistencia médica fuera de la comunidad autónoma de residencia en último año",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.15
+ },
+ {
+  "id": "8825_P17",
+  "estudio": 8825,
+  "variable": "P17",
+  "texto": "¿Conoce la posibilidad de retirar medicamentos con receta electrónica fuera de su comunidad autónoma?",
+  "etiqueta": "Conocimiento de la posibilidad de retirar medicamentos con receta electrónica fuera de su comunidad autónoma",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Sí lo sabía y la ha utilizado",
+   "Sí lo sabía, pero no la ha utilizado",
+   "No lo sabía",
+   "No usa recetas de la sanidad pública",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.85
+ },
+ {
+  "id": "8825_P18_1",
+  "estudio": 8825,
+  "variable": "P18_1",
+  "texto": "¿Tiene la sanidad pública como tipo de seguro sanitario?",
+  "etiqueta": "La sanidad pública",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Menciona",
+   "No menciona"
+  ],
+  "error_calibracion_pts": 0.9
+ },
+ {
+  "id": "8825_P18_2",
+  "estudio": 8825,
+  "variable": "P18_2",
+  "texto": "¿Tiene una mutualidad de funcionarios con atención por la sanidad pública?",
+  "etiqueta": "Una mutualidad de funcionarios con atención por la sanidad pública",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Menciona",
+   "No menciona"
+  ],
+  "error_calibracion_pts": 0.45
+ },
+ {
+  "id": "8825_P18_3",
+  "estudio": 8825,
+  "variable": "P18_3",
+  "texto": "¿Tiene una mutualidad de funcionarios con atención por la sanidad privada?",
+  "etiqueta": "Una mutualidad de funcionarios con atención por la sanidad privada",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Menciona",
+   "No menciona"
+  ],
+  "error_calibracion_pts": 0.39
+ },
+ {
+  "id": "8825_P18_4",
+  "estudio": 8825,
+  "variable": "P18_4",
+  "texto": "¿Tiene Ud. un seguro médico privado contratado por Ud. o alguna persona de su familia?",
+  "etiqueta": "Un seguro médico privado, contratado por Ud. o alguna persona de su familia",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Menciona",
+   "No menciona"
+  ],
+  "error_calibracion_pts": 0.12
+ },
+ {
+  "id": "8825_P18_5",
+  "estudio": 8825,
+  "variable": "P18_5",
+  "texto": "¿Tiene un seguro médico privado contratado por su empresa?",
+  "etiqueta": "Un seguro médico privado, contratado por la empresa",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Menciona",
+   "No menciona"
+  ],
+  "error_calibracion_pts": 0.46
+ },
+ {
+  "id": "8825_P19_1",
+  "estudio": 8825,
+  "variable": "P19_1",
+  "texto": "¿Considera que los servicios que ofrece la asistencia sanitaria de su comunidad autónoma son mejores, iguales o peores que los del resto del Estado?",
+  "etiqueta": "Los servicios que ofrece",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Mejor",
+   "Igual",
+   "Peor",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.08
+ },
+ {
+  "id": "8825_P19_2",
+  "estudio": 8825,
+  "variable": "P19_2",
+  "texto": "¿Considera que los medios técnicos de su comunidad autónoma son mejores, iguales o peores que en el resto del Estado?",
+  "etiqueta": "Los medios técnicos que tiene",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Mejor",
+   "Igual",
+   "Peor",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.93
+ },
+ {
+  "id": "8825_P19_3",
+  "estudio": 8825,
+  "variable": "P19_3",
+  "texto": "¿Cómo está organizada la asistencia sanitaria en su comunidad autónoma en comparación con el resto del Estado?",
+  "etiqueta": "Cómo está organizada",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Mejor",
+   "Igual",
+   "Peor",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.96
+ },
+ {
+  "id": "8825_P19_4",
+  "estudio": 8825,
+  "variable": "P19_4",
+  "texto": "¿Cómo considera que está financiada la asistencia sanitaria en su comunidad autónoma en comparación con el resto del Estado?",
+  "etiqueta": "Cómo está financiada",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Mejor",
+   "Igual",
+   "Peor",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.54
+ },
+ {
+  "id": "8825_P21",
+  "estudio": 8825,
+  "variable": "P21",
+  "texto": "¿Conoce las herramientas de inteligencia artificial aplicadas a la salud o los servicios sanitarios?",
+  "etiqueta": "Conocimiento de las herramientas de inteligencia artificial aplicadas a la salud o los servicios sanitarios",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.79
+ },
+ {
+  "id": "8825_P22_1",
+  "estudio": 8825,
+  "variable": "P22_1",
+  "texto": "¿Cuán cómodo/a se siente Ud. hablando con una IA durante una consulta médica que necesita?",
+  "etiqueta": "Hablar con una IA (asistente virtual) durante una consulta médica que Ud. necesita",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.81
+ },
+ {
+  "id": "8825_P22_2",
+  "estudio": 8825,
+  "variable": "P22_2",
+  "texto": "¿Cuánto te incomoda someterte a una operación quirúrgica realizada mediante un robot?",
+  "etiqueta": "Someterse a una operación quirúrgica realizada mediante un robot",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.51
+ },
+ {
+  "id": "8825_P22_3",
+  "estudio": 8825,
+  "variable": "P22_3",
+  "texto": "¿Cuán cómodo/a te sientes si un sistema de inteligencia artificial interpreta tus radiografías?",
+  "etiqueta": "Que interprete sus radiografías un sistema de inteligencia artificial",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.44
+ },
+ {
+  "id": "8825_P22_4",
+  "estudio": 8825,
+  "variable": "P22_4",
+  "texto": "¿Cómo se siente al pensar en seguir la evolución de su enfermedad con la ayuda de un asistente virtual con IA?",
+  "etiqueta": "Que siga la evolución de su enfermedad un asistente virtual con IA",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Bajo (0-3)",
+   "Medio (4-6)",
+   "Alto (7-10)",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.1
+ },
+ {
+  "id": "8825_P23",
+  "estudio": 8825,
+  "variable": "P23",
+  "texto": "¿Cuánto se preocupa usted por que las empresas privadas utilicen datos clínicos para desarrollar la inteligencia artificial?",
+  "etiqueta": "Grado de preocupación por la utilización de datos clínicos por empresas privadas para desarrollar la inteligencia artificial",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Muy preocupado/a",
+   "Bastante preocupado/a",
+   "Regular",
+   "Poco preocupado/a",
+   "Nada preocupado/a",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.46
+ },
+ {
+  "id": "8825_P24",
+  "estudio": 8825,
+  "variable": "P24",
+  "texto": "¿Cuánto se preocupa usted por que las instituciones públicas utilicen datos clínicos para desarrollar la inteligencia artificial?",
+  "etiqueta": "Grado de preocupación por la utilización de datos clínicos por instituciones públicas para desarrollar la inteligencia artificial",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Muy preocupado/a",
+   "Bastante preocupado/a",
+   "Regular",
+   "Poco preocupado/a",
+   "Nada preocupado/a",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.67
+ },
+ {
+  "id": "8825_P25_1",
+  "estudio": 8825,
+  "variable": "P25_1",
+  "texto": "¿Legislar de forma específica en temas de salud?",
+  "etiqueta": "Legislar de forma específica en temas de salud",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Muy de acuerdo",
+   "De acuerdo",
+   "Ni de acuerdo ni en desacuerdo",
+   "En desacuerdo",
+   "Muy en desacuerdo",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.9
+ },
+ {
+  "id": "8825_P25_2",
+  "estudio": 8825,
+  "variable": "P25_2",
+  "texto": "¿Es importante informar al paciente cuando los servicios sanitarios utilizan inteligencia artificial en su atención?",
+  "etiqueta": "Informar al paciente cuando los servicios sanitarios utilizan inteligencia artificial en su atención",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Muy de acuerdo",
+   "De acuerdo",
+   "Ni de acuerdo ni en desacuerdo",
+   "En desacuerdo",
+   "Muy en desacuerdo",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.76
+ },
+ {
+  "id": "8825_P25_3",
+  "estudio": 8825,
+  "variable": "P25_3",
+  "texto": "¿Daría usted la posibilidad al paciente de negarse a que se utilicen sus datos clínicos para desarrollar sistemas de inteligencia artificial?",
+  "etiqueta": "Dar la posibilidad al paciente de negarse a que se utilicen sus datos clínicos para desarrollar sistemas de inteligencia artificial",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Muy de acuerdo",
+   "De acuerdo",
+   "Ni de acuerdo ni en desacuerdo",
+   "En desacuerdo",
+   "Muy en desacuerdo",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.37
+ },
+ {
+  "id": "8825_ESTSALUD",
+  "estudio": 8825,
+  "variable": "ESTSALUD",
+  "texto": "¿Cómo considera que está su estado de salud en general?",
+  "etiqueta": "Estado de salud en general",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Muy bueno",
+   "Bueno",
+   "Regular",
+   "Malo",
+   "Muy malo",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.59
+ },
+ {
+  "id": "8825_ENFCRONICA",
+  "estudio": 8825,
+  "variable": "ENFCRONICA",
+  "texto": "¿Tiene algún problema de salud crónico?",
+  "etiqueta": "Tenencia de algún problema de salud crónico",
+  "tema": "Salud",
+  "fecha": "2025",
+  "n": 7197,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.07
+ },
+ {
+  "id": "3569_P1_1_1",
+  "estudio": 3569,
+  "variable": "P1_1_1",
+  "texto": "¿Ha adquirido usted algún automóvil o moto para el hogar en los últimos meses?",
+  "etiqueta": "Sí, él/ella ha adquirido",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Sí",
+   "No"
+  ],
+  "error_calibracion_pts": 0.21
+ },
+ {
+  "id": "3569_P1_1_2",
+  "estudio": 3569,
+  "variable": "P1_1_2",
+  "texto": "¿Ha adquirido otra persona de su hogar algún electrodoméstico pequeño?",
+  "etiqueta": "Sí, lo ha adquirido otra persona de su hogar",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Sí",
+   "No"
+  ],
+  "error_calibracion_pts": 0.57
+ },
+ {
+  "id": "3569_P1_2_1",
+  "estudio": 3569,
+  "variable": "P1_2_1",
+  "texto": "¿Ha adquirido usted algún automóvil o moto para el hogar en los últimos meses?",
+  "etiqueta": "Sí, él/ella ha adquirido",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Sí",
+   "No"
+  ],
+  "error_calibracion_pts": 2.15
+ },
+ {
+  "id": "3569_P1_2_2",
+  "estudio": 3569,
+  "variable": "P1_2_2",
+  "texto": "¿Ha adquirido otra persona de su hogar algún electrodoméstico pequeño?",
+  "etiqueta": "Sí, lo ha adquirido otra persona de su hogar",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Sí",
+   "No"
+  ],
+  "error_calibracion_pts": 0.91
+ },
+ {
+  "id": "3569_P1_3_1",
+  "estudio": 3569,
+  "variable": "P1_3_1",
+  "texto": "¿Ha adquirido usted algún automóvil o moto para el hogar en los últimos meses?",
+  "etiqueta": "Sí, él/ella ha adquirido",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Sí",
+   "No"
+  ],
+  "error_calibracion_pts": 1.33
+ },
+ {
+  "id": "3569_P1_3_2",
+  "estudio": 3569,
+  "variable": "P1_3_2",
+  "texto": "¿Ha adquirido otra persona de su hogar algún electrodoméstico pequeño?",
+  "etiqueta": "Sí, lo ha adquirido otra persona de su hogar",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Sí",
+   "No"
+  ],
+  "error_calibracion_pts": 0.62
+ },
+ {
+  "id": "3569_P1_4_1",
+  "estudio": 3569,
+  "variable": "P1_4_1",
+  "texto": "¿Ha adquirido usted algún automóvil o moto para el hogar en los últimos meses?",
+  "etiqueta": "Sí, él/ella ha adquirido",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Sí",
+   "No"
+  ],
+  "error_calibracion_pts": 0.46
+ },
+ {
+  "id": "3569_P1_4_2",
+  "estudio": 3569,
+  "variable": "P1_4_2",
+  "texto": "¿Ha adquirido otra persona de su hogar algún electrodoméstico pequeño?",
+  "etiqueta": "Sí, lo ha adquirido otra persona de su hogar",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Sí",
+   "No"
+  ],
+  "error_calibracion_pts": 0.47
+ },
+ {
+  "id": "3569_P2",
+  "estudio": 3569,
+  "variable": "P2",
+  "texto": "¿Cuál es la situación de ahorro mensual en su hogar?",
+  "etiqueta": "Capacidad de ahorro mensual en el hogar",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Le resulta difícil llegar a final de mes, por lo que ha tenido que contraer deudas",
+   "Le resulta difícil llegar a final de mes, por lo que ha tenido que echar mano de sus ahorros",
+   "Llega justo a final de mes",
+   "Ahorra un poco de dinero cada mes",
+   "Ahorra bastante dinero cada mes",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.38
+ },
+ {
+  "id": "3569_P3",
+  "estudio": 3569,
+  "variable": "P3",
+  "texto": "¿Cómo valoraría la situación económica de su hogar en los últimos 6 meses?",
+  "etiqueta": "Valoración retrospectiva de la situación económica del hogar (6 meses)",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Mejor",
+   "Igual",
+   "Peor",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.4
+ },
+ {
+  "id": "3569_NUMPERSONAS",
+  "estudio": 3569,
+  "variable": "NUMPERSONAS",
+  "texto": "¿Cuántas personas del entorno están en paro y buscando trabajo?",
+  "etiqueta": "Número de personas del entorno en paro y buscando trabajo",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "0",
+   "1 persona",
+   "2 personas",
+   "3 personas",
+   "4 personas",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.28
+ },
+ {
+  "id": "3569_P6",
+  "estudio": 3569,
+  "variable": "P6",
+  "texto": "¿Ha notado cambios en el número de personas del entorno que están en paro y buscando trabajo en los últimos 6 meses?",
+  "etiqueta": "Evolución del número de personas del entorno en paro y buscando trabajo (6 meses)",
+  "tema": "Sociedad",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Más",
+   "El mismo número",
+   "Menos",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.62
+ },
+ {
+  "id": "3569_P7",
+  "estudio": 3569,
+  "variable": "P7",
+  "texto": "¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en España en los últimos 6 meses?",
+  "etiqueta": "Valoración retrospectiva de la posibilidad de mejorar o encontrar empleo en España (6 meses)",
+  "tema": "Sociedad",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Mejor",
+   "Igual",
+   "Peor",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 3.19
+ },
+ {
+  "id": "3569_P7_1",
+  "estudio": 3569,
+  "variable": "P7_1",
+  "texto": "¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en su comunidad autónoma en los últimos 6 meses?",
+  "etiqueta": "Valoración retrospectiva de la posibilidad de mejorar o encontrar empleo en la comunidad autónoma (6 meses)",
+  "tema": "Sociedad",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Mejor",
+   "Igual",
+   "Peor",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 2.36
+ },
+ {
+  "id": "3569_P8",
+  "estudio": 3569,
+  "variable": "P8",
+  "texto": "¿Cómo valoraría la situación económica de España en los últimos 6 meses?",
+  "etiqueta": "Valoración retrospectiva de la situación económica de España (6 meses)",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Mejor",
+   "Igual",
+   "Peor",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.48
+ },
+ {
+  "id": "3569_P8_1",
+  "estudio": 3569,
+  "variable": "P8_1",
+  "texto": "¿Cómo valoraría la situación económica de la comunidad autónoma en los últimos 6 meses?",
+  "etiqueta": "Valoración retrospectiva de la situación económica de la comunidad autónoma (6 meses)",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Mejor",
+   "Igual",
+   "Peor",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.1
+ },
+ {
+  "id": "3569_P9",
+  "estudio": 3569,
+  "variable": "P9",
+  "texto": "¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en España en los próximos seis meses?",
+  "etiqueta": "Valoración prospectiva de la posibilidad de mejorar o encontrar empleo en España (6 meses)",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Mejor",
+   "Igual",
+   "Peor",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 3.67
+ },
+ {
+  "id": "3569_P9_1",
+  "estudio": 3569,
+  "variable": "P9_1",
+  "texto": "¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en la comunidad autónoma en los próximos 6 meses?",
+  "etiqueta": "Valoración prospectiva de la posibilidad de mejorar o encontrar empleo en la comunidad autónoma (6 meses)",
+  "tema": "Sociedad",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Mejor",
+   "Igual",
+   "Peor",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.25
+ },
+ {
+  "id": "3569_P10",
+  "estudio": 3569,
+  "variable": "P10",
+  "texto": "¿Piensa usted que en el próximo año tendrá más, igual o menos probabilidades de comprar bienes duraderos para su hogar?",
+  "etiqueta": "Valoración prospectiva de la probabilidad de adquirir para el hogar bienes duraderos (1 año)",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Mayores",
+   "Iguales",
+   "Menores",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.53
+ },
+ {
+  "id": "3569_P11",
+  "estudio": 3569,
+  "variable": "P11",
+  "texto": "¿Cómo cree que ha sido la evolución de su capacidad de ahorro en los últimos 12 meses?",
+  "etiqueta": "Evolución de la capacidad de ahorro personal (1 año)",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Mayores",
+   "Iguales",
+   "Menores",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.03
+ },
+ {
+  "id": "3569_P12",
+  "estudio": 3569,
+  "variable": "P12",
+  "texto": "¿Cómo cree que estará la situación económica de su hogar en los próximos 6 meses?",
+  "etiqueta": "Valoración prospectiva de la situación económica del hogar (6 meses)",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Mejor",
+   "Igual",
+   "Peor",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.97
+ },
+ {
+  "id": "3569_P14",
+  "estudio": 3569,
+  "variable": "P14",
+  "texto": "¿Cómo cree que estará la situación económica de España en los próximos seis meses?",
+  "etiqueta": "Valoración prospectiva de la situación económica de España (6 meses)",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Mejor",
+   "Igual",
+   "Peor",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.65
+ },
+ {
+  "id": "3569_P14_1",
+  "estudio": 3569,
+  "variable": "P14_1",
+  "texto": "¿Cómo cree que estará la situación económica de la comunidad autónoma en los próximos 6 meses?",
+  "etiqueta": "Valoración prospectiva de la situación económica de la comunidad autónoma (6 meses)",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Mejor",
+   "Igual",
+   "Peor",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.33
+ },
+ {
+  "id": "3569_P15",
+  "estudio": 3569,
+  "variable": "P15",
+  "texto": "¿Qué cree que será la inflación en España en el próximo año?",
+  "etiqueta": "Valoración prospectiva de la inflación en España (1 año)",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Más",
+   "Igual",
+   "Menos",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.5
+ },
+ {
+  "id": "3569_P16",
+  "estudio": 3569,
+  "variable": "P16",
+  "texto": "¿Cree que los tipos de interés en España subirán en el próximo año?",
+  "etiqueta": "Evolución de los tipos de interés en España (1 año)",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Subirá",
+   "Se mantendrá",
+   "Bajará",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.08
+ },
+ {
+  "id": "3569_P17",
+  "estudio": 3569,
+  "variable": "P17",
+  "texto": "¿Cree que el precio de la vivienda en España subirá, se mantendrá o bajará en el próximo año?",
+  "etiqueta": "Evolución del precio de la vivienda en España (1 año)",
+  "tema": "Vivienda",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Subirá",
+   "Se mantendrá",
+   "Bajará",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.77
+ },
+ {
+  "id": "3569_P18",
+  "estudio": 3569,
+  "variable": "P18",
+  "texto": "¿Tiene intención de comprar una vivienda en el próximo año?",
+  "etiqueta": "Intención de comprar una vivienda en el próximo año",
+  "tema": "Vivienda",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.23
+ },
+ {
+  "id": "3569_CURSOMULTIPLE_1_1",
+  "estudio": 3569,
+  "variable": "CURSOMULTIPLE_1_1",
+  "texto": "¿Tiene en curso un estudio oficial sobre educación primaria?",
+  "etiqueta": "Educación primaria",
+  "tema": "Sociedad",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.46
+ },
+ {
+  "id": "3569_CURSOMULTIPLE_1_3",
+  "estudio": 3569,
+  "variable": "CURSOMULTIPLE_1_3",
+  "texto": "¿Ha cursado educación secundaria obligatoria?",
+  "etiqueta": "Educación secundaria obligatoria",
+  "tema": "Sociedad",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.47
+ },
+ {
+  "id": "3569_CURSOMULTIPLE_1_4",
+  "estudio": 3569,
+  "variable": "CURSOMULTIPLE_1_4",
+  "texto": "¿Tiene la persona alguna formación profesional de grado medio en curso?",
+  "etiqueta": "FP de grado medio",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.59
+ },
+ {
+  "id": "3569_CURSOMULTIPLE_1_6",
+  "estudio": 3569,
+  "variable": "CURSOMULTIPLE_1_6",
+  "texto": "¿Tiene la persona alguna formación profesional de grado superior?",
+  "etiqueta": "FP de grado superior",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.43
+ },
+ {
+  "id": "3569_CURSOMULTIPLE_1_7",
+  "estudio": 3569,
+  "variable": "CURSOMULTIPLE_1_7",
+  "texto": "¿Está realizando estudios universitarios?",
+  "etiqueta": "Estudios universitarios",
+  "tema": "Sociedad",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.8
+ },
+ {
+  "id": "3569_CURSOMULTIPLE_1_8",
+  "estudio": 3569,
+  "variable": "CURSOMULTIPLE_1_8",
+  "texto": "¿Está realizando estudios oficiales de posgrado o doctorado?",
+  "etiqueta": "Estudios oficiales de posgrado y doctorado",
+  "tema": "Sociedad",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.43
+ },
+ {
+  "id": "3569_CURSOMULTIPLE_1_9",
+  "estudio": 3569,
+  "variable": "CURSOMULTIPLE_1_9",
+  "texto": "¿Está realizando otros estudios?",
+  "etiqueta": "Otros estudios",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.39
+ },
+ {
+  "id": "3569_CURSOMULTIPLE_1_10",
+  "estudio": 3569,
+  "variable": "CURSOMULTIPLE_1_10",
+  "texto": "¿No está cursando estudios?",
+  "etiqueta": "No está cursando estudios",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Sí",
+   "No",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.36
+ },
+ {
+  "id": "3569_P25B",
+  "estudio": 3569,
+  "variable": "P25B",
+  "texto": "¿Cuántas personas hay en su hogar con ingresos?",
+  "etiqueta": "Número de personas en el hogar con ingresos",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Ninguna",
+   "1 persona",
+   "2 personas",
+   "3 personas",
+   "4 personas",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 1.22
+ },
+ {
+  "id": "3569_INGREHOG",
+  "estudio": 3569,
+  "variable": "INGREHOG",
+  "texto": "¿Cuál es el nivel de ingresos del hogar?",
+  "etiqueta": "Nivel de ingresos del hogar",
+  "tema": "Consumo",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Menos de 1.100 €",
+   "De 1.100 a 1.800 €",
+   "De 1.801 a 2.700 €",
+   "De 2.701 a 3.900 €",
+   "Más de 3.900 €",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 2.38
+ },
+ {
+  "id": "3569_MOMENNAC",
+  "estudio": 3569,
+  "variable": "MOMENNAC",
+  "texto": "¿Cuándo adquirió la nacionalidad española?",
+  "etiqueta": "Momento de la adquisición de la nacionalidad española",
+  "tema": "Sociedad",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Desde que nació",
+   "La ha adquirido con posterioridad",
+   "No tiene nacionalidad española",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.82
+ },
+ {
+  "id": "3569_VIVIENDA",
+  "estudio": 3569,
+  "variable": "VIVIENDA",
+  "texto": "¿Cómo es el régimen de tenencia de la vivienda en la que reside?",
+  "etiqueta": "Régimen de tenencia de vivienda",
+  "tema": "Vivienda",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "En propiedad por compra, totalmente pagada",
+   "En propiedad por compra y con pagos o hipotecas pendientes",
+   "En alquiler",
+   "En propiedad por herencia o donación",
+   "Cedida gratis o a bajo precio por un/a familiar, la empresa, etc.",
+   "Otra forma",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.76
+ },
+ {
+  "id": "3569_P36",
+  "estudio": 3569,
+  "variable": "P36",
+  "texto": "¿Cuál es su situación de tenencia de vivienda?",
+  "etiqueta": "Régimen de tenencia de vivienda [recodificada]",
+  "tema": "Vivienda",
+  "fecha": "jun 2026",
+  "n": 3023,
+  "opciones": [
+   "Propietarios/as",
+   "Propietarios/as con hipoteca",
+   "En alquiler",
+   "Otra situación",
+   "NS/NC"
+  ],
+  "error_calibracion_pts": 0.98
+ }
+]

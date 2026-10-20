@@ -1,0 +1,70 @@
+condicion,pregunta,tema,temperatura,error_total_pts,error_polo_pts,error_edad_pts,correlacion_edad,error_sexo_pts,error_uniforme_pts
+solo_demografia,clima_preocupacion,medio ambiente,2.0,19.39,-48.47,48.69,-0.81,48.29,16.76
+solo_demografia,clima_pacto_estado,medio ambiente,2.0,19.49,-29.24,28.95,0.19,29.14,31.58
+solo_demografia,medioambiente_futuro,medio ambiente,2.0,13.64,-16.88,17.65,0.27,16.7,14.31
+solo_demografia,ia_opinion,tecnología e IA,2.0,17.9,-44.75,43.22,0.72,44.71,20.76
+solo_demografia,robots_opinion,tecnología e IA,2.0,19.57,-48.93,48.28,0.81,48.89,19.98
+solo_demografia,robots_empleo,tecnología e IA,2.0,12.4,-37.2,37.54,-0.53,37.13,16.12
+solo_demografia,tecnologia_control_miedo,tecnología e IA,2.0,9.27,-19.04,19.37,0.16,18.97,4.8
+solo_demografia,ia_consulta_medica,tecnología e IA,2.0,15.51,5.33,6.11,-0.16,5.26,20.98
+solo_demografia,ia_radiografias,tecnología e IA,2.0,6.37,-9.16,10.0,-0.18,9.32,4.84
+solo_demografia,ia_datos_clinicos,tecnología e IA,2.0,12.73,-31.81,30.04,0.23,31.74,7.78
+solo_demografia,banca_online_habilidad,consumo,2.0,16.16,-32.32,31.56,0.99,32.18,9.15
+solo_demografia,soledad_temor,soledad,2.0,8.07,-8.41,9.49,0.06,8.26,6.64
+solo_demografia,soledad_sin_apoyo,soledad,2.0,5.71,-6.08,7.55,0.49,6.0,8.9
+solo_demografia,soledad_futuro,soledad,2.0,24.24,-36.36,35.74,-0.04,36.32,30.91
+solo_demografia,vivienda_temor_pago,vivienda,2.0,27.39,-41.09,41.63,0.07,40.8,19.64
+solo_demografia,vivienda_precio_futuro,vivienda,2.0,14.64,-21.96,21.93,,21.96,28.74
+solo_demografia,vivienda_comprar,vivienda,2.0,9.52,9.52,10.13,,9.51,38.7
+solo_demografia,salud_temor,salud,2.0,33.2,-49.8,50.1,0.74,49.6,29.31
+solo_demografia,sanidad_satisfaccion,salud,2.0,10.22,-15.34,16.4,0.77,15.35,12.36
+solo_demografia,ansioliticos,salud,2.0,0.74,0.74,3.41,0.41,6.11,34.6
+solo_demografia,economia_personal,consumo,2.0,31.33,10.42,10.55,0.17,10.4,21.51
+solo_demografia,economia_espana,consumo,2.0,21.07,19.3,18.81,0.18,19.35,17.69
+solo_demografia,crisis_temor,consumo,2.0,27.18,-40.77,41.13,-0.07,40.46,24.74
+demografia_y_actitudes,clima_preocupacion,medio ambiente,0.7,22.95,-57.38,58.4,0.27,57.29,16.76
+demografia_y_actitudes,clima_pacto_estado,medio ambiente,0.5,29.81,-41.56,42.47,0.71,41.55,31.58
+demografia_y_actitudes,medioambiente_futuro,medio ambiente,0.7,10.98,-10.25,11.36,0.54,10.37,14.31
+demografia_y_actitudes,ia_opinion,tecnología e IA,0.7,16.88,-42.2,40.01,0.31,41.86,20.76
+demografia_y_actitudes,robots_opinion,tecnología e IA,0.7,15.24,-38.09,36.36,0.71,38.06,19.98
+demografia_y_actitudes,robots_empleo,tecnología e IA,0.7,9.37,-13.55,13.11,0.32,16.78,16.12
+demografia_y_actitudes,tecnologia_control_miedo,tecnología e IA,0.5,16.65,-0.97,12.4,0.28,20.39,4.8
+demografia_y_actitudes,ia_consulta_medica,tecnología e IA,0.7,7.85,11.77,14.73,0.38,13.34,20.98
+demografia_y_actitudes,ia_radiografias,tecnología e IA,0.5,16.6,2.95,8.94,0.66,8.5,4.84
+demografia_y_actitudes,ia_datos_clinicos,tecnología e IA,0.5,12.03,-25.97,23.65,0.43,26.33,7.78
+demografia_y_actitudes,banca_online_habilidad,consumo,0.7,9.94,-19.87,18.58,0.88,19.41,9.15
+demografia_y_actitudes,soledad_temor,soledad,0.7,7.38,11.07,14.41,-0.54,11.11,6.64
+demografia_y_actitudes,soledad_sin_apoyo,soledad,0.5,19.27,10.28,11.63,-0.06,23.11,8.9
+demografia_y_actitudes,soledad_futuro,soledad,0.7,19.2,-28.79,29.65,-0.73,29.44,30.91
+demografia_y_actitudes,vivienda_temor_pago,vivienda,0.7,18.3,-27.46,27.6,0.48,27.52,19.64
+demografia_y_actitudes,vivienda_precio_futuro,vivienda,0.7,14.98,-22.47,21.0,,22.93,28.74
+demografia_y_actitudes,vivienda_comprar,vivienda,0.7,2.8,2.8,8.0,,5.99,38.7
+demografia_y_actitudes,salud_temor,salud,0.7,28.72,-43.08,43.56,0.53,43.15,29.31
+demografia_y_actitudes,sanidad_satisfaccion,salud,0.7,9.94,-14.9,16.26,0.92,14.72,12.36
+demografia_y_actitudes,ansioliticos,salud,0.7,2.97,2.97,5.2,0.42,6.87,34.6
+demografia_y_actitudes,economia_personal,consumo,0.7,26.17,30.09,30.03,0.02,29.55,21.51
+demografia_y_actitudes,economia_espana,consumo,0.7,19.73,9.61,19.96,-0.66,17.9,17.69
+demografia_y_actitudes,crisis_temor,consumo,0.7,16.58,-24.88,26.26,-0.86,24.84,24.74
+actitudes_relevantes,clima_preocupacion,medio ambiente,1.0,17.52,-43.79,46.2,0.24,43.77,16.76
+actitudes_relevantes,clima_pacto_estado,medio ambiente,1.0,19.56,-29.35,29.42,0.81,29.67,31.58
+actitudes_relevantes,medioambiente_futuro,medio ambiente,1.0,15.07,-22.61,23.05,0.22,22.6,14.31
+actitudes_relevantes,ia_opinion,tecnología e IA,1.0,9.82,-24.54,23.4,0.83,24.35,20.76
+actitudes_relevantes,robots_opinion,tecnología e IA,1.0,13.12,-32.81,32.69,0.84,32.73,19.98
+actitudes_relevantes,robots_empleo,tecnología e IA,1.0,7.05,-13.93,14.39,-0.65,15.02,16.12
+actitudes_relevantes,tecnologia_control_miedo,tecnología e IA,1.0,13.43,-3.79,13.32,0.31,15.24,4.8
+actitudes_relevantes,ia_consulta_medica,tecnología e IA,1.0,18.2,21.08,23.03,0.72,21.5,20.98
+actitudes_relevantes,ia_radiografias,tecnología e IA,1.0,5.0,5.4,18.62,0.81,9.33,4.84
+actitudes_relevantes,ia_datos_clinicos,tecnología e IA,1.0,9.93,-21.31,19.56,0.67,21.57,7.78
+actitudes_relevantes,banca_online_habilidad,consumo,1.0,12.51,-25.03,23.52,0.87,24.57,9.15
+actitudes_relevantes,soledad_temor,soledad,1.0,6.75,9.66,8.49,-0.07,11.15,6.64
+actitudes_relevantes,soledad_sin_apoyo,soledad,1.0,9.04,2.29,9.81,0.88,18.91,8.9
+actitudes_relevantes,soledad_futuro,soledad,1.0,31.09,-46.64,45.1,-0.95,47.2,30.91
+actitudes_relevantes,vivienda_temor_pago,vivienda,1.0,20.23,-30.34,30.73,0.63,30.32,19.64
+actitudes_relevantes,vivienda_precio_futuro,vivienda,1.0,20.38,-30.57,28.81,,30.68,28.74
+actitudes_relevantes,vivienda_comprar,vivienda,0.7,4.93,-4.93,5.12,,4.87,38.7
+actitudes_relevantes,salud_temor,salud,1.0,33.6,-50.39,50.56,0.18,50.41,29.31
+actitudes_relevantes,sanidad_satisfaccion,salud,1.0,8.43,-12.64,13.86,0.89,12.56,12.36
+actitudes_relevantes,ansioliticos,salud,1.0,9.37,9.37,9.53,0.57,9.24,34.6
+actitudes_relevantes,economia_personal,consumo,1.0,33.48,41.87,40.37,-0.82,41.41,21.51
+actitudes_relevantes,economia_espana,consumo,1.0,23.25,29.4,28.86,-0.84,29.3,17.69
+actitudes_relevantes,crisis_temor,consumo,1.0,19.04,-28.56,28.18,-0.91,28.54,24.74

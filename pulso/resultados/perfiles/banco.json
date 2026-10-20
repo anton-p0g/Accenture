@@ -1,0 +1,799 @@
+[
+ {
+  "id": "clima_preocupacion",
+  "estudio": 3577,
+  "variable": "P13",
+  "tema": "medio ambiente",
+  "texto": "¿En qué medida le preocupa el cambio climático?",
+  "polo": [
+   "Mucho",
+   "Bastante"
+  ],
+  "frase": "preocupación por el cambio climático",
+  "opciones": [
+   "Bastante",
+   "Mucho",
+   "NS/NC",
+   "Nada",
+   "Poco",
+   "Regular"
+  ],
+  "n": 4042,
+  "real_cis": {
+   "Bastante": 31.8,
+   "Mucho": 49.0,
+   "NS/NC": 1.4,
+   "Nada": 6.7,
+   "Poco": 10.5,
+   "Regular": 0.6
+  },
+  "poblacion_sintetica": {
+   "Bastante": 32.7,
+   "Mucho": 48.7,
+   "NS/NC": 1.5,
+   "Nada": 5.9,
+   "Poco": 10.6,
+   "Regular": 0.6
+  },
+  "error_calibracion_pts": 0.37
+ },
+ {
+  "id": "clima_pacto_estado",
+  "estudio": 3577,
+  "variable": "P12",
+  "tema": "medio ambiente",
+  "texto": "¿Cree necesario un pacto de Estado para hacer frente a las emergencias del cambio climático?",
+  "polo": [
+   "Sí es necesario"
+  ],
+  "frase": "apoyo a un pacto de Estado contra el cambio climático",
+  "opciones": [
+   "Depende",
+   "NS/NC",
+   "No es necesario",
+   "Sí es necesario"
+  ],
+  "n": 4042,
+  "real_cis": {
+   "Depende": 11.4,
+   "NS/NC": 2.1,
+   "No es necesario": 7.5,
+   "Sí es necesario": 79.0
+  },
+  "poblacion_sintetica": {
+   "Depende": 11.5,
+   "NS/NC": 2.3,
+   "No es necesario": 7.2,
+   "Sí es necesario": 79.0
+  },
+  "error_calibracion_pts": 0.15
+ },
+ {
+  "id": "incendios_preocupacion",
+  "estudio": 3577,
+  "variable": "P8",
+  "tema": "medio ambiente",
+  "texto": "¿En qué medida le preocupan los incendios forestales?",
+  "polo": [
+   "Mucho",
+   "Bastante"
+  ],
+  "frase": "preocupación por los incendios",
+  "opciones": [
+   "Bastante",
+   "Mucho",
+   "NS/NC",
+   "Nada",
+   "Poco",
+   "Regular"
+  ],
+  "n": 4042,
+  "real_cis": {
+   "Bastante": 20.0,
+   "Mucho": 78.2,
+   "NS/NC": 0.3,
+   "Nada": 0.2,
+   "Poco": 1.3,
+   "Regular": 0.0
+  },
+  "poblacion_sintetica": {
+   "Bastante": 19.7,
+   "Mucho": 78.5,
+   "NS/NC": 0.3,
+   "Nada": 0.2,
+   "Poco": 1.3,
+   "Regular": 0.0
+  },
+  "error_calibracion_pts": 0.1
+ },
+ {
+  "id": "medioambiente_futuro",
+  "estudio": 3535,
+  "variable": "IDEASPROS4_1",
+  "tema": "medio ambiente",
+  "texto": "Dentro de 10 años, ¿habrá más o menos deterioro del medio ambiente que ahora?",
+  "polo": [
+   "Más que ahora"
+  ],
+  "frase": "pesimismo sobre el futuro del medio ambiente",
+  "opciones": [
+   "Igual que ahora",
+   "Menos que ahora",
+   "Más que ahora",
+   "NS/NC"
+  ],
+  "n": 4031,
+  "real_cis": {
+   "Igual que ahora": 27.4,
+   "Menos que ahora": 17.3,
+   "Más que ahora": 54.2,
+   "NS/NC": 1.1
+  },
+  "poblacion_sintetica": {
+   "Igual que ahora": 26.4,
+   "Menos que ahora": 18.0,
+   "Más que ahora": 54.7,
+   "NS/NC": 1.0
+  },
+  "error_calibracion_pts": 0.57
+ },
+ {
+  "id": "ia_opinion",
+  "estudio": 3535,
+  "variable": "DESIN_9",
+  "tema": "tecnología e IA",
+  "texto": "¿Cree que la inteligencia artificial va a desarrollarse mucho, bastante, regular, poco o nada en los próximos diez años?",
+  "polo": [
+   "Mucho",
+   "Bastante"
+  ],
+  "frase": "expectativa de que la inteligencia artificial avance mucho",
+  "opciones": [
+   "Bastante",
+   "Mucho",
+   "NS/NC",
+   "Nada",
+   "Poco",
+   "Regular"
+  ],
+  "n": 4031,
+  "real_cis": {
+   "Bastante": 28.6,
+   "Mucho": 62.4,
+   "NS/NC": 1.0,
+   "Nada": 1.8,
+   "Poco": 1.4,
+   "Regular": 4.8
+  },
+  "poblacion_sintetica": {
+   "Bastante": 27.6,
+   "Mucho": 62.3,
+   "NS/NC": 1.4,
+   "Nada": 1.6,
+   "Poco": 1.6,
+   "Regular": 5.5
+  },
+  "error_calibracion_pts": 0.43
+ },
+ {
+  "id": "robots_opinion",
+  "estudio": 3535,
+  "variable": "DESIN_1",
+  "tema": "tecnología e IA",
+  "texto": "¿Cree que los robots industriales y sistemas automáticos van a desarrollarse mucho en los próximos diez años?",
+  "polo": [
+   "Mucho",
+   "Bastante"
+  ],
+  "frase": "expectativa de que la automatización avance mucho",
+  "opciones": [
+   "Bastante",
+   "Mucho",
+   "NS/NC",
+   "Nada",
+   "Poco",
+   "Regular"
+  ],
+  "n": 4031,
+  "real_cis": {
+   "Bastante": 34.6,
+   "Mucho": 54.8,
+   "NS/NC": 0.6,
+   "Nada": 1.5,
+   "Poco": 2.4,
+   "Regular": 6.0
+  },
+  "poblacion_sintetica": {
+   "Bastante": 34.7,
+   "Mucho": 54.2,
+   "NS/NC": 0.5,
+   "Nada": 1.6,
+   "Poco": 2.3,
+   "Regular": 6.7
+  },
+  "error_calibracion_pts": 0.28
+ },
+ {
+  "id": "robots_empleo",
+  "estudio": 3535,
+  "variable": "SAT2",
+  "tema": "tecnología e IA",
+  "texto": "En 10 años, ¿el uso de robots y sistemas automáticos aumentará el paro o creará empleo?",
+  "polo": [
+   "Aumentará el paro"
+  ],
+  "frase": "temor a que la automatización destruya empleo",
+  "opciones": [
+   "Aumentará el paro",
+   "Cambiará el tipo de trabajo",
+   "Creará empleo",
+   "Destruirá y creará",
+   "Duda/otras",
+   "NS/NC",
+   "Seguirá igual"
+  ],
+  "n": 4031,
+  "real_cis": {
+   "Aumentará el paro": 55.1,
+   "Cambiará el tipo de trabajo": 0.6,
+   "Creará empleo": 12.0,
+   "Destruirá y creará": 4.5,
+   "Duda/otras": 1.0,
+   "NS/NC": 1.0,
+   "Seguirá igual": 25.8
+  },
+  "poblacion_sintetica": {
+   "Aumentará el paro": 53.5,
+   "Cambiará el tipo de trabajo": 0.6,
+   "Creará empleo": 12.4,
+   "Destruirá y creará": 4.3,
+   "Duda/otras": 1.0,
+   "NS/NC": 1.0,
+   "Seguirá igual": 27.2
+  },
+  "error_calibracion_pts": 0.51
+ },
+ {
+  "id": "tecnologia_control_miedo",
+  "estudio": 3554,
+  "variable": "P13",
+  "tema": "tecnología e IA",
+  "texto": "¿Siente miedo ante el control de su vida por las nuevas tecnologías?",
+  "polo": [
+   "Mucho miedo",
+   "Bastante miedo"
+  ],
+  "frase": "miedo al control por las nuevas tecnologías",
+  "opciones": [
+   "Algo de miedo",
+   "Bastante miedo",
+   "Mucho miedo",
+   "NS/NC",
+   "Ningún miedo",
+   "Poco miedo"
+  ],
+  "n": 5015,
+  "real_cis": {
+   "Algo de miedo": 27.4,
+   "Bastante miedo": 23.2,
+   "Mucho miedo": 9.9,
+   "NS/NC": 0.7,
+   "Ningún miedo": 17.8,
+   "Poco miedo": 20.9
+  },
+  "poblacion_sintetica": {
+   "Algo de miedo": 27.9,
+   "Bastante miedo": 23.3,
+   "Mucho miedo": 9.8,
+   "NS/NC": 0.7,
+   "Ningún miedo": 17.2,
+   "Poco miedo": 21.0
+  },
+  "error_calibracion_pts": 0.23
+ },
+ {
+  "id": "ia_consulta_medica",
+  "estudio": 8825,
+  "variable": "P22_1",
+  "tema": "tecnología e IA",
+  "texto": "¿Se sentiría cómodo/a hablando con una IA (asistente virtual) durante una consulta médica?",
+  "polo": [
+   "alto"
+  ],
+  "frase": "comodidad con una IA en la consulta médica",
+  "opciones": [
+   "NS/NC",
+   "alto",
+   "bajo",
+   "medio"
+  ],
+  "n": 7197,
+  "real_cis": {
+   "NS/NC": 1.6,
+   "alto": 13.9,
+   "bajo": 63.7,
+   "medio": 20.8
+  },
+  "poblacion_sintetica": {
+   "NS/NC": 1.8,
+   "alto": 14.0,
+   "bajo": 62.1,
+   "medio": 22.1
+  },
+  "error_calibracion_pts": 0.8
+ },
+ {
+  "id": "ia_radiografias",
+  "estudio": 8825,
+  "variable": "P22_3",
+  "tema": "tecnología e IA",
+  "texto": "¿Se sentiría cómodo/a si un sistema de inteligencia artificial interpretara sus radiografías?",
+  "polo": [
+   "alto"
+  ],
+  "frase": "comodidad con la IA en diagnósticos médicos",
+  "opciones": [
+   "NS/NC",
+   "alto",
+   "bajo",
+   "medio"
+  ],
+  "n": 7197,
+  "real_cis": {
+   "NS/NC": 2.6,
+   "alto": 29.8,
+   "bajo": 39.6,
+   "medio": 28.1
+  },
+  "poblacion_sintetica": {
+   "NS/NC": 2.7,
+   "alto": 31.4,
+   "bajo": 36.7,
+   "medio": 29.2
+  },
+  "error_calibracion_pts": 1.42
+ },
+ {
+  "id": "ia_datos_clinicos",
+  "estudio": 8825,
+  "variable": "P23",
+  "tema": "tecnología e IA",
+  "texto": "¿Le preocupa que empresas privadas usen datos clínicos para desarrollar inteligencia artificial?",
+  "polo": [
+   "Muy preocupado",
+   "Bastante"
+  ],
+  "frase": "preocupación por la privacidad de sus datos ante la IA",
+  "opciones": [
+   "Bastante",
+   "Muy preocupado",
+   "NS/NC",
+   "Nada",
+   "Poco",
+   "Regular"
+  ],
+  "n": 7197,
+  "real_cis": {
+   "Bastante": 22.1,
+   "Muy preocupado": 25.4,
+   "NS/NC": 3.2,
+   "Nada": 21.3,
+   "Poco": 27.5,
+   "Regular": 0.5
+  },
+  "poblacion_sintetica": {
+   "Bastante": 22.3,
+   "Muy preocupado": 24.4,
+   "NS/NC": 2.9,
+   "Nada": 21.2,
+   "Poco": 28.7,
+   "Regular": 0.5
+  },
+  "error_calibracion_pts": 0.47
+ },
+ {
+  "id": "banca_online_habilidad",
+  "estudio": 3560,
+  "variable": "P2",
+  "tema": "consumo",
+  "texto": "¿Qué habilidad tiene para hacer gestiones bancarias por Internet?",
+  "polo": [
+   "Mucha",
+   "Bastante"
+  ],
+  "frase": "soltura con la banca por Internet",
+  "opciones": [
+   "Bastante",
+   "Mucha",
+   "NS/NC",
+   "Nula",
+   "Poca"
+  ],
+  "n": 1597,
+  "real_cis": {
+   "Bastante": 41.4,
+   "Mucha": 25.3,
+   "NS/NC": 2.4,
+   "Nula": 11.4,
+   "Poca": 19.6
+  },
+  "poblacion_sintetica": {
+   "Bastante": 38.9,
+   "Mucha": 25.3,
+   "NS/NC": 2.5,
+   "Nula": 13.3,
+   "Poca": 19.9
+  },
+  "error_calibracion_pts": 0.96
+ },
+ {
+  "id": "soledad_temor",
+  "estudio": 3554,
+  "variable": "P2_5",
+  "tema": "soledad",
+  "texto": "¿Cuánto miedo o temor le suscita la soledad? (0-10)",
+  "polo": [
+   "alto"
+  ],
+  "frase": "temor a la soledad",
+  "opciones": [
+   "NS/NC",
+   "alto",
+   "bajo",
+   "medio"
+  ],
+  "n": 5015,
+  "real_cis": {
+   "NS/NC": 0.3,
+   "alto": 29.8,
+   "bajo": 43.1,
+   "medio": 26.7
+  },
+  "poblacion_sintetica": {
+   "NS/NC": 0.4,
+   "alto": 30.7,
+   "bajo": 42.3,
+   "medio": 26.6
+  },
+  "error_calibracion_pts": 0.48
+ },
+ {
+  "id": "soledad_sin_apoyo",
+  "estudio": 3554,
+  "variable": "P16",
+  "tema": "soledad",
+  "texto": "¿Teme quedarse solo/a o sin apoyo emocional en momentos difíciles?",
+  "polo": [
+   "Mucho temor",
+   "Bastante temor"
+  ],
+  "frase": "temor a quedarse sin apoyo emocional",
+  "opciones": [
+   "Bastante temor",
+   "Mucho temor",
+   "NS/NC",
+   "Ningún temor",
+   "Poco temor"
+  ],
+  "n": 5015,
+  "real_cis": {
+   "Bastante temor": 21.4,
+   "Mucho temor": 10.6,
+   "NS/NC": 0.5,
+   "Ningún temor": 25.8,
+   "Poco temor": 41.7
+  },
+  "poblacion_sintetica": {
+   "Bastante temor": 21.7,
+   "Mucho temor": 10.5,
+   "NS/NC": 0.4,
+   "Ningún temor": 24.9,
+   "Poco temor": 42.5
+  },
+  "error_calibracion_pts": 0.44
+ },
+ {
+  "id": "soledad_futuro",
+  "estudio": 3535,
+  "variable": "IDEASPROS2_4",
+  "tema": "soledad",
+  "texto": "Dentro de 10 años, ¿habrá más o menos soledad o aislamiento que ahora?",
+  "polo": [
+   "Más que ahora"
+  ],
+  "frase": "percepción de que la soledad irá a más",
+  "opciones": [
+   "Igual que ahora",
+   "Menos que ahora",
+   "Más que ahora",
+   "NS/NC"
+  ],
+  "n": 4031,
+  "real_cis": {
+   "Igual que ahora": 14.1,
+   "Menos que ahora": 6.1,
+   "Más que ahora": 79.4,
+   "NS/NC": 0.4
+  },
+  "poblacion_sintetica": {
+   "Igual que ahora": 14.4,
+   "Menos que ahora": 5.6,
+   "Más que ahora": 79.6,
+   "NS/NC": 0.3
+  },
+  "error_calibracion_pts": 0.27
+ },
+ {
+  "id": "vivienda_temor_pago",
+  "estudio": 3554,
+  "variable": "P2_11",
+  "tema": "vivienda",
+  "texto": "¿Cuánto temor le suscita no poder pagar su vivienda, alquiler o hipoteca? (0-10)",
+  "polo": [
+   "alto"
+  ],
+  "frase": "temor a no poder pagar la vivienda",
+  "opciones": [
+   "NS/NC",
+   "alto",
+   "bajo",
+   "medio"
+  ],
+  "n": 5015,
+  "real_cis": {
+   "NS/NC": 4.4,
+   "alto": 60.1,
+   "bajo": 21.9,
+   "medio": 13.6
+  },
+  "poblacion_sintetica": {
+   "NS/NC": 4.7,
+   "alto": 58.8,
+   "bajo": 22.7,
+   "medio": 13.8
+  },
+  "error_calibracion_pts": 0.65
+ },
+ {
+  "id": "vivienda_precio_futuro",
+  "estudio": 3575,
+  "variable": "P17",
+  "tema": "vivienda",
+  "texto": "¿Cree que el precio de la vivienda en España subirá, se mantendrá o bajará el próximo año?",
+  "polo": [
+   "Subirá"
+  ],
+  "frase": "expectativa de que la vivienda seguirá subiendo",
+  "opciones": [
+   "Bajará",
+   "NS/NC",
+   "Se mantendrá",
+   "Subirá"
+  ],
+  "n": 3004,
+  "real_cis": {
+   "Bajará": 4.9,
+   "NS/NC": 1.5,
+   "Se mantendrá": 18.3,
+   "Subirá": 75.3
+  },
+  "poblacion_sintetica": {
+   "Bajará": 5.4,
+   "NS/NC": 1.5,
+   "Se mantendrá": 18.6,
+   "Subirá": 74.4
+  },
+  "error_calibracion_pts": 0.42
+ },
+ {
+  "id": "vivienda_comprar",
+  "estudio": 3575,
+  "variable": "P18",
+  "tema": "vivienda",
+  "texto": "¿Tiene intención de comprar una vivienda en el próximo año?",
+  "polo": [
+   "Sí"
+  ],
+  "frase": "intención de comprar vivienda",
+  "opciones": [
+   "NS/NC",
+   "No",
+   "Sí"
+  ],
+  "n": 3004,
+  "real_cis": {
+   "NS/NC": 0.5,
+   "No": 88.2,
+   "Sí": 11.2
+  },
+  "poblacion_sintetica": {
+   "NS/NC": 0.5,
+   "No": 89.1,
+   "Sí": 10.4
+  },
+  "error_calibracion_pts": 0.57
+ },
+ {
+  "id": "salud_temor",
+  "estudio": 3554,
+  "variable": "P2_13",
+  "tema": "salud",
+  "texto": "¿Cuánto temor le suscita perder la salud? (0-10)",
+  "polo": [
+   "alto"
+  ],
+  "frase": "temor a perder la salud",
+  "opciones": [
+   "NS/NC",
+   "alto",
+   "bajo",
+   "medio"
+  ],
+  "n": 5015,
+  "real_cis": {
+   "NS/NC": 0.6,
+   "alto": 76.9,
+   "bajo": 8.9,
+   "medio": 13.7
+  },
+  "poblacion_sintetica": {
+   "NS/NC": 0.6,
+   "alto": 76.9,
+   "bajo": 8.0,
+   "medio": 14.5
+  },
+  "error_calibracion_pts": 0.43
+ },
+ {
+  "id": "sanidad_satisfaccion",
+  "estudio": 8825,
+  "variable": "P2",
+  "tema": "salud",
+  "texto": "¿Qué grado de satisfacción tiene con el funcionamiento del sistema sanitario público? (1-10)",
+  "polo": [
+   "alto"
+  ],
+  "frase": "satisfacción con la sanidad pública",
+  "opciones": [
+   "NS/NC",
+   "alto",
+   "bajo",
+   "medio"
+  ],
+  "n": 7197,
+  "real_cis": {
+   "NS/NC": 0.4,
+   "alto": 47.5,
+   "bajo": 14.7,
+   "medio": 37.4
+  },
+  "poblacion_sintetica": {
+   "NS/NC": 0.5,
+   "alto": 50.6,
+   "bajo": 12.9,
+   "medio": 36.0
+  },
+  "error_calibracion_pts": 1.6
+ },
+ {
+  "id": "ansioliticos",
+  "estudio": 3554,
+  "variable": "P14",
+  "tema": "salud",
+  "texto": "¿Toma actualmente ansiolíticos o antidepresivos?",
+  "polo": [
+   "Sí"
+  ],
+  "frase": "consumo de ansiolíticos o antidepresivos",
+  "opciones": [
+   "NS/NC",
+   "No",
+   "Sí"
+  ],
+  "n": 5015,
+  "real_cis": {
+   "NS/NC": 0.1,
+   "No": 84.5,
+   "Sí": 15.4
+  },
+  "poblacion_sintetica": {
+   "NS/NC": 0.2,
+   "No": 84.2,
+   "Sí": 15.6
+  },
+  "error_calibracion_pts": 0.2
+ },
+ {
+  "id": "economia_personal",
+  "estudio": 3577,
+  "variable": "ECOPER",
+  "tema": "consumo",
+  "texto": "¿Cómo calificaría su situación económica personal: muy buena, buena, regular, mala o muy mala?",
+  "polo": [
+   "Mala o muy mala"
+  ],
+  "frase": "situación económica personal difícil",
+  "opciones": [
+   "Buena o muy buena",
+   "Mala o muy mala",
+   "NS/NC",
+   "Regular"
+  ],
+  "n": 4042,
+  "real_cis": {
+   "Buena o muy buena": 64.6,
+   "Mala o muy mala": 24.5,
+   "NS/NC": 1.5,
+   "Regular": 9.4
+  },
+  "poblacion_sintetica": {
+   "Buena o muy buena": 66.3,
+   "Mala o muy mala": 23.6,
+   "NS/NC": 1.3,
+   "Regular": 8.8
+  },
+  "error_calibracion_pts": 0.85
+ },
+ {
+  "id": "economia_espana",
+  "estudio": 3577,
+  "variable": "ECOESP",
+  "tema": "consumo",
+  "texto": "¿Cómo calificaría la situación económica general de España?",
+  "polo": [
+   "Mala o muy mala"
+  ],
+  "frase": "pesimismo sobre la economía de España",
+  "opciones": [
+   "Buena o muy buena",
+   "Mala o muy mala",
+   "NS/NC",
+   "Regular"
+  ],
+  "n": 4042,
+  "real_cis": {
+   "Buena o muy buena": 34.9,
+   "Mala o muy mala": 56.2,
+   "NS/NC": 2.3,
+   "Regular": 6.7
+  },
+  "poblacion_sintetica": {
+   "Buena o muy buena": 35.7,
+   "Mala o muy mala": 55.4,
+   "NS/NC": 2.2,
+   "Regular": 6.8
+  },
+  "error_calibracion_pts": 0.45
+ },
+ {
+  "id": "crisis_temor",
+  "estudio": 3554,
+  "variable": "P2A_3",
+  "tema": "consumo",
+  "texto": "¿Cuánto temor le suscita una crisis económica? (0-10)",
+  "polo": [
+   "alto"
+  ],
+  "frase": "temor a una crisis económica",
+  "opciones": [
+   "NS/NC",
+   "alto",
+   "bajo",
+   "medio"
+  ],
+  "n": 5015,
+  "real_cis": {
+   "NS/NC": 0.4,
+   "alto": 70.2,
+   "bajo": 10.0,
+   "medio": 19.5
+  },
+  "poblacion_sintetica": {
+   "NS/NC": 0.3,
+   "alto": 70.2,
+   "bajo": 9.4,
+   "medio": 20.0
+  },
+  "error_calibracion_pts": 0.3
+ }
+]

@@ -1,0 +1,3 @@
+sexo,n_real,pred_%,real_%,error_pts,margen_encuesta_±
+Hombre,2067,66.1,73.5,-7.4,1.9
+Mujer,1975,78.4,87.6,-9.2,1.5

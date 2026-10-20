@@ -1,0 +1,4 @@
+condicion,error_total_pts,error_uniforme_pts,error_edad_pts,correlacion_edad,error_sexo_pts
+actitudes_relevantes,15.69,19.17,24.64,0.25,25.0
+demografia_y_actitudes,15.41,19.17,23.2,0.24,23.96
+solo_demografia,16.34,19.17,25.58,0.21,25.5

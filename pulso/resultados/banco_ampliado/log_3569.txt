@@ -1,0 +1,350 @@
+3569_P1_1_1            ✓ ¿Ha adquirido usted algún automóvil o moto para el hogar en los últimos meses?
+3569_P1_1_2            ✓ ¿Ha adquirido otra persona de su hogar algún electrodoméstico pequeño?
+3569_P1_2_1            ✓ ¿Ha adquirido usted algún automóvil o moto para el hogar en los últimos meses?
+3569_P1_2_2            ✓ ¿Ha adquirido otra persona de su hogar algún electrodoméstico pequeño?
+3569_P1_3_1            ✓ ¿Ha adquirido usted algún automóvil o moto para el hogar en los últimos meses?
+3569_P1_3_2            ✓ ¿Ha adquirido otra persona de su hogar algún electrodoméstico pequeño?
+3569_P1_4_1            ✓ ¿Ha adquirido usted algún automóvil o moto para el hogar en los últimos meses?
+3569_P1_4_2            ✓ ¿Ha adquirido otra persona de su hogar algún electrodoméstico pequeño?
+3569_P2                ✓ ¿Cuál es la situación de ahorro mensual en su hogar?
+3569_P3                ✓ ¿Cómo valoraría la situación económica de su hogar en los últimos 6 meses?
+3569_NUMPERSONAS       ✓ ¿Cuántas personas del entorno están en paro y buscando trabajo?
+3569_P6                ✓ ¿Ha notado cambios en el número de personas del entorno que están en paro y buscando traba
+3569_P7                ✓ ¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en España en los últimos 6 me
+3569_P7_1              ✓ ¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en su comunidad autónoma en l
+3569_P8                ✓ ¿Cómo valoraría la situación económica de España en los últimos 6 meses?
+3569_P8_1              ✓ ¿Cómo valoraría la situación económica de la comunidad autónoma en los últimos 6 meses?
+3569_P9                ✓ ¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en España en los próximos sei
+3569_P9_1              ✓ ¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en la comunidad autónoma en l
+3569_P10               ✓ ¿Piensa usted que en el próximo año tendrá más, igual o menos probabilidades de comprar bi
+3569_P11               ✓ ¿Cómo cree que ha sido la evolución de su capacidad de ahorro en los últimos 12 meses?
+3569_P12               ✓ ¿Cómo cree que estará la situación económica de su hogar en los próximos 6 meses?
+3569_P14               ✓ ¿Cómo cree que estará la situación económica de España en los próximos seis meses?
+3569_P14_1             ✓ ¿Cómo cree que estará la situación económica de la comunidad autónoma en los próximos 6 me
+3569_P15               ✓ ¿Qué cree que será la inflación en España en el próximo año?
+3569_P16               ✓ ¿Cree que los tipos de interés en España subirán en el próximo año?
+3569_P17               ✓ ¿Cree que el precio de la vivienda en España subirá, se mantendrá o bajará en el próximo a
+3569_P18               ✓ ¿Tiene intención de comprar una vivienda en el próximo año?
+3569_CURSOMULTIPLE_1_1 ✓ ¿Tiene en curso un estudio oficial sobre educación primaria?
+3569_CURSOMULTIPLE_1_2 ✓ ¿La persona entrevistada ha cursado FP grado inicial (FP básica)?
+3569_CURSOMULTIPLE_1_3 ✓ ¿Ha cursado educación secundaria obligatoria?
+3569_CURSOMULTIPLE_1_4 ✓ ¿Tiene la persona alguna formación profesional de grado medio en curso?
+3569_CURSOMULTIPLE_1_6 ✓ ¿Tiene la persona alguna formación profesional de grado superior?
+3569_CURSOMULTIPLE_1_7 ✓ ¿Está realizando estudios universitarios?
+3569_CURSOMULTIPLE_1_8 ✓ ¿Está realizando estudios oficiales de posgrado o doctorado?
+3569_CURSOMULTIPLE_1_9 ✓ ¿Está realizando otros estudios?
+3569_CURSOMULTIPLE_1_10 ✓ ¿No está cursando estudios?
+3569_ECIVIL            ✓ ¿Cuál es su estado civil?
+3569_P25               ✓ ¿Cuántas personas viven en su hogar además de usted?
+3569_P25B              ✓ ¿Cuántas personas hay en su hogar con ingresos?
+3569_PERPRIN           ✓ ¿Quién es la persona con la que vive la persona entrevistada?
+3569_INGREHOG          ✓ ¿Cuál es el nivel de ingresos del hogar?
+3569_P28               ✓ ¿Cuál es la situación laboral en la que se encuentra?
+3569_P28A              ✓ ¿En qué situación se encuentra su actividad laboral?
+3569_MOMENNAC          ✓ ¿Cuándo adquirió la nacionalidad española?
+3569_VIVIENDA          ✓ ¿Cómo es el régimen de tenencia de la vivienda en la que reside?
+3569_P36               ✓ ¿Cuál es su situación de tenencia de vivienda?
+3569_SINCERIDAD        ✓ ¿Cuánta confianza tiene en sus respuestas?
+3569_V2_1              ✓ ¿Ha expresado deseo de abandonar la entrevista antes de finalizarla?
+3569_V2_2              ✓ ¿Se ha sentido incómoda por el tema de la entrevista?
+3569_V2_3              ✓ ¿Ha tenido prisa por acabar la entrevista?
+3569_V3                ✓ ¿Ha detectado alguna tercera persona en el transcurso de esta entrevista?
+3528_OPOSICIONES_3     n= 4029 error  0.6 · ¿Favorece más a quienes tienen tiempo y recursos para prepararse?
+3528_OPOSICIONES_7     n= 4029 error  1.3 · ¿Valora adecuadamente las competencias profesionales?
+3528_ECOPER            n= 4029 error  0.6 · ¿Cómo valoraría la situación económica personal actual?
+3528_ECOESP            n= 4029 error  0.4 · ¿Cómo valoraría la situación económica general de España?
+3535_INTPOL            n= 4031 error  0.7 · ¿Cuánto interés tiene en política?
+3535_IMPIDEAS          n= 4031 error  0.7 · ¿Cree que hay que favorecer la igualdad y la solidaridad entre las per
+3535_INESTADO1         n= 4031 error  0.4 · ¿Cree que el Estado debe intervenir en la economía?
+3535_INESTADO2         n= 4031 error  0.3 · ¿Cree que el Estado debe planificar toda la actividad económica?
+3535_FUTUR1            n= 4031 error  0.4 · ¿Cree que habrá muchos cambios económicos y sociales en los próximos 1
+3535_FUTUR2            n= 4031 error  0.4 · ¿Qué valor le dan a los futuros cambios políticos y sociales?
+3535_INFLUPAISES_2     n= 4031 error  0.3 · ¿Cree que en 10 años el grado de influencia en el mundo de los Estados
+3535_INFLUPAISES_7     n= 4031 error  0.8 · ¿Cree que en 10 años la influencia de los países latinoamericanos en e
+3535_SAT1              n= 4031 error  0.3 · ¿Cree que en 10 años habrá muchos más robots y sistemas automáticos en
+3535_SAT2              n= 4031 error  0.5 · ¿Cree que la utilización de robots y sistemas automáticos en el ámbito
+3535_DESIN_1           n= 4031 error  0.3 · ¿Cuánto valorará en diez años el desarrollo de los robots industriales
+3535_DESIN_2           n= 4031 error  0.5 · ¿Cuánto valorará en diez años la biotecnología, por ejemplo, alimentos
+3535_DESIN_3           n= 4031 error  0.5 · ¿Cuánto valorará en diez años las nuevas fuentes de energía (solar, eó
+3535_DESIN_4           n= 4031 error  0.3 · ¿Cuánto valorará en diez años la microelectrónica y los ordenadores?
+3535_DESIN_5           n= 4031 error  0.1 · ¿Cuánto desarrollará la ingeniería genética en diez años?
+3535_DESIN_6           n= 4031 error  0.4 · ¿Cuánto cree que se desarrollarán las nuevas tecnologías del ocio y de
+3535_DESIN_7           n= 4031 error  0.4 · ¿Cuánto cree que se desarrollarán las nuevas tecnologías del hogar en 
+3535_DESIN_8           n= 4031 error  0.3 · ¿Cuánto valorará en diez años el desarrollo de los transportes, por ej
+3535_DESIN_9           n= 4031 error  0.4 · ¿Cuánto desarrollará la inteligencia artificial en diez años?
+3535_IDEASPROS1_1      n= 4031 error  0.3 · ¿Cree que en diez años habrá más personas con creencias religiosas, me
+3535_IDEASPROS1_2      n= 4031 error  0.3 · ¿Cree que en diez años habrá más interés en las cosas materiales en nu
+3535_IDEASPROS1_3      n= 4031 error  0.3 · ¿Cree que en el futuro habrá más o menos interés por el propio éxito e
+3535_IDEASPROS1_4      n= 4031 error  0.1 · ¿Cree que en diez años habrá más libertad sexual en nuestro país, meno
+3535_IDEASPROS1_6      n= 4031 error  0.6 · ¿Cree que en diez años habrá más, menos o igual número de mujeres en p
+3535_IDEASPROS1_7      n= 4031 error  0.3 · ¿Cree que en diez años habrá más, menos o igual integración de las per
+3535_IDEASPROS2_1      n= 4031 error  0.1 · ¿Cree que en diez años tendrá más, menos o la misma relación con la fa
+3535_IDEASPROS2_2      n= 4031 error  0.6 · ¿Cree que habrá más, menos o igual separaciones y divorcios en nuestro
+3535_IDEASPROS2_3      n= 4031 error  0.4 · ¿Cree que habrá más nacimientos, menos nacimientos o igual número de n
+3535_IDEASPROS2_4      n= 4031 error  0.3 · ¿Cree que en diez años habrá más soledad o aislamiento en nuestro país
+3535_IDEASPROS2_5      n= 4031 error  0.4 · ¿Cree que en diez años habrá más, menos o igual cuidado a los mayores 
+3535_IDEASPROS2_6      n= 4031 error  0.7 · ¿Cree que en diez años habrá más tiempo libre para el ocio en nuestro 
+3535_IDEASPROS2_7      n= 4031 error  0.2 · ¿Cree que en diez años habrá más personas realizadas o que disfruten c
+3535_IDEASPROS2_8      n= 4031 error  0.3 · ¿Cree que en diez años habrá más interés por la salud y el cuidado per
+3535_IDEASPROS3_1      n= 4031 error  0.6 · ¿Cree que habrá más, menos o igual paro o falta de trabajo en nuestro 
+3535_IDEASPROS3_2      n= 4031 error  0.3 · ¿Cree que en diez años habrá más, menos o igual diferencia social y ec
+3535_IDEASPROS3_3      n= 4031 error  0.4 · ¿Cree que en diez años habrá más, menos o igual consumo de drogas en n
+3535_IDEASPROS3_4      n= 4031 error  0.4 · ¿Cree que en diez años habrá más, menos o igual personas con SIDA y ot
+3535_IDEASPROS3_6      n= 4031 error  0.7 · ¿Cree que en diez años la protección social del Estado será más, menos
+3535_IDEASPROS3_7      n= 4031 error  0.6 · ¿Cree que en nuestro país habrá más, menos o igual igualdad de oportun
+3535_IDEASPROS4_1      n= 4031 error  0.6 · ¿Cree que en diez años habrá más deterioro del medio ambiente en nuest
+3535_IDEASPROS4_2      n= 4031 error  0.9 · ¿Cree que en diez años habrá más, menos o igual muertes por cáncer en 
+3535_IDEASPROS4_3      n= 4031 error  0.3 · ¿Cree que en diez años habrá más robots que sustituyan a trabajadores/
+3535_IDEASPROS4_4      n= 4031 error  0.6 · ¿Cree que en diez años habrá más, menos o igual racismo y xenofobia en
+3535_IDEASPROS4_5      n= 4031 error  0.2 · ¿Cree que en diez años habrá más personas teletrabajando en casa, meno
+3535_IDEASPROS4_6      n= 4031 error  0.3 · ¿Cree que en los próximos diez años habrá más, menos o igual epidemias
+3535_IDEASPROS4_7      n= 4031 error  0.2 · ¿Cree que en los próximos diez años habrá más, menos o igual desastres
+3535_IDEASPROS5_1      n= 4031 error  0.1 · ¿Cree que en diez años las desigualdades entre países pobres y ricos s
+3535_IDEASPROS5_2      n= 4031 error  0.5 · ¿Cree que habrá más guerras y conflictos internacionales en los próxim
+3535_IDEASPROS5_3      n= 4031 error  0.2 · ¿Cree que en los próximos diez años habrá más personas emigrando de lo
+3535_IDEASPROS5_4      n= 4031 error  0.2 · ¿Considera que la ONU será más eficaz, menos eficaz o igual de eficaz 
+3536_P1                n= 4017 error  0.3 · ¿Cuánto le preocupa el cambio climático?
+3536_P2                n= 4017 error  0.1 · ¿Cuánto se preocupa por la invasión de Rusia a Ucrania?
+3536_P3                n= 4017 error  0.2 · ¿Cuánto se preocupa por la situación de la guerra en Oriente Próximo?
+3536_ECOPER            n= 4017 error  0.7 · ¿Cómo valoraría la situación económica personal actual?
+3536_ECOESP            n= 4017 error  0.9 · ¿Cómo valoraría la situación económica general de España?
+3536_P8_1              n= 4017 error  0.7 · ¿Le importaría alquilar una vivienda de su propiedad a alguien de un g
+3536_P8_2              n= 4017 error  0.6 · ¿Cuánto le importaría que fuera un profesor de raza o religión diferen
+3536_P8_3              n= 4017 error  1.1 · ¿Cuánto le importaría que su jefe/a en el trabajo fuera de un grupo ét
+3536_P8_4              n= 4017 error  0.8 · ¿Cuánto le importaría vivir en su mismo edificio o comunidad de vecino
+3536_P8_5              n= 4017 error  0.9 · ¿Cuánto le importaría que fuera elegido/a alcalde/sa de su municipio u
+3536_P8_6              n= 4017 error  0.6 · ¿Le importaría que un familiar cercano tuviera una relación sentimenta
+3536_P9_1              n= 4017 error  0.4 · ¿Cuántos de sus vecinos y vecinas son de un origen étnico, raza o reli
+3536_P9_2              n= 4017 error  0.7 · ¿Tiene amigos y amigas de un origen étnico, raza o religión diferente 
+3536_P9_3              n= 4017 error  0.4 · ¿Cuántas personas de un origen étnico, raza o religión diferente a la 
+3536_P10               n= 4017 error  0.1 · ¿Ha presenciado o sido testigo de alguna situación violenta o agresión
+3536_P11               n= 4017 error  0.4 · ¿Recuerda haber visto en las redes sociales contenido que exprese idea
+3536_P12_1             n= 4017 error  0.2 · ¿Dónde se ubicaría Ud. mismo/a en una escala de 0 a 10 de racismo?
+3536_P12_2             n= 4017 error  0.7 · ¿Dónde ubicaría Ud. a la sociedad española en su conjunto en una escal
+3536_NUM_MUESTRA       n= 4017 error  0.4 · ¿Tiene ficheros de teléfonos de contacto en su teléfono fijo o móvil?
+3536_ITEMCOMIENZOP8    n= 4017 error  0.3 · ¿Alguna vez ha tenido que alquilar una vivienda de su propiedad?
+3536_ITEMCOMIENZOP12   n= 4017 error  0.3 · ¿Dónde se ubica en la escala de racismo la sociedad española?
+3554_P2_1              n= 5015 error  0.2 · ¿Cuánto miedo o temor le suscita contraer una enfermedad como el COVID
+3554_P2_2              n= 5015 error  1.0 · ¿Cuánto miedo o temor le suscita tener una infección de transmisión se
+3554_P2_3              n= 5015 error  0.7 · ¿A qué nivel de miedo le suscita contraer un cáncer?
+3554_P2_4              n= 5015 error  1.0 · ¿Le suscita miedo o temor que su trabajo o pensión no le permitan vivi
+3554_P2_5              n= 5015 error  0.5 · ¿Cuánto miedo o temor le suscita el temor a la soledad?
+3554_P2_6              n= 5015 error  0.2 · ¿Cuánto miedo o temor le suscita perder a un familiar cercano?
+3554_P2_7              n= 5015 error  0.4 · ¿Le suscita miedo o temor no tener a una persona a la que amar?
+3554_P2_9              n= 5015 error  0.3 · ¿Le suscita el máximo miedo o temor perder la vista?
+3554_P2_10             n= 5015 error  1.1 · ¿Cuánto miedo o temor le suscita perder su trabajo o no encontrar un t
+3554_P2_11             n= 5015 error  0.6 · ¿Cuánto miedo o temor le suscita no poder pagar su vivienda o alquiler
+3554_P2_12             n= 5015 error  0.7 · ¿Cuánto miedo o temor le suscita perder la vida?
+3554_P2_13             n= 5015 error  0.4 · ¿Cuánto miedo o temor le suscita perder la salud?
+3554_P2A_1             n= 5015 error  0.4 · ¿Cuánto miedo o temor le suscita el deterioro ambiental?
+3554_P2A_2             n= 5015 error  0.5 · ¿Le suscita el máximo miedo o temor una crisis de la democracia?
+3554_P2A_3             n= 5015 error  0.3 · ¿Le suscita el máximo miedo o temor una crisis económica?
+3554_P2A_4             n= 5015 error  0.9 · ¿Le suscita algún miedo o temor que le persigan por sus ideas política
+3554_P2A_5             n= 5015 error  0.5 · ¿Le suscita miedo o temor ser juzgado o perseguido por un delito que n
+3554_P2A_6             n= 5015 error  0.4 · ¿A una guerra civil le suscita el máximo miedo o temor?
+3554_P2A_7             n= 5015 error  0.3 · ¿A una guerra mundial le suscita algún miedo o temor?
+3554_P3                n= 5015 error  0.2 · ¿Cree que en el futuro puede haber una guerra con armas nucleares?
+3554_P4                n= 5015 error  0.3 · ¿Cree que una guerra con armas nucleares supondría el fin de la humani
+3554_P5                n= 5015 error  0.1 · ¿Cree que disponer de unas Fuerzas Armadas preparadas es garantía para
+3554_P6                n= 5015 error  0.1 · ¿Considera que los conflictos sociales van en aumento en la sociedad e
+3554_P7                n= 5015 error  0.5 · ¿Cuál es su grado de deterioro de la democracia española en la actuali
+3554_P7A               n= 5015 error  0.4 · ¿Cuánto le preocupa el deterioro de la democracia española en la actua
+3554_P8                n= 5015 error  0.1 · ¿Cree que los medios de comunicación influyen en su sensación de miedo
+3554_P16               n= 5015 error  0.4 · ¿Cuánto temor le inspira la posibilidad de quedarse solo o sin apoyo e
+3560_P2                n= 1597 error  1.0 · ¿Cuánta habilidad tiene para realizar gestiones bancarias habituales a
+3560_P3                n= 1597 error  1.2 · ¿Cuál es su nivel de conocimientos sobre temas bancarios y financieros
+3560_P4_1              n= 1597 error  2.8 · ¿Ha tenido depósitos y/o cuentas de ahorro en los últimos cinco años?
+3560_P4_2              n= 1597 error  0.2 · ¿Ha tenido una tarjeta de débito o crédito en los últimos cinco años?
+3560_P4_4              n= 1597 error  2.7 · ¿Ha tenido un préstamo personal en los últimos cinco años?
+3560_P4_5              n= 1597 error  2.3 · ¿Ha tenido un plan de pensiones en los últimos cinco años?
+3560_P4_6              n= 1597 error  2.6 · ¿Ha poseído un fondo de inversión o acciones en los últimos cinco años
+3560_P4_8              n= 1597 error  2.8 · ¿Ha tenido un seguro de vida en los últimos cinco años?
+3560_P5_1              n= 1597 error  2.0 · ¿Cuántas veces ha retirado dinero en efectivo en los últimos doce mese
+3560_P5_2              n= 1597 error  1.0 · ¿Ha consultado el saldo de su cuenta bancaria en los últimos doce mese
+3560_P5_3              n= 1597 error  2.1 · ¿Ha pagado recibos o impuestos a través de su banco en los últimos doc
+3560_P5_4              n= 1597 error  1.2 · ¿Ha realizado transferencias en los últimos doce meses?
+3560_P5_5              n= 1597 error  1.5 · ¿Ha contratado un producto de inversión o solicitado un préstamo en lo
+3560_P5_6              n= 1597 error  1.6 · ¿Ha contratado seguros en los últimos doce meses?
+3560_P5_8              n= 1597 error  1.7 · ¿Ha pagado con el teléfono móvil en los últimos doce meses?
+3560_P5_9              n= 1597 error  1.3 · ¿Cuántas veces ha pagado con tarjeta (crédito/débito) en los últimos d
+3560_P6_1              n= 1597 error  0.5 · ¿Cómo consulta habitualmente el saldo de su cuenta bancaria?
+3560_P6_2              n= 1597 error  0.5 · ¿Cómo prefiere consultar el saldo de su cuenta bancaria?
+3560_P6_3              n= 1597 error  1.0 · ¿Cómo paga habitualmente los recibos o impuestos del banco?
+3560_P6_4              n= 1597 error  1.3 · ¿Cómo prefiere pagar recibos o impuestos?
+3560_P6_5              n= 1597 error  0.7 · ¿Cómo realiza habitualmente las transferencias?
+3560_P6_6              n= 1597 error  0.7 · ¿Cómo prefiere realizar transferencias?
+3560_P7A               n= 1597 error  0.2 · ¿Cómo retira habitualmente efectivo de su banco?
+3560_P7B               n= 1597 error  0.2 · ¿Cómo prefiere retirar dinero de su banco?
+3560_P8                n= 1597 error  3.0 · ¿Uso habitual del cajero automático?
+3560_P9                n= 1597 error  1.5 · ¿Uso habitual de la banca online o app del banco?
+3560_P10               n= 1597 error  2.8 · ¿Asiste habitualmente a su oficina bancaria?
+3560_P10A              n= 1597 error  0.7 · ¿Cuál es la razón principal por la que no acude a su oficina bancaria?
+3575_P1_1_1            n= 3004 error  0.8 · ¿Ha comprado un automóvil o moto?
+3575_P1_1_2            n= 3004 error  0.3 · ¿Ha adquirido otra persona de su hogar un automóvil o moto en el últim
+3575_P1_2_1            n= 3004 error  1.4 · ¿Ha comprado un automóvil o moto?
+3575_P1_2_2            n= 3004 error  0.6 · ¿Ha adquirido otra persona de su hogar un automóvil o moto en el últim
+3575_P1_3_1            n= 3004 error  0.5 · ¿Ha comprado un automóvil o moto?
+3575_P1_3_2            n= 3004 error  0.6 · ¿Ha adquirido otra persona de su hogar un automóvil o moto en el últim
+3575_P1_4_1            n= 3004 error  0.2 · ¿Ha comprado un automóvil o moto?
+3575_P1_4_2            n= 3004 error  1.4 · ¿Ha adquirido otra persona de su hogar un automóvil o moto en el últim
+3575_P2                n= 3004 error  1.4 · ¿Cuál es la situación de ahorro mensual en su hogar?
+3575_P3                n= 3004 error  0.9 · ¿Cómo valoraría la situación económica de su hogar en los últimos 6 me
+3575_NUMPERSONAS       n= 3004 error  0.5 · ¿Cuántas personas del entorno están en paro y buscando trabajo?
+3575_P6                n= 3004 error  1.2 · ¿Ha notado cambios en el número de personas del entorno que están en p
+3575_P7                n= 3004 error  3.1 · ¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en España
+3575_P7_1              n= 3004 error  2.8 · ¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en su com
+3575_P8                n= 3004 error  0.7 · ¿Cómo valoraría la situación económica de España en los últimos 6 mese
+3575_P8_1              n= 3004 error  0.8 · ¿Cómo valoraría la situación económica de la comunidad autónoma en los
+3575_P9                n= 3004 error  1.5 · ¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en España
+3575_P9_1              n= 3004 error  1.3 · ¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en la com
+3575_P10               n= 3004 error  0.5 · ¿Piensa usted que en el próximo año tendrá más, igual o menos probabil
+3575_P11               n= 3004 error  1.9 · ¿Cómo cree que ha sido la evolución de su capacidad de ahorro en los ú
+3575_P12               n= 3004 error  1.3 · ¿Cómo cree que estará la situación económica de su hogar en los próxim
+3575_P14               n= 3004 error  1.3 · ¿Cómo valoraría la situación económica de España en los próximos seis 
+3575_P14_1             n= 3004 error  1.5 · ¿Cómo cree que estará la situación económica de la comunidad autónoma 
+3575_P15               n= 3004 error  0.6 · ¿Qué cree que será la inflación en España en el próximo año?
+3575_P16               n= 3004 error  1.5 · ¿Cree que los tipos de interés en España subirán en el próximo año?
+3575_P17               n= 3004 error  0.4 · ¿Cree que el precio de la vivienda en España subirá, se mantendrá o ba
+3575_P18               n= 3004 error  0.6 · ¿Tiene intención de comprar una vivienda en el próximo año?
+3575_CURSOMULTIPLE_1_1 n= 3004 error  1.3 · ¿Tiene en curso un estudio oficial sobre educación primaria?
+3575_CURSOMULTIPLE_1_3 n= 3004 error  1.3 · ¿Ha cursado educación secundaria obligatoria?
+3575_CURSOMULTIPLE_1_4 n= 3004 error  1.5 · ¿Tiene la persona alguna formación profesional de grado medio en curso
+3575_CURSOMULTIPLE_1_6 n= 3004 error  1.3 · ¿Tiene la persona alguna formación profesional de grado superior?
+3575_CURSOMULTIPLE_1_7 n= 3004 error  0.9 · ¿Está realizando estudios universitarios?
+3575_CURSOMULTIPLE_1_8 n= 3004 error  1.1 · ¿Está realizando estudios oficiales de posgrado o doctorado?
+3575_CURSOMULTIPLE_1_9 n= 3004 error  1.1 · ¿Participa en otros estudios oficiales?
+3575_CURSOMULTIPLE_1_10 n= 3004 error  1.5 · ¿No está cursando estudios?
+3575_P25B              n= 3004 error  1.0 · ¿Cuántas personas hay en su hogar con ingresos?
+3575_PERPRIN           n= 3004 error  4.2 · ¿Quién es la persona a la que se le considera la cabeza de familia en 
+3575_INGREHOG          n= 3004 error  2.5 · ¿Cuál es el nivel de ingresos del hogar?
+3575_MOMENNAC          n= 3004 error  0.3 · ¿Cuándo adquirió la nacionalidad española?
+3575_VIVIENDA          n= 3004 error  0.7 · ¿Cómo es el régimen de tenencia de la vivienda en la que reside?
+3575_P36               n= 3004 error  1.0 · ¿Cuál es su situación de tenencia de vivienda?
+3577_P1                n= 4042 error  0.1 · ¿Ha tenido conocimiento del cruce de la frontera en Ceuta ocurrido en 
+3577_P2                n= 4042 error  0.1 · ¿Necesita refuerzo de las fronteras para evitar entradas masivas de pe
+3577_P3                n= 4042 error  0.2 · ¿Cuánta importancia le da a que España y Marruecos tengan un buen ente
+3577_P4                n= 4042 error  0.3 · ¿Cree que la Unión Europea debería colaborar más con España para gesti
+3577_P5                n= 4042 error  0.2 · ¿Cómo valora la situación de integración territorial de Ceuta y Melill
+3577_P6                n= 4042 error  0.4 · ¿Cuál es el grado de importancia que le otorga a mantener una política
+3577_P7                n= 4042 error  0.7 · ¿Han existido actores que han interferido en las relaciones entre Espa
+3577_P8                n= 4042 error  0.1 · ¿Cuánto le preocupa la situación de los incendios en España?
+3577_P9                n= 4042 error  0.1 · ¿Ha sido afectado personal o familiarmente por los incendios del veran
+3577_P10               n= 4042 error  0.2 · ¿Cree que en el futuro su familia o usted mismo podrán ser afectados p
+3577_P11               n= 4042 error  0.4 · ¿Qué competencias debería tener el Gobierno central en la prevención y
+3577_P12               n= 4042 error  0.2 · ¿Necesita un pacto de Estado para hacer frente a las emergencias del c
+3577_P13               n= 4042 error  0.4 · ¿Cuánto le preocupa el cambio climático?
+3577_P14               n= 4042 error  0.2 · ¿Cuánto se preocupa sobre la invasión de Rusia a Ucrania?
+3577_P15               n= 4042 error  0.1 · ¿Cuánto se preocupa por el conflicto en Oriente Próximo?
+3577_ECOPER            n= 4042 error  0.5 · ¿Cómo valoraría la situación económica personal actual?
+3577_ECOESP            n= 4042 error  0.4 · ¿Cómo valoraría la situación económica general de España?
+8825_P1                n= 7197 error  1.1 · ¿Cómo valoraría el funcionamiento del sistema sanitario español?
+8825_P2                n= 7197 error  1.6 · ¿Cuál es su nivel de satisfacción con el funcionamiento del sistema sa
+8825_P3_1              n= 7197 error  1.3 · ¿Qué tipo de servicio sanitario utilizaría en caso de necesitar acudir
+8825_P3_2              n= 7197 error  1.3 · ¿Qué tipo de servicio sanitario utilizaría en caso de necesitar acudir
+8825_P3_3              n= 7197 error  1.4 · ¿En caso de necesitar ingreso en hospital, utilizaría un servicio sani
+8825_P4ES_1            n= 7197 error  0.9 · ¿Cuán satisfecho está con las consultas de atención primaria en centro
+8825_P4ES_2            n= 7197 error  0.9 · ¿Cuán satisfecho está con las consultas de atención especializada con 
+8825_P4ES_3            n= 7197 error  1.5 · ¿Cuál es tu nivel de satisfacción con las urgencias en hospitales públ
+8825_P4ES_4            n= 7197 error  0.7 · ¿Cuál es tu nivel de satisfacción con el servicio de Urgencias 061 y 1
+8825_P4ES_5            n= 7197 error  1.2 · ¿Cuál es tu nivel de satisfacción con las urgencias de los centros de 
+8825_P4ES_6            n= 7197 error  1.3 · ¿Cuán satisfecho está con el ingreso y la asistencia en hospitales púb
+8825_P5                n= 7197 error  0.3 · ¿En qué tipo de sanidad ha acudido en el último año?
+8825_P5A               n= 7197 error  0.5 · ¿Alguna vez ha necesitado consultar con su médico/a de familia de la s
+8825_P5_1_1            n= 7197 error  0.8 · ¿Ha mencionado síntomas, molestias o enfermedades nuevas como motivo p
+8825_P5_1_2            n= 7197 error  0.5 · ¿Ha mencionado una enfermedad ya diagnosticada como motivo de asistenc
+8825_P5_1_4            n= 7197 error  0.4 · ¿Ha mencionado una renovación de recetas o consulta sobre recetas como
+8825_P5_1_5            n= 7197 error  0.4 · ¿Ha solicitado o renovado una baja médica a un médico de familia de la
+8825_P5_1_6            n= 7197 error  0.1 · ¿Menciona el chequeo, revisión médica y protocolos de prevención como 
+8825_P5_1_7            n= 7197 error  0.2 · ¿Ha solicitado análisis y resultados (pruebas médicas y análisis) en s
+8825_P5_1_8            n= 7197 error  0.2 · ¿Ha mencionado la petición de derivación a un especialista como motivo
+8825_P5_1_9            n= 7197 error  0.2 · ¿Ha mencionado un accidente o lesión como motivo para asistir al médic
+8825_P5_1_10           n= 7197 error  0.2 · ¿Menciona que el motivo de la asistencia al médico de familia de la sa
+8825_P5_1_11           n= 7197 error  0.2 · ¿Ha ingresado en un hospital por una operación o intervención?
+8825_P5_1_98           n= 7197 error  0.1 · ¿Menciona el motivo de la asistencia al médico de familia de la sanida
+8825_P5B               n= 7197 error  0.1 · ¿Cómo ha consultado al médico de familia en el último año?
+8825_P5C               n= 7197 error  0.3 · ¿Cuánto tiempo tardó en ser atendido/a por el médico/a de familia de l
+8825_P5D_1             n= 7197 error  0.8 · ¿Pudo dar su opinión o participar en las decisiones sobre su problema 
+8825_P5D_2             n= 7197 error  0.6 · ¿Le dio el médico la oportunidad de hacer preguntas o plantear preocup
+8825_P5D_3             n= 7197 error  0.5 · ¿Tuvo que esperar más de una hora en la sala de espera hasta entrar en
+8825_P5D_4             n= 7197 error  0.2 · ¿El médico o la médica de atención primaria le explicó las cosas de un
+8825_P5E_1             n= 7197 error  0.6 · ¿Cuánta confianza y seguridad le transmite el personal médico en la at
+8825_P5E_2             n= 7197 error  0.5 · ¿Cuánta confianza y seguridad le transmite la/el profesional de enferm
+8825_P5E_3             n= 7197 error  0.5 · ¿Cuánto tiempo dedican los médicos a cada paciente en la atención prim
+8825_P5E_4             n= 7197 error  0.6 · ¿Cuán satisfecho está con el conocimiento del historial y seguimiento 
+8825_P5E_5             n= 7197 error  0.7 · ¿Cuán satisfecho/a está con la información recibida sobre su problema 
+8825_P5F               n= 7197 error  0.5 · ¿Cómo valoraría la atención recibida en las consultas de medicina de f
+8825_P5G               n= 7197 error  0.8 · ¿Ha realizado una consulta telefónica con su médico de familia en la s
+8825_P6                n= 7197 error  0.8 · ¿En qué tipo de sanidad ha acudido en el último año al servicio de urg
+8825_P7                n= 7197 error  0.3 · ¿Ha asistido a un médico de atención especializada en el último año?
+8825_P8                n= 7197 error  0.7 · ¿Ha consultado a un profesional sanitario de salud mental durante el ú
+8825_P9                n= 7197 error  0.2 · ¿En qué tipo de establecimiento hospitalario ha estado ingresado en el
+8825_P11               n= 7197 error  0.4 · ¿Cómo valora la comunicación y coordinación entre distintos servicios 
+8825_P12               n= 7197 error  0.2 · ¿Cómo ha sido la situación de las listas de espera en la sanidad públi
+8825_P13               n= 7197 error  0.6 · ¿En el último año le ha sido imposible tomar el medicamento recetado p
+8825_P14               n= 7197 error  0.1 · ¿Tiene acceso a su historia clínica a través de Internet?
+8825_P15               n= 7197 error  0.6 · ¿Sabe que los médicos pueden acceder a la historia clínica de los paci
+8825_P16               n= 7197 error  0.1 · ¿Ha recibido asistencia médica en otro lugar que no sea su comunidad a
+8825_P17               n= 7197 error  0.8 · ¿Conoce la posibilidad de retirar medicamentos con receta electrónica 
+8825_P18_1             n= 7197 error  0.9 · ¿Tiene la sanidad pública como tipo de seguro sanitario?
+8825_P18_2             n= 7197 error  0.4 · ¿Tiene una mutualidad de funcionarios con atención por la sanidad públ
+8825_P18_3             n= 7197 error  0.4 · ¿Tiene una mutualidad de funcionarios con atención por la sanidad priv
+8825_P18_4             n= 7197 error  0.1 · ¿Tiene Ud. un seguro médico privado contratado por Ud. o alguna person
+8825_P18_5             n= 7197 error  0.5 · ¿Tiene un seguro médico privado contratado por su empresa?
+8825_P19_1             n= 7197 error  1.1 · ¿Considera que los servicios que ofrece la asistencia sanitaria de su 
+8825_P19_2             n= 7197 error  0.9 · ¿Considera que los medios técnicos de su comunidad autónoma son mejore
+8825_P19_3             n= 7197 error  1.0 · ¿Cómo está organizada la asistencia sanitaria en su comunidad autónoma
+8825_P19_4             n= 7197 error  0.5 · ¿Cómo considera que está financiada la asistencia sanitaria en su comu
+8825_P21               n= 7197 error  1.8 · ¿Conoce las herramientas de inteligencia artificial aplicadas a la sal
+8825_P22_1             n= 7197 error  0.8 · ¿Cuán cómodo/a se siente Ud. hablando con una IA durante una consulta 
+8825_P22_2             n= 7197 error  1.5 · ¿Cuánto te incomoda someterte a una operación quirúrgica realizada med
+8825_P22_3             n= 7197 error  1.4 · ¿Cuán cómodo/a te sientes si un sistema de inteligencia artificial int
+8825_P22_4             n= 7197 error  1.1 · ¿Cómo se siente al pensar en seguir la evolución de su enfermedad con 
+8825_P23               n= 7197 error  0.5 · ¿Cuánto se preocupa usted por que las empresas privadas utilicen datos
+8825_P24               n= 7197 error  0.7 · ¿Cuánto se preocupa usted por que las instituciones públicas utilicen 
+8825_P25_1             n= 7197 error  0.9 · ¿Legislar de forma específica en temas de salud?
+8825_P25_2             n= 7197 error  0.8 · ¿Es importante informar al paciente cuando los servicios sanitarios ut
+8825_P25_3             n= 7197 error  0.4 · ¿Daría usted la posibilidad al paciente de negarse a que se utilicen s
+8825_ESTSALUD          n= 7197 error  0.6 · ¿Cómo considera que está su estado de salud en general?
+8825_ENFCRONICA        n= 7197 error  0.1 · ¿Tiene algún problema de salud crónico?
+3569_P1_1_1            n= 3023 error  0.2 · ¿Ha adquirido usted algún automóvil o moto para el hogar en los último
+3569_P1_1_2            n= 3023 error  0.6 · ¿Ha adquirido otra persona de su hogar algún electrodoméstico pequeño?
+3569_P1_2_1            n= 3023 error  2.1 · ¿Ha adquirido usted algún automóvil o moto para el hogar en los último
+3569_P1_2_2            n= 3023 error  0.9 · ¿Ha adquirido otra persona de su hogar algún electrodoméstico pequeño?
+3569_P1_3_1            n= 3023 error  1.3 · ¿Ha adquirido usted algún automóvil o moto para el hogar en los último
+3569_P1_3_2            n= 3023 error  0.6 · ¿Ha adquirido otra persona de su hogar algún electrodoméstico pequeño?
+3569_P1_4_1            n= 3023 error  0.5 · ¿Ha adquirido usted algún automóvil o moto para el hogar en los último
+3569_P1_4_2            n= 3023 error  0.5 · ¿Ha adquirido otra persona de su hogar algún electrodoméstico pequeño?
+3569_P2                n= 3023 error  1.4 · ¿Cuál es la situación de ahorro mensual en su hogar?
+3569_P3                n= 3023 error  0.4 · ¿Cómo valoraría la situación económica de su hogar en los últimos 6 me
+3569_NUMPERSONAS       n= 3023 error  0.3 · ¿Cuántas personas del entorno están en paro y buscando trabajo?
+3569_P6                n= 3023 error  0.6 · ¿Ha notado cambios en el número de personas del entorno que están en p
+3569_P7                n= 3023 error  3.2 · ¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en España
+3569_P7_1              n= 3023 error  2.4 · ¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en su com
+3569_P8                n= 3023 error  1.5 · ¿Cómo valoraría la situación económica de España en los últimos 6 mese
+3569_P8_1              n= 3023 error  1.1 · ¿Cómo valoraría la situación económica de la comunidad autónoma en los
+3569_P9                n= 3023 error  3.7 · ¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en España
+3569_P9_1              n= 3023 error  1.3 · ¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en la com
+3569_P10               n= 3023 error  0.5 · ¿Piensa usted que en el próximo año tendrá más, igual o menos probabil
+3569_P11               n= 3023 error  1.0 · ¿Cómo cree que ha sido la evolución de su capacidad de ahorro en los ú
+3569_P12               n= 3023 error  1.0 · ¿Cómo cree que estará la situación económica de su hogar en los próxim
+3569_P14               n= 3023 error  1.7 · ¿Cómo cree que estará la situación económica de España en los próximos
+3569_P14_1             n= 3023 error  1.3 · ¿Cómo cree que estará la situación económica de la comunidad autónoma 
+3569_P15               n= 3023 error  0.5 · ¿Qué cree que será la inflación en España en el próximo año?
+3569_P16               n= 3023 error  1.1 · ¿Cree que los tipos de interés en España subirán en el próximo año?
+3569_P17               n= 3023 error  0.8 · ¿Cree que el precio de la vivienda en España subirá, se mantendrá o ba
+3569_P18               n= 3023 error  0.2 · ¿Tiene intención de comprar una vivienda en el próximo año?
+3569_CURSOMULTIPLE_1_1 n= 3023 error  0.5 · ¿Tiene en curso un estudio oficial sobre educación primaria?
+3569_CURSOMULTIPLE_1_3 n= 3023 error  0.5 · ¿Ha cursado educación secundaria obligatoria?
+3569_CURSOMULTIPLE_1_4 n= 3023 error  0.6 · ¿Tiene la persona alguna formación profesional de grado medio en curso
+3569_CURSOMULTIPLE_1_6 n= 3023 error  0.4 · ¿Tiene la persona alguna formación profesional de grado superior?
+3569_CURSOMULTIPLE_1_7 n= 3023 error  0.8 · ¿Está realizando estudios universitarios?
+3569_CURSOMULTIPLE_1_8 n= 3023 error  0.4 · ¿Está realizando estudios oficiales de posgrado o doctorado?
+3569_CURSOMULTIPLE_1_9 n= 3023 error  0.4 · ¿Está realizando otros estudios?
+3569_CURSOMULTIPLE_1_10 n= 3023 error  1.4 · ¿No está cursando estudios?
+3569_P25B              n= 3023 error  1.2 · ¿Cuántas personas hay en su hogar con ingresos?
+3569_INGREHOG          n= 3023 error  2.4 · ¿Cuál es el nivel de ingresos del hogar?
+3569_MOMENNAC          n= 3023 error  0.8 · ¿Cuándo adquirió la nacionalidad española?
+3569_VIVIENDA          n= 3023 error  0.8 · ¿Cómo es el régimen de tenencia de la vivienda en la que reside?
+3569_P36               n= 3023 error  1.0 · ¿Cuál es su situación de tenencia de vivienda?
+
+297 preguntas en el banco ampliado

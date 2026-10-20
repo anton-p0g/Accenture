@@ -1,0 +1,3 @@
+sexo,n_real,pred_%,real_sep26_%,error_pts,margen_encuesta_±
+Hombre,2067,58.5,73.5,-15.0,1.9
+Mujer,1975,72.9,87.6,-14.7,1.5

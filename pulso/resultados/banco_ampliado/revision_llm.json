@@ -1,0 +1,5811 @@
+{
+ "3528_OPOSICIONES_1": {
+  "estudio": "3528",
+  "variable": "OPOSICIONES_1",
+  "etiqueta": "Garantiza la igualdad de oportunidades",
+  "bloque": "Posicionamiento ante diversos aspectos del sistema de acceso a la Administración Pública en España",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Usted cree que el sistema de acceso a la Administración Pública garantiza la igualdad de oportunidades?",
+  "tema": "Sociedad"
+ },
+ "3528_OPOSICIONES_3": {
+  "estudio": "3528",
+  "variable": "OPOSICIONES_3",
+  "etiqueta": "Favorece más a quienes tienen tiempo y recursos para prepararse",
+  "bloque": "Posicionamiento ante diversos aspectos del sistema de acceso a la Administración Pública en España",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Favorece más a quienes tienen tiempo y recursos para prepararse?",
+  "tema": "Sociedad"
+ },
+ "3528_OPOSICIONES_4": {
+  "estudio": "3528",
+  "variable": "OPOSICIONES_4",
+  "etiqueta": "Resulta atractivo para los/as jóvenes",
+  "bloque": "Posicionamiento ante diversos aspectos del sistema de acceso a la Administración Pública en España",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Resulta atractivo para los jóvenes el sistema de acceso a la Administración Pública en España?",
+  "tema": "Sociedad"
+ },
+ "3528_OPOSICIONES_5": {
+  "estudio": "3528",
+  "variable": "OPOSICIONES_5",
+  "etiqueta": "Resulta atractivo para los nuevos perfiles profesionales",
+  "bloque": "Posicionamiento ante diversos aspectos del sistema de acceso a la Administración Pública en España",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Resulta atractivo para los nuevos perfiles profesionales el sistema de acceso a la Administración Pública en España?",
+  "tema": "Sociedad"
+ },
+ "3528_OPOSICIONES_6": {
+  "estudio": "3528",
+  "variable": "OPOSICIONES_6",
+  "etiqueta": "Está caracterizado por una excesiva carga memorística en detrimento del contenido práctico",
+  "bloque": "Posicionamiento ante diversos aspectos del sistema de acceso a la Administración Pública en España",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Está caracterizado por una excesiva carga memorística en detrimento del contenido práctico el sistema de acceso a la Administración Pública en España?",
+  "tema": "Sociedad"
+ },
+ "3528_OPOSICIONES_7": {
+  "estudio": "3528",
+  "variable": "OPOSICIONES_7",
+  "etiqueta": "Valora adecuadamente las competencias profesionales",
+  "bloque": "Posicionamiento ante diversos aspectos del sistema de acceso a la Administración Pública en España",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Valora adecuadamente las competencias profesionales?",
+  "tema": "Sociedad"
+ },
+ "3528_OPOSICIONES_8": {
+  "estudio": "3528",
+  "variable": "OPOSICIONES_8",
+  "etiqueta": "Valora adecuadamente la experiencia previa",
+  "bloque": "Posicionamiento ante diversos aspectos del sistema de acceso a la Administración Pública en España",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Valora adecuadamente la experiencia previa en el acceso a la Administración Pública?",
+  "tema": "Sociedad"
+ },
+ "3528_ECOPER": {
+  "estudio": "3528",
+  "variable": "ECOPER",
+  "etiqueta": "Valoración de la situación económica personal actual",
+  "bloque": "Valoración de la situación económica personal actual",
+  "opciones": {
+   "1": "Muy buena",
+   "2": "Buena",
+   "3": "Regular",
+   "4": "Mala",
+   "5": "Muy mala"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría la situación económica personal actual?",
+  "tema": "Consumo"
+ },
+ "3528_ECOESP": {
+  "estudio": "3528",
+  "variable": "ECOESP",
+  "etiqueta": "Valoración de la situación económica general de España",
+  "bloque": "Valoración de la situación económica general de España",
+  "opciones": {
+   "1": "Muy buena",
+   "2": "Buena",
+   "3": "Regular",
+   "4": "Mala",
+   "5": "Muy mala"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría la situación económica general de España?",
+  "tema": "Consumo"
+ },
+ "3528_VALMINIS_2": {
+  "estudio": "3528",
+  "variable": "VALMINIS_2",
+  "etiqueta": "José Manuel Albares",
+  "bloque": "Escala de valoración (1-10) de los ministros del Gobierno de coalición PSOE-Sumar",
+  "opciones": {
+   "1": "1 Muy mal",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Muy bien"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría a José Manuel Albares como ministro en el Gobierno de coalición PSOE-Sumar?",
+  "tema": "Sociedad"
+ },
+ "3528_VALMINIS_9": {
+  "estudio": "3528",
+  "variable": "VALMINIS_9",
+  "etiqueta": "Fernando Grande-Marlaska",
+  "bloque": "Escala de valoración (1-10) de los ministros del Gobierno de coalición PSOE-Sumar",
+  "opciones": {
+   "1": "1 Muy mal",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Muy bien"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría a Fernando Grande-Marlaska como ministro?",
+  "tema": "Sociedad"
+ },
+ "3528_VALMINIS_12": {
+  "estudio": "3528",
+  "variable": "VALMINIS_12",
+  "etiqueta": "María Jesús Montero",
+  "bloque": "Escala de valoración (1-10) de los ministros del Gobierno de coalición PSOE-Sumar",
+  "opciones": {
+   "1": "1 Muy mal",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Muy bien"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría a María Jesús Montero como ministra?",
+  "tema": "Salud"
+ },
+ "3528_VALMINIS_18": {
+  "estudio": "3528",
+  "variable": "VALMINIS_18",
+  "etiqueta": "Margarita Robles",
+  "bloque": "Escala de valoración (1-10) de los ministros del Gobierno de coalición PSOE-Sumar",
+  "opciones": {
+   "1": "1 Muy mal",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Muy bien"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría a Margarita Robles como ministra?",
+  "tema": "Sociedad"
+ },
+ "3528_ECIVIL": {
+  "estudio": "3528",
+  "variable": "ECIVIL",
+  "etiqueta": "Estado civil de la persona entrevistada",
+  "bloque": "Estado civil de la persona entrevistada",
+  "opciones": {
+   "1": "Casado/a",
+   "2": "Soltero/a",
+   "3": "Viudo/a",
+   "4": "Separado/a",
+   "5": "Divorciado/a"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es su estado civil?",
+  "tema": "Sociedad"
+ },
+ "3528_RELALAB": {
+  "estudio": "3528",
+  "variable": "RELALAB",
+  "etiqueta": "Situación profesional de la persona entrevistada",
+  "bloque": "Situación profesional de la persona entrevistada",
+  "opciones": {
+   "1": "Asalariado/a por cuenta ajena",
+   "2": "Empresario/a o profesional con asalariados/as",
+   "3": "Profesional o trabajador/a autónomo/a (sin asalariados/as)",
+   "4": "Ayuda familiar (sin remuneración reglamentada en la empresa o negocio de un/a familiar)",
+   "5": "Miembro de una cooperativa",
+   "6": "Otra situación"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es la situación profesional en la que se encuentra?",
+  "tema": "Sociedad"
+ },
+ "3528_SINCERIDAD": {
+  "estudio": "3528",
+  "variable": "SINCERIDAD",
+  "etiqueta": "Grado de sinceridad de la persona entrevistada según el/la entrevistador/a",
+  "bloque": "Grado de sinceridad de la persona entrevistada según el/la entrevistador/a",
+  "opciones": {
+   "1": "Mucha",
+   "2": "Bastante",
+   "3": "Poca",
+   "4": "Ninguna"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánta sinceridad cree que tiene la persona que le está respondiendo?",
+  "tema": "Soledad"
+ },
+ "3535_INTPOL": {
+  "estudio": "3535",
+  "variable": "INTPOL",
+  "etiqueta": "Grado de interés por la política",
+  "bloque": "Grado de interés por la política",
+  "opciones": {
+   "1": "Mucho",
+   "2": "Bastante",
+   "3": "Regular",
+   "4": "Poco",
+   "5": "Nada"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto interés tiene en política?",
+  "tema": "Sociedad"
+ },
+ "3535_IMPIDEAS": {
+  "estudio": "3535",
+  "variable": "IMPIDEAS",
+  "etiqueta": "Posición respecto a favorecer la igualdad y solidaridad entre las personas o que la posición se alcance con el esfuerzo y el trabajo",
+  "bloque": "Posición respecto a favorecer la igualdad y solidaridad entre las personas o que la posición se alcance con el esfuerzo y el trabajo",
+  "opciones": {
+   "1": "Hay que favorecer la igualdad y la solidaridad entre las personas",
+   "2": "Hay que dejar que cada cual llegue a lo más alto que pueda con su esfuerzo y trabajo",
+   "3": "Un equilibrio entre los dos aspectos",
+   "4": "Está en duda"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que hay que favorecer la igualdad y la solidaridad entre las personas, o que cada cual llegue a lo más alto que pueda con su esfuerzo y trabajo?",
+  "tema": "Sociedad"
+ },
+ "3535_INESTADO1": {
+  "estudio": "3535",
+  "variable": "INESTADO1",
+  "etiqueta": "Posicionamiento respecto al papel del Estado en la economía",
+  "bloque": "Posicionamiento respecto al papel del Estado en la economía",
+  "opciones": {
+   "1": "El Estado no debe intervenir en la vida económica",
+   "2": "El Estado sí debe intervenir en la economía",
+   "3": "Depende de las condiciones económicas",
+   "4": "Está en duda"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que el Estado debe intervenir en la economía?",
+  "tema": "Sociedad"
+ },
+ "3535_INESTADO2": {
+  "estudio": "3535",
+  "variable": "INESTADO2",
+  "etiqueta": "Posición respecto a la planificación completa de la economía por el Estado o solo determinados sectores",
+  "bloque": "Posición respecto a la planificación completa de la economía por el Estado o solo determinados sectores",
+  "opciones": {
+   "1": "El Estado debe dirigir y planificar toda la actividad económica",
+   "2": "El Estado debe intervenir solo en determinados sectores de interés público y fijando orientaciones generales",
+   "3": "Está en duda",
+   "4": "El Estado debe intervenir lo mínimo, y solo en determinados casos"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que el Estado debe planificar toda la actividad económica?",
+  "tema": "Sociedad"
+ },
+ "3535_FUTUR1": {
+  "estudio": "3535",
+  "variable": "FUTUR1",
+  "etiqueta": "Valoración prospectiva (10 años) de los cambios económicos y sociales",
+  "bloque": "Valoración prospectiva (10 años) de los cambios económicos y sociales",
+  "opciones": {
+   "1": "Muchos cambios",
+   "2": "Bastantes cambios",
+   "3": "Regular, ni muchos ni pocos",
+   "4": "Pocos cambios",
+   "5": "Ningún o casi ningún cambio"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que habrá muchos cambios económicos y sociales en los próximos 10 años?",
+  "tema": "Sociedad"
+ },
+ "3535_FUTUR2": {
+  "estudio": "3535",
+  "variable": "FUTUR2",
+  "etiqueta": "Valoración de los futuros cambios políticos y sociales",
+  "bloque": "Valoración de los futuros cambios políticos y sociales",
+  "opciones": {
+   "1": "Muy positivos",
+   "2": "Positivos",
+   "3": "Negativos",
+   "4": "Muy negativos",
+   "5": "Indiferentes",
+   "6": "En parte positivos y en parte negativos"
+  },
+  "valida": true,
+  "pregunta": "¿Qué valor le dan a los futuros cambios políticos y sociales?",
+  "tema": "Sociedad"
+ },
+ "3535_INFLUPAISES_2": {
+  "estudio": "3535",
+  "variable": "INFLUPAISES_2",
+  "etiqueta": "Estados Unidos",
+  "bloque": "Valoración prospectiva (10 años) del grado de influencia en el mundo de la UE, distintos países y otras zonas geoestratégicas",
+  "opciones": {
+   "1": "Mayor que ahora",
+   "3": "Igual que ahora",
+   "2": "Menor que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en 10 años el grado de influencia en el mundo de los Estados Unidos será mayor, igual o menor que ahora?",
+  "tema": "Sociedad"
+ },
+ "3535_INFLUPAISES_7": {
+  "estudio": "3535",
+  "variable": "INFLUPAISES_7",
+  "etiqueta": "Países latinoamericanos",
+  "bloque": "Valoración prospectiva (10 años) del grado de influencia en el mundo de la UE, distintos países y otras zonas geoestratégicas",
+  "opciones": {
+   "1": "Mayor que ahora",
+   "3": "Igual que ahora",
+   "2": "Menor que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en 10 años la influencia de los países latinoamericanos en el mundo será mayor, igual o menor que ahora?",
+  "tema": "Sociedad"
+ },
+ "3535_SAT1": {
+  "estudio": "3535",
+  "variable": "SAT1",
+  "etiqueta": "Valoración prospectiva (10 años) del número de robots y sistemas automáticos en las empresas",
+  "bloque": "Valoración prospectiva (10 años) del número de robots y sistemas automáticos en las empresas",
+  "opciones": {
+   "1": "Aumentarán mucho",
+   "2": "Aumentarán bastante",
+   "3": "Aumentarán algo",
+   "4": "Aumentarán poco",
+   "5": "No aumentarán nada o casi nada"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en 10 años habrá muchos más robots y sistemas automáticos en las empresas?",
+  "tema": "Tecnología e IA"
+ },
+ "3535_SAT2": {
+  "estudio": "3535",
+  "variable": "SAT2",
+  "etiqueta": "Valoración prospectiva (10 años) del impacto de la utilización de robots y sistemas automáticos en el ámbito del trabajo",
+  "bloque": "Valoración prospectiva (10 años) del impacto de la utilización de robots y sistemas automáticos en el ámbito del trabajo",
+  "opciones": {
+   "1": "Dará lugar a un aumento del paro",
+   "2": "Dará lugar a la creación de más puestos de trabajo",
+   "3": "Cree que todo seguirá prácticamente igual, que no influirá en el empleo",
+   "4": "Está en duda",
+   "5": "Se destruirá empleo y también se crearán nuevos puestos de trabajo",
+   "6": "Cambiará el modelo productivo, el tipo de trabajo"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que la utilización de robots y sistemas automáticos en el ámbito del trabajo tendrá un impacto en el empleo en los próximos 10 años?",
+  "tema": "Tecnología e IA"
+ },
+ "3535_DESIN_1": {
+  "estudio": "3535",
+  "variable": "DESIN_1",
+  "etiqueta": "Los robots industriales y los sistemas automáticos de trabajo",
+  "bloque": "Valoración prospectiva del grado de desarrollo de diversas innovaciones y adelantos tecnológicos (diez años)",
+  "opciones": {
+   "1": "Mucho",
+   "2": "Bastante",
+   "3": "Regular",
+   "4": "Poco",
+   "5": "Nada o casi nada"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto valorará en diez años el desarrollo de los robots industriales y los sistemas automáticos de trabajo?",
+  "tema": "Tecnología e IA"
+ },
+ "3535_DESIN_2": {
+  "estudio": "3535",
+  "variable": "DESIN_2",
+  "etiqueta": "La biotecnología (por ejemplo, alimentos transgénicos)",
+  "bloque": "Valoración prospectiva del grado de desarrollo de diversas innovaciones y adelantos tecnológicos (diez años)",
+  "opciones": {
+   "1": "Mucho",
+   "2": "Bastante",
+   "3": "Regular",
+   "4": "Poco",
+   "5": "Nada o casi nada"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto valorará en diez años la biotecnología, por ejemplo, alimentos transgénicos?",
+  "tema": "Tecnología e IA"
+ },
+ "3535_DESIN_3": {
+  "estudio": "3535",
+  "variable": "DESIN_3",
+  "etiqueta": "Las nuevas fuentes de energía (solar, eólica)",
+  "bloque": "Valoración prospectiva del grado de desarrollo de diversas innovaciones y adelantos tecnológicos (diez años)",
+  "opciones": {
+   "1": "Mucho",
+   "2": "Bastante",
+   "3": "Regular",
+   "4": "Poco",
+   "5": "Nada o casi nada"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto valorará en diez años las nuevas fuentes de energía (solar, eólica)?",
+  "tema": "Tecnología e IA"
+ },
+ "3535_DESIN_4": {
+  "estudio": "3535",
+  "variable": "DESIN_4",
+  "etiqueta": "La microelectrónica, los ordenadores",
+  "bloque": "Valoración prospectiva del grado de desarrollo de diversas innovaciones y adelantos tecnológicos (diez años)",
+  "opciones": {
+   "1": "Mucho",
+   "2": "Bastante",
+   "3": "Regular",
+   "4": "Poco",
+   "5": "Nada o casi nada"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto valorará en diez años la microelectrónica y los ordenadores?",
+  "tema": "Tecnología e IA"
+ },
+ "3535_DESIN_5": {
+  "estudio": "3535",
+  "variable": "DESIN_5",
+  "etiqueta": "La ingeniería genética",
+  "bloque": "Valoración prospectiva del grado de desarrollo de diversas innovaciones y adelantos tecnológicos (diez años)",
+  "opciones": {
+   "1": "Mucho",
+   "2": "Bastante",
+   "3": "Regular",
+   "4": "Poco",
+   "5": "Nada o casi nada"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto desarrollará la ingeniería genética en diez años?",
+  "tema": "Tecnología e IA"
+ },
+ "3535_DESIN_6": {
+  "estudio": "3535",
+  "variable": "DESIN_6",
+  "etiqueta": "Las nuevas tecnologías del ocio y del esparcimiento (por ejemplo, los videojuegos)",
+  "bloque": "Valoración prospectiva del grado de desarrollo de diversas innovaciones y adelantos tecnológicos (diez años)",
+  "opciones": {
+   "1": "Mucho",
+   "2": "Bastante",
+   "3": "Regular",
+   "4": "Poco",
+   "5": "Nada o casi nada"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto cree que se desarrollarán las nuevas tecnologías del ocio y del esparcimiento en los próximos diez años?",
+  "tema": "Tecnología e IA"
+ },
+ "3535_DESIN_7": {
+  "estudio": "3535",
+  "variable": "DESIN_7",
+  "etiqueta": "Las nuevas tecnologías del hogar (por ejemplo, robots domésticos polivalentes, como el Optimus)",
+  "bloque": "Valoración prospectiva del grado de desarrollo de diversas innovaciones y adelantos tecnológicos (diez años)",
+  "opciones": {
+   "1": "Mucho",
+   "2": "Bastante",
+   "3": "Regular",
+   "4": "Poco",
+   "5": "Nada o casi nada"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto cree que se desarrollarán las nuevas tecnologías del hogar en los próximos diez años?",
+  "tema": "Tecnología e IA"
+ },
+ "3535_DESIN_8": {
+  "estudio": "3535",
+  "variable": "DESIN_8",
+  "etiqueta": "Los transportes (por ejemplo, los vehículos eléctricos...)",
+  "bloque": "Valoración prospectiva del grado de desarrollo de diversas innovaciones y adelantos tecnológicos (diez años)",
+  "opciones": {
+   "1": "Mucho",
+   "2": "Bastante",
+   "3": "Regular",
+   "4": "Poco",
+   "5": "Nada o casi nada"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto valorará en diez años el desarrollo de los transportes, por ejemplo, los vehículos eléctricos?",
+  "tema": "Tecnología e IA"
+ },
+ "3535_DESIN_9": {
+  "estudio": "3535",
+  "variable": "DESIN_9",
+  "etiqueta": "La inteligencia artificial",
+  "bloque": "Valoración prospectiva del grado de desarrollo de diversas innovaciones y adelantos tecnológicos (diez años)",
+  "opciones": {
+   "1": "Mucho",
+   "2": "Bastante",
+   "3": "Regular",
+   "4": "Poco",
+   "5": "Nada o casi nada"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto desarrollará la inteligencia artificial en diez años?",
+  "tema": "Tecnología e IA"
+ },
+ "3535_IDEASPROS1_1": {
+  "estudio": "3535",
+  "variable": "IDEASPROS1_1",
+  "etiqueta": "Personas con creencias religiosas",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país de distintas creencias, valores y cuestiones sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en diez años habrá más personas con creencias religiosas, menos o igual que ahora?",
+  "tema": "Sociedad"
+ },
+ "3535_IDEASPROS1_2": {
+  "estudio": "3535",
+  "variable": "IDEASPROS1_2",
+  "etiqueta": "Interés en las cosas materiales (propiedades)",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país de distintas creencias, valores y cuestiones sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en diez años habrá más interés en las cosas materiales en nuestro país?",
+  "tema": "Consumo"
+ },
+ "3535_IDEASPROS1_3": {
+  "estudio": "3535",
+  "variable": "IDEASPROS1_3",
+  "etiqueta": "Interés por el propio éxito",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país de distintas creencias, valores y cuestiones sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en el futuro habrá más o menos interés por el propio éxito en nuestro país?",
+  "tema": "Sociedad"
+ },
+ "3535_IDEASPROS1_4": {
+  "estudio": "3535",
+  "variable": "IDEASPROS1_4",
+  "etiqueta": "Libertad sexual",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país de distintas creencias, valores y cuestiones sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en diez años habrá más libertad sexual en nuestro país, menos o la misma que ahora?",
+  "tema": "Sociedad"
+ },
+ "3535_IDEASPROS1_6": {
+  "estudio": "3535",
+  "variable": "IDEASPROS1_6",
+  "etiqueta": "Mujeres en puestos de responsabilidad",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país de distintas creencias, valores y cuestiones sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en diez años habrá más, menos o igual número de mujeres en puestos de responsabilidad?",
+  "tema": "Sociedad"
+ },
+ "3535_IDEASPROS1_7": {
+  "estudio": "3535",
+  "variable": "IDEASPROS1_7",
+  "etiqueta": "Integración de las personas con discapacidad",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país de distintas creencias, valores y cuestiones sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en diez años habrá más, menos o igual integración de las personas con discapacidad en nuestro país?",
+  "tema": "Sociedad"
+ },
+ "3535_IDEASPROS2_1": {
+  "estudio": "3535",
+  "variable": "IDEASPROS2_1",
+  "etiqueta": "Relación con la familia o lazos familiares",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país de las relaciones familiares, modos de vida y otras cuestiones sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en diez años tendrá más, menos o la misma relación con la familia que ahora?",
+  "tema": "Sociedad"
+ },
+ "3535_IDEASPROS2_2": {
+  "estudio": "3535",
+  "variable": "IDEASPROS2_2",
+  "etiqueta": "Separaciones y divorcios",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país de las relaciones familiares, modos de vida y otras cuestiones sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que habrá más, menos o igual separaciones y divorcios en nuestro país en diez años?",
+  "tema": "Sociedad"
+ },
+ "3535_IDEASPROS2_3": {
+  "estudio": "3535",
+  "variable": "IDEASPROS2_3",
+  "etiqueta": "Nacimientos, natalidad",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país de las relaciones familiares, modos de vida y otras cuestiones sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que habrá más nacimientos, menos nacimientos o igual número de nacimientos en nuestro país en diez años?",
+  "tema": "Sociedad"
+ },
+ "3535_IDEASPROS2_4": {
+  "estudio": "3535",
+  "variable": "IDEASPROS2_4",
+  "etiqueta": "Soledad o aislamiento",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país de las relaciones familiares, modos de vida y otras cuestiones sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en diez años habrá más soledad o aislamiento en nuestro país?",
+  "tema": "Soledad"
+ },
+ "3535_IDEASPROS2_5": {
+  "estudio": "3535",
+  "variable": "IDEASPROS2_5",
+  "etiqueta": "Cuidados familiares a los/as mayores",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país de las relaciones familiares, modos de vida y otras cuestiones sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en diez años habrá más, menos o igual cuidado a los mayores en las familias?",
+  "tema": "Sociedad"
+ },
+ "3535_IDEASPROS2_6": {
+  "estudio": "3535",
+  "variable": "IDEASPROS2_6",
+  "etiqueta": "Tiempo libre para el ocio",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país de las relaciones familiares, modos de vida y otras cuestiones sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en diez años habrá más tiempo libre para el ocio en nuestro país?",
+  "tema": "Sociedad"
+ },
+ "3535_IDEASPROS2_7": {
+  "estudio": "3535",
+  "variable": "IDEASPROS2_7",
+  "etiqueta": "Personas realizadas o que disfruten con su trabajo",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país de las relaciones familiares, modos de vida y otras cuestiones sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en diez años habrá más personas realizadas o que disfruten con su trabajo?",
+  "tema": "Sociedad"
+ },
+ "3535_IDEASPROS2_8": {
+  "estudio": "3535",
+  "variable": "IDEASPROS2_8",
+  "etiqueta": "Interés por la salud y el cuidado personal",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país de las relaciones familiares, modos de vida y otras cuestiones sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en diez años habrá más interés por la salud y el cuidado personal en nuestro país?",
+  "tema": "Salud"
+ },
+ "3535_IDEASPROS3_1": {
+  "estudio": "3535",
+  "variable": "IDEASPROS3_1",
+  "etiqueta": "Paro o falta de trabajo",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país del empleo y otros problemas sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que habrá más, menos o igual paro o falta de trabajo en nuestro país en diez años?",
+  "tema": "Sociedad"
+ },
+ "3535_IDEASPROS3_2": {
+  "estudio": "3535",
+  "variable": "IDEASPROS3_2",
+  "etiqueta": "Diferencias sociales y económicas",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país del empleo y otros problemas sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en diez años habrá más, menos o igual diferencia social y económica en nuestro país?",
+  "tema": "Sociedad"
+ },
+ "3535_IDEASPROS3_3": {
+  "estudio": "3535",
+  "variable": "IDEASPROS3_3",
+  "etiqueta": "Consumo de drogas",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país del empleo y otros problemas sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en diez años habrá más, menos o igual consumo de drogas en nuestro país?",
+  "tema": "Consumo"
+ },
+ "3535_IDEASPROS3_4": {
+  "estudio": "3535",
+  "variable": "IDEASPROS3_4",
+  "etiqueta": "SIDA y otras enfermedades víricas",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país del empleo y otros problemas sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en diez años habrá más, menos o igual personas con SIDA y otras enfermedades víricas en nuestro país?",
+  "tema": "Salud"
+ },
+ "3535_IDEASPROS3_6": {
+  "estudio": "3535",
+  "variable": "IDEASPROS3_6",
+  "etiqueta": "Protección social del Estado",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país del empleo y otros problemas sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en diez años la protección social del Estado será más, menos o igual que ahora?",
+  "tema": "Salud"
+ },
+ "3535_IDEASPROS3_7": {
+  "estudio": "3535",
+  "variable": "IDEASPROS3_7",
+  "etiqueta": "Igualdad de oportunidades",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país del empleo y otros problemas sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en nuestro país habrá más, menos o igual igualdad de oportunidades en el empleo en diez años?",
+  "tema": "Sociedad"
+ },
+ "3535_IDEASPROS4_1": {
+  "estudio": "3535",
+  "variable": "IDEASPROS4_1",
+  "etiqueta": "Deterioro del medio ambiente",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país del deterioro del medio ambiente y otras cuestiones sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en diez años habrá más deterioro del medio ambiente en nuestro país que ahora?",
+  "tema": "Medio ambiente"
+ },
+ "3535_IDEASPROS4_2": {
+  "estudio": "3535",
+  "variable": "IDEASPROS4_2",
+  "etiqueta": "Muertes por cáncer",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país del deterioro del medio ambiente y otras cuestiones sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en diez años habrá más, menos o igual muertes por cáncer en nuestro país que ahora?",
+  "tema": "Salud"
+ },
+ "3535_IDEASPROS4_3": {
+  "estudio": "3535",
+  "variable": "IDEASPROS4_3",
+  "etiqueta": "Robots que sustituyen a trabajadores/as",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país del deterioro del medio ambiente y otras cuestiones sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en diez años habrá más robots que sustituyan a trabajadores/as que ahora?",
+  "tema": "Tecnología e IA"
+ },
+ "3535_IDEASPROS4_4": {
+  "estudio": "3535",
+  "variable": "IDEASPROS4_4",
+  "etiqueta": "Racismo y xenofobia",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país del deterioro del medio ambiente y otras cuestiones sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en diez años habrá más, menos o igual racismo y xenofobia en nuestro país?",
+  "tema": "Sociedad"
+ },
+ "3535_IDEASPROS4_5": {
+  "estudio": "3535",
+  "variable": "IDEASPROS4_5",
+  "etiqueta": "Personas teletrabajando en casa",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país del deterioro del medio ambiente y otras cuestiones sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en diez años habrá más personas teletrabajando en casa, menos o igual que ahora?",
+  "tema": "Tecnología e IA"
+ },
+ "3535_IDEASPROS4_6": {
+  "estudio": "3535",
+  "variable": "IDEASPROS4_6",
+  "etiqueta": "Epidemias graves como la de COVID-19",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país del deterioro del medio ambiente y otras cuestiones sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en los próximos diez años habrá más, menos o igual epidemias graves como la de COVID-19 que ahora?",
+  "tema": "Salud"
+ },
+ "3535_IDEASPROS4_7": {
+  "estudio": "3535",
+  "variable": "IDEASPROS4_7",
+  "etiqueta": "Desastres naturales",
+  "bloque": "Valoración prospectiva de la evolución en nuestro país del deterioro del medio ambiente y otras cuestiones sociales (diez años)",
+  "opciones": {
+   "1": "Más que ahora",
+   "2": "Menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en los próximos diez años habrá más, menos o igual desastres naturales en nuestro país?",
+  "tema": "Medio ambiente"
+ },
+ "3535_IDEASPROS5_1": {
+  "estudio": "3535",
+  "variable": "IDEASPROS5_1",
+  "etiqueta": "Desigualdades entre países pobres y ricos",
+  "bloque": "Valoración prospectiva de la evolución en el mundo de las desigualdades entre países pobres y ricos y otras cuestiones internacionales (diez años)",
+  "opciones": {
+   "1": "Mayores/más que ahora",
+   "2": "Menores/menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en diez años las desigualdades entre países pobres y ricos serán mayores, menores o iguales que ahora?",
+  "tema": "Sociedad"
+ },
+ "3535_IDEASPROS5_2": {
+  "estudio": "3535",
+  "variable": "IDEASPROS5_2",
+  "etiqueta": "Guerras y conflictos internacionales",
+  "bloque": "Valoración prospectiva de la evolución en el mundo de las desigualdades entre países pobres y ricos y otras cuestiones internacionales (diez años)",
+  "opciones": {
+   "1": "Mayores/más que ahora",
+   "2": "Menores/menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que habrá más guerras y conflictos internacionales en los próximos diez años?",
+  "tema": "Sociedad"
+ },
+ "3535_IDEASPROS5_3": {
+  "estudio": "3535",
+  "variable": "IDEASPROS5_3",
+  "etiqueta": "Personas que emigren de los países pobres a los ricos",
+  "bloque": "Valoración prospectiva de la evolución en el mundo de las desigualdades entre países pobres y ricos y otras cuestiones internacionales (diez años)",
+  "opciones": {
+   "1": "Mayores/más que ahora",
+   "2": "Menores/menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en los próximos diez años habrá más personas emigrando de los países pobres a los ricos?",
+  "tema": "Sociedad"
+ },
+ "3535_IDEASPROS5_4": {
+  "estudio": "3535",
+  "variable": "IDEASPROS5_4",
+  "etiqueta": "Eficacia de la ONU (Organización de Naciones Unidas)",
+  "bloque": "Valoración prospectiva de la evolución en el mundo de las desigualdades entre países pobres y ricos y otras cuestiones internacionales (diez años)",
+  "opciones": {
+   "1": "Mayores/más que ahora",
+   "2": "Menores/menos que ahora",
+   "3": "Igual que ahora"
+  },
+  "valida": true,
+  "pregunta": "¿Considera que la ONU será más eficaz, menos eficaz o igual de eficaz en los próximos diez años?",
+  "tema": "Sociedad"
+ },
+ "3535_ECIVIL": {
+  "estudio": "3535",
+  "variable": "ECIVIL",
+  "etiqueta": "Estado civil de la persona entrevistada",
+  "bloque": "Estado civil de la persona entrevistada",
+  "opciones": {
+   "1": "Casado/a",
+   "2": "Soltero/a",
+   "3": "Viudo/a",
+   "4": "Separado/a",
+   "5": "Divorciado/a"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es su estado civil?",
+  "tema": "Sociedad"
+ },
+ "3535_RELALAB": {
+  "estudio": "3535",
+  "variable": "RELALAB",
+  "etiqueta": "Situación profesional de la persona entrevistada",
+  "bloque": "Situación profesional de la persona entrevistada",
+  "opciones": {
+   "1": "Asalariado/a por cuenta ajena",
+   "2": "Empresario/a o profesional con asalariados/as",
+   "3": "Profesional o trabajador/a autónomo/a (sin asalariados/as)",
+   "4": "Ayuda familiar (sin remuneración reglamentada en la empresa o negocio de un/a familiar)",
+   "5": "Miembro de una cooperativa",
+   "6": "Otra situación"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es su situación profesional actual?",
+  "tema": "Sociedad"
+ },
+ "3535_SINCERIDAD": {
+  "estudio": "3535",
+  "variable": "SINCERIDAD",
+  "etiqueta": "Grado de sinceridad de la persona entrevistada según el/la entrevistador/a",
+  "bloque": "Grado de sinceridad de la persona entrevistada según el/la entrevistador/a",
+  "opciones": {
+   "1": "Mucha",
+   "2": "Bastante",
+   "3": "Poca",
+   "4": "Ninguna"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánta sinceridad cree que ha mostrado durante la entrevista?",
+  "tema": "Sociedad"
+ },
+ "3535_V2_1": {
+  "estudio": "3535",
+  "variable": "V2_1",
+  "etiqueta": "Ha expresado deseo de abandonar la entrevista antes de finalizarla",
+  "bloque": "Ha expresado deseo de abandonar la entrevista antes de finalizarla",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha expresado deseo de abandonar la entrevista antes de finalizarla?",
+  "tema": "Sociedad"
+ },
+ "3535_V2_2": {
+  "estudio": "3535",
+  "variable": "V2_2",
+  "etiqueta": "Se ha sentido incómoda por el tema de la entrevista",
+  "bloque": "Se ha sentido incómoda por el tema de la entrevista",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Se ha sentido incómoda por el tema de la entrevista?",
+  "tema": "Sociedad"
+ },
+ "3535_V2_3": {
+  "estudio": "3535",
+  "variable": "V2_3",
+  "etiqueta": "Ha tenido prisa por acabar la entrevista",
+  "bloque": "Ha tenido prisa por acabar la entrevista",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha tenido prisa por acabar la entrevista?",
+  "tema": "Sociedad"
+ },
+ "3535_V3": {
+  "estudio": "3535",
+  "variable": "V3",
+  "etiqueta": "Detección de terceras personas en el transcurso de la entrevista",
+  "bloque": "Detección de terceras personas en el transcurso de la entrevista",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha detectado alguna tercera persona en el transcurso de esta entrevista?",
+  "tema": "Sociedad"
+ },
+ "3536_P1": {
+  "estudio": "3536",
+  "variable": "P1",
+  "etiqueta": "Grado de preocupación por el cambio climático",
+  "bloque": "Grado de preocupación por el cambio climático",
+  "opciones": {
+   "1": "Mucho",
+   "2": "Bastante",
+   "3": "Regular",
+   "4": "Poco",
+   "5": "Nada"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto le preocupa el cambio climático?",
+  "tema": "Medio ambiente"
+ },
+ "3536_P2": {
+  "estudio": "3536",
+  "variable": "P2",
+  "etiqueta": "Grado de preocupación por la invasión de Rusia a Ucrania",
+  "bloque": "Grado de preocupación por la invasión de Rusia a Ucrania",
+  "opciones": {
+   "1": "Muy preocupado/a",
+   "2": "Bastante preocupado/a",
+   "3": "Algo preocupado/a",
+   "4": "Poco preocupado/a",
+   "5": "Nada preocupado/a",
+   "6": "No tiene criterio",
+   "7": "Le es indiferente"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto se preocupa por la invasión de Rusia a Ucrania?",
+  "tema": "Sociedad"
+ },
+ "3536_P3": {
+  "estudio": "3536",
+  "variable": "P3",
+  "etiqueta": "Grado de preocupación por la guerra en Oriente Próximo",
+  "bloque": "Grado de preocupación por la guerra en Oriente Próximo",
+  "opciones": {
+   "1": "Muy preocupado/a",
+   "2": "Bastante preocupado/a",
+   "3": "Algo preocupado/a",
+   "4": "Poco preocupado/a",
+   "5": "Nada preocupado/a",
+   "6": "No tiene criterio",
+   "7": "Le es indiferente",
+   "10": "No tiene información, no sabe de qué guerra se trata"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto se preocupa por la situación de la guerra en Oriente Próximo?",
+  "tema": "Sociedad"
+ },
+ "3536_ECOPER": {
+  "estudio": "3536",
+  "variable": "ECOPER",
+  "etiqueta": "Valoración de la situación económica personal actual",
+  "bloque": "Valoración de la situación económica personal actual",
+  "opciones": {
+   "1": "Muy buena",
+   "2": "Buena",
+   "3": "Regular",
+   "4": "Mala",
+   "5": "Muy mala"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría la situación económica personal actual?",
+  "tema": "Consumo"
+ },
+ "3536_ECOESP": {
+  "estudio": "3536",
+  "variable": "ECOESP",
+  "etiqueta": "Valoración de la situación económica general de España",
+  "bloque": "Valoración de la situación económica general de España",
+  "opciones": {
+   "1": "Muy buena",
+   "2": "Buena",
+   "3": "Regular",
+   "4": "Mala",
+   "5": "Muy mala"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría la situación económica general de España?",
+  "tema": "Consumo"
+ },
+ "3536_P8_1": {
+  "estudio": "3536",
+  "variable": "P8_1",
+  "etiqueta": "Alquilara una vivienda de su propiedad",
+  "bloque": "Escala de importancia (0-10) que daría a situaciones en las que están implicadas personas de grupo étnico, raza o religión diferente a la mayoría de la población española",
+  "opciones": {
+   "0": "0 No le importaría en absoluto",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Le importaría mucho"
+  },
+  "valida": true,
+  "pregunta": "¿Le importaría alquilar una vivienda de su propiedad a alguien de un grupo étnico, raza o religión diferente a la mayoría de la población española?",
+  "tema": "Vivienda"
+ },
+ "3536_P8_2": {
+  "estudio": "3536",
+  "variable": "P8_2",
+  "etiqueta": "Fuera el/la profesor/a de sus hijos/as",
+  "bloque": "Escala de importancia (0-10) que daría a situaciones en las que están implicadas personas de grupo étnico, raza o religión diferente a la mayoría de la población española",
+  "opciones": {
+   "0": "0 No le importaría en absoluto",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Le importaría mucho"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto le importaría que fuera un profesor de raza o religión diferente a la mayoría de la población español el que educara a sus hijos?",
+  "tema": "Sociedad"
+ },
+ "3536_P8_3": {
+  "estudio": "3536",
+  "variable": "P8_3",
+  "etiqueta": "Fuera su jefe/a en el trabajo",
+  "bloque": "Escala de importancia (0-10) que daría a situaciones en las que están implicadas personas de grupo étnico, raza o religión diferente a la mayoría de la población española",
+  "opciones": {
+   "0": "0 No le importaría en absoluto",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Le importaría mucho"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto le importaría que su jefe/a en el trabajo fuera de un grupo étnico, raza o religión diferente a la mayoría de la población española?",
+  "tema": "Sociedad"
+ },
+ "3536_P8_4": {
+  "estudio": "3536",
+  "variable": "P8_4",
+  "etiqueta": "Viviera en su mismo edificio o comunidad de vecinos/as",
+  "bloque": "Escala de importancia (0-10) que daría a situaciones en las que están implicadas personas de grupo étnico, raza o religión diferente a la mayoría de la población española",
+  "opciones": {
+   "0": "0 No le importaría en absoluto",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Le importaría mucho"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto le importaría vivir en su mismo edificio o comunidad de vecinos con personas de un grupo étnico, raza o religión diferente a la mayoría de la población española?",
+  "tema": "Sociedad"
+ },
+ "3536_P8_5": {
+  "estudio": "3536",
+  "variable": "P8_5",
+  "etiqueta": "Fuera elegido/a alcalde/sa de su municipio",
+  "bloque": "Escala de importancia (0-10) que daría a situaciones en las que están implicadas personas de grupo étnico, raza o religión diferente a la mayoría de la población española",
+  "opciones": {
+   "0": "0 No le importaría en absoluto",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Le importaría mucho"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto le importaría que fuera elegido/a alcalde/sa de su municipio una persona de grupo étnico, raza o religión diferente a la mayoría de la población española?",
+  "tema": "Sociedad"
+ },
+ "3536_P8_6": {
+  "estudio": "3536",
+  "variable": "P8_6",
+  "etiqueta": "Tuviera una relación sentimental con un/a familiar cercano/a (hijo/a, hermano/a)",
+  "bloque": "Escala de importancia (0-10) que daría a situaciones en las que están implicadas personas de grupo étnico, raza o religión diferente a la mayoría de la población española",
+  "opciones": {
+   "0": "0 No le importaría en absoluto",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Le importaría mucho"
+  },
+  "valida": true,
+  "pregunta": "¿Le importaría que un familiar cercano tuviera una relación sentimental con alguien de una raza o religión diferente a la mayoría de la población española?",
+  "tema": "Sociedad"
+ },
+ "3536_P9_1": {
+  "estudio": "3536",
+  "variable": "P9_1",
+  "etiqueta": "Vecinos y vecinas",
+  "bloque": "Presencia de personas de un origen étnico, raza o religión diferente a la mayoría de la población española en su entorno inmediato",
+  "opciones": {
+   "1": "Muchos",
+   "2": "Bastantes",
+   "3": "Pocos",
+   "4": "Ninguno"
+  },
+  "valida": true,
+  "pregunta": "¿Cuántos de sus vecinos y vecinas son de un origen étnico, raza o religión diferente a la mayoría de la población española?",
+  "tema": "Sociedad"
+ },
+ "3536_P9_2": {
+  "estudio": "3536",
+  "variable": "P9_2",
+  "etiqueta": "Amigos y amigas",
+  "bloque": "Presencia de personas de un origen étnico, raza o religión diferente a la mayoría de la población española en su entorno inmediato",
+  "opciones": {
+   "1": "Muchos",
+   "2": "Bastantes",
+   "3": "Pocos",
+   "4": "Ninguno"
+  },
+  "valida": true,
+  "pregunta": "¿Tiene amigos y amigas de un origen étnico, raza o religión diferente a la mayoría de la población española?",
+  "tema": "Sociedad"
+ },
+ "3536_P9_3": {
+  "estudio": "3536",
+  "variable": "P9_3",
+  "etiqueta": "Compañeros/as de trabajo o estudios",
+  "bloque": "Presencia de personas de un origen étnico, raza o religión diferente a la mayoría de la población española en su entorno inmediato",
+  "opciones": {
+   "1": "Muchos",
+   "2": "Bastantes",
+   "3": "Pocos",
+   "4": "Ninguno"
+  },
+  "valida": true,
+  "pregunta": "¿Cuántas personas de un origen étnico, raza o religión diferente a la mayoría de la población española conoce en su entorno de compañeros/as de trabajo o estudios?",
+  "tema": "Sociedad"
+ },
+ "3536_P10": {
+  "estudio": "3536",
+  "variable": "P10",
+  "etiqueta": "Ha presenciado o sido testigo de alguna situación violenta o agresión a una persona por motivos étnicos, de raza o religión",
+  "bloque": "Ha presenciado o sido testigo de alguna situación violenta o agresión a una persona por motivos étnicos, de raza o religión",
+  "opciones": {
+   "1": "Sí, a menudo",
+   "2": "Sí, en alguna ocasión",
+   "3": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha presenciado o sido testigo de alguna situación violenta o agresión a una persona por motivos étnicos, de raza o religión?",
+  "tema": "Sociedad"
+ },
+ "3536_P11": {
+  "estudio": "3536",
+  "variable": "P11",
+  "etiqueta": "Recuerdo de haber visto en las redes sociales contenido que exprese ideas ofensivas o violentas contra personas por motivos étnicos, de raza o religión",
+  "bloque": "Recuerdo de haber visto en las redes sociales contenido que exprese ideas ofensivas o violentas contra personas por motivos étnicos, de raza o religión",
+  "opciones": {
+   "1": "Sí, a menudo",
+   "2": "Sí, en alguna ocasión",
+   "3": "No",
+   "4": "No usa redes sociales",
+   "8": "N.R."
+  },
+  "valida": true,
+  "pregunta": "¿Recuerda haber visto en las redes sociales contenido que exprese ideas ofensivas o violentas contra personas por motivos étnicos, de raza o religión?",
+  "tema": "Sociedad"
+ },
+ "3536_P12_1": {
+  "estudio": "3536",
+  "variable": "P12_1",
+  "etiqueta": "Dónde se ubicaría Ud. mismo/a",
+  "bloque": "Ubicación en una escala (0-10) de racismo de la persona entrevistada y de la sociedad española",
+  "opciones": {
+   "0": "0 Nada racista",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Muy racista"
+  },
+  "valida": true,
+  "pregunta": "¿Dónde se ubicaría Ud. mismo/a en una escala de 0 a 10 de racismo?",
+  "tema": "Sociedad"
+ },
+ "3536_P12_2": {
+  "estudio": "3536",
+  "variable": "P12_2",
+  "etiqueta": "Dónde ubicaría Ud. a la sociedad española en su conjunto",
+  "bloque": "Ubicación en una escala (0-10) de racismo de la persona entrevistada y de la sociedad española",
+  "opciones": {
+   "0": "0 Nada racista",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Muy racista"
+  },
+  "valida": true,
+  "pregunta": "¿Dónde ubicaría Ud. a la sociedad española en su conjunto en una escala de 0 a 10, donde 0 es nada racista y 10 es muy racista?",
+  "tema": "Sociedad"
+ },
+ "3536_ECIVIL": {
+  "estudio": "3536",
+  "variable": "ECIVIL",
+  "etiqueta": "Estado civil de la persona entrevistada",
+  "bloque": "Estado civil de la persona entrevistada",
+  "opciones": {
+   "1": "Casado/a",
+   "2": "Soltero/a",
+   "3": "Viudo/a",
+   "4": "Separado/a",
+   "5": "Divorciado/a"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es su estado civil?",
+  "tema": "Sociedad"
+ },
+ "3536_RELALAB": {
+  "estudio": "3536",
+  "variable": "RELALAB",
+  "etiqueta": "Situación profesional de la persona entrevistada",
+  "bloque": "Situación profesional de la persona entrevistada",
+  "opciones": {
+   "1": "Asalariado/a por cuenta ajena",
+   "2": "Empresario/a o profesional con asalariados/as",
+   "3": "Profesional o trabajador/a autónomo/a (sin asalariados/as)",
+   "4": "Ayuda familiar (sin remuneración reglamentada en la empresa o negocio de un/a familiar)",
+   "5": "Miembro de una cooperativa",
+   "6": "Otra situación"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es su situación profesional actual?",
+  "tema": "Sociedad"
+ },
+ "3536_SINCERIDAD": {
+  "estudio": "3536",
+  "variable": "SINCERIDAD",
+  "etiqueta": "Grado de sinceridad de la persona entrevistada según el/la entrevistador/a",
+  "bloque": "Grado de sinceridad de la persona entrevistada según el/la entrevistador/a",
+  "opciones": {
+   "1": "Mucha",
+   "2": "Bastante",
+   "3": "Poca",
+   "4": "Ninguna"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánta sinceridad cree que tiene la persona que le está respondiendo?",
+  "tema": "Soledad"
+ },
+ "3536_V2_1": {
+  "estudio": "3536",
+  "variable": "V2_1",
+  "etiqueta": "Ha expresado deseo de abandonar la entrevista antes de finalizarla",
+  "bloque": "Ha expresado deseo de abandonar la entrevista antes de finalizarla",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha expresado deseo de abandonar la entrevista antes de finalizarla?",
+  "tema": "Soledad"
+ },
+ "3536_V2_2": {
+  "estudio": "3536",
+  "variable": "V2_2",
+  "etiqueta": "Se ha sentido incómoda por el tema de la entrevista",
+  "bloque": "Se ha sentido incómoda por el tema de la entrevista",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Se ha sentido incómoda por el tema de la entrevista?",
+  "tema": "Sociedad"
+ },
+ "3536_V2_3": {
+  "estudio": "3536",
+  "variable": "V2_3",
+  "etiqueta": "Ha tenido prisa por acabar la entrevista",
+  "bloque": "Ha tenido prisa por acabar la entrevista",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha tenido prisa por acabar la entrevista?",
+  "tema": "Soledad"
+ },
+ "3536_V3": {
+  "estudio": "3536",
+  "variable": "V3",
+  "etiqueta": "Detección de terceras personas en el transcurso de la entrevista",
+  "bloque": "Detección de terceras personas en el transcurso de la entrevista",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha detectado alguna tercera persona en el transcurso de esta entrevista?",
+  "tema": "Soledad"
+ },
+ "3536_NUM_MUESTRA": {
+  "estudio": "3536",
+  "variable": "NUM_MUESTRA",
+  "etiqueta": "Ficheros de teléfonos de contacto",
+  "bloque": "Ficheros de teléfonos de contacto - ITEMCOMIENZOP8 (397) Ítem por el que se comenzó a preguntar en P8",
+  "opciones": {
+   "1": "E3536_FIJOSCNMC__MUESTRA_1",
+   "2": "E3536_FIJOSCNMC__MUESTRA_2",
+   "3": "E3536_FIJOSCNMC__MUESTRA_3",
+   "4": "E3536_MOVILESCNMC_MUESTRA_4",
+   "5": "E3536_MOVILESCNMC_MUESTRA_5",
+   "6": "E3536_MOVILESCNMC_MUESTRA_6",
+   "7": "E3536_MOVILESCNMC_MUESTRA_7",
+   "8": "E3536_MOVILESCNMC_MUESTRA_8",
+   "9": "E3536_MOVILESCNMC_MUESTRA_9"
+  },
+  "valida": true,
+  "pregunta": "¿Tiene ficheros de teléfonos de contacto en su teléfono fijo o móvil?",
+  "tema": "Tecnología e IA"
+ },
+ "3536_ITEMCOMIENZOP8": {
+  "estudio": "3536",
+  "variable": "ITEMCOMIENZOP8",
+  "etiqueta": "Ítem por el que se comenzó a preguntar en P8",
+  "bloque": "Ítem por el que se comenzó a preguntar en P8",
+  "opciones": {
+   "1": "Alquilara una vivienda de su propiedad",
+   "2": "Fuera el/la profesor/a de sus hijos/as",
+   "3": "Fuera su jefe/a en el trabajo",
+   "4": "Viviera en su mismo edificio o comunidad de vecinos/as",
+   "5": "Fuera elegido/a alcalde/sa de su municipio",
+   "6": "Tuviera una relación sentimental con un/a familiar cercano/a (hijo/a, hermano/a)"
+  },
+  "valida": true,
+  "pregunta": "¿Alguna vez ha tenido que alquilar una vivienda de su propiedad?",
+  "tema": "Vivienda"
+ },
+ "3536_ITEMCOMIENZOP12": {
+  "estudio": "3536",
+  "variable": "ITEMCOMIENZOP12",
+  "etiqueta": "Ítem por el que se comenzó a preguntar en P12",
+  "bloque": "Ítem por el que se comenzó a preguntar en P12",
+  "opciones": {
+   "1": "Autoubicación en la escala de racismo",
+   "2": "Ubicación de la sociedad española en la escala de racismo"
+  },
+  "valida": true,
+  "pregunta": "¿Dónde se ubica en la escala de racismo la sociedad española?",
+  "tema": "Sociedad"
+ },
+ "3554_P1": {
+  "estudio": "3554",
+  "variable": "P1",
+  "etiqueta": "Autopercepción miedoso/a de la persona entrevistada",
+  "bloque": "Autopercepción miedoso/a de la persona entrevistada",
+  "opciones": {
+   "1": "Tiene muchos miedos y temores",
+   "2": "Tiene bastantes miedos y temores",
+   "3": "Tiene algunos miedos y temores",
+   "4": "Tiene pocos miedos y temores",
+   "5": "No tiene ningún o casi ningún miedo y temor"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo describiría su nivel de miedos y temores?",
+  "tema": "Salud"
+ },
+ "3554_P1A": {
+  "estudio": "3554",
+  "variable": "P1A",
+  "etiqueta": "Detalle de los miedos y temores de la persona entrevistada",
+  "bloque": "Detalle de los miedos y temores de la persona entrevistada",
+  "opciones": {
+   "1": "Cuestiones personales",
+   "2": "Cuestiones que conciernen a la sociedad española actual",
+   "3": "Cuestiones y problemas internacionales y del mundo de nuestros días",
+   "4": "Cuestiones que se relacionan con desastres naturales",
+   "5": "A todo en su conjunto"
+  },
+  "valida": true,
+  "pregunta": "¿Qué cosas le inquietan o teme en la actualidad?",
+  "tema": "Sociedad"
+ },
+ "3554_P2_1": {
+  "estudio": "3554",
+  "variable": "P2_1",
+  "etiqueta": "Contraer una enfermedad como el COVID",
+  "bloque": "Escala (0-10) de miedo o temor que le suscitan diversas cuestiones I",
+  "opciones": {
+   "0": "0 No le suscita ningún miedo o temor",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Le suscita el máximo miedo o temor"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto miedo o temor le suscita contraer una enfermedad como el COVID?",
+  "tema": "Salud"
+ },
+ "3554_P2_2": {
+  "estudio": "3554",
+  "variable": "P2_2",
+  "etiqueta": "Tener una infección de transmisión sexual",
+  "bloque": "Escala (0-10) de miedo o temor que le suscitan diversas cuestiones I",
+  "opciones": {
+   "0": "0 No le suscita ningún miedo o temor",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Le suscita el máximo miedo o temor"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto miedo o temor le suscita tener una infección de transmisión sexual?",
+  "tema": "Salud"
+ },
+ "3554_P2_3": {
+  "estudio": "3554",
+  "variable": "P2_3",
+  "etiqueta": "A contraer un cáncer",
+  "bloque": "Escala (0-10) de miedo o temor que le suscitan diversas cuestiones I",
+  "opciones": {
+   "0": "0 No le suscita ningún miedo o temor",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Le suscita el máximo miedo o temor"
+  },
+  "valida": true,
+  "pregunta": "¿A qué nivel de miedo le suscita contraer un cáncer?",
+  "tema": "Salud"
+ },
+ "3554_P2_4": {
+  "estudio": "3554",
+  "variable": "P2_4",
+  "etiqueta": "Que su trabajo o pensión no le permitan vivir con dignidad",
+  "bloque": "Escala (0-10) de miedo o temor que le suscitan diversas cuestiones I",
+  "opciones": {
+   "0": "0 No le suscita ningún miedo o temor",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Le suscita el máximo miedo o temor"
+  },
+  "valida": true,
+  "pregunta": "¿Le suscita miedo o temor que su trabajo o pensión no le permitan vivir con dignidad?",
+  "tema": "Salud"
+ },
+ "3554_P2_5": {
+  "estudio": "3554",
+  "variable": "P2_5",
+  "etiqueta": "Temor a la soledad",
+  "bloque": "Escala (0-10) de miedo o temor que le suscitan diversas cuestiones I",
+  "opciones": {
+   "0": "0 No le suscita ningún miedo o temor",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Le suscita el máximo miedo o temor"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto miedo o temor le suscita el temor a la soledad?",
+  "tema": "Soledad"
+ },
+ "3554_P2_6": {
+  "estudio": "3554",
+  "variable": "P2_6",
+  "etiqueta": "Perder a un/a familiar cercano/a",
+  "bloque": "Escala (0-10) de miedo o temor que le suscitan diversas cuestiones I",
+  "opciones": {
+   "0": "0 No le suscita ningún miedo o temor",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Le suscita el máximo miedo o temor"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto miedo o temor le suscita perder a un familiar cercano?",
+  "tema": "Salud"
+ },
+ "3554_P2_7": {
+  "estudio": "3554",
+  "variable": "P2_7",
+  "etiqueta": "No tener a una persona a la que amar",
+  "bloque": "Escala (0-10) de miedo o temor que le suscitan diversas cuestiones I",
+  "opciones": {
+   "0": "0 No le suscita ningún miedo o temor",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Le suscita el máximo miedo o temor"
+  },
+  "valida": true,
+  "pregunta": "¿Le suscita miedo o temor no tener a una persona a la que amar?",
+  "tema": "Soledad"
+ },
+ "3554_P2_9": {
+  "estudio": "3554",
+  "variable": "P2_9",
+  "etiqueta": "Perder la vista",
+  "bloque": "Escala (0-10) de miedo o temor que le suscitan diversas cuestiones I",
+  "opciones": {
+   "0": "0 No le suscita ningún miedo o temor",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Le suscita el máximo miedo o temor"
+  },
+  "valida": true,
+  "pregunta": "¿Le suscita el máximo miedo o temor perder la vista?",
+  "tema": "Salud"
+ },
+ "3554_P2_10": {
+  "estudio": "3554",
+  "variable": "P2_10",
+  "etiqueta": "Perder su trabajo o no encontrar un trabajo estable",
+  "bloque": "Escala (0-10) de miedo o temor que le suscitan diversas cuestiones I",
+  "opciones": {
+   "0": "0 No le suscita ningún miedo o temor",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Le suscita el máximo miedo o temor"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto miedo o temor le suscita perder su trabajo o no encontrar un trabajo estable?",
+  "tema": "Sociedad"
+ },
+ "3554_P2_11": {
+  "estudio": "3554",
+  "variable": "P2_11",
+  "etiqueta": "No poder pagar su vivienda/alquiler/hipoteca",
+  "bloque": "Escala (0-10) de miedo o temor que le suscitan diversas cuestiones I",
+  "opciones": {
+   "0": "0 No le suscita ningún miedo o temor",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Le suscita el máximo miedo o temor"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto miedo o temor le suscita no poder pagar su vivienda o alquiler?",
+  "tema": "Vivienda"
+ },
+ "3554_P2_12": {
+  "estudio": "3554",
+  "variable": "P2_12",
+  "etiqueta": "Perder la vida",
+  "bloque": "Escala (0-10) de miedo o temor que le suscitan diversas cuestiones I",
+  "opciones": {
+   "0": "0 No le suscita ningún miedo o temor",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Le suscita el máximo miedo o temor"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto miedo o temor le suscita perder la vida?",
+  "tema": "Salud"
+ },
+ "3554_P2_13": {
+  "estudio": "3554",
+  "variable": "P2_13",
+  "etiqueta": "Perder la salud",
+  "bloque": "Escala (0-10) de miedo o temor que le suscitan diversas cuestiones I",
+  "opciones": {
+   "0": "0 No le suscita ningún miedo o temor",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Le suscita el máximo miedo o temor"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto miedo o temor le suscita perder la salud?",
+  "tema": "Salud"
+ },
+ "3554_P2A_1": {
+  "estudio": "3554",
+  "variable": "P2A_1",
+  "etiqueta": "El deterioro ambiental",
+  "bloque": "Escala (0-10) de miedo o temor que le suscitan diversas cuestiones II",
+  "opciones": {
+   "0": "0 No le suscita ningún miedo o temor",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Le suscita el máximo miedo o temor"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto miedo o temor le suscita el deterioro ambiental?",
+  "tema": "Medio ambiente"
+ },
+ "3554_P2A_2": {
+  "estudio": "3554",
+  "variable": "P2A_2",
+  "etiqueta": "Una crisis de la democracia",
+  "bloque": "Escala (0-10) de miedo o temor que le suscitan diversas cuestiones II",
+  "opciones": {
+   "0": "0 No le suscita ningún miedo o temor",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Le suscita el máximo miedo o temor"
+  },
+  "valida": true,
+  "pregunta": "¿Le suscita el máximo miedo o temor una crisis de la democracia?",
+  "tema": "Sociedad"
+ },
+ "3554_P2A_3": {
+  "estudio": "3554",
+  "variable": "P2A_3",
+  "etiqueta": "Una crisis económica",
+  "bloque": "Escala (0-10) de miedo o temor que le suscitan diversas cuestiones II",
+  "opciones": {
+   "0": "0 No le suscita ningún miedo o temor",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Le suscita el máximo miedo o temor"
+  },
+  "valida": true,
+  "pregunta": "¿Le suscita el máximo miedo o temor una crisis económica?",
+  "tema": "Sociedad"
+ },
+ "3554_P2A_4": {
+  "estudio": "3554",
+  "variable": "P2A_4",
+  "etiqueta": "Que le persigan por sus ideas políticas",
+  "bloque": "Escala (0-10) de miedo o temor que le suscitan diversas cuestiones II",
+  "opciones": {
+   "0": "0 No le suscita ningún miedo o temor",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Le suscita el máximo miedo o temor"
+  },
+  "valida": true,
+  "pregunta": "¿Le suscita algún miedo o temor que le persigan por sus ideas políticas?",
+  "tema": "Sociedad"
+ },
+ "3554_P2A_5": {
+  "estudio": "3554",
+  "variable": "P2A_5",
+  "etiqueta": "Ser juzgado/a o perseguido/a por un delito que no ha cometido",
+  "bloque": "Escala (0-10) de miedo o temor que le suscitan diversas cuestiones II",
+  "opciones": {
+   "0": "0 No le suscita ningún miedo o temor",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Le suscita el máximo miedo o temor"
+  },
+  "valida": true,
+  "pregunta": "¿Le suscita miedo o temor ser juzgado o perseguido por un delito que no ha cometido?",
+  "tema": "Sociedad"
+ },
+ "3554_P2A_6": {
+  "estudio": "3554",
+  "variable": "P2A_6",
+  "etiqueta": "A una guerra civil",
+  "bloque": "Escala (0-10) de miedo o temor que le suscitan diversas cuestiones II",
+  "opciones": {
+   "0": "0 No le suscita ningún miedo o temor",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Le suscita el máximo miedo o temor"
+  },
+  "valida": true,
+  "pregunta": "¿A una guerra civil le suscita el máximo miedo o temor?",
+  "tema": "Sociedad"
+ },
+ "3554_P2A_7": {
+  "estudio": "3554",
+  "variable": "P2A_7",
+  "etiqueta": "A una guerra mundial",
+  "bloque": "Escala (0-10) de miedo o temor que le suscitan diversas cuestiones II",
+  "opciones": {
+   "0": "0 No le suscita ningún miedo o temor",
+   "1": "1",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Le suscita el máximo miedo o temor"
+  },
+  "valida": true,
+  "pregunta": "¿A una guerra mundial le suscita algún miedo o temor?",
+  "tema": "Sociedad"
+ },
+ "3554_P3": {
+  "estudio": "3554",
+  "variable": "P3",
+  "etiqueta": "Creencia en la posibilidad futura de una guerra con armas nucleares",
+  "bloque": "Creencia en la posibilidad futura de una guerra con armas nucleares",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en el futuro puede haber una guerra con armas nucleares?",
+  "tema": "Sociedad"
+ },
+ "3554_P4": {
+  "estudio": "3554",
+  "variable": "P4",
+  "etiqueta": "Creencia en que una guerra con armas nucleares supondría el fin de la humanidad",
+  "bloque": "Creencia en que una guerra con armas nucleares supondría el fin de la humanidad",
+  "opciones": {
+   "1": "Cree que sería el fin de la humanidad",
+   "2": "No cree que sea el fin de la humanidad",
+   "8": "No lo sabe, no tiene información"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que una guerra con armas nucleares supondría el fin de la humanidad?",
+  "tema": "Sociedad"
+ },
+ "3554_P5": {
+  "estudio": "3554",
+  "variable": "P5",
+  "etiqueta": "Creencia en que disponer de unas Fuerzas Armadas preparadas es garantía para evitar abusos por terceros países",
+  "bloque": "Creencia en que disponer de unas Fuerzas Armadas preparadas es garantía para evitar abusos por terceros países",
+  "opciones": {
+   "1": "Sí lo cree",
+   "2": "No lo cree"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que disponer de unas Fuerzas Armadas preparadas es garantía para evitar abusos por terceros países?",
+  "tema": "Sociedad"
+ },
+ "3554_P6": {
+  "estudio": "3554",
+  "variable": "P6",
+  "etiqueta": "Consideración de que los conflictos sociales van en aumento en la sociedad española",
+  "bloque": "Consideración de que los conflictos sociales van en aumento en la sociedad española",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Considera que los conflictos sociales van en aumento en la sociedad española?",
+  "tema": "Sociedad"
+ },
+ "3554_P7": {
+  "estudio": "3554",
+  "variable": "P7",
+  "etiqueta": "Grado de deterioro de la democracia española en la actualidad",
+  "bloque": "Grado de deterioro de la democracia española en la actualidad",
+  "opciones": {
+   "1": "Mucho",
+   "2": "Bastante",
+   "3": "Regular",
+   "4": "Poco",
+   "5": "Ningún"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es su grado de deterioro de la democracia española en la actualidad?",
+  "tema": "Sociedad"
+ },
+ "3554_P7A": {
+  "estudio": "3554",
+  "variable": "P7A",
+  "etiqueta": "Grado de preocupación por el deterioro de la democracia española en la actualidad",
+  "bloque": "Grado de preocupación por el deterioro de la democracia española en la actualidad",
+  "opciones": {
+   "1": "Mucho",
+   "2": "Bastante",
+   "3": "Regular",
+   "4": "Poco",
+   "5": "Nada"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto le preocupa el deterioro de la democracia española en la actualidad?",
+  "tema": "Sociedad"
+ },
+ "3554_P8": {
+  "estudio": "3554",
+  "variable": "P8",
+  "etiqueta": "Papel de los medios de comunicación en la sensación de miedo y temor social",
+  "bloque": "Papel de los medios de comunicación en la sensación de miedo y temor social",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que los medios de comunicación influyen en su sensación de miedo y temor social?",
+  "tema": "Sociedad"
+ },
+ "3554_P9": {
+  "estudio": "3554",
+  "variable": "P9",
+  "etiqueta": "Frecuencia en que el miedo y las preocupaciones han quitado el sueño a la persona entrevistada (últimas 2 semanas)",
+  "bloque": "Frecuencia en que el miedo y las preocupaciones han quitado el sueño a la persona entrevistada (últimas 2 semanas)",
+  "opciones": {
+   "1": "Siempre o casi siempre",
+   "2": "A menudo",
+   "3": "A veces",
+   "4": "Rara vez",
+   "5": "Nunca"
+  },
+  "valida": true,
+  "pregunta": "¿Cuántas veces le han quitado el sueño el miedo y las preocupaciones en las últimas dos semanas?",
+  "tema": "Salud"
+ },
+ "3554_P10": {
+  "estudio": "3554",
+  "variable": "P10",
+  "etiqueta": "Sensación de seguridad de la persona entrevistada caminando sola al anochecer en determinadas zonas del lugar donde reside",
+  "bloque": "Sensación de seguridad de la persona entrevistada caminando sola al anochecer en determinadas zonas del lugar donde reside",
+  "opciones": {
+   "1": "Muy seguro/a",
+   "2": "Bastante seguro/a",
+   "3": "Poco seguro/a",
+   "4": "Nada seguro/a"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto se siente segura caminando sola al anochecer en las zonas que conoce de su barrio?",
+  "tema": "Sociedad"
+ },
+ "3554_P11": {
+  "estudio": "3554",
+  "variable": "P11",
+  "etiqueta": "Valoración retrospectiva de los miedos y preocupaciones de la persona entrevistada (1 año)",
+  "bloque": "Valoración retrospectiva de los miedos y preocupaciones de la persona entrevistada (1 año)",
+  "opciones": {
+   "1": "Mucho mayores",
+   "2": "Algo mayores",
+   "3": "Igual",
+   "4": "Algo menores",
+   "5": "Mucho menores"
+  },
+  "valida": true,
+  "pregunta": "¿En comparación con el año pasado, cree que sus miedos y preocupaciones han sido mucho mayores, algo mayores, iguales, algo menores o mucho menores?",
+  "tema": "Sociedad"
+ },
+ "3554_P12": {
+  "estudio": "3554",
+  "variable": "P12",
+  "etiqueta": "Frecuencia de sentimientos de angustia o miedo de la persona entrevistada sin causa justificada",
+  "bloque": "Frecuencia de sentimientos de angustia o miedo de la persona entrevistada sin causa justificada",
+  "opciones": {
+   "1": "Con mucha frecuencia",
+   "2": "Con bastante frecuencia",
+   "3": "Regular",
+   "4": "Con poca frecuencia",
+   "7": "Con ninguna o casi ninguna frecuencia"
+  },
+  "valida": true,
+  "pregunta": "¿Cuántas veces se siente angustiado o asustado sin causa justificada?",
+  "tema": "Sociedad"
+ },
+ "3554_P13": {
+  "estudio": "3554",
+  "variable": "P13",
+  "etiqueta": "Grado de miedos de la persona entrevistada ante el control por las nuevas tecnologías de su vida",
+  "bloque": "Grado de miedos de la persona entrevistada ante el control por las nuevas tecnologías de su vida",
+  "opciones": {
+   "1": "Siente mucho miedo",
+   "2": "Siente bastante miedo",
+   "3": "Siente algo de miedo",
+   "4": "Siente poco miedo",
+   "5": "No siente ningún miedo"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto miedo siente ante el control por las nuevas tecnologías de su vida?",
+  "tema": "Tecnología e IA"
+ },
+ "3554_P14": {
+  "estudio": "3554",
+  "variable": "P14",
+  "etiqueta": "Consumo de ansiolíticos o antidepresivos de la persona entrevistada en la actualidad",
+  "bloque": "Consumo de ansiolíticos o antidepresivos de la persona entrevistada en la actualidad",
+  "opciones": {
+   "1": "Sí",
+   "2": "No",
+   "3": "A veces"
+  },
+  "valida": true,
+  "pregunta": "¿Ha consumido ansiolíticos o antidepresivos en la actualidad?",
+  "tema": "Salud"
+ },
+ "3554_P15": {
+  "estudio": "3554",
+  "variable": "P15",
+  "etiqueta": "Atención al malestar emocional de la sociedad española en el lugar de residencia de la persona entrevistada",
+  "bloque": "Atención al malestar emocional de la sociedad española en el lugar de residencia de la persona entrevistada",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Se presta atención al malestar emocional en el lugar de residencia?",
+  "tema": "Salud"
+ },
+ "3554_P16": {
+  "estudio": "3554",
+  "variable": "P16",
+  "etiqueta": "Grado de temor personal a quedarse solo/a o sin apoyo emocional en momentos difíciles",
+  "bloque": "Grado de temor personal a quedarse solo/a o sin apoyo emocional en momentos difíciles",
+  "opciones": {
+   "1": "Mucho temor",
+   "2": "Bastante temor",
+   "3": "Poco temor",
+   "4": "Ningún temor"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto temor le inspira la posibilidad de quedarse solo o sin apoyo emocional en momentos difíciles?",
+  "tema": "Soledad"
+ },
+ "3554_P17": {
+  "estudio": "3554",
+  "variable": "P17",
+  "etiqueta": "Disposición de redes de apoyo de la persona entrevistada para hablar de sus miedos y temores",
+  "bloque": "Disposición de redes de apoyo de la persona entrevistada para hablar de sus miedos y temores",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Tiene a alguien con quien hablar sobre sus miedos y temores?",
+  "tema": "Soledad"
+ },
+ "3554_P18": {
+  "estudio": "3554",
+  "variable": "P18",
+  "etiqueta": "Valoración prospectiva de las condiciones de vida de la persona entrevistada",
+  "bloque": "Valoración prospectiva de las condiciones de vida de la persona entrevistada",
+  "opciones": {
+   "1": "Serán mejores",
+   "2": "Serán peores",
+   "3": "Serán iguales"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que las condiciones de vida serán mejores, peores o iguales en el futuro?",
+  "tema": "Vivienda"
+ },
+ "3554_ECIVIL": {
+  "estudio": "3554",
+  "variable": "ECIVIL",
+  "etiqueta": "Estado civil de la persona entrevistada",
+  "bloque": "Estado civil de la persona entrevistada",
+  "opciones": {
+   "1": "Casado/a",
+   "2": "Soltero/a",
+   "3": "Viudo/a",
+   "4": "Separado/a",
+   "5": "Divorciado/a"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es su estado civil?",
+  "tema": "Sociedad"
+ },
+ "3554_SINCERIDAD": {
+  "estudio": "3554",
+  "variable": "SINCERIDAD",
+  "etiqueta": "Grado de sinceridad de la persona entrevistada según el/la entrevistador/a",
+  "bloque": "Grado de sinceridad de la persona entrevistada según el/la entrevistador/a",
+  "opciones": {
+   "1": "Mucha",
+   "2": "Bastante",
+   "3": "Poca",
+   "4": "Ninguna"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánta sinceridad tiene la persona entrevistada según el/la entrevistador/a?",
+  "tema": "Sociedad"
+ },
+ "3554_V2_1": {
+  "estudio": "3554",
+  "variable": "V2_1",
+  "etiqueta": "Ha expresado deseo de abandonar la entrevista antes de finalizarla",
+  "bloque": "Ha expresado deseo de abandonar la entrevista antes de finalizarla",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha expresado deseo de abandonar la entrevista antes de finalizarla?",
+  "tema": "Sociedad"
+ },
+ "3554_V2_2": {
+  "estudio": "3554",
+  "variable": "V2_2",
+  "etiqueta": "Se ha sentido incómoda por el tema de la entrevista",
+  "bloque": "Se ha sentido incómoda por el tema de la entrevista",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Se ha sentido incómoda por el tema de la entrevista?",
+  "tema": "Sociedad"
+ },
+ "3554_V2_3": {
+  "estudio": "3554",
+  "variable": "V2_3",
+  "etiqueta": "Ha tenido prisa por acabar la entrevista",
+  "bloque": "Ha tenido prisa por acabar la entrevista",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha tenido prisa por acabar la entrevista?",
+  "tema": "Sociedad"
+ },
+ "3554_V3": {
+  "estudio": "3554",
+  "variable": "V3",
+  "etiqueta": "Detección de terceras personas en el transcurso de la entrevista",
+  "bloque": "Detección de terceras personas en el transcurso de la entrevista",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha detectado alguna tercera persona en el transcurso de esta entrevista?",
+  "tema": "Sociedad"
+ },
+ "3560_P1": {
+  "estudio": "3560",
+  "variable": "P1",
+  "etiqueta": "Calidad de la conexión a Internet en la zona donde vive la persona entrevistada",
+  "bloque": "Calidad de la conexión a Internet en la zona donde vive la persona entrevistada",
+  "opciones": {
+   "1": "Muy buena calidad",
+   "2": "Buena calidad",
+   "3": "Calidad regular",
+   "4": "Mala calidad",
+   "5": "Muy mala calidad",
+   "7": "No tiene Internet"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es la calidad de la conexión a Internet en la zona donde vive?",
+  "tema": "Tecnología e IA"
+ },
+ "3560_P2": {
+  "estudio": "3560",
+  "variable": "P2",
+  "etiqueta": "Grado de habilidad para realizar gestiones bancarias habituales a través de Internet",
+  "bloque": "Grado de habilidad para realizar gestiones bancarias habituales a través de Internet",
+  "opciones": {
+   "1": "Mucha",
+   "2": "Bastante",
+   "3": "Poca",
+   "4": "Nula"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánta habilidad tiene para realizar gestiones bancarias habituales a través de Internet?",
+  "tema": "Tecnología e IA"
+ },
+ "3560_P3": {
+  "estudio": "3560",
+  "variable": "P3",
+  "etiqueta": "Nivel de conocimientos sobre temas bancarios y financieros",
+  "bloque": "Nivel de conocimientos sobre temas bancarios y financieros",
+  "opciones": {
+   "1": "Muy alto",
+   "2": "Alto",
+   "3": "Regular",
+   "4": "Bajo",
+   "5": "Muy bajo"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es su nivel de conocimientos sobre temas bancarios y financieros?",
+  "tema": "Consumo"
+ },
+ "3560_P4_1": {
+  "estudio": "3560",
+  "variable": "P4_1",
+  "etiqueta": "Depósitos y/o cuentas de ahorro",
+  "bloque": "Posesión productos financieros últimos cinco años",
+  "opciones": {
+   "1": "Sí",
+   "2": "No",
+   "3": "No conozco el producto"
+  },
+  "valida": true,
+  "pregunta": "¿Ha tenido depósitos y/o cuentas de ahorro en los últimos cinco años?",
+  "tema": "Consumo"
+ },
+ "3560_P4_2": {
+  "estudio": "3560",
+  "variable": "P4_2",
+  "etiqueta": "Tarjeta de débito o crédito",
+  "bloque": "Posesión productos financieros últimos cinco años",
+  "opciones": {
+   "1": "Sí",
+   "2": "No",
+   "3": "No conozco el producto"
+  },
+  "valida": true,
+  "pregunta": "¿Ha tenido una tarjeta de débito o crédito en los últimos cinco años?",
+  "tema": "Consumo"
+ },
+ "3560_P4_4": {
+  "estudio": "3560",
+  "variable": "P4_4",
+  "etiqueta": "Préstamo personal",
+  "bloque": "Posesión productos financieros últimos cinco años",
+  "opciones": {
+   "1": "Sí",
+   "2": "No",
+   "3": "No conozco el producto"
+  },
+  "valida": true,
+  "pregunta": "¿Ha tenido un préstamo personal en los últimos cinco años?",
+  "tema": "Consumo"
+ },
+ "3560_P4_5": {
+  "estudio": "3560",
+  "variable": "P4_5",
+  "etiqueta": "Plan de pensiones",
+  "bloque": "Posesión productos financieros últimos cinco años",
+  "opciones": {
+   "1": "Sí",
+   "2": "No",
+   "3": "No conozco el producto"
+  },
+  "valida": true,
+  "pregunta": "¿Ha tenido un plan de pensiones en los últimos cinco años?",
+  "tema": "Consumo"
+ },
+ "3560_P4_6": {
+  "estudio": "3560",
+  "variable": "P4_6",
+  "etiqueta": "Fondo de inversión o acciones",
+  "bloque": "Posesión productos financieros últimos cinco años",
+  "opciones": {
+   "1": "Sí",
+   "2": "No",
+   "3": "No conozco el producto"
+  },
+  "valida": true,
+  "pregunta": "¿Ha poseído un fondo de inversión o acciones en los últimos cinco años?",
+  "tema": "Consumo"
+ },
+ "3560_P4_8": {
+  "estudio": "3560",
+  "variable": "P4_8",
+  "etiqueta": "Seguro de vida",
+  "bloque": "Posesión productos financieros últimos cinco años",
+  "opciones": {
+   "1": "Sí",
+   "2": "No",
+   "3": "No conozco el producto"
+  },
+  "valida": true,
+  "pregunta": "¿Ha tenido un seguro de vida en los últimos cinco años?",
+  "tema": "Consumo"
+ },
+ "3560_P5_1": {
+  "estudio": "3560",
+  "variable": "P5_1",
+  "etiqueta": "Retirar dinero en efectivo",
+  "bloque": "Frecuencia de operaciones financieras en los últimos doce meses",
+  "opciones": {
+   "1": "Mucha",
+   "2": "Bastante",
+   "3": "Poca",
+   "4": "Nunca"
+  },
+  "valida": true,
+  "pregunta": "¿Cuántas veces ha retirado dinero en efectivo en los últimos doce meses?",
+  "tema": "Consumo"
+ },
+ "3560_P5_2": {
+  "estudio": "3560",
+  "variable": "P5_2",
+  "etiqueta": "Consultar el saldo de la cuenta bancaria",
+  "bloque": "Frecuencia de operaciones financieras en los últimos doce meses",
+  "opciones": {
+   "1": "Mucha",
+   "2": "Bastante",
+   "3": "Poca",
+   "4": "Nunca"
+  },
+  "valida": true,
+  "pregunta": "¿Ha consultado el saldo de su cuenta bancaria en los últimos doce meses?",
+  "tema": "Consumo"
+ },
+ "3560_P5_3": {
+  "estudio": "3560",
+  "variable": "P5_3",
+  "etiqueta": "Pagar recibos o impuestos por el banco",
+  "bloque": "Frecuencia de operaciones financieras en los últimos doce meses",
+  "opciones": {
+   "1": "Mucha",
+   "2": "Bastante",
+   "3": "Poca",
+   "4": "Nunca"
+  },
+  "valida": true,
+  "pregunta": "¿Ha pagado recibos o impuestos a través de su banco en los últimos doce meses?",
+  "tema": "Consumo"
+ },
+ "3560_P5_4": {
+  "estudio": "3560",
+  "variable": "P5_4",
+  "etiqueta": "Realizar transferencias",
+  "bloque": "Frecuencia de operaciones financieras en los últimos doce meses",
+  "opciones": {
+   "1": "Mucha",
+   "2": "Bastante",
+   "3": "Poca",
+   "4": "Nunca"
+  },
+  "valida": true,
+  "pregunta": "¿Ha realizado transferencias en los últimos doce meses?",
+  "tema": "Consumo"
+ },
+ "3560_P5_5": {
+  "estudio": "3560",
+  "variable": "P5_5",
+  "etiqueta": "Contratar un producto de inversión o solicitar un préstamo",
+  "bloque": "Frecuencia de operaciones financieras en los últimos doce meses",
+  "opciones": {
+   "1": "Mucha",
+   "2": "Bastante",
+   "3": "Poca",
+   "4": "Nunca"
+  },
+  "valida": true,
+  "pregunta": "¿Ha contratado un producto de inversión o solicitado un préstamo en los últimos doce meses?",
+  "tema": "Consumo"
+ },
+ "3560_P5_6": {
+  "estudio": "3560",
+  "variable": "P5_6",
+  "etiqueta": "Contratar seguros",
+  "bloque": "Frecuencia de operaciones financieras en los últimos doce meses",
+  "opciones": {
+   "1": "Mucha",
+   "2": "Bastante",
+   "3": "Poca",
+   "4": "Nunca"
+  },
+  "valida": true,
+  "pregunta": "¿Ha contratado seguros en los últimos doce meses?",
+  "tema": "Consumo"
+ },
+ "3560_P5_8": {
+  "estudio": "3560",
+  "variable": "P5_8",
+  "etiqueta": "Pagar con el teléfono móvil (Apple Pay, Google Pay, u otras aplicaciones de pago)",
+  "bloque": "Frecuencia de operaciones financieras en los últimos doce meses",
+  "opciones": {
+   "1": "Mucha",
+   "2": "Bastante",
+   "3": "Poca",
+   "4": "Nunca"
+  },
+  "valida": true,
+  "pregunta": "¿Ha pagado con el teléfono móvil en los últimos doce meses?",
+  "tema": "Tecnología e IA"
+ },
+ "3560_P5_9": {
+  "estudio": "3560",
+  "variable": "P5_9",
+  "etiqueta": "Pagar con tarjeta (crédito/débito)",
+  "bloque": "Frecuencia de operaciones financieras en los últimos doce meses",
+  "opciones": {
+   "1": "Mucha",
+   "2": "Bastante",
+   "3": "Poca",
+   "4": "Nunca"
+  },
+  "valida": true,
+  "pregunta": "¿Cuántas veces ha pagado con tarjeta (crédito/débito) en los últimos doce meses?",
+  "tema": "Consumo"
+ },
+ "3560_P6_1": {
+  "estudio": "3560",
+  "variable": "P6_1",
+  "etiqueta": "Consultar el saldo de la cuenta bancaria",
+  "bloque": "Forma habitual de realizar distintas operaciones financieras",
+  "opciones": {
+   "1": "Visitando personalmente alguna oficina bancaria o agente financiero",
+   "2": "Usando un cajero automático",
+   "3": "Llamando por teléfono",
+   "4": "Usando la página web o la aplicación del banco",
+   "5": "Acudiendo personalmente a una oficina móvil bancaria (autobús)",
+   "6": "Mediante domiciliación",
+   "7": "Prefiere que lo hagan otras personas en su nombre (familiares, amigos, etc.)",
+   "10": "De otra manera"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo consulta habitualmente el saldo de su cuenta bancaria?",
+  "tema": "Consumo"
+ },
+ "3560_P6_2": {
+  "estudio": "3560",
+  "variable": "P6_2",
+  "etiqueta": "Consultar el saldo de la cuenta bancaria",
+  "bloque": "Preferencia en la forma de realizar diferentes operaciones financieras",
+  "opciones": {
+   "1": "Visitando personalmente alguna oficina bancaria o agente financiero",
+   "2": "Usando un cajero automático",
+   "3": "Llamando por teléfono",
+   "4": "Usando la página web o la aplicación del banco",
+   "5": "Acudiendo personalmente a una oficina móvil bancaria (autobús)",
+   "6": "Mediante domiciliación",
+   "7": "Prefiere que lo hagan otras personas en su nombre (familiares, amigos, etc.)",
+   "10": "De otra manera"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo prefiere consultar el saldo de su cuenta bancaria?",
+  "tema": "Consumo"
+ },
+ "3560_P6_3": {
+  "estudio": "3560",
+  "variable": "P6_3",
+  "etiqueta": "Pagar recibos o impuestos del banco",
+  "bloque": "Forma habitual de realizar distintas operaciones financieras",
+  "opciones": {
+   "1": "Visitando personalmente alguna oficina bancaria o agente financiero",
+   "2": "Usando un cajero automático",
+   "3": "Llamando por teléfono",
+   "4": "Usando la página web o la aplicación del banco",
+   "5": "Acudiendo personalmente a una oficina móvil bancaria (autobús)",
+   "6": "Mediante domiciliación",
+   "7": "Prefiere que lo hagan otras personas en su nombre (familiares, amigos, etc.)",
+   "10": "De otra manera"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo paga habitualmente los recibos o impuestos del banco?",
+  "tema": "Consumo"
+ },
+ "3560_P6_4": {
+  "estudio": "3560",
+  "variable": "P6_4",
+  "etiqueta": "Pagar recibos o impuestos del banco",
+  "bloque": "Preferencia en la forma de realizar diferentes operaciones financieras",
+  "opciones": {
+   "1": "Visitando personalmente alguna oficina bancaria o agente financiero",
+   "2": "Usando un cajero automático",
+   "3": "Llamando por teléfono",
+   "4": "Usando la página web o la aplicación del banco",
+   "5": "Acudiendo personalmente a una oficina móvil bancaria (autobús)",
+   "6": "Mediante domiciliación",
+   "7": "Prefiere que lo hagan otras personas en su nombre (familiares, amigos, etc.)",
+   "10": "De otra manera"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo prefiere pagar recibos o impuestos?",
+  "tema": "Consumo"
+ },
+ "3560_P6_5": {
+  "estudio": "3560",
+  "variable": "P6_5",
+  "etiqueta": "Realizar transferencias",
+  "bloque": "Forma habitual de realizar distintas operaciones financieras",
+  "opciones": {
+   "1": "Visitando personalmente alguna oficina bancaria o agente financiero",
+   "2": "Usando un cajero automático",
+   "3": "Llamando por teléfono",
+   "4": "Usando la página web o la aplicación del banco",
+   "5": "Acudiendo personalmente a una oficina móvil bancaria (autobús)",
+   "6": "Mediante domiciliación",
+   "7": "Prefiere que lo hagan otras personas en su nombre (familiares, amigos, etc.)",
+   "10": "De otra manera"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo realiza habitualmente las transferencias?",
+  "tema": "Consumo"
+ },
+ "3560_P6_6": {
+  "estudio": "3560",
+  "variable": "P6_6",
+  "etiqueta": "Realizar transferencias",
+  "bloque": "Preferencia en la forma de realizar diferentes operaciones financieras",
+  "opciones": {
+   "1": "Visitando personalmente alguna oficina bancaria o agente financiero",
+   "2": "Usando un cajero automático",
+   "3": "Llamando por teléfono",
+   "4": "Usando la página web o la aplicación del banco",
+   "5": "Acudiendo personalmente a una oficina móvil bancaria (autobús)",
+   "6": "Mediante domiciliación",
+   "7": "Prefiere que lo hagan otras personas en su nombre (familiares, amigos, etc.)",
+   "10": "De otra manera"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo prefiere realizar transferencias?",
+  "tema": "Consumo"
+ },
+ "3560_P7A": {
+  "estudio": "3560",
+  "variable": "P7A",
+  "etiqueta": "Forma habitual de retirada de efectivo del banco",
+  "bloque": "Forma habitual de retirada de efectivo del banco",
+  "opciones": {
+   "1": "Visitando personalmente alguna sucursal/oficina bancaria (se incluye aquí agente financiero)",
+   "2": "Usando un cajero automático",
+   "3": "Servicio de efectivo de correos (Correos Cash)",
+   "4": "Retirada en tienda",
+   "5": "Acudiendo personalmente a una oficina móvil bancaria (autobús)",
+   "6": "Lo hacen otras personas en su nombre (familiares, amigos, etc.)"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo retira habitualmente efectivo de su banco?",
+  "tema": "Consumo"
+ },
+ "3560_P7B": {
+  "estudio": "3560",
+  "variable": "P7B",
+  "etiqueta": "Preferencia de la forma retirada dinero del banco",
+  "bloque": "Preferencia de la forma retirada dinero del banco",
+  "opciones": {
+   "1": "Visitando personalmente alguna sucursal/oficina bancaria (se incluye aquí agente financiero)",
+   "2": "Usando un cajero automático",
+   "3": "Servicio de efectivo de correos (Correos Cash)",
+   "4": "Retirada en tienda",
+   "5": "Acudiendo personalmente a una oficina móvil bancaria (autobús)",
+   "6": "Que lo hagan otras personas en su nombre (familiares, amigos, etc.)"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo prefiere retirar dinero de su banco?",
+  "tema": "Consumo"
+ },
+ "3560_P8": {
+  "estudio": "3560",
+  "variable": "P8",
+  "etiqueta": "Uso habitual del cajero automático",
+  "bloque": "Uso habitual del cajero automático",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Uso habitual del cajero automático?",
+  "tema": "Consumo"
+ },
+ "3560_P9": {
+  "estudio": "3560",
+  "variable": "P9",
+  "etiqueta": "Uso habitual de la banca online o app del banco",
+  "bloque": "Uso habitual de la banca online o app del banco",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Uso habitual de la banca online o app del banco?",
+  "tema": "Tecnología e IA"
+ },
+ "3560_P10": {
+  "estudio": "3560",
+  "variable": "P10",
+  "etiqueta": "Asistencia habitual a su oficina bancaria",
+  "bloque": "Asistencia habitual a su oficina bancaria",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Asiste habitualmente a su oficina bancaria?",
+  "tema": "Consumo"
+ },
+ "3560_P10A": {
+  "estudio": "3560",
+  "variable": "P10A",
+  "etiqueta": "Razón para no acudir a su oficina bancaria",
+  "bloque": "Razón para no acudir a su oficina bancaria",
+  "opciones": {
+   "1": "Prefiero retirar dinero en el cajero",
+   "2": "No suelo manejar dinero en efectivo",
+   "3": "Realizo los trámites online",
+   "4": "No hay oficinas cercanas a mi domicilio o trabajo",
+   "5": "Problemas de accesibilidad (barreras de acceso a la oficina…)",
+   "6": "Mi banco no tiene sucursales físicas",
+   "7": "Pocas facilidades (horarios, esperas, citas previas, etc.)",
+   "8": "No lo necesita",
+   "9": "Falta de personal, mala atención bancaria",
+   "10": "Lo hace un familiar o tercero por mí",
+   "11": "Por comodidad y/o falta de tiempo"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es la razón principal por la que no acude a su oficina bancaria?",
+  "tema": "Consumo"
+ },
+ "3560_ECIVIL": {
+  "estudio": "3560",
+  "variable": "ECIVIL",
+  "etiqueta": "Estado civil de la persona entrevistada",
+  "bloque": "Estado civil de la persona entrevistada",
+  "opciones": {
+   "1": "Casado/a",
+   "2": "Soltero/a",
+   "3": "Viudo/a",
+   "4": "Separado/a",
+   "5": "Divorciado/a"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es su estado civil?",
+  "tema": "Sociedad"
+ },
+ "3560_SINCERIDAD": {
+  "estudio": "3560",
+  "variable": "SINCERIDAD",
+  "etiqueta": "Grado de sinceridad de la persona entrevistada según el/la entrevistador/a",
+  "bloque": "Grado de sinceridad de la persona entrevistada según el/la entrevistador/a",
+  "opciones": {
+   "1": "Mucha",
+   "2": "Bastante",
+   "3": "Poca",
+   "4": "Ninguna"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es el grado de sinceridad con el que ha respondido a las preguntas de este estudio?",
+  "tema": "Consumo"
+ },
+ "3560_V2_1": {
+  "estudio": "3560",
+  "variable": "V2_1",
+  "etiqueta": "Ha expresado deseo de abandonar la entrevista antes de finalizarla",
+  "bloque": "Ha expresado deseo de abandonar la entrevista antes de finalizarla - V2_2 (125) Se ha sentido incómoda por el tema de la entrevista - V2_3 (126) Ha tenido prisa por acabar la entrevista - V3 (127) Detección de terceras personas en el transcurso de la entrevista - IA_I501 (128) Dificultad de acceso al edificio, casa, urbanización, etc.",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha expresado deseo de abandonar la entrevista antes de finalizarla?",
+  "tema": "Soledad"
+ },
+ "3560_V2_2": {
+  "estudio": "3560",
+  "variable": "V2_2",
+  "etiqueta": "Se ha sentido incómoda por el tema de la entrevista",
+  "bloque": "Se ha sentido incómoda por el tema de la entrevista - V2_3 (126) Ha tenido prisa por acabar la entrevista - V3 (127) Detección de terceras personas en el transcurso de la entrevista - IA_I501 (128) Dificultad de acceso al edificio, casa, urbanización, etc.",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Se ha sentido incómoda por el tema de la entrevista?",
+  "tema": "Salud"
+ },
+ "3560_V2_3": {
+  "estudio": "3560",
+  "variable": "V2_3",
+  "etiqueta": "Ha tenido prisa por acabar la entrevista",
+  "bloque": "Ha tenido prisa por acabar la entrevista - V3 (127) Detección de terceras personas en el transcurso de la entrevista - IA_I501 (128) Dificultad de acceso al edificio, casa, urbanización, etc.",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Se sintió presionado para terminar la entrevista?",
+  "tema": "Consumo"
+ },
+ "3560_V3": {
+  "estudio": "3560",
+  "variable": "V3",
+  "etiqueta": "Detección de terceras personas en el transcurso de la entrevista",
+  "bloque": "Detección de terceras personas en el transcurso de la entrevista - IA_I501 (128) Dificultad de acceso al edificio, casa, urbanización, etc.",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha tenido alguna persona ajena acceso a sus cuentas bancarias o tarjetas de crédito en el último año?",
+  "tema": "Consumo"
+ },
+ "3575_P1_1_1": {
+  "estudio": "3575",
+  "variable": "P1_1_1",
+  "etiqueta": "Sí, él/ella ha adquirido",
+  "bloque": "Automóvil/moto",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha comprado un automóvil o moto?",
+  "tema": "Consumo"
+ },
+ "3575_P1_1_2": {
+  "estudio": "3575",
+  "variable": "P1_1_2",
+  "etiqueta": "Sí, lo ha adquirido otra persona de su hogar",
+  "bloque": "Automóvil/moto",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha adquirido otra persona de su hogar un automóvil o moto en el último año?",
+  "tema": "Consumo"
+ },
+ "3575_P1_2_1": {
+  "estudio": "3575",
+  "variable": "P1_2_1",
+  "etiqueta": "Sí, él/ella ha adquirido",
+  "bloque": "Automóvil/moto",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha comprado un automóvil o moto?",
+  "tema": "Consumo"
+ },
+ "3575_P1_2_2": {
+  "estudio": "3575",
+  "variable": "P1_2_2",
+  "etiqueta": "Sí, lo ha adquirido otra persona de su hogar",
+  "bloque": "Automóvil/moto",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha adquirido otra persona de su hogar un automóvil o moto en el último año?",
+  "tema": "Consumo"
+ },
+ "3575_P1_3_1": {
+  "estudio": "3575",
+  "variable": "P1_3_1",
+  "etiqueta": "Sí, él/ella ha adquirido",
+  "bloque": "Automóvil/moto",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha comprado un automóvil o moto?",
+  "tema": "Consumo"
+ },
+ "3575_P1_3_2": {
+  "estudio": "3575",
+  "variable": "P1_3_2",
+  "etiqueta": "Sí, lo ha adquirido otra persona de su hogar",
+  "bloque": "Automóvil/moto",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha adquirido otra persona de su hogar un automóvil o moto en el último año?",
+  "tema": "Consumo"
+ },
+ "3575_P1_4_1": {
+  "estudio": "3575",
+  "variable": "P1_4_1",
+  "etiqueta": "Sí, él/ella ha adquirido",
+  "bloque": "Automóvil/moto",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha comprado un automóvil o moto?",
+  "tema": "Consumo"
+ },
+ "3575_P1_4_2": {
+  "estudio": "3575",
+  "variable": "P1_4_2",
+  "etiqueta": "Sí, lo ha adquirido otra persona de su hogar",
+  "bloque": "Automóvil/moto",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha adquirido otra persona de su hogar un automóvil o moto en el último año?",
+  "tema": "Consumo"
+ },
+ "3575_P2": {
+  "estudio": "3575",
+  "variable": "P2",
+  "etiqueta": "Capacidad de ahorro mensual en el hogar",
+  "bloque": "Capacidad de ahorro mensual en el hogar",
+  "opciones": {
+   "1": "Le resulta difícil llegar a final de mes, por lo que ha tenido que contraer deudas",
+   "2": "Le resulta difícil llegar a final de mes, por lo que ha tenido que echar mano de sus ahorros",
+   "3": "Llega justo a final de mes",
+   "4": "Ahorra un poco de dinero cada mes",
+   "5": "Ahorra bastante dinero cada mes"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es la situación de ahorro mensual en su hogar?",
+  "tema": "Consumo"
+ },
+ "3575_P3": {
+  "estudio": "3575",
+  "variable": "P3",
+  "etiqueta": "Valoración retrospectiva de la situación económica del hogar (6 meses)",
+  "bloque": "Valoración retrospectiva de la situación económica del hogar (6 meses)",
+  "opciones": {
+   "1": "Mejor",
+   "2": "Igual",
+   "3": "Peor"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría la situación económica de su hogar en los últimos 6 meses?",
+  "tema": "Consumo"
+ },
+ "3575_NUMPERSONAS": {
+  "estudio": "3575",
+  "variable": "NUMPERSONAS",
+  "etiqueta": "Número de personas del entorno en paro y buscando trabajo",
+  "bloque": "Número de personas del entorno en paro y buscando trabajo",
+  "opciones": {
+   "0": "0",
+   "1": "1 persona",
+   "2": "2 personas",
+   "3": "3 personas",
+   "4": "4 personas"
+  },
+  "valida": true,
+  "pregunta": "¿Cuántas personas del entorno están en paro y buscando trabajo?",
+  "tema": "Consumo"
+ },
+ "3575_P6": {
+  "estudio": "3575",
+  "variable": "P6",
+  "etiqueta": "Evolución del número de personas del entorno en paro y buscando trabajo (6 meses)",
+  "bloque": "Evolución del número de personas del entorno en paro y buscando trabajo (6 meses)",
+  "opciones": {
+   "1": "Más",
+   "2": "El mismo número",
+   "3": "Menos"
+  },
+  "valida": true,
+  "pregunta": "¿Ha notado cambios en el número de personas del entorno que están en paro y buscando trabajo en los últimos 6 meses?",
+  "tema": "Sociedad"
+ },
+ "3575_P7": {
+  "estudio": "3575",
+  "variable": "P7",
+  "etiqueta": "Valoración retrospectiva de la posibilidad de mejorar o encontrar empleo en España (6 meses)",
+  "bloque": "Valoración retrospectiva de la posibilidad de mejorar o encontrar empleo en España (6 meses)",
+  "opciones": {
+   "1": "Mejor",
+   "2": "Igual",
+   "3": "Peor"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en España en los últimos 6 meses?",
+  "tema": "Sociedad"
+ },
+ "3575_P7_1": {
+  "estudio": "3575",
+  "variable": "P7_1",
+  "etiqueta": "Valoración retrospectiva de la posibilidad de mejorar o encontrar empleo en la comunidad autónoma (6 meses)",
+  "bloque": "Valoración retrospectiva de la posibilidad de mejorar o encontrar empleo en la comunidad autónoma (6 meses)",
+  "opciones": {
+   "1": "Mejor",
+   "2": "Igual",
+   "3": "Peor"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en su comunidad autónoma en los últimos 6 meses?",
+  "tema": "Sociedad"
+ },
+ "3575_P8": {
+  "estudio": "3575",
+  "variable": "P8",
+  "etiqueta": "Valoración retrospectiva de la situación económica de España (6 meses)",
+  "bloque": "Valoración retrospectiva de la situación económica de España (6 meses)",
+  "opciones": {
+   "1": "Mejor",
+   "2": "Igual",
+   "3": "Peor"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría la situación económica de España en los últimos 6 meses?",
+  "tema": "Consumo"
+ },
+ "3575_P8_1": {
+  "estudio": "3575",
+  "variable": "P8_1",
+  "etiqueta": "Valoración retrospectiva de la situación económica de la comunidad autónoma (6 meses)",
+  "bloque": "Valoración retrospectiva de la situación económica de la comunidad autónoma (6 meses)",
+  "opciones": {
+   "1": "Mejor",
+   "2": "Igual",
+   "3": "Peor"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría la situación económica de la comunidad autónoma en los últimos 6 meses?",
+  "tema": "Consumo"
+ },
+ "3575_P9": {
+  "estudio": "3575",
+  "variable": "P9",
+  "etiqueta": "Valoración prospectiva de la posibilidad de mejorar o encontrar empleo en España (6 meses)",
+  "bloque": "Valoración prospectiva de la posibilidad de mejorar o encontrar empleo en España (6 meses)",
+  "opciones": {
+   "1": "Mejor",
+   "2": "Igual",
+   "3": "Peor"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en España en los próximos seis meses?",
+  "tema": "Consumo"
+ },
+ "3575_P9_1": {
+  "estudio": "3575",
+  "variable": "P9_1",
+  "etiqueta": "Valoración prospectiva de la posibilidad de mejorar o encontrar empleo en la comunidad autónoma (6 meses)",
+  "bloque": "Valoración prospectiva de la posibilidad de mejorar o encontrar empleo en la comunidad autónoma (6 meses)",
+  "opciones": {
+   "1": "Mejor",
+   "2": "Igual",
+   "3": "Peor"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en la comunidad autónoma en los próximos 6 meses?",
+  "tema": "Sociedad"
+ },
+ "3575_P10": {
+  "estudio": "3575",
+  "variable": "P10",
+  "etiqueta": "Valoración prospectiva de la probabilidad de adquirir para el hogar bienes duraderos (1 año)",
+  "bloque": "Valoración prospectiva de la probabilidad de adquirir para el hogar bienes duraderos (1 año)",
+  "opciones": {
+   "1": "Mayores",
+   "2": "Iguales",
+   "3": "Menores"
+  },
+  "valida": true,
+  "pregunta": "¿Piensa usted que en el próximo año tendrá más, igual o menos probabilidades de comprar bienes duraderos para su hogar?",
+  "tema": "Consumo"
+ },
+ "3575_P11": {
+  "estudio": "3575",
+  "variable": "P11",
+  "etiqueta": "Evolución de la capacidad de ahorro personal (1 año)",
+  "bloque": "Evolución de la capacidad de ahorro personal (1 año)",
+  "opciones": {
+   "1": "Mayores",
+   "2": "Iguales",
+   "3": "Menores"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo cree que ha sido la evolución de su capacidad de ahorro en los últimos 12 meses?",
+  "tema": "Consumo"
+ },
+ "3575_P12": {
+  "estudio": "3575",
+  "variable": "P12",
+  "etiqueta": "Valoración prospectiva de la situación económica del hogar (6 meses)",
+  "bloque": "Valoración prospectiva de la situación económica del hogar (6 meses)",
+  "opciones": {
+   "1": "Mejor",
+   "2": "Igual",
+   "3": "Peor"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo cree que estará la situación económica de su hogar en los próximos 6 meses?",
+  "tema": "Consumo"
+ },
+ "3575_P14": {
+  "estudio": "3575",
+  "variable": "P14",
+  "etiqueta": "Valoración prospectiva de la situación económica de España (6 meses)",
+  "bloque": "Valoración prospectiva de la situación económica de España (6 meses)",
+  "opciones": {
+   "1": "Mejor",
+   "2": "Igual",
+   "3": "Peor"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría la situación económica de España en los próximos seis meses?",
+  "tema": "Consumo"
+ },
+ "3575_P14_1": {
+  "estudio": "3575",
+  "variable": "P14_1",
+  "etiqueta": "Valoración prospectiva de la situación económica de la comunidad autónoma (6 meses)",
+  "bloque": "Valoración prospectiva de la situación económica de la comunidad autónoma (6 meses)",
+  "opciones": {
+   "1": "Mejor",
+   "2": "Igual",
+   "3": "Peor"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo cree que estará la situación económica de la comunidad autónoma en los próximos 6 meses?",
+  "tema": "Consumo"
+ },
+ "3575_P15": {
+  "estudio": "3575",
+  "variable": "P15",
+  "etiqueta": "Valoración prospectiva de la inflación en España (1 año)",
+  "bloque": "Valoración prospectiva de la inflación en España (1 año)",
+  "opciones": {
+   "1": "Más",
+   "2": "Igual",
+   "3": "Menos"
+  },
+  "valida": true,
+  "pregunta": "¿Qué cree que será la inflación en España en el próximo año?",
+  "tema": "Consumo"
+ },
+ "3575_P16": {
+  "estudio": "3575",
+  "variable": "P16",
+  "etiqueta": "Evolución de los tipos de interés en España (1 año)",
+  "bloque": "Evolución de los tipos de interés en España (1 año)",
+  "opciones": {
+   "1": "Subirá",
+   "2": "Se mantendrá",
+   "3": "Bajará"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que los tipos de interés en España subirán en el próximo año?",
+  "tema": "Consumo"
+ },
+ "3575_P17": {
+  "estudio": "3575",
+  "variable": "P17",
+  "etiqueta": "Evolución del precio de la vivienda en España (1 año)",
+  "bloque": "Evolución del precio de la vivienda en España (1 año)",
+  "opciones": {
+   "1": "Subirá",
+   "2": "Se mantendrá",
+   "3": "Bajará"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que el precio de la vivienda en España subirá, se mantendrá o bajará en el próximo año?",
+  "tema": "Vivienda"
+ },
+ "3575_P18": {
+  "estudio": "3575",
+  "variable": "P18",
+  "etiqueta": "Intención de comprar una vivienda en el próximo año",
+  "bloque": "Intención de comprar una vivienda en el próximo año",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Tiene intención de comprar una vivienda en el próximo año?",
+  "tema": "Vivienda"
+ },
+ "3575_CURSOMULTIPLE_1_1": {
+  "estudio": "3575",
+  "variable": "CURSOMULTIPLE_1_1",
+  "etiqueta": "Educación primaria",
+  "bloque": "Estudios oficiales en curso de la persona entrevistada",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Tiene en curso un estudio oficial sobre educación primaria?",
+  "tema": "Sociedad"
+ },
+ "3575_CURSOMULTIPLE_1_2": {
+  "estudio": "3575",
+  "variable": "CURSOMULTIPLE_1_2",
+  "etiqueta": "FP grado inicial (FP básica)",
+  "bloque": "Estudios oficiales en curso de la persona entrevistada",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿La persona entrevistada ha cursado FP grado inicial (FP básica)?",
+  "tema": "Consumo"
+ },
+ "3575_CURSOMULTIPLE_1_3": {
+  "estudio": "3575",
+  "variable": "CURSOMULTIPLE_1_3",
+  "etiqueta": "Educación secundaria obligatoria",
+  "bloque": "Estudios oficiales en curso de la persona entrevistada",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha cursado educación secundaria obligatoria?",
+  "tema": "Sociedad"
+ },
+ "3575_CURSOMULTIPLE_1_4": {
+  "estudio": "3575",
+  "variable": "CURSOMULTIPLE_1_4",
+  "etiqueta": "FP de grado medio",
+  "bloque": "Estudios oficiales en curso de la persona entrevistada",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Tiene la persona alguna formación profesional de grado medio en curso?",
+  "tema": "Consumo"
+ },
+ "3575_CURSOMULTIPLE_1_6": {
+  "estudio": "3575",
+  "variable": "CURSOMULTIPLE_1_6",
+  "etiqueta": "FP de grado superior",
+  "bloque": "Estudios oficiales en curso de la persona entrevistada",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Tiene la persona alguna formación profesional de grado superior?",
+  "tema": "Consumo"
+ },
+ "3575_CURSOMULTIPLE_1_7": {
+  "estudio": "3575",
+  "variable": "CURSOMULTIPLE_1_7",
+  "etiqueta": "Estudios universitarios",
+  "bloque": "Estudios oficiales en curso de la persona entrevistada",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Está realizando estudios universitarios?",
+  "tema": "Sociedad"
+ },
+ "3575_CURSOMULTIPLE_1_8": {
+  "estudio": "3575",
+  "variable": "CURSOMULTIPLE_1_8",
+  "etiqueta": "Estudios oficiales de posgrado y doctorado",
+  "bloque": "Estudios oficiales en curso de la persona entrevistada",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Está realizando estudios oficiales de posgrado o doctorado?",
+  "tema": "Sociedad"
+ },
+ "3575_CURSOMULTIPLE_1_9": {
+  "estudio": "3575",
+  "variable": "CURSOMULTIPLE_1_9",
+  "etiqueta": "Otros estudios",
+  "bloque": "Estudios oficiales en curso de la persona entrevistada",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Participa en otros estudios oficiales?",
+  "tema": "Consumo"
+ },
+ "3575_CURSOMULTIPLE_1_10": {
+  "estudio": "3575",
+  "variable": "CURSOMULTIPLE_1_10",
+  "etiqueta": "No está cursando estudios",
+  "bloque": "Estudios oficiales en curso de la persona entrevistada",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿No está cursando estudios?",
+  "tema": "Consumo"
+ },
+ "3575_ECIVIL": {
+  "estudio": "3575",
+  "variable": "ECIVIL",
+  "etiqueta": "Estado civil de la persona entrevistada",
+  "bloque": "Estado civil de la persona entrevistada",
+  "opciones": {
+   "1": "Casado/a",
+   "2": "Soltero/a",
+   "3": "Viudo/a",
+   "4": "Separado/a",
+   "5": "Divorciado/a"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es su estado civil?",
+  "tema": "Sociedad"
+ },
+ "3575_P25": {
+  "estudio": "3575",
+  "variable": "P25",
+  "etiqueta": "Número de personas en el hogar además de la persona entrevistada",
+  "bloque": "Número de personas en el hogar además de la persona entrevistada",
+  "opciones": {
+   "0": "0",
+   "1": "1 persona",
+   "2": "2 personas",
+   "3": "3 personas",
+   "4": "4 personas"
+  },
+  "valida": true,
+  "pregunta": "¿Cuántas personas viven en su hogar además de usted?",
+  "tema": "Vivienda"
+ },
+ "3575_P25B": {
+  "estudio": "3575",
+  "variable": "P25B",
+  "etiqueta": "Número de personas en el hogar con ingresos",
+  "bloque": "Número de personas en el hogar con ingresos",
+  "opciones": {
+   "0": "Ninguna",
+   "1": "1 persona",
+   "2": "2 personas",
+   "3": "3 personas",
+   "4": "4 personas"
+  },
+  "valida": true,
+  "pregunta": "¿Cuántas personas hay en su hogar con ingresos?",
+  "tema": "Consumo"
+ },
+ "3575_PERPRIN": {
+  "estudio": "3575",
+  "variable": "PERPRIN",
+  "etiqueta": "Cabeza de familia",
+  "bloque": "Cabeza de familia",
+  "opciones": {
+   "1": "La persona entrevistada",
+   "2": "Otra persona",
+   "3": "La persona entrevistada y otra casi a partes iguales"
+  },
+  "valida": true,
+  "pregunta": "¿Quién es la persona a la que se le considera la cabeza de familia en su hogar?",
+  "tema": "Consumo"
+ },
+ "3575_INGREHOG": {
+  "estudio": "3575",
+  "variable": "INGREHOG",
+  "etiqueta": "Nivel de ingresos del hogar",
+  "bloque": "Nivel de ingresos del hogar",
+  "opciones": {
+   "1": "Menos de 1.100 €",
+   "2": "De 1.100 a 1.800 €",
+   "3": "De 1.801 a 2.700 €",
+   "4": "De 2.701 a 3.900 €",
+   "5": "Más de 3.900 €"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es el nivel de ingresos del hogar?",
+  "tema": "Consumo"
+ },
+ "3575_P28": {
+  "estudio": "3575",
+  "variable": "P28",
+  "etiqueta": "Situación laboral de la persona entrevistada",
+  "bloque": "Situación laboral de la persona entrevistada",
+  "opciones": {
+   "1": "Trabaja (por cuenta propia o por cuenta ajena)",
+   "2": "Jubilado/a o pensionista (anteriormente ha trabajado)",
+   "3": "Pensionista (anteriormente no ha trabajado)",
+   "4": "Parado/a y ha trabajado antes",
+   "5": "Parado/a y busca su primer empleo",
+   "6": "Estudiante",
+   "7": "Trabajo doméstico no remunerado",
+   "8": "Otra situación"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es la situación laboral en la que se encuentra?",
+  "tema": "Sociedad"
+ },
+ "3575_P28A": {
+  "estudio": "3575",
+  "variable": "P28A",
+  "etiqueta": "Situación de actividad laboral de la persona entrevistada",
+  "bloque": "Situación de actividad laboral de la persona entrevistada",
+  "opciones": {
+   "1": "Ocupado/a",
+   "2": "Parado/a",
+   "3": "Inactivo/a"
+  },
+  "valida": true,
+  "pregunta": "¿En qué situación se encuentra su actividad laboral?",
+  "tema": "Consumo"
+ },
+ "3575_MOMENNAC": {
+  "estudio": "3575",
+  "variable": "MOMENNAC",
+  "etiqueta": "Momento de la adquisición de la nacionalidad española",
+  "bloque": "Momento de la adquisición de la nacionalidad española",
+  "opciones": {
+   "1": "Desde que nació",
+   "2": "La ha adquirido con posterioridad",
+   "3": "No tiene nacionalidad española"
+  },
+  "valida": true,
+  "pregunta": "¿Cuándo adquirió la nacionalidad española?",
+  "tema": "Sociedad"
+ },
+ "3575_VIVIENDA": {
+  "estudio": "3575",
+  "variable": "VIVIENDA",
+  "etiqueta": "Régimen de tenencia de vivienda",
+  "bloque": "Régimen de tenencia de vivienda",
+  "opciones": {
+   "1": "En propiedad por compra, totalmente pagada",
+   "2": "En propiedad por compra y con pagos o hipotecas pendientes",
+   "3": "En alquiler",
+   "4": "En propiedad por herencia o donación",
+   "5": "Cedida gratis o a bajo precio por un/a familiar, la empresa, etc.",
+   "6": "Otra forma"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo es el régimen de tenencia de la vivienda en la que reside?",
+  "tema": "Vivienda"
+ },
+ "3575_P36": {
+  "estudio": "3575",
+  "variable": "P36",
+  "etiqueta": "Régimen de tenencia de vivienda [recodificada]",
+  "bloque": "Régimen de tenencia de vivienda [recodificada]",
+  "opciones": {
+   "1": "Propietarios/as",
+   "2": "Propietarios/as con hipoteca",
+   "3": "En alquiler",
+   "4": "Otra situación"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es su situación de tenencia de vivienda?",
+  "tema": "Vivienda"
+ },
+ "3575_SINCERIDAD": {
+  "estudio": "3575",
+  "variable": "SINCERIDAD",
+  "etiqueta": "Grado de sinceridad de la persona entrevistada según el/la entrevistador/a",
+  "bloque": "Grado de sinceridad de la persona entrevistada según el/la entrevistador/a",
+  "opciones": {
+   "1": "Mucha",
+   "2": "Bastante",
+   "3": "Poca",
+   "4": "Ninguna"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánta confianza tiene en sus respuestas?",
+  "tema": "Consumo"
+ },
+ "3575_V2_1": {
+  "estudio": "3575",
+  "variable": "V2_1",
+  "etiqueta": "Ha expresado deseo de abandonar la entrevista antes de finalizarla",
+  "bloque": "Ha expresado deseo de abandonar la entrevista antes de finalizarla",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha expresado deseo de abandonar la entrevista antes de finalizarla?",
+  "tema": "Consumo"
+ },
+ "3575_V2_2": {
+  "estudio": "3575",
+  "variable": "V2_2",
+  "etiqueta": "Se ha sentido incómoda por el tema de la entrevista",
+  "bloque": "Se ha sentido incómoda por el tema de la entrevista",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Se ha sentido incómoda por el tema de la entrevista?",
+  "tema": "Consumo"
+ },
+ "3575_V2_3": {
+  "estudio": "3575",
+  "variable": "V2_3",
+  "etiqueta": "Ha tenido prisa por acabar la entrevista",
+  "bloque": "Ha tenido prisa por acabar la entrevista",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha tenido prisa por acabar la entrevista?",
+  "tema": "Consumo"
+ },
+ "3575_V3": {
+  "estudio": "3575",
+  "variable": "V3",
+  "etiqueta": "Detección de terceras personas en el transcurso de la entrevista",
+  "bloque": "Detección de terceras personas en el transcurso de la entrevista",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha detectado alguna tercera persona en el transcurso de esta entrevista?",
+  "tema": "Consumo"
+ },
+ "3577_P1": {
+  "estudio": "3577",
+  "variable": "P1",
+  "etiqueta": "Conocimiento del cruce de la frontera en Ceuta ocurrido en el verano del 2026",
+  "bloque": "Conocimiento del cruce de la frontera en Ceuta ocurrido en el verano del 2026",
+  "opciones": {
+   "1": "Sí, está informado/a",
+   "2": "No, no está informado/a"
+  },
+  "valida": true,
+  "pregunta": "¿Ha tenido conocimiento del cruce de la frontera en Ceuta ocurrido en el verano de 2026?",
+  "tema": "Sociedad"
+ },
+ "3577_P2": {
+  "estudio": "3577",
+  "variable": "P2",
+  "etiqueta": "Necesidad de refuerzo de las fronteras para evitar entradas masivas de personas",
+  "bloque": "Necesidad de refuerzo de las fronteras para evitar entradas masivas de personas",
+  "opciones": {
+   "1": "Sí, cree que es necesario",
+   "2": "No, cree que no es necesario"
+  },
+  "valida": true,
+  "pregunta": "¿Necesita refuerzo de las fronteras para evitar entradas masivas de personas?",
+  "tema": "Sociedad"
+ },
+ "3577_P3": {
+  "estudio": "3577",
+  "variable": "P3",
+  "etiqueta": "Grado de importancia del entendimiento entre España y Marruecos para garantizar la seguridad de las fronteras",
+  "bloque": "Grado de importancia del entendimiento entre España y Marruecos para garantizar la seguridad de las fronteras",
+  "opciones": {
+   "1": "Mucha importancia",
+   "2": "Bastante importancia",
+   "3": "Ni mucha ni poca importancia",
+   "4": "Poca importancia",
+   "5": "Ninguna importancia"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánta importancia le da a que España y Marruecos tengan un buen entendimiento para mantener la seguridad de las fronteras?",
+  "tema": "Sociedad"
+ },
+ "3577_P4": {
+  "estudio": "3577",
+  "variable": "P4",
+  "etiqueta": "Colaboración o no de la Unión Europea con España para gestionar la situación de Ceuta",
+  "bloque": "Colaboración o no de la Unión Europea con España para gestionar la situación de Ceuta",
+  "opciones": {
+   "1": "Sí, debería colaborar más",
+   "2": "No, la colaboración actual es suficiente"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que la Unión Europea debería colaborar más con España para gestionar la situación de Ceuta?",
+  "tema": "Sociedad"
+ },
+ "3577_P5": {
+  "estudio": "3577",
+  "variable": "P5",
+  "etiqueta": "Opinión sobre la situación de integración territorial de Ceuta y Melilla",
+  "bloque": "Opinión sobre la situación de integración territorial de Ceuta y Melilla",
+  "opciones": {
+   "1": "Son territorios tan españoles como cualquier otro territorio de la península",
+   "2": "Tienen una situación ambigua y especial que debe ser objeto de acuerdos y entendimiento con Marruecos",
+   "3": "Otra respuesta"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valora la situación de integración territorial de Ceuta y Melilla?",
+  "tema": "Sociedad"
+ },
+ "3577_P6": {
+  "estudio": "3577",
+  "variable": "P6",
+  "etiqueta": "Grado de importancia de mantener una política amistosa entre España y Marruecos",
+  "bloque": "Grado de importancia de mantener una política amistosa entre España y Marruecos",
+  "opciones": {
+   "1": "Mucha importancia",
+   "2": "Bastante importancia",
+   "3": "Ni mucha ni poca importancia",
+   "4": "Poca importancia",
+   "5": "Ninguna importancia"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es el grado de importancia que le otorga a mantener una política amistosa entre España y Marruecos?",
+  "tema": "Sociedad"
+ },
+ "3577_P7": {
+  "estudio": "3577",
+  "variable": "P7",
+  "etiqueta": "Existencia de actores que han interferido en las relaciones entre España y Marruecos con motivo de los incidentes fronterizos del verano del 2026",
+  "bloque": "Existencia de actores que han interferido en las relaciones entre España y Marruecos con motivo de los incidentes fronterizos del verano del 2026",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Han existido actores que han interferido en las relaciones entre España y Marruecos?",
+  "tema": "Sociedad"
+ },
+ "3577_P8": {
+  "estudio": "3577",
+  "variable": "P8",
+  "etiqueta": "Grado de preocupación por los incendios",
+  "bloque": "Grado de preocupación por los incendios",
+  "opciones": {
+   "1": "Mucho",
+   "2": "Bastante",
+   "3": "Regular",
+   "4": "Poco",
+   "5": "Nada"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto le preocupa la situación de los incendios en España?",
+  "tema": "Medio ambiente"
+ },
+ "3577_P9": {
+  "estudio": "3577",
+  "variable": "P9",
+  "etiqueta": "Afectación personal o familiar por los incendios del verano del 2026",
+  "bloque": "Afectación personal o familiar por los incendios del verano del 2026",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha sido afectado personal o familiarmente por los incendios del verano de 2026?",
+  "tema": "Medio ambiente"
+ },
+ "3577_P10": {
+  "estudio": "3577",
+  "variable": "P10",
+  "etiqueta": "Afectación personal o familiar futura por algún incendio",
+  "bloque": "Afectación personal o familiar futura por algún incendio",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que en el futuro su familia o usted mismo podrán ser afectados por algún incendio?",
+  "tema": "Medio ambiente"
+ },
+ "3577_P11": {
+  "estudio": "3577",
+  "variable": "P11",
+  "etiqueta": "Atribución de competencias en la prevención y lucha contra los incendios",
+  "bloque": "Atribución de competencias en la prevención y lucha contra los incendios",
+  "opciones": {
+   "1": "Deben continuar en las comunidades autónomas",
+   "2": "Deben pasar a ser competencia del Gobierno central",
+   "3": "De ambos en colaboración",
+   "4": "Otras respuestas"
+  },
+  "valida": true,
+  "pregunta": "¿Qué competencias debería tener el Gobierno central en la prevención y lucha contra los incendios?",
+  "tema": "Medio ambiente"
+ },
+ "3577_P12": {
+  "estudio": "3577",
+  "variable": "P12",
+  "etiqueta": "Necesidad de un pacto de Estado para hacer frente a las emergencias del cambio climático",
+  "bloque": "Necesidad de un pacto de Estado para hacer frente a las emergencias del cambio climático",
+  "opciones": {
+   "1": "Sí es necesario",
+   "2": "No es necesario",
+   "3": "Depende de la evolución de la situación",
+   "4": "Otras respuestas"
+  },
+  "valida": true,
+  "pregunta": "¿Necesita un pacto de Estado para hacer frente a las emergencias del cambio climático?",
+  "tema": "Medio ambiente"
+ },
+ "3577_P13": {
+  "estudio": "3577",
+  "variable": "P13",
+  "etiqueta": "Grado de preocupación por el cambio climático",
+  "bloque": "Grado de preocupación por el cambio climático",
+  "opciones": {
+   "1": "Mucho",
+   "2": "Bastante",
+   "3": "Regular",
+   "4": "Poco",
+   "5": "Nada"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto le preocupa el cambio climático?",
+  "tema": "Medio ambiente"
+ },
+ "3577_P14": {
+  "estudio": "3577",
+  "variable": "P14",
+  "etiqueta": "Grado de preocupación por la invasión de Rusia a Ucrania",
+  "bloque": "Grado de preocupación por la invasión de Rusia a Ucrania",
+  "opciones": {
+   "1": "Muy preocupado/a",
+   "2": "Bastante preocupado/a",
+   "3": "Algo preocupado/a",
+   "4": "Poco preocupado/a",
+   "5": "Nada preocupado/a",
+   "6": "No tiene criterio",
+   "7": "Le es indiferente"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto se preocupa sobre la invasión de Rusia a Ucrania?",
+  "tema": "Sociedad"
+ },
+ "3577_P15": {
+  "estudio": "3577",
+  "variable": "P15",
+  "etiqueta": "Grado de preocupación por el conflicto en Oriente Próximo",
+  "bloque": "Grado de preocupación por el conflicto en Oriente Próximo",
+  "opciones": {
+   "1": "Muy preocupado/a",
+   "2": "Bastante preocupado/a",
+   "3": "Algo preocupado/a",
+   "4": "Poco preocupado/a",
+   "5": "Nada preocupado/a",
+   "6": "No tiene criterio",
+   "7": "Le es indiferente",
+   "10": "No tiene información, no sabe de qué guerra se trata"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto se preocupa por el conflicto en Oriente Próximo?",
+  "tema": "Sociedad"
+ },
+ "3577_ECOPER": {
+  "estudio": "3577",
+  "variable": "ECOPER",
+  "etiqueta": "Valoración de la situación económica personal actual",
+  "bloque": "Valoración de la situación económica personal actual",
+  "opciones": {
+   "1": "Muy buena",
+   "2": "Buena",
+   "3": "Regular",
+   "4": "Mala",
+   "5": "Muy mala"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría la situación económica personal actual?",
+  "tema": "Consumo"
+ },
+ "3577_ECOESP": {
+  "estudio": "3577",
+  "variable": "ECOESP",
+  "etiqueta": "Valoración de la situación económica general de España",
+  "bloque": "Valoración de la situación económica general de España",
+  "opciones": {
+   "1": "Muy buena",
+   "2": "Buena",
+   "3": "Regular",
+   "4": "Mala",
+   "5": "Muy mala"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría la situación económica general de España?",
+  "tema": "Consumo"
+ },
+ "3577_ECIVIL": {
+  "estudio": "3577",
+  "variable": "ECIVIL",
+  "etiqueta": "Estado civil de la persona entrevistada",
+  "bloque": "Estado civil de la persona entrevistada",
+  "opciones": {
+   "1": "Casado/a",
+   "2": "Soltero/a",
+   "3": "Viudo/a",
+   "4": "Separado/a",
+   "5": "Divorciado/a"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es su estado civil?",
+  "tema": "Sociedad"
+ },
+ "3577_SINCERIDAD": {
+  "estudio": "3577",
+  "variable": "SINCERIDAD",
+  "etiqueta": "Grado de sinceridad de la persona entrevistada según el/la entrevistador/a",
+  "bloque": "Grado de sinceridad de la persona entrevistada según el/la entrevistador/a",
+  "opciones": {
+   "1": "Mucha",
+   "2": "Bastante",
+   "3": "Poca",
+   "4": "Ninguna"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánta sinceridad cree que tiene cuando responde a las preguntas de esta encuesta?",
+  "tema": "Sociedad"
+ },
+ "3577_V2_1": {
+  "estudio": "3577",
+  "variable": "V2_1",
+  "etiqueta": "Ha expresado deseo de abandonar la entrevista antes de finalizarla",
+  "bloque": "Ha expresado deseo de abandonar la entrevista antes de finalizarla",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha expresado deseo de abandonar la entrevista antes de finalizarla?",
+  "tema": "Soledad"
+ },
+ "3577_V2_2": {
+  "estudio": "3577",
+  "variable": "V2_2",
+  "etiqueta": "Se ha sentido incómoda por el tema de la entrevista",
+  "bloque": "Se ha sentido incómoda por el tema de la entrevista",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Se ha sentido incómoda por el tema de la entrevista?",
+  "tema": "Sociedad"
+ },
+ "3577_V2_3": {
+  "estudio": "3577",
+  "variable": "V2_3",
+  "etiqueta": "Ha tenido prisa por acabar la entrevista",
+  "bloque": "Ha tenido prisa por acabar la entrevista",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha tenido prisa por acabar la entrevista?",
+  "tema": "Soledad"
+ },
+ "3577_V3": {
+  "estudio": "3577",
+  "variable": "V3",
+  "etiqueta": "Detección de terceras personas en el transcurso de la entrevista",
+  "bloque": "Detección de terceras personas en el transcurso de la entrevista",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha detectado alguna tercera persona en el transcurso de esta entrevista?",
+  "tema": "Sociedad"
+ },
+ "8825_P1": {
+  "estudio": "8825",
+  "variable": "P1",
+  "etiqueta": "Valoración del funcionamiento del sistema sanitario español",
+  "bloque": "Valoración del funcionamiento del sistema sanitario español",
+  "opciones": {
+   "1": "En general, funciona bastante bien",
+   "2": "Funciona bien, aunque son necesarios algunos cambios",
+   "3": "Necesita cambios fundamentales, aunque algunas cosas funcionan",
+   "4": "Funciona mal y necesita cambios profundos"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría el funcionamiento del sistema sanitario español?",
+  "tema": "Salud"
+ },
+ "8825_P2": {
+  "estudio": "8825",
+  "variable": "P2",
+  "etiqueta": "Escala de satisfacción (1-10) con el funcionamiento del sistema sanitario español",
+  "bloque": "Escala de satisfacción (1-10) con el funcionamiento del sistema sanitario español",
+  "opciones": {
+   "1": "1 Muy insatisfecho/a",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Muy satisfecho/a"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es su nivel de satisfacción con el funcionamiento del sistema sanitario español?",
+  "tema": "Salud"
+ },
+ "8825_P3_1": {
+  "estudio": "8825",
+  "variable": "P3_1",
+  "etiqueta": "Consultas de médicos/as de cabecera (o de familia) y pediatría",
+  "bloque": "Tipo de servicio sanitario, público o privado, que utilizaría en caso de necesitar acudir a una consulta",
+  "opciones": {
+   "1": "Público",
+   "2": "Privado",
+   "3": "Ambos"
+  },
+  "valida": true,
+  "pregunta": "¿Qué tipo de servicio sanitario utilizaría en caso de necesitar acudir a una consulta de médico de cabecera o pediatría?",
+  "tema": "Salud"
+ },
+ "8825_P3_2": {
+  "estudio": "8825",
+  "variable": "P3_2",
+  "etiqueta": "Consultas de especialistas",
+  "bloque": "Tipo de servicio sanitario, público o privado, que utilizaría en caso de necesitar acudir a una consulta",
+  "opciones": {
+   "1": "Público",
+   "2": "Privado",
+   "3": "Ambos"
+  },
+  "valida": true,
+  "pregunta": "¿Qué tipo de servicio sanitario utilizaría en caso de necesitar acudir a una consulta de especialista?",
+  "tema": "Salud"
+ },
+ "8825_P3_3": {
+  "estudio": "8825",
+  "variable": "P3_3",
+  "etiqueta": "Ingreso en hospital",
+  "bloque": "Tipo de servicio sanitario, público o privado, que utilizaría en caso de necesitar acudir a una consulta",
+  "opciones": {
+   "1": "Público",
+   "2": "Privado",
+   "3": "Ambos"
+  },
+  "valida": true,
+  "pregunta": "¿En caso de necesitar ingreso en hospital, utilizaría un servicio sanitario público, privado o ambos?",
+  "tema": "Salud"
+ },
+ "8825_P4ES_1": {
+  "estudio": "8825",
+  "variable": "P4ES_1",
+  "etiqueta": "Consultas de atención primaria en centros de salud (médicos/as de familia o de cabecera)",
+  "bloque": "Escala de satisfacción (1-10) de diferentes servicios sanitarios públicos",
+  "opciones": {
+   "1": "1 Totalmente insatisfactoria",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Totalmente satisfactoria"
+  },
+  "valida": true,
+  "pregunta": "¿Cuán satisfecho está con las consultas de atención primaria en centros de salud?",
+  "tema": "Salud"
+ },
+ "8825_P4ES_2": {
+  "estudio": "8825",
+  "variable": "P4ES_2",
+  "etiqueta": "Consultas de atención especializada (especialistas)",
+  "bloque": "Escala de satisfacción (1-10) de diferentes servicios sanitarios públicos",
+  "opciones": {
+   "1": "1 Totalmente insatisfactoria",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Totalmente satisfactoria"
+  },
+  "valida": true,
+  "pregunta": "¿Cuán satisfecho está con las consultas de atención especializada con especialistas?",
+  "tema": "Salud"
+ },
+ "8825_P4ES_3": {
+  "estudio": "8825",
+  "variable": "P4ES_3",
+  "etiqueta": "Urgencias en hospitales públicos",
+  "bloque": "Escala de satisfacción (1-10) de diferentes servicios sanitarios públicos",
+  "opciones": {
+   "1": "1 Totalmente insatisfactoria",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Totalmente satisfactoria"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es tu nivel de satisfacción con las urgencias en hospitales públicos?",
+  "tema": "Salud"
+ },
+ "8825_P4ES_4": {
+  "estudio": "8825",
+  "variable": "P4ES_4",
+  "etiqueta": "Urgencias 061 y 112",
+  "bloque": "Escala de satisfacción (1-10) de diferentes servicios sanitarios públicos",
+  "opciones": {
+   "1": "1 Totalmente insatisfactoria",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Totalmente satisfactoria"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es tu nivel de satisfacción con el servicio de Urgencias 061 y 112?",
+  "tema": "Salud"
+ },
+ "8825_P4ES_5": {
+  "estudio": "8825",
+  "variable": "P4ES_5",
+  "etiqueta": "Urgencias de centros de atención primaria",
+  "bloque": "Escala de satisfacción (1-10) de diferentes servicios sanitarios públicos",
+  "opciones": {
+   "1": "1 Totalmente insatisfactoria",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Totalmente satisfactoria"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es tu nivel de satisfacción con las urgencias de los centros de atención primaria?",
+  "tema": "Salud"
+ },
+ "8825_P4ES_6": {
+  "estudio": "8825",
+  "variable": "P4ES_6",
+  "etiqueta": "Ingreso y asistencia en hospitales públicos",
+  "bloque": "Escala de satisfacción (1-10) de diferentes servicios sanitarios públicos",
+  "opciones": {
+   "1": "1 Totalmente insatisfactoria",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Totalmente satisfactoria"
+  },
+  "valida": true,
+  "pregunta": "¿Cuán satisfecho está con el ingreso y la asistencia en hospitales públicos?",
+  "tema": "Salud"
+ },
+ "8825_P5": {
+  "estudio": "8825",
+  "variable": "P5",
+  "etiqueta": "Asistencia al/la médico/a de familia de la sanidad pública o privada en el último año",
+  "bloque": "Asistencia al/la médico/a de familia de la sanidad pública o privada en el último año",
+  "opciones": {
+   "1": "En la sanidad pública",
+   "2": "En la sanidad privada o médico/a privado/a",
+   "3": "En ambas, en la pública y en la privada",
+   "4": "En ninguna, no ha tenido consultas",
+   "8": "N.R."
+  },
+  "valida": true,
+  "pregunta": "¿En qué tipo de sanidad ha acudido en el último año?",
+  "tema": "Salud"
+ },
+ "8825_P5A": {
+  "estudio": "8825",
+  "variable": "P5A",
+  "etiqueta": "Imposibilidad de consultar con el/la médico/a de familia de la sanidad pública (en los últimos doce meses)",
+  "bloque": "Imposibilidad de consultar con el/la médico/a de familia de la sanidad pública (en los últimos doce meses)",
+  "opciones": {
+   "1": "Sí, alguna vez ha necesitado consultar y no lo ha conseguido",
+   "2": "No, cuando lo ha necesitado ha podido consultar",
+   "3": "No ha necesitado consultar con su médico/a de familia de la sanidad pública",
+   "4": "Le/la atienden a través de una mutualidad del Estado en la sanidad privada",
+   "8": "N.R."
+  },
+  "valida": true,
+  "pregunta": "¿Alguna vez ha necesitado consultar con su médico/a de familia de la sanidad pública y no lo ha conseguido?",
+  "tema": "Salud"
+ },
+ "8825_P5_1_1": {
+  "estudio": "8825",
+  "variable": "P5_1_1",
+  "etiqueta": "Síntomas, molestias o enfermedades nuevas",
+  "bloque": "Motivo de la asistencia al/la médico/a de familia de la sanidad pública",
+  "opciones": {
+   "1": "Menciona",
+   "2": "No menciona"
+  },
+  "valida": true,
+  "pregunta": "¿Ha mencionado síntomas, molestias o enfermedades nuevas como motivo para asistir al médico de familia de la sanidad pública?",
+  "tema": "Salud"
+ },
+ "8825_P5_1_2": {
+  "estudio": "8825",
+  "variable": "P5_1_2",
+  "etiqueta": "Una enfermedad ya diagnosticada",
+  "bloque": "Motivo de la asistencia al/la médico/a de familia de la sanidad pública",
+  "opciones": {
+   "1": "Menciona",
+   "2": "No menciona"
+  },
+  "valida": true,
+  "pregunta": "¿Ha mencionado una enfermedad ya diagnosticada como motivo de asistencia al médico de familia de la sanidad pública?",
+  "tema": "Salud"
+ },
+ "8825_P5_1_4": {
+  "estudio": "8825",
+  "variable": "P5_1_4",
+  "etiqueta": "Una renovación de recetas o consulta sobre recetas",
+  "bloque": "Motivo de la asistencia al/la médico/a de familia de la sanidad pública",
+  "opciones": {
+   "1": "Menciona",
+   "2": "No menciona"
+  },
+  "valida": true,
+  "pregunta": "¿Ha mencionado una renovación de recetas o consulta sobre recetas como motivo para asistir al médico de familia de la sanidad pública?",
+  "tema": "Salud"
+ },
+ "8825_P5_1_5": {
+  "estudio": "8825",
+  "variable": "P5_1_5",
+  "etiqueta": "Una solicitud o renovación de baja",
+  "bloque": "Motivo de la asistencia al/la médico/a de familia de la sanidad pública",
+  "opciones": {
+   "1": "Menciona",
+   "2": "No menciona"
+  },
+  "valida": true,
+  "pregunta": "¿Ha solicitado o renovado una baja médica a un médico de familia de la sanidad pública?",
+  "tema": "Salud"
+ },
+ "8825_P5_1_6": {
+  "estudio": "8825",
+  "variable": "P5_1_6",
+  "etiqueta": "Chequeo, revisión médica y protocolos de prevención",
+  "bloque": "Motivo de la asistencia al/la médico/a de familia de la sanidad pública",
+  "opciones": {
+   "1": "Menciona",
+   "2": "No menciona"
+  },
+  "valida": true,
+  "pregunta": "¿Menciona el chequeo, revisión médica y protocolos de prevención como motivo de la asistencia al médico de familia de la sanidad pública?",
+  "tema": "Salud"
+ },
+ "8825_P5_1_7": {
+  "estudio": "8825",
+  "variable": "P5_1_7",
+  "etiqueta": "Petición de analíticas y resultados (pruebas médicas y análisis)",
+  "bloque": "Motivo de la asistencia al/la médico/a de familia de la sanidad pública",
+  "opciones": {
+   "1": "Menciona",
+   "2": "No menciona"
+  },
+  "valida": true,
+  "pregunta": "¿Ha solicitado análisis y resultados (pruebas médicas y análisis) en su visita al médico de familia de la sanidad pública?",
+  "tema": "Salud"
+ },
+ "8825_P5_1_8": {
+  "estudio": "8825",
+  "variable": "P5_1_8",
+  "etiqueta": "Petición de la derivación a un/a especialista",
+  "bloque": "Motivo de la asistencia al/la médico/a de familia de la sanidad pública",
+  "opciones": {
+   "1": "Menciona",
+   "2": "No menciona"
+  },
+  "valida": true,
+  "pregunta": "¿Ha mencionado la petición de derivación a un especialista como motivo de asistencia al médico de familia de la sanidad pública?",
+  "tema": "Salud"
+ },
+ "8825_P5_1_9": {
+  "estudio": "8825",
+  "variable": "P5_1_9",
+  "etiqueta": "Accidente, lesión",
+  "bloque": "Motivo de la asistencia al/la médico/a de familia de la sanidad pública",
+  "opciones": {
+   "1": "Menciona",
+   "2": "No menciona"
+  },
+  "valida": true,
+  "pregunta": "¿Ha mencionado un accidente o lesión como motivo para asistir al médico de familia de la sanidad pública?",
+  "tema": "Salud"
+ },
+ "8825_P5_1_10": {
+  "estudio": "8825",
+  "variable": "P5_1_10",
+  "etiqueta": "Procedimientos de enfermería (vacunación, puntos, curas)",
+  "bloque": "Motivo de la asistencia al/la médico/a de familia de la sanidad pública",
+  "opciones": {
+   "1": "Menciona",
+   "2": "No menciona"
+  },
+  "valida": true,
+  "pregunta": "¿Menciona que el motivo de la asistencia al médico de familia de la sanidad pública es procedimientos de enfermería (vacunación, puntos, curas)?",
+  "tema": "Salud"
+ },
+ "8825_P5_1_11": {
+  "estudio": "8825",
+  "variable": "P5_1_11",
+  "etiqueta": "Ingreso hospitalario (operación, intervención)",
+  "bloque": "Motivo de la asistencia al/la médico/a de familia de la sanidad pública",
+  "opciones": {
+   "1": "Menciona",
+   "2": "No menciona"
+  },
+  "valida": true,
+  "pregunta": "¿Ha ingresado en un hospital por una operación o intervención?",
+  "tema": "Salud"
+ },
+ "8825_P5_1_98": {
+  "estudio": "8825",
+  "variable": "P5_1_98",
+  "etiqueta": "(NO LEER) N.R.",
+  "bloque": "Motivo de la asistencia al/la médico/a de familia de la sanidad pública",
+  "opciones": {
+   "1": "Menciona",
+   "2": "No menciona"
+  },
+  "valida": true,
+  "pregunta": "¿Menciona el motivo de la asistencia al médico de familia de la sanidad pública?",
+  "tema": "Salud"
+ },
+ "8825_P5B": {
+  "estudio": "8825",
+  "variable": "P5B",
+  "etiqueta": "Modo de consulta al/la médico/a de familia en el último año",
+  "bloque": "Modo de consulta al/la médico/a de familia en el último año",
+  "opciones": {
+   "1": "En la consulta",
+   "2": "Por teléfono",
+   "3": "En el domicilio",
+   "4": "Por correo electrónico o chat",
+   "5": "Por videoconsulta",
+   "8": "N.R./No está seguro/a"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo ha consultado al médico de familia en el último año?",
+  "tema": "Salud"
+ },
+ "8825_P5C": {
+  "estudio": "8825",
+  "variable": "P5C",
+  "etiqueta": "Tiempo transcurrido hasta que le/la atendió el/la médico/a de familia de la sanidad pública la última vez",
+  "bloque": "Tiempo transcurrido hasta que le/la atendió el/la médico/a de familia de la sanidad pública la última vez",
+  "opciones": {
+   "1": "Le/la atendió ese mismo día que la pidió",
+   "2": "Le/la atendió al día siguiente",
+   "3": "Pasó más de un día porque no había cita antes",
+   "4": "Pasó más de un día porque la cita que le daban no le venía bien",
+   "5": "Solo ha tenido citas programadas en los últimos doce meses",
+   "6": "En su centro de salud no hay que pedir cita",
+   "8": "N.R."
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto tiempo tardó en ser atendido/a por el médico/a de familia de la sanidad pública la última vez?",
+  "tema": "Salud"
+ },
+ "8825_P5D_1": {
+  "estudio": "8825",
+  "variable": "P5D_1",
+  "etiqueta": "Pudo dar su opinión o participar en las decisiones sobre su problema de salud y su tratamiento, tanto como Ud. hubiera deseado",
+  "bloque": "Opinión del usuario de atención primaria pública sobre la atención que le prestaba el médico",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Pudo dar su opinión o participar en las decisiones sobre su problema de salud y su tratamiento, tanto como Ud. hubiera deseado?",
+  "tema": "Salud"
+ },
+ "8825_P5D_2": {
+  "estudio": "8825",
+  "variable": "P5D_2",
+  "etiqueta": "Le dio el/la médico/a la oportunidad de hacer preguntas o plantear preocupaciones",
+  "bloque": "Opinión del usuario de atención primaria pública sobre la atención que le prestaba el médico",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Le dio el médico la oportunidad de hacer preguntas o plantear preocupaciones?",
+  "tema": "Salud"
+ },
+ "8825_P5D_3": {
+  "estudio": "8825",
+  "variable": "P5D_3",
+  "etiqueta": "Tuvo Ud. que esperar más de una hora en la sala de espera hasta entrar en la consulta (le atendieron en la consulta)",
+  "bloque": "Opinión del usuario de atención primaria pública sobre la atención que le prestaba el médico",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Tuvo que esperar más de una hora en la sala de espera hasta entrar en la consulta?",
+  "tema": "Salud"
+ },
+ "8825_P5D_4": {
+  "estudio": "8825",
+  "variable": "P5D_4",
+  "etiqueta": "El médico o la médica de atención primaria le explicó las cosas de una forma fácil de entender",
+  "bloque": "Opinión del usuario de atención primaria pública sobre la atención que le prestaba el médico",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿El médico o la médica de atención primaria le explicó las cosas de una forma fácil de entender?",
+  "tema": "Salud"
+ },
+ "8825_P5E_1": {
+  "estudio": "8825",
+  "variable": "P5E_1",
+  "etiqueta": "La confianza y seguridad que transmite el personal médico",
+  "bloque": "Escala de satisfacción (1-10) con diferentes aspectos de la asistencia de atención primaria de la sanidad pública",
+  "opciones": {
+   "1": "1 Totalmente insatisfecho/a",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Totalmente satisfecho/a"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánta confianza y seguridad le transmite el personal médico en la atención primaria de la sanidad pública?",
+  "tema": "Salud"
+ },
+ "8825_P5E_2": {
+  "estudio": "8825",
+  "variable": "P5E_2",
+  "etiqueta": "La confianza y seguridad que transmite la/el profesional de enfermería",
+  "bloque": "Escala de satisfacción (1-10) con diferentes aspectos de la asistencia de atención primaria de la sanidad pública",
+  "opciones": {
+   "1": "1 Totalmente insatisfecho/a",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Totalmente satisfecho/a"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánta confianza y seguridad le transmite la/el profesional de enfermería?",
+  "tema": "Salud"
+ },
+ "8825_P5E_3": {
+  "estudio": "8825",
+  "variable": "P5E_3",
+  "etiqueta": "El tiempo dedicado por el personal médico a cada enfermo/a",
+  "bloque": "Escala de satisfacción (1-10) con diferentes aspectos de la asistencia de atención primaria de la sanidad pública",
+  "opciones": {
+   "1": "1 Totalmente insatisfecho/a",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Totalmente satisfecho/a"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto tiempo dedican los médicos a cada paciente en la atención primaria de la sanidad pública?",
+  "tema": "Salud"
+ },
+ "8825_P5E_4": {
+  "estudio": "8825",
+  "variable": "P5E_4",
+  "etiqueta": "El conocimiento del historial y seguimiento de los problemas de salud",
+  "bloque": "Escala de satisfacción (1-10) con diferentes aspectos de la asistencia de atención primaria de la sanidad pública",
+  "opciones": {
+   "1": "1 Totalmente insatisfecho/a",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Totalmente satisfecho/a"
+  },
+  "valida": true,
+  "pregunta": "¿Cuán satisfecho está con el conocimiento del historial y seguimiento de los problemas de salud por parte de la atención primaria?",
+  "tema": "Salud"
+ },
+ "8825_P5E_5": {
+  "estudio": "8825",
+  "variable": "P5E_5",
+  "etiqueta": "La información recibida sobre su problema de salud",
+  "bloque": "Escala de satisfacción (1-10) con diferentes aspectos de la asistencia de atención primaria de la sanidad pública",
+  "opciones": {
+   "1": "1 Totalmente insatisfecho/a",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Totalmente satisfecho/a"
+  },
+  "valida": true,
+  "pregunta": "¿Cuán satisfecho/a está con la información recibida sobre su problema de salud?",
+  "tema": "Salud"
+ },
+ "8825_P5F": {
+  "estudio": "8825",
+  "variable": "P5F",
+  "etiqueta": "Valoración de la atención recibida en las consultas de medicina de familia de la sanidad pública",
+  "bloque": "Valoración de la atención recibida en las consultas de medicina de familia de la sanidad pública",
+  "opciones": {
+   "1": "Muy buena",
+   "2": "Buena",
+   "3": "Regular",
+   "4": "Mala",
+   "5": "Muy mala"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría la atención recibida en las consultas de medicina de familia de la sanidad pública?",
+  "tema": "Salud"
+ },
+ "8825_P5G": {
+  "estudio": "8825",
+  "variable": "P5G",
+  "etiqueta": "Consulta telefónica con el/la médico/a de familia de la sanidad pública en el último año",
+  "bloque": "Consulta telefónica con el/la médico/a de familia de la sanidad pública en el último año",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha realizado una consulta telefónica con su médico de familia en la sanidad pública en el último año?",
+  "tema": "Salud"
+ },
+ "8825_P6": {
+  "estudio": "8825",
+  "variable": "P6",
+  "etiqueta": "Asistencia al servicio de urgencias durante el último año",
+  "bloque": "Asistencia al servicio de urgencias durante el último año",
+  "opciones": {
+   "1": "La sanidad pública",
+   "2": "La sanidad privada",
+   "3": "Ambas, pública y privada",
+   "4": "Ninguna, no ha tenido que acudir a urgencias",
+   "8": "N.R."
+  },
+  "valida": true,
+  "pregunta": "¿En qué tipo de sanidad ha acudido en el último año al servicio de urgencias?",
+  "tema": "Salud"
+ },
+ "8825_P7": {
+  "estudio": "8825",
+  "variable": "P7",
+  "etiqueta": "Asistencia al/la médico/a de atención especializada durante el último año",
+  "bloque": "Asistencia al/la médico/a de atención especializada durante el último año",
+  "opciones": {
+   "1": "En la sanidad pública",
+   "2": "En la sanidad privada o un/a médico/a privado/a",
+   "3": "En ambas",
+   "4": "En ninguna, no ha tenido consultas con especialistas",
+   "8": "N.R."
+  },
+  "valida": true,
+  "pregunta": "¿Ha asistido a un médico de atención especializada en el último año?",
+  "tema": "Salud"
+ },
+ "8825_P8": {
+  "estudio": "8825",
+  "variable": "P8",
+  "etiqueta": "Consulta a un/a profesional sanitario/a de salud mental durante el último año",
+  "bloque": "Consulta a un/a profesional sanitario/a de salud mental durante el último año",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha consultado a un profesional sanitario de salud mental durante el último año?",
+  "tema": "Salud"
+ },
+ "8825_P9": {
+  "estudio": "8825",
+  "variable": "P9",
+  "etiqueta": "Ingreso hospitalario en el último año",
+  "bloque": "Ingreso hospitalario en el último año",
+  "opciones": {
+   "1": "En un hospital público",
+   "2": "En un hospital privado o clínica privada",
+   "3": "En ambos (público y privado)",
+   "4": "En ninguno, no ha estado ingresado/a"
+  },
+  "valida": true,
+  "pregunta": "¿En qué tipo de establecimiento hospitalario ha estado ingresado en el último año?",
+  "tema": "Salud"
+ },
+ "8825_P11": {
+  "estudio": "8825",
+  "variable": "P11",
+  "etiqueta": "Opinión personal sobre la buena comunicación y coordinación entre distintos servicios médicos del sistema público",
+  "bloque": "Opinión personal sobre la buena comunicación y coordinación entre distintos servicios médicos del sistema público",
+  "opciones": {
+   "1": "Muy buena",
+   "2": "Buena",
+   "3": "Regular",
+   "4": "Mala",
+   "5": "Muy mala",
+   "6": "Otra respuesta"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valora la comunicación y coordinación entre distintos servicios médicos del sistema público?",
+  "tema": "Salud"
+ },
+ "8825_P12": {
+  "estudio": "8825",
+  "variable": "P12",
+  "etiqueta": "Valoración retrospectiva (1 año) de las listas de espera en la sanidad pública",
+  "bloque": "Valoración retrospectiva (1 año) de las listas de espera en la sanidad pública",
+  "opciones": {
+   "1": "Ha mejorado",
+   "2": "Ha empeorado",
+   "3": "Sigue igual"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo ha sido la situación de las listas de espera en la sanidad pública en los últimos 12 meses?",
+  "tema": "Salud"
+ },
+ "8825_P13": {
+  "estudio": "8825",
+  "variable": "P13",
+  "etiqueta": "Imposibilidad de tomar el medicamento recetado por su coste económico en el último año",
+  "bloque": "Imposibilidad de tomar el medicamento recetado por su coste económico en el último año",
+  "opciones": {
+   "1": "Sí",
+   "2": "No",
+   "3": "No le han recetado medicamentos en la sanidad pública"
+  },
+  "valida": true,
+  "pregunta": "¿En el último año le ha sido imposible tomar el medicamento recetado por su coste económico?",
+  "tema": "Salud"
+ },
+ "8825_P14": {
+  "estudio": "8825",
+  "variable": "P14",
+  "etiqueta": "Acceso a la historia clínica por Internet",
+  "bloque": "Acceso a la historia clínica por Internet",
+  "opciones": {
+   "1": "Sí",
+   "2": "No",
+   "3": "No utiliza la sanidad pública"
+  },
+  "valida": true,
+  "pregunta": "¿Tiene acceso a su historia clínica a través de Internet?",
+  "tema": "Salud"
+ },
+ "8825_P15": {
+  "estudio": "8825",
+  "variable": "P15",
+  "etiqueta": "Conocimiento de la posibilidad del acceso de los/las médicos/as a la historia clínica por Internet desde otra comunidad autónoma",
+  "bloque": "Conocimiento de la posibilidad del acceso de los/las médicos/as a la historia clínica por Internet desde otra comunidad autónoma",
+  "opciones": {
+   "1": "Sí lo sabía",
+   "2": "No lo sabía",
+   "3": "No utiliza la sanidad pública",
+   "4": "La persona dice que no es cierto que se puedan consultar"
+  },
+  "valida": true,
+  "pregunta": "¿Sabe que los médicos pueden acceder a la historia clínica de los pacientes por Internet desde otra comunidad autónoma?",
+  "tema": "Salud"
+ },
+ "8825_P16": {
+  "estudio": "8825",
+  "variable": "P16",
+  "etiqueta": "Asistencia médica fuera de la comunidad autónoma de residencia en último año",
+  "bloque": "Asistencia médica fuera de la comunidad autónoma de residencia en último año",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha recibido asistencia médica en otro lugar que no sea su comunidad autónoma de residencia en el último año?",
+  "tema": "Salud"
+ },
+ "8825_P17": {
+  "estudio": "8825",
+  "variable": "P17",
+  "etiqueta": "Conocimiento de la posibilidad de retirar medicamentos con receta electrónica fuera de su comunidad autónoma",
+  "bloque": "Conocimiento de la posibilidad de retirar medicamentos con receta electrónica fuera de su comunidad autónoma",
+  "opciones": {
+   "1": "Sí lo sabía y la ha utilizado",
+   "2": "Sí lo sabía, pero no la ha utilizado",
+   "3": "No lo sabía",
+   "4": "No usa recetas de la sanidad pública"
+  },
+  "valida": true,
+  "pregunta": "¿Conoce la posibilidad de retirar medicamentos con receta electrónica fuera de su comunidad autónoma?",
+  "tema": "Salud"
+ },
+ "8825_P18_1": {
+  "estudio": "8825",
+  "variable": "P18_1",
+  "etiqueta": "La sanidad pública",
+  "bloque": "Tipo de seguro sanitario de la persona entrevistada",
+  "opciones": {
+   "1": "Menciona",
+   "2": "No menciona"
+  },
+  "valida": true,
+  "pregunta": "¿Tiene la sanidad pública como tipo de seguro sanitario?",
+  "tema": "Salud"
+ },
+ "8825_P18_2": {
+  "estudio": "8825",
+  "variable": "P18_2",
+  "etiqueta": "Una mutualidad de funcionarios con atención por la sanidad pública",
+  "bloque": "Tipo de seguro sanitario de la persona entrevistada",
+  "opciones": {
+   "1": "Menciona",
+   "2": "No menciona"
+  },
+  "valida": true,
+  "pregunta": "¿Tiene una mutualidad de funcionarios con atención por la sanidad pública?",
+  "tema": "Salud"
+ },
+ "8825_P18_3": {
+  "estudio": "8825",
+  "variable": "P18_3",
+  "etiqueta": "Una mutualidad de funcionarios con atención por la sanidad privada",
+  "bloque": "Tipo de seguro sanitario de la persona entrevistada",
+  "opciones": {
+   "1": "Menciona",
+   "2": "No menciona"
+  },
+  "valida": true,
+  "pregunta": "¿Tiene una mutualidad de funcionarios con atención por la sanidad privada?",
+  "tema": "Salud"
+ },
+ "8825_P18_4": {
+  "estudio": "8825",
+  "variable": "P18_4",
+  "etiqueta": "Un seguro médico privado, contratado por Ud. o alguna persona de su familia",
+  "bloque": "Tipo de seguro sanitario de la persona entrevistada",
+  "opciones": {
+   "1": "Menciona",
+   "2": "No menciona"
+  },
+  "valida": true,
+  "pregunta": "¿Tiene Ud. un seguro médico privado contratado por Ud. o alguna persona de su familia?",
+  "tema": "Salud"
+ },
+ "8825_P18_5": {
+  "estudio": "8825",
+  "variable": "P18_5",
+  "etiqueta": "Un seguro médico privado, contratado por la empresa",
+  "bloque": "Tipo de seguro sanitario de la persona entrevistada",
+  "opciones": {
+   "1": "Menciona",
+   "2": "No menciona"
+  },
+  "valida": true,
+  "pregunta": "¿Tiene un seguro médico privado contratado por su empresa?",
+  "tema": "Salud"
+ },
+ "8825_P18_6": {
+  "estudio": "8825",
+  "variable": "P18_6",
+  "etiqueta": "No tiene ni sanidad pública ni seguro médico privado",
+  "bloque": "Tipo de seguro sanitario de la persona entrevistada",
+  "opciones": {
+   "1": "Menciona",
+   "2": "No menciona"
+  },
+  "valida": true,
+  "pregunta": "¿Tiene la persona entrevistada seguro sanitario?",
+  "tema": "Salud"
+ },
+ "8825_P18_7": {
+  "estudio": "8825",
+  "variable": "P18_7",
+  "etiqueta": "Otras situaciones",
+  "bloque": "Tipo de seguro sanitario de la persona entrevistada",
+  "opciones": {
+   "1": "Menciona",
+   "2": "No menciona"
+  },
+  "valida": true,
+  "pregunta": "¿Menciona el tipo de seguro sanitario de la persona entrevistada?",
+  "tema": "Salud"
+ },
+ "8825_P19_1": {
+  "estudio": "8825",
+  "variable": "P19_1",
+  "etiqueta": "Los servicios que ofrece",
+  "bloque": "Valoración de la asistencia sanitaria de su comunidad autónoma respecto a la del resto del Estado",
+  "opciones": {
+   "1": "Mejor",
+   "2": "Igual",
+   "3": "Peor"
+  },
+  "valida": true,
+  "pregunta": "¿Considera que los servicios que ofrece la asistencia sanitaria de su comunidad autónoma son mejores, iguales o peores que los del resto del Estado?",
+  "tema": "Salud"
+ },
+ "8825_P19_2": {
+  "estudio": "8825",
+  "variable": "P19_2",
+  "etiqueta": "Los medios técnicos que tiene",
+  "bloque": "Valoración de la asistencia sanitaria de su comunidad autónoma respecto a la del resto del Estado",
+  "opciones": {
+   "1": "Mejor",
+   "2": "Igual",
+   "3": "Peor"
+  },
+  "valida": true,
+  "pregunta": "¿Considera que los medios técnicos de su comunidad autónoma son mejores, iguales o peores que en el resto del Estado?",
+  "tema": "Salud"
+ },
+ "8825_P19_3": {
+  "estudio": "8825",
+  "variable": "P19_3",
+  "etiqueta": "Cómo está organizada",
+  "bloque": "Valoración de la asistencia sanitaria de su comunidad autónoma respecto a la del resto del Estado",
+  "opciones": {
+   "1": "Mejor",
+   "2": "Igual",
+   "3": "Peor"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo está organizada la asistencia sanitaria en su comunidad autónoma en comparación con el resto del Estado?",
+  "tema": "Salud"
+ },
+ "8825_P19_4": {
+  "estudio": "8825",
+  "variable": "P19_4",
+  "etiqueta": "Cómo está financiada",
+  "bloque": "Valoración de la asistencia sanitaria de su comunidad autónoma respecto a la del resto del Estado",
+  "opciones": {
+   "1": "Mejor",
+   "2": "Igual",
+   "3": "Peor"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo considera que está financiada la asistencia sanitaria en su comunidad autónoma en comparación con el resto del Estado?",
+  "tema": "Salud"
+ },
+ "8825_P21": {
+  "estudio": "8825",
+  "variable": "P21",
+  "etiqueta": "Conocimiento de las herramientas de inteligencia artificial aplicadas a la salud o los servicios sanitarios",
+  "bloque": "Conocimiento de las herramientas de inteligencia artificial aplicadas a la salud o los servicios sanitarios",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Conoce las herramientas de inteligencia artificial aplicadas a la salud o los servicios sanitarios?",
+  "tema": "Salud"
+ },
+ "8825_P22_1": {
+  "estudio": "8825",
+  "variable": "P22_1",
+  "etiqueta": "Hablar con una IA (asistente virtual) durante una consulta médica que Ud. necesita",
+  "bloque": "Escala de incomodidad (1-10) en determinadas situaciones realizadas por robots o inteligencia artificial",
+  "opciones": {
+   "1": "1 Totalmente incómodo/a",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Totalmente cómodo/a"
+  },
+  "valida": true,
+  "pregunta": "¿Cuán cómodo/a se siente Ud. hablando con una IA durante una consulta médica que necesita?",
+  "tema": "Salud"
+ },
+ "8825_P22_2": {
+  "estudio": "8825",
+  "variable": "P22_2",
+  "etiqueta": "Someterse a una operación quirúrgica realizada mediante un robot",
+  "bloque": "Escala de incomodidad (1-10) en determinadas situaciones realizadas por robots o inteligencia artificial",
+  "opciones": {
+   "1": "1 Totalmente incómodo/a",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Totalmente cómodo/a"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto te incomoda someterte a una operación quirúrgica realizada mediante un robot?",
+  "tema": "Salud"
+ },
+ "8825_P22_3": {
+  "estudio": "8825",
+  "variable": "P22_3",
+  "etiqueta": "Que interprete sus radiografías un sistema de inteligencia artificial",
+  "bloque": "Escala de incomodidad (1-10) en determinadas situaciones realizadas por robots o inteligencia artificial",
+  "opciones": {
+   "1": "1 Totalmente incómodo/a",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Totalmente cómodo/a"
+  },
+  "valida": true,
+  "pregunta": "¿Cuán cómodo/a te sientes si un sistema de inteligencia artificial interpreta tus radiografías?",
+  "tema": "Salud"
+ },
+ "8825_P22_4": {
+  "estudio": "8825",
+  "variable": "P22_4",
+  "etiqueta": "Que siga la evolución de su enfermedad un asistente virtual con IA",
+  "bloque": "Escala de incomodidad (1-10) en determinadas situaciones realizadas por robots o inteligencia artificial",
+  "opciones": {
+   "1": "1 Totalmente incómodo/a",
+   "2": "2",
+   "3": "3",
+   "4": "4",
+   "5": "5",
+   "6": "6",
+   "7": "7",
+   "8": "8",
+   "9": "9",
+   "10": "10 Totalmente cómodo/a"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo se siente al pensar en seguir la evolución de su enfermedad con la ayuda de un asistente virtual con IA?",
+  "tema": "Salud"
+ },
+ "8825_P23": {
+  "estudio": "8825",
+  "variable": "P23",
+  "etiqueta": "Grado de preocupación por la utilización de datos clínicos por empresas privadas para desarrollar la inteligencia artificial",
+  "bloque": "Grado de preocupación por la utilización de datos clínicos por empresas privadas para desarrollar la inteligencia artificial",
+  "opciones": {
+   "1": "Muy preocupado/a",
+   "2": "Bastante preocupado/a",
+   "3": "Regular",
+   "4": "Poco preocupado/a",
+   "5": "Nada preocupado/a"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto se preocupa usted por que las empresas privadas utilicen datos clínicos para desarrollar la inteligencia artificial?",
+  "tema": "Salud"
+ },
+ "8825_P24": {
+  "estudio": "8825",
+  "variable": "P24",
+  "etiqueta": "Grado de preocupación por la utilización de datos clínicos por instituciones públicas para desarrollar la inteligencia artificial",
+  "bloque": "Grado de preocupación por la utilización de datos clínicos por instituciones públicas para desarrollar la inteligencia artificial",
+  "opciones": {
+   "1": "Muy preocupado/a",
+   "2": "Bastante preocupado/a",
+   "3": "Regular",
+   "4": "Poco preocupado/a",
+   "5": "Nada preocupado/a"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánto se preocupa usted por que las instituciones públicas utilicen datos clínicos para desarrollar la inteligencia artificial?",
+  "tema": "Salud"
+ },
+ "8825_P25_1": {
+  "estudio": "8825",
+  "variable": "P25_1",
+  "etiqueta": "Legislar de forma específica en temas de salud",
+  "bloque": "Grado de acuerdo con algunas limitaciones a la inteligencia artificial en temas de salud y servicios sanitarios",
+  "opciones": {
+   "1": "Muy de acuerdo",
+   "2": "De acuerdo",
+   "3": "Ni de acuerdo ni en desacuerdo",
+   "4": "En desacuerdo",
+   "5": "Muy en desacuerdo"
+  },
+  "valida": true,
+  "pregunta": "¿Legislar de forma específica en temas de salud?",
+  "tema": "Salud"
+ },
+ "8825_P25_2": {
+  "estudio": "8825",
+  "variable": "P25_2",
+  "etiqueta": "Informar al paciente cuando los servicios sanitarios utilizan inteligencia artificial en su atención",
+  "bloque": "Grado de acuerdo con algunas limitaciones a la inteligencia artificial en temas de salud y servicios sanitarios",
+  "opciones": {
+   "1": "Muy de acuerdo",
+   "2": "De acuerdo",
+   "3": "Ni de acuerdo ni en desacuerdo",
+   "4": "En desacuerdo",
+   "5": "Muy en desacuerdo"
+  },
+  "valida": true,
+  "pregunta": "¿Es importante informar al paciente cuando los servicios sanitarios utilizan inteligencia artificial en su atención?",
+  "tema": "Salud"
+ },
+ "8825_P25_3": {
+  "estudio": "8825",
+  "variable": "P25_3",
+  "etiqueta": "Dar la posibilidad al paciente de negarse a que se utilicen sus datos clínicos para desarrollar sistemas de inteligencia artificial",
+  "bloque": "Grado de acuerdo con algunas limitaciones a la inteligencia artificial en temas de salud y servicios sanitarios",
+  "opciones": {
+   "1": "Muy de acuerdo",
+   "2": "De acuerdo",
+   "3": "Ni de acuerdo ni en desacuerdo",
+   "4": "En desacuerdo",
+   "5": "Muy en desacuerdo"
+  },
+  "valida": true,
+  "pregunta": "¿Daría usted la posibilidad al paciente de negarse a que se utilicen sus datos clínicos para desarrollar sistemas de inteligencia artificial?",
+  "tema": "Salud"
+ },
+ "8825_ESTSALUD": {
+  "estudio": "8825",
+  "variable": "ESTSALUD",
+  "etiqueta": "Estado de salud en general",
+  "bloque": "Estado de salud en general",
+  "opciones": {
+   "1": "Muy bueno",
+   "2": "Bueno",
+   "3": "Regular",
+   "4": "Malo",
+   "5": "Muy malo"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo considera que está su estado de salud en general?",
+  "tema": "Salud"
+ },
+ "8825_ENFCRONICA": {
+  "estudio": "8825",
+  "variable": "ENFCRONICA",
+  "etiqueta": "Tenencia de algún problema de salud crónico",
+  "bloque": "Tenencia de algún problema de salud crónico",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Tiene algún problema de salud crónico?",
+  "tema": "Salud"
+ },
+ "8825_ECIVIL": {
+  "estudio": "8825",
+  "variable": "ECIVIL",
+  "etiqueta": "Estado civil de la persona entrevistada",
+  "bloque": "Estado civil de la persona entrevistada",
+  "opciones": {
+   "1": "Casado/a",
+   "2": "Soltero/a",
+   "3": "Viudo/a",
+   "4": "Separado/a",
+   "5": "Divorciado/a"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es su estado civil?",
+  "tema": "Salud"
+ },
+ "8825_SINCERIDAD": {
+  "estudio": "8825",
+  "variable": "SINCERIDAD",
+  "etiqueta": "Grado de sinceridad de la persona entrevistada",
+  "bloque": "Grado de sinceridad de la persona entrevistada",
+  "opciones": {
+   "1": "Mucha",
+   "2": "Bastante",
+   "3": "Poca",
+   "4": "Ninguna"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánta sinceridad cree que ha mostrado durante la entrevista?",
+  "tema": "Salud"
+ },
+ "3569_P1_1_1": {
+  "estudio": "3569",
+  "variable": "P1_1_1",
+  "etiqueta": "Sí, él/ella ha adquirido",
+  "bloque": "Adquisición para el hogar de diferentes bienes Automóvil/moto (P1_1) Muebles para el hogar (P1_2) Electrodomésticos/ordenadores personales (P1_3) Electrodomésticos pequeños (P1_4) * Sí, él/ella ha adquirido * Sí, lo ha adquirido otra persona de su hogar * No * N.S. * N.C. 1.- Sí 2.- No P2 P2 (53) Capacidad de ahorro mensual en el hogar",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha adquirido usted algún automóvil o moto para el hogar en los últimos meses?",
+  "tema": "Consumo"
+ },
+ "3569_P1_1_2": {
+  "estudio": "3569",
+  "variable": "P1_1_2",
+  "etiqueta": "Sí, lo ha adquirido otra persona de su hogar",
+  "bloque": "Adquisición para el hogar de diferentes bienes Automóvil/moto (P1_1) Muebles para el hogar (P1_2) Electrodomésticos/ordenadores personales (P1_3) Electrodomésticos pequeños (P1_4) * Sí, él/ella ha adquirido * Sí, lo ha adquirido otra persona de su hogar * No * N.S. * N.C. 1.- Sí 2.- No P2 P2 (53) Capacidad de ahorro mensual en el hogar",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha adquirido otra persona de su hogar algún electrodoméstico pequeño?",
+  "tema": "Consumo"
+ },
+ "3569_P1_2_1": {
+  "estudio": "3569",
+  "variable": "P1_2_1",
+  "etiqueta": "Sí, él/ella ha adquirido",
+  "bloque": "Adquisición para el hogar de diferentes bienes Automóvil/moto (P1_1) Muebles para el hogar (P1_2) Electrodomésticos/ordenadores personales (P1_3) Electrodomésticos pequeños (P1_4) * Sí, él/ella ha adquirido * Sí, lo ha adquirido otra persona de su hogar * No * N.S. * N.C. 1.- Sí 2.- No P2 P2 (53) Capacidad de ahorro mensual en el hogar",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha adquirido usted algún automóvil o moto para el hogar en los últimos meses?",
+  "tema": "Consumo"
+ },
+ "3569_P1_2_2": {
+  "estudio": "3569",
+  "variable": "P1_2_2",
+  "etiqueta": "Sí, lo ha adquirido otra persona de su hogar",
+  "bloque": "Adquisición para el hogar de diferentes bienes Automóvil/moto (P1_1) Muebles para el hogar (P1_2) Electrodomésticos/ordenadores personales (P1_3) Electrodomésticos pequeños (P1_4) * Sí, él/ella ha adquirido * Sí, lo ha adquirido otra persona de su hogar * No * N.S. * N.C. 1.- Sí 2.- No P2 P2 (53) Capacidad de ahorro mensual en el hogar",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha adquirido otra persona de su hogar algún electrodoméstico pequeño?",
+  "tema": "Consumo"
+ },
+ "3569_P1_3_1": {
+  "estudio": "3569",
+  "variable": "P1_3_1",
+  "etiqueta": "Sí, él/ella ha adquirido",
+  "bloque": "Adquisición para el hogar de diferentes bienes Automóvil/moto (P1_1) Muebles para el hogar (P1_2) Electrodomésticos/ordenadores personales (P1_3) Electrodomésticos pequeños (P1_4) * Sí, él/ella ha adquirido * Sí, lo ha adquirido otra persona de su hogar * No * N.S. * N.C. 1.- Sí 2.- No P2 P2 (53) Capacidad de ahorro mensual en el hogar",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha adquirido usted algún automóvil o moto para el hogar en los últimos meses?",
+  "tema": "Consumo"
+ },
+ "3569_P1_3_2": {
+  "estudio": "3569",
+  "variable": "P1_3_2",
+  "etiqueta": "Sí, lo ha adquirido otra persona de su hogar",
+  "bloque": "Adquisición para el hogar de diferentes bienes Automóvil/moto (P1_1) Muebles para el hogar (P1_2) Electrodomésticos/ordenadores personales (P1_3) Electrodomésticos pequeños (P1_4) * Sí, él/ella ha adquirido * Sí, lo ha adquirido otra persona de su hogar * No * N.S. * N.C. 1.- Sí 2.- No P2 P2 (53) Capacidad de ahorro mensual en el hogar",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha adquirido otra persona de su hogar algún electrodoméstico pequeño?",
+  "tema": "Consumo"
+ },
+ "3569_P1_4_1": {
+  "estudio": "3569",
+  "variable": "P1_4_1",
+  "etiqueta": "Sí, él/ella ha adquirido",
+  "bloque": "Adquisición para el hogar de diferentes bienes Automóvil/moto (P1_1) Muebles para el hogar (P1_2) Electrodomésticos/ordenadores personales (P1_3) Electrodomésticos pequeños (P1_4) * Sí, él/ella ha adquirido * Sí, lo ha adquirido otra persona de su hogar * No * N.S. * N.C. 1.- Sí 2.- No P2 P2 (53) Capacidad de ahorro mensual en el hogar",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha adquirido usted algún automóvil o moto para el hogar en los últimos meses?",
+  "tema": "Consumo"
+ },
+ "3569_P1_4_2": {
+  "estudio": "3569",
+  "variable": "P1_4_2",
+  "etiqueta": "Sí, lo ha adquirido otra persona de su hogar",
+  "bloque": "Adquisición para el hogar de diferentes bienes Automóvil/moto (P1_1) Muebles para el hogar (P1_2) Electrodomésticos/ordenadores personales (P1_3) Electrodomésticos pequeños (P1_4) * Sí, él/ella ha adquirido * Sí, lo ha adquirido otra persona de su hogar * No * N.S. * N.C. 1.- Sí 2.- No P2 P2 (53) Capacidad de ahorro mensual en el hogar",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha adquirido otra persona de su hogar algún electrodoméstico pequeño?",
+  "tema": "Consumo"
+ },
+ "3569_P2": {
+  "estudio": "3569",
+  "variable": "P2",
+  "etiqueta": "Capacidad de ahorro mensual en el hogar",
+  "bloque": "Capacidad de ahorro mensual en el hogar",
+  "opciones": {
+   "1": "Le resulta difícil llegar a final de mes, por lo que ha tenido que contraer deudas",
+   "2": "Le resulta difícil llegar a final de mes, por lo que ha tenido que echar mano de sus ahorros",
+   "3": "Llega justo a final de mes",
+   "4": "Ahorra un poco de dinero cada mes",
+   "5": "Ahorra bastante dinero cada mes"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es la situación de ahorro mensual en su hogar?",
+  "tema": "Consumo"
+ },
+ "3569_P3": {
+  "estudio": "3569",
+  "variable": "P3",
+  "etiqueta": "Valoración retrospectiva de la situación económica del hogar (6 meses)",
+  "bloque": "Valoración retrospectiva de la situación económica del hogar (6 meses)",
+  "opciones": {
+   "1": "Mejor",
+   "2": "Igual",
+   "3": "Peor"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría la situación económica de su hogar en los últimos 6 meses?",
+  "tema": "Consumo"
+ },
+ "3569_NUMPERSONAS": {
+  "estudio": "3569",
+  "variable": "NUMPERSONAS",
+  "etiqueta": "Número de personas del entorno en paro y buscando trabajo",
+  "bloque": "Número de personas del entorno en paro y buscando trabajo",
+  "opciones": {
+   "0": "0",
+   "1": "1 persona",
+   "2": "2 personas",
+   "3": "3 personas",
+   "4": "4 personas"
+  },
+  "valida": true,
+  "pregunta": "¿Cuántas personas del entorno están en paro y buscando trabajo?",
+  "tema": "Consumo"
+ },
+ "3569_P6": {
+  "estudio": "3569",
+  "variable": "P6",
+  "etiqueta": "Evolución del número de personas del entorno en paro y buscando trabajo (6 meses)",
+  "bloque": "Evolución del número de personas del entorno en paro y buscando trabajo (6 meses)",
+  "opciones": {
+   "1": "Más",
+   "2": "El mismo número",
+   "3": "Menos"
+  },
+  "valida": true,
+  "pregunta": "¿Ha notado cambios en el número de personas del entorno que están en paro y buscando trabajo en los últimos 6 meses?",
+  "tema": "Sociedad"
+ },
+ "3569_P7": {
+  "estudio": "3569",
+  "variable": "P7",
+  "etiqueta": "Valoración retrospectiva de la posibilidad de mejorar o encontrar empleo en España (6 meses)",
+  "bloque": "Valoración retrospectiva de la posibilidad de mejorar o encontrar empleo en España (6 meses)",
+  "opciones": {
+   "1": "Mejor",
+   "2": "Igual",
+   "3": "Peor"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en España en los últimos 6 meses?",
+  "tema": "Sociedad"
+ },
+ "3569_P7_1": {
+  "estudio": "3569",
+  "variable": "P7_1",
+  "etiqueta": "Valoración retrospectiva de la posibilidad de mejorar o encontrar empleo en la comunidad autónoma (6 meses)",
+  "bloque": "Valoración retrospectiva de la posibilidad de mejorar o encontrar empleo en la comunidad autónoma (6 meses)",
+  "opciones": {
+   "1": "Mejor",
+   "2": "Igual",
+   "3": "Peor"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en su comunidad autónoma en los últimos 6 meses?",
+  "tema": "Sociedad"
+ },
+ "3569_P8": {
+  "estudio": "3569",
+  "variable": "P8",
+  "etiqueta": "Valoración retrospectiva de la situación económica de España (6 meses)",
+  "bloque": "Valoración retrospectiva de la situación económica de España (6 meses)",
+  "opciones": {
+   "1": "Mejor",
+   "2": "Igual",
+   "3": "Peor"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría la situación económica de España en los últimos 6 meses?",
+  "tema": "Consumo"
+ },
+ "3569_P8_1": {
+  "estudio": "3569",
+  "variable": "P8_1",
+  "etiqueta": "Valoración retrospectiva de la situación económica de la comunidad autónoma (6 meses)",
+  "bloque": "Valoración retrospectiva de la situación económica de la comunidad autónoma (6 meses)",
+  "opciones": {
+   "1": "Mejor",
+   "2": "Igual",
+   "3": "Peor"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría la situación económica de la comunidad autónoma en los últimos 6 meses?",
+  "tema": "Consumo"
+ },
+ "3569_P9": {
+  "estudio": "3569",
+  "variable": "P9",
+  "etiqueta": "Valoración prospectiva de la posibilidad de mejorar o encontrar empleo en España (6 meses)",
+  "bloque": "Valoración prospectiva de la posibilidad de mejorar o encontrar empleo en España (6 meses)",
+  "opciones": {
+   "1": "Mejor",
+   "2": "Igual",
+   "3": "Peor"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en España en los próximos seis meses?",
+  "tema": "Consumo"
+ },
+ "3569_P9_1": {
+  "estudio": "3569",
+  "variable": "P9_1",
+  "etiqueta": "Valoración prospectiva de la posibilidad de mejorar o encontrar empleo en la comunidad autónoma (6 meses)",
+  "bloque": "Valoración prospectiva de la posibilidad de mejorar o encontrar empleo en la comunidad autónoma (6 meses)",
+  "opciones": {
+   "1": "Mejor",
+   "2": "Igual",
+   "3": "Peor"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo valoraría la posibilidad de mejorar o encontrar empleo en la comunidad autónoma en los próximos 6 meses?",
+  "tema": "Sociedad"
+ },
+ "3569_P10": {
+  "estudio": "3569",
+  "variable": "P10",
+  "etiqueta": "Valoración prospectiva de la probabilidad de adquirir para el hogar bienes duraderos (1 año)",
+  "bloque": "Valoración prospectiva de la probabilidad de adquirir para el hogar bienes duraderos (1 año)",
+  "opciones": {
+   "1": "Mayores",
+   "2": "Iguales",
+   "3": "Menores"
+  },
+  "valida": true,
+  "pregunta": "¿Piensa usted que en el próximo año tendrá más, igual o menos probabilidades de comprar bienes duraderos para su hogar?",
+  "tema": "Consumo"
+ },
+ "3569_P11": {
+  "estudio": "3569",
+  "variable": "P11",
+  "etiqueta": "Evolución de la capacidad de ahorro personal (1 año)",
+  "bloque": "Evolución de la capacidad de ahorro personal (1 año)",
+  "opciones": {
+   "1": "Mayores",
+   "2": "Iguales",
+   "3": "Menores"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo cree que ha sido la evolución de su capacidad de ahorro en los últimos 12 meses?",
+  "tema": "Consumo"
+ },
+ "3569_P12": {
+  "estudio": "3569",
+  "variable": "P12",
+  "etiqueta": "Valoración prospectiva de la situación económica del hogar (6 meses)",
+  "bloque": "Valoración prospectiva de la situación económica del hogar (6 meses)",
+  "opciones": {
+   "1": "Mejor",
+   "2": "Igual",
+   "3": "Peor"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo cree que estará la situación económica de su hogar en los próximos 6 meses?",
+  "tema": "Consumo"
+ },
+ "3569_P14": {
+  "estudio": "3569",
+  "variable": "P14",
+  "etiqueta": "Valoración prospectiva de la situación económica de España (6 meses)",
+  "bloque": "Valoración prospectiva de la situación económica de España (6 meses)",
+  "opciones": {
+   "1": "Mejor",
+   "2": "Igual",
+   "3": "Peor"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo cree que estará la situación económica de España en los próximos seis meses?",
+  "tema": "Consumo"
+ },
+ "3569_P14_1": {
+  "estudio": "3569",
+  "variable": "P14_1",
+  "etiqueta": "Valoración prospectiva de la situación económica de la comunidad autónoma (6 meses)",
+  "bloque": "Valoración prospectiva de la situación económica de la comunidad autónoma (6 meses)",
+  "opciones": {
+   "1": "Mejor",
+   "2": "Igual",
+   "3": "Peor"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo cree que estará la situación económica de la comunidad autónoma en los próximos 6 meses?",
+  "tema": "Consumo"
+ },
+ "3569_P15": {
+  "estudio": "3569",
+  "variable": "P15",
+  "etiqueta": "Valoración prospectiva de la inflación en España (1 año)",
+  "bloque": "Valoración prospectiva de la inflación en España (1 año)",
+  "opciones": {
+   "1": "Más",
+   "2": "Igual",
+   "3": "Menos"
+  },
+  "valida": true,
+  "pregunta": "¿Qué cree que será la inflación en España en el próximo año?",
+  "tema": "Consumo"
+ },
+ "3569_P16": {
+  "estudio": "3569",
+  "variable": "P16",
+  "etiqueta": "Evolución de los tipos de interés en España (1 año)",
+  "bloque": "Evolución de los tipos de interés en España (1 año)",
+  "opciones": {
+   "1": "Subirá",
+   "2": "Se mantendrá",
+   "3": "Bajará"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que los tipos de interés en España subirán en el próximo año?",
+  "tema": "Consumo"
+ },
+ "3569_P17": {
+  "estudio": "3569",
+  "variable": "P17",
+  "etiqueta": "Evolución del precio de la vivienda en España (1 año)",
+  "bloque": "Evolución del precio de la vivienda en España (1 año)",
+  "opciones": {
+   "1": "Subirá",
+   "2": "Se mantendrá",
+   "3": "Bajará"
+  },
+  "valida": true,
+  "pregunta": "¿Cree que el precio de la vivienda en España subirá, se mantendrá o bajará en el próximo año?",
+  "tema": "Vivienda"
+ },
+ "3569_P18": {
+  "estudio": "3569",
+  "variable": "P18",
+  "etiqueta": "Intención de comprar una vivienda en el próximo año",
+  "bloque": "Intención de comprar una vivienda en el próximo año",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Tiene intención de comprar una vivienda en el próximo año?",
+  "tema": "Vivienda"
+ },
+ "3569_CURSOMULTIPLE_1_1": {
+  "estudio": "3569",
+  "variable": "CURSOMULTIPLE_1_1",
+  "etiqueta": "Educación primaria",
+  "bloque": "Estudios oficiales en curso de la persona entrevistada",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Tiene en curso un estudio oficial sobre educación primaria?",
+  "tema": "Sociedad"
+ },
+ "3569_CURSOMULTIPLE_1_2": {
+  "estudio": "3569",
+  "variable": "CURSOMULTIPLE_1_2",
+  "etiqueta": "FP grado inicial (FP básica)",
+  "bloque": "Estudios oficiales en curso de la persona entrevistada",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿La persona entrevistada ha cursado FP grado inicial (FP básica)?",
+  "tema": "Consumo"
+ },
+ "3569_CURSOMULTIPLE_1_3": {
+  "estudio": "3569",
+  "variable": "CURSOMULTIPLE_1_3",
+  "etiqueta": "Educación secundaria obligatoria",
+  "bloque": "Estudios oficiales en curso de la persona entrevistada",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha cursado educación secundaria obligatoria?",
+  "tema": "Sociedad"
+ },
+ "3569_CURSOMULTIPLE_1_4": {
+  "estudio": "3569",
+  "variable": "CURSOMULTIPLE_1_4",
+  "etiqueta": "FP de grado medio",
+  "bloque": "Estudios oficiales en curso de la persona entrevistada",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Tiene la persona alguna formación profesional de grado medio en curso?",
+  "tema": "Consumo"
+ },
+ "3569_CURSOMULTIPLE_1_6": {
+  "estudio": "3569",
+  "variable": "CURSOMULTIPLE_1_6",
+  "etiqueta": "FP de grado superior",
+  "bloque": "Estudios oficiales en curso de la persona entrevistada",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Tiene la persona alguna formación profesional de grado superior?",
+  "tema": "Consumo"
+ },
+ "3569_CURSOMULTIPLE_1_7": {
+  "estudio": "3569",
+  "variable": "CURSOMULTIPLE_1_7",
+  "etiqueta": "Estudios universitarios",
+  "bloque": "Estudios oficiales en curso de la persona entrevistada",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Está realizando estudios universitarios?",
+  "tema": "Sociedad"
+ },
+ "3569_CURSOMULTIPLE_1_8": {
+  "estudio": "3569",
+  "variable": "CURSOMULTIPLE_1_8",
+  "etiqueta": "Estudios oficiales de posgrado y doctorado",
+  "bloque": "Estudios oficiales en curso de la persona entrevistada",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Está realizando estudios oficiales de posgrado o doctorado?",
+  "tema": "Sociedad"
+ },
+ "3569_CURSOMULTIPLE_1_9": {
+  "estudio": "3569",
+  "variable": "CURSOMULTIPLE_1_9",
+  "etiqueta": "Otros estudios",
+  "bloque": "Estudios oficiales en curso de la persona entrevistada",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Está realizando otros estudios?",
+  "tema": "Consumo"
+ },
+ "3569_CURSOMULTIPLE_1_10": {
+  "estudio": "3569",
+  "variable": "CURSOMULTIPLE_1_10",
+  "etiqueta": "No está cursando estudios",
+  "bloque": "Estudios oficiales en curso de la persona entrevistada",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿No está cursando estudios?",
+  "tema": "Consumo"
+ },
+ "3569_ECIVIL": {
+  "estudio": "3569",
+  "variable": "ECIVIL",
+  "etiqueta": "Estado civil de la persona entrevistada",
+  "bloque": "Estado civil de la persona entrevistada",
+  "opciones": {
+   "1": "Casado/a",
+   "2": "Soltero/a",
+   "3": "Viudo/a",
+   "4": "Separado/a",
+   "5": "Divorciado/a"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es su estado civil?",
+  "tema": "Sociedad"
+ },
+ "3569_P25": {
+  "estudio": "3569",
+  "variable": "P25",
+  "etiqueta": "Número de personas en el hogar además de la persona entrevistada",
+  "bloque": "Número de personas en el hogar además de la persona entrevistada",
+  "opciones": {
+   "0": "0",
+   "1": "1 persona",
+   "2": "2 personas",
+   "3": "3 personas",
+   "4": "4 personas"
+  },
+  "valida": true,
+  "pregunta": "¿Cuántas personas viven en su hogar además de usted?",
+  "tema": "Consumo"
+ },
+ "3569_P25B": {
+  "estudio": "3569",
+  "variable": "P25B",
+  "etiqueta": "Número de personas en el hogar con ingresos",
+  "bloque": "Número de personas en el hogar con ingresos",
+  "opciones": {
+   "0": "Ninguna",
+   "1": "1 persona",
+   "2": "2 personas",
+   "3": "3 personas",
+   "4": "4 personas"
+  },
+  "valida": true,
+  "pregunta": "¿Cuántas personas hay en su hogar con ingresos?",
+  "tema": "Consumo"
+ },
+ "3569_PERPRIN": {
+  "estudio": "3569",
+  "variable": "PERPRIN",
+  "etiqueta": "Cabeza de familia",
+  "bloque": "Cabeza de familia",
+  "opciones": {
+   "1": "La persona entrevistada",
+   "2": "Otra persona",
+   "3": "La persona entrevistada y otra casi a partes iguales"
+  },
+  "valida": true,
+  "pregunta": "¿Quién es la persona con la que vive la persona entrevistada?",
+  "tema": "Consumo"
+ },
+ "3569_INGREHOG": {
+  "estudio": "3569",
+  "variable": "INGREHOG",
+  "etiqueta": "Nivel de ingresos del hogar",
+  "bloque": "Nivel de ingresos del hogar",
+  "opciones": {
+   "1": "Menos de 1.100 €",
+   "2": "De 1.100 a 1.800 €",
+   "3": "De 1.801 a 2.700 €",
+   "4": "De 2.701 a 3.900 €",
+   "5": "Más de 3.900 €"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es el nivel de ingresos del hogar?",
+  "tema": "Consumo"
+ },
+ "3569_P28": {
+  "estudio": "3569",
+  "variable": "P28",
+  "etiqueta": "Situación laboral de la persona entrevistada",
+  "bloque": "Situación laboral de la persona entrevistada",
+  "opciones": {
+   "1": "Trabaja (por cuenta propia o por cuenta ajena)",
+   "2": "Jubilado/a o pensionista (anteriormente ha trabajado)",
+   "3": "Pensionista (anteriormente no ha trabajado)",
+   "4": "Parado/a y ha trabajado antes",
+   "5": "Parado/a y busca su primer empleo",
+   "6": "Estudiante",
+   "7": "Trabajo doméstico no remunerado",
+   "8": "Otra situación"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es la situación laboral en la que se encuentra?",
+  "tema": "Sociedad"
+ },
+ "3569_P28A": {
+  "estudio": "3569",
+  "variable": "P28A",
+  "etiqueta": "Situación de actividad laboral de la persona entrevistada",
+  "bloque": "Situación de actividad laboral de la persona entrevistada",
+  "opciones": {
+   "1": "Ocupado/a",
+   "2": "Parado/a",
+   "3": "Inactivo/a"
+  },
+  "valida": true,
+  "pregunta": "¿En qué situación se encuentra su actividad laboral?",
+  "tema": "Consumo"
+ },
+ "3569_MOMENNAC": {
+  "estudio": "3569",
+  "variable": "MOMENNAC",
+  "etiqueta": "Momento de la adquisición de la nacionalidad española",
+  "bloque": "Momento de la adquisición de la nacionalidad española",
+  "opciones": {
+   "1": "Desde que nació",
+   "2": "La ha adquirido con posterioridad",
+   "3": "No tiene nacionalidad española"
+  },
+  "valida": true,
+  "pregunta": "¿Cuándo adquirió la nacionalidad española?",
+  "tema": "Sociedad"
+ },
+ "3569_VIVIENDA": {
+  "estudio": "3569",
+  "variable": "VIVIENDA",
+  "etiqueta": "Régimen de tenencia de vivienda",
+  "bloque": "Régimen de tenencia de vivienda",
+  "opciones": {
+   "1": "En propiedad por compra, totalmente pagada",
+   "2": "En propiedad por compra y con pagos o hipotecas pendientes",
+   "3": "En alquiler",
+   "4": "En propiedad por herencia o donación",
+   "5": "Cedida gratis o a bajo precio por un/a familiar, la empresa, etc.",
+   "6": "Otra forma"
+  },
+  "valida": true,
+  "pregunta": "¿Cómo es el régimen de tenencia de la vivienda en la que reside?",
+  "tema": "Vivienda"
+ },
+ "3569_P36": {
+  "estudio": "3569",
+  "variable": "P36",
+  "etiqueta": "Régimen de tenencia de vivienda [recodificada]",
+  "bloque": "Régimen de tenencia de vivienda [recodificada]",
+  "opciones": {
+   "1": "Propietarios/as",
+   "2": "Propietarios/as con hipoteca",
+   "3": "En alquiler",
+   "4": "Otra situación"
+  },
+  "valida": true,
+  "pregunta": "¿Cuál es su situación de tenencia de vivienda?",
+  "tema": "Vivienda"
+ },
+ "3569_SINCERIDAD": {
+  "estudio": "3569",
+  "variable": "SINCERIDAD",
+  "etiqueta": "Grado de sinceridad de la persona entrevistada según el/la entrevistador/a",
+  "bloque": "Grado de sinceridad de la persona entrevistada según el/la entrevistador/a",
+  "opciones": {
+   "1": "Mucha",
+   "2": "Bastante",
+   "3": "Poca",
+   "4": "Ninguna"
+  },
+  "valida": true,
+  "pregunta": "¿Cuánta confianza tiene en sus respuestas?",
+  "tema": "Consumo"
+ },
+ "3569_V2_1": {
+  "estudio": "3569",
+  "variable": "V2_1",
+  "etiqueta": "Ha expresado deseo de abandonar la entrevista antes de finalizarla",
+  "bloque": "Ha expresado deseo de abandonar la entrevista antes de finalizarla",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha expresado deseo de abandonar la entrevista antes de finalizarla?",
+  "tema": "Consumo"
+ },
+ "3569_V2_2": {
+  "estudio": "3569",
+  "variable": "V2_2",
+  "etiqueta": "Se ha sentido incómoda por el tema de la entrevista",
+  "bloque": "Se ha sentido incómoda por el tema de la entrevista",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Se ha sentido incómoda por el tema de la entrevista?",
+  "tema": "Consumo"
+ },
+ "3569_V2_3": {
+  "estudio": "3569",
+  "variable": "V2_3",
+  "etiqueta": "Ha tenido prisa por acabar la entrevista",
+  "bloque": "Ha tenido prisa por acabar la entrevista",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha tenido prisa por acabar la entrevista?",
+  "tema": "Consumo"
+ },
+ "3569_V3": {
+  "estudio": "3569",
+  "variable": "V3",
+  "etiqueta": "Detección de terceras personas en el transcurso de la entrevista",
+  "bloque": "Detección de terceras personas en el transcurso de la entrevista",
+  "opciones": {
+   "1": "Sí",
+   "2": "No"
+  },
+  "valida": true,
+  "pregunta": "¿Ha detectado alguna tercera persona en el transcurso de esta entrevista?",
+  "tema": "Consumo"
+ }
+}
