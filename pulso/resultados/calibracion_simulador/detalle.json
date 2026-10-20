@@ -1,0 +1,2553 @@
+{
+ "clima_preocupacion": {
+  "solo_demografia": {
+   "simulado": {
+    "Mucho": 15.0,
+    "Bastante": 18.5,
+    "Regular": 26.4,
+    "Poco": 27.3,
+    "Nada": 12.9
+   },
+   "real": {
+    "Mucho": 49.7,
+    "Bastante": 32.2,
+    "Regular": 0.7,
+    "Poco": 10.6,
+    "Nada": 6.8
+   },
+   "error_total_pts": 19.388728879393156,
+   "error_polo_pts": -48.471822198482876,
+   "error_edad_pts": 48.689990221194975,
+   "correlacion_edad": -0.8070523128773253,
+   "error_sexo_pts": 48.28725877469371,
+   "polo_edad_sim": {
+    "18-24": 33.9,
+    "25-34": 37.6,
+    "35-44": 49.2,
+    "45-54": 38.7,
+    "55-64": 26.9,
+    "65-74": 29.0,
+    "75+": 19.9
+   },
+   "polo_edad_real": {
+    "18-24": 84.1,
+    "25-34": 77.9,
+    "35-44": 75.5,
+    "45-54": 80.3,
+    "55-64": 81.3,
+    "65-74": 89.4,
+    "75+": 87.5
+   }
+  },
+  "demografia_y_actitudes": {
+   "simulado": {
+    "Mucho": 21.5,
+    "Bastante": 3.0,
+    "Regular": 10.8,
+    "Poco": 49.7,
+    "Nada": 15.0
+   },
+   "real": {
+    "Mucho": 49.7,
+    "Bastante": 32.2,
+    "Regular": 0.7,
+    "Poco": 10.6,
+    "Nada": 6.8
+   },
+   "error_total_pts": 22.952110386087092,
+   "error_polo_pts": -57.380275965217734,
+   "error_edad_pts": 58.40223197137742,
+   "correlacion_edad": 0.2713905180432022,
+   "error_sexo_pts": 57.290587211414085,
+   "polo_edad_sim": {
+    "18-24": 12.6,
+    "25-34": 3.7,
+    "35-44": 41.4,
+    "45-54": 26.8,
+    "55-64": 8.4,
+    "65-74": 40.5,
+    "75+": 33.7
+   },
+   "polo_edad_real": {
+    "18-24": 84.1,
+    "25-34": 77.9,
+    "35-44": 75.5,
+    "45-54": 80.3,
+    "55-64": 81.3,
+    "65-74": 89.4,
+    "75+": 87.5
+   }
+  },
+  "actitudes_relevantes": {
+   "simulado": {
+    "Mucho": 32.6,
+    "Bastante": 5.6,
+    "Regular": 17.2,
+    "Poco": 34.9,
+    "Nada": 9.7
+   },
+   "real": {
+    "Mucho": 49.7,
+    "Bastante": 32.2,
+    "Regular": 0.7,
+    "Poco": 10.6,
+    "Nada": 6.8
+   },
+   "error_total_pts": 17.515368512022484,
+   "error_polo_pts": -43.788421280056184,
+   "error_edad_pts": 46.20486236975756,
+   "correlacion_edad": 0.24286145481491372,
+   "error_sexo_pts": 43.77329118764763,
+   "polo_edad_sim": {
+    "18-24": 9.3,
+    "25-34": 21.0,
+    "35-44": 50.2,
+    "45-54": 40.0,
+    "55-64": 20.5,
+    "65-74": 44.4,
+    "75+": 67.1
+   },
+   "polo_edad_real": {
+    "18-24": 84.1,
+    "25-34": 77.9,
+    "35-44": 75.5,
+    "45-54": 80.3,
+    "55-64": 81.3,
+    "65-74": 89.4,
+    "75+": 87.5
+   }
+  }
+ },
+ "clima_pacto_estado": {
+  "solo_demografia": {
+   "simulado": {
+    "Sí es necesario": 51.5,
+    "No es necesario": 26.0,
+    "Depende": 22.6
+   },
+   "real": {
+    "Sí es necesario": 80.7,
+    "No es necesario": 7.7,
+    "Depende": 11.6
+   },
+   "error_total_pts": 19.49411412813521,
+   "error_polo_pts": -29.241171192202806,
+   "error_edad_pts": 28.947199423117183,
+   "correlacion_edad": 0.19403729466162822,
+   "error_sexo_pts": 29.136200939005974,
+   "polo_edad_sim": {
+    "18-24": 43.4,
+    "25-34": 53.5,
+    "35-44": 57.6,
+    "45-54": 52.9,
+    "55-64": 47.8,
+    "65-74": 57.1,
+    "75+": 46.5
+   },
+   "polo_edad_real": {
+    "18-24": 70.2,
+    "25-34": 76.7,
+    "35-44": 78.4,
+    "45-54": 81.0,
+    "55-64": 80.0,
+    "65-74": 84.7,
+    "75+": 90.3
+   }
+  },
+  "demografia_y_actitudes": {
+   "simulado": {
+    "Sí es necesario": 39.1,
+    "No es necesario": 52.4,
+    "Depende": 8.4
+   },
+   "real": {
+    "Sí es necesario": 80.7,
+    "No es necesario": 7.7,
+    "Depende": 11.6
+   },
+   "error_total_pts": 29.814884102467417,
+   "error_polo_pts": -41.55731114631395,
+   "error_edad_pts": 42.47151607342879,
+   "correlacion_edad": 0.7062448583306352,
+   "error_sexo_pts": 41.551535746590076,
+   "polo_edad_sim": {
+    "18-24": 15.4,
+    "25-34": 13.8,
+    "35-44": 52.3,
+    "45-54": 48.0,
+    "55-64": 16.7,
+    "65-74": 64.0,
+    "75+": 53.8
+   },
+   "polo_edad_real": {
+    "18-24": 70.2,
+    "25-34": 76.7,
+    "35-44": 78.4,
+    "45-54": 81.0,
+    "55-64": 80.0,
+    "65-74": 84.7,
+    "75+": 90.3
+   }
+  },
+  "actitudes_relevantes": {
+   "simulado": {
+    "Sí es necesario": 51.3,
+    "No es necesario": 34.7,
+    "Depende": 13.9
+   },
+   "real": {
+    "Sí es necesario": 80.7,
+    "No es necesario": 7.7,
+    "Depende": 11.6
+   },
+   "error_total_pts": 19.564891850555032,
+   "error_polo_pts": -29.347337775832536,
+   "error_edad_pts": 29.424475509710323,
+   "correlacion_edad": 0.8116756642367928,
+   "error_sexo_pts": 29.67299752545746,
+   "polo_edad_sim": {
+    "18-24": 36.5,
+    "25-34": 46.8,
+    "35-44": 51.2,
+    "45-54": 49.1,
+    "55-64": 34.0,
+    "65-74": 68.1,
+    "75+": 69.6
+   },
+   "polo_edad_real": {
+    "18-24": 70.2,
+    "25-34": 76.7,
+    "35-44": 78.4,
+    "45-54": 81.0,
+    "55-64": 80.0,
+    "65-74": 84.7,
+    "75+": 90.3
+   }
+  }
+ },
+ "medioambiente_futuro": {
+  "solo_demografia": {
+   "simulado": {
+    "Más que ahora": 37.9,
+    "Menos que ahora": 38.0,
+    "Igual que ahora": 24.1
+   },
+   "real": {
+    "Más que ahora": 54.8,
+    "Menos que ahora": 17.5,
+    "Igual que ahora": 27.7
+   },
+   "error_total_pts": 13.644655381150267,
+   "error_polo_pts": -16.88076182180224,
+   "error_edad_pts": 17.651365962549033,
+   "correlacion_edad": 0.2670633234971465,
+   "error_sexo_pts": 16.696703198943464,
+   "polo_edad_sim": {
+    "18-24": 37.5,
+    "25-34": 39.3,
+    "35-44": 40.6,
+    "45-54": 39.2,
+    "55-64": 37.8,
+    "65-74": 36.9,
+    "75+": 34.2
+   },
+   "polo_edad_real": {
+    "18-24": 63.0,
+    "25-34": 58.2,
+    "35-44": 57.2,
+    "45-54": 54.2,
+    "55-64": 47.4,
+    "65-74": 57.4,
+    "75+": 51.7
+   }
+  },
+  "demografia_y_actitudes": {
+   "simulado": {
+    "Más que ahora": 44.6,
+    "Menos que ahora": 34.0,
+    "Igual que ahora": 21.4
+   },
+   "real": {
+    "Más que ahora": 54.8,
+    "Menos que ahora": 17.5,
+    "Igual que ahora": 27.7
+   },
+   "error_total_pts": 10.97797286757096,
+   "error_polo_pts": -10.24516573056097,
+   "error_edad_pts": 11.358869085234064,
+   "correlacion_edad": 0.5449965345807892,
+   "error_sexo_pts": 10.370550368142188,
+   "polo_edad_sim": {
+    "18-24": 67.5,
+    "25-34": 54.2,
+    "35-44": 43.8,
+    "45-54": 46.7,
+    "55-64": 49.7,
+    "65-74": 40.1,
+    "75+": 21.1
+   },
+   "polo_edad_real": {
+    "18-24": 63.0,
+    "25-34": 58.2,
+    "35-44": 57.2,
+    "45-54": 54.2,
+    "55-64": 47.4,
+    "65-74": 57.4,
+    "75+": 51.7
+   }
+  },
+  "actitudes_relevantes": {
+   "simulado": {
+    "Más que ahora": 32.2,
+    "Menos que ahora": 34.6,
+    "Igual que ahora": 33.2
+   },
+   "real": {
+    "Más que ahora": 54.8,
+    "Menos que ahora": 17.5,
+    "Igual que ahora": 27.7
+   },
+   "error_total_pts": 15.074391323630435,
+   "error_polo_pts": -22.611586985445648,
+   "error_edad_pts": 23.05087995454412,
+   "correlacion_edad": 0.21858383270919277,
+   "error_sexo_pts": 22.60134408016684,
+   "polo_edad_sim": {
+    "18-24": 38.3,
+    "25-34": 39.1,
+    "35-44": 28.5,
+    "45-54": 38.5,
+    "55-64": 37.0,
+    "65-74": 27.0,
+    "75+": 19.2
+   },
+   "polo_edad_real": {
+    "18-24": 63.0,
+    "25-34": 58.2,
+    "35-44": 57.2,
+    "45-54": 54.2,
+    "55-64": 47.4,
+    "65-74": 57.4,
+    "75+": 51.7
+   }
+  }
+ },
+ "ia_opinion": {
+  "solo_demografia": {
+   "simulado": {
+    "Mucho": 21.1,
+    "Bastante": 26.1,
+    "Regular": 22.6,
+    "Poco": 18.8,
+    "Nada": 11.4
+   },
+   "real": {
+    "Mucho": 63.0,
+    "Bastante": 28.9,
+    "Regular": 4.8,
+    "Poco": 1.5,
+    "Nada": 1.8
+   },
+   "error_total_pts": 17.8996897682552,
+   "error_polo_pts": -44.749224420638,
+   "error_edad_pts": 43.21672683340795,
+   "correlacion_edad": 0.7164645168211752,
+   "error_sexo_pts": 44.71369585763919,
+   "polo_edad_sim": {
+    "18-24": 57.6,
+    "25-34": 59.9,
+    "35-44": 57.3,
+    "45-54": 51.6,
+    "55-64": 42.2,
+    "65-74": 41.8,
+    "75+": 26.4
+   },
+   "polo_edad_real": {
+    "18-24": 91.2,
+    "25-34": 91.5,
+    "35-44": 96.7,
+    "45-54": 93.9,
+    "55-64": 95.7,
+    "65-74": 89.8,
+    "75+": 80.3
+   }
+  },
+  "demografia_y_actitudes": {
+   "simulado": {
+    "Mucho": 39.3,
+    "Bastante": 10.4,
+    "Regular": 10.2,
+    "Poco": 34.9,
+    "Nada": 5.2
+   },
+   "real": {
+    "Mucho": 63.0,
+    "Bastante": 28.9,
+    "Regular": 4.8,
+    "Poco": 1.5,
+    "Nada": 1.8
+   },
+   "error_total_pts": 16.878309819076005,
+   "error_polo_pts": -42.19577454769001,
+   "error_edad_pts": 40.010234857365894,
+   "correlacion_edad": 0.31350808355361126,
+   "error_sexo_pts": 41.85730170783207,
+   "polo_edad_sim": {
+    "18-24": 65.3,
+    "25-34": 69.7,
+    "35-44": 70.3,
+    "45-54": 38.6,
+    "55-64": 36.2,
+    "65-74": 41.0,
+    "75+": 38.1
+   },
+   "polo_edad_real": {
+    "18-24": 91.2,
+    "25-34": 91.5,
+    "35-44": 96.7,
+    "45-54": 93.9,
+    "55-64": 95.7,
+    "65-74": 89.8,
+    "75+": 80.3
+   }
+  },
+  "actitudes_relevantes": {
+   "simulado": {
+    "Mucho": 47.3,
+    "Bastante": 20.1,
+    "Regular": 7.6,
+    "Poco": 22.6,
+    "Nada": 2.5
+   },
+   "real": {
+    "Mucho": 63.0,
+    "Bastante": 28.9,
+    "Regular": 4.8,
+    "Poco": 1.5,
+    "Nada": 1.8
+   },
+   "error_total_pts": 9.817882929907395,
+   "error_polo_pts": -24.544707324768495,
+   "error_edad_pts": 23.400753322973515,
+   "correlacion_edad": 0.8282310417529101,
+   "error_sexo_pts": 24.35067286656525,
+   "polo_edad_sim": {
+    "18-24": 75.5,
+    "25-34": 89.0,
+    "35-44": 69.3,
+    "45-54": 81.0,
+    "55-64": 86.4,
+    "65-74": 49.0,
+    "75+": 25.1
+   },
+   "polo_edad_real": {
+    "18-24": 91.2,
+    "25-34": 91.5,
+    "35-44": 96.7,
+    "45-54": 93.9,
+    "55-64": 95.7,
+    "65-74": 89.8,
+    "75+": 80.3
+   }
+  }
+ },
+ "robots_opinion": {
+  "solo_demografia": {
+   "simulado": {
+    "Mucho": 21.7,
+    "Bastante": 19.3,
+    "Regular": 24.4,
+    "Poco": 22.9,
+    "Nada": 11.8
+   },
+   "real": {
+    "Mucho": 55.2,
+    "Bastante": 34.8,
+    "Regular": 6.0,
+    "Poco": 2.5,
+    "Nada": 1.6
+   },
+   "error_total_pts": 19.572258092595057,
+   "error_polo_pts": -48.93064523148764,
+   "error_edad_pts": 48.282169584409395,
+   "correlacion_edad": 0.8128561860435841,
+   "error_sexo_pts": 48.88620578818748,
+   "polo_edad_sim": {
+    "18-24": 45.3,
+    "25-34": 49.0,
+    "35-44": 52.7,
+    "45-54": 45.8,
+    "55-64": 38.7,
+    "65-74": 36.1,
+    "75+": 22.5
+   },
+   "polo_edad_real": {
+    "18-24": 92.3,
+    "25-34": 91.9,
+    "35-44": 90.5,
+    "45-54": 91.9,
+    "55-64": 93.3,
+    "65-74": 88.8,
+    "75+": 79.4
+   }
+  },
+  "demografia_y_actitudes": {
+   "simulado": {
+    "Mucho": 45.4,
+    "Bastante": 6.4,
+    "Regular": 9.8,
+    "Poco": 32.1,
+    "Nada": 6.2
+   },
+   "real": {
+    "Mucho": 55.2,
+    "Bastante": 34.8,
+    "Regular": 6.0,
+    "Poco": 2.5,
+    "Nada": 1.6
+   },
+   "error_total_pts": 15.235653891465152,
+   "error_polo_pts": -38.089134728662884,
+   "error_edad_pts": 36.36149412456911,
+   "correlacion_edad": 0.7061398761107077,
+   "error_sexo_pts": 38.061167013824,
+   "polo_edad_sim": {
+    "18-24": 72.7,
+    "25-34": 54.0,
+    "35-44": 80.6,
+    "45-54": 41.4,
+    "55-64": 63.0,
+    "65-74": 39.2,
+    "75+": 22.6
+   },
+   "polo_edad_real": {
+    "18-24": 92.3,
+    "25-34": 91.9,
+    "35-44": 90.5,
+    "45-54": 91.9,
+    "55-64": 93.3,
+    "65-74": 88.8,
+    "75+": 79.4
+   }
+  },
+  "actitudes_relevantes": {
+   "simulado": {
+    "Mucho": 43.1,
+    "Bastante": 14.1,
+    "Regular": 15.6,
+    "Poco": 20.4,
+    "Nada": 6.9
+   },
+   "real": {
+    "Mucho": 55.2,
+    "Bastante": 34.8,
+    "Regular": 6.0,
+    "Poco": 2.5,
+    "Nada": 1.6
+   },
+   "error_total_pts": 13.122005276954065,
+   "error_polo_pts": -32.80501319238516,
+   "error_edad_pts": 32.694589304231336,
+   "correlacion_edad": 0.838092344582699,
+   "error_sexo_pts": 32.72968937482278,
+   "polo_edad_sim": {
+    "18-24": 59.9,
+    "25-34": 68.5,
+    "35-44": 77.6,
+    "45-54": 69.6,
+    "55-64": 69.6,
+    "65-74": 33.0,
+    "75+": 21.0
+   },
+   "polo_edad_real": {
+    "18-24": 92.3,
+    "25-34": 91.9,
+    "35-44": 90.5,
+    "45-54": 91.9,
+    "55-64": 93.3,
+    "65-74": 88.8,
+    "75+": 79.4
+   }
+  }
+ },
+ "robots_empleo": {
+  "solo_demografia": {
+   "simulado": {
+    "Aumentará el paro": 18.5,
+    "Creará empleo": 20.8,
+    "Seguirá igual": 26.3,
+    "Destruirá y creará": 9.4,
+    "Cambiará el tipo de trabajo": 14.4,
+    "Duda/otras": 10.7
+   },
+   "real": {
+    "Aumentará el paro": 55.7,
+    "Creará empleo": 12.1,
+    "Seguirá igual": 26.0,
+    "Destruirá y creará": 4.6,
+    "Cambiará el tipo de trabajo": 0.6,
+    "Duda/otras": 1.0
+   },
+   "error_total_pts": 12.401373459509209,
+   "error_polo_pts": -37.20412037852762,
+   "error_edad_pts": 37.54416786320411,
+   "correlacion_edad": -0.5317867857005788,
+   "error_sexo_pts": 37.132856506949096,
+   "polo_edad_sim": {
+    "18-24": 14.4,
+    "25-34": 16.1,
+    "35-44": 22.1,
+    "45-54": 18.1,
+    "55-64": 19.6,
+    "65-74": 16.8,
+    "75+": 20.1
+   },
+   "polo_edad_real": {
+    "18-24": 58.8,
+    "25-34": 54.3,
+    "35-44": 54.9,
+    "45-54": 57.1,
+    "55-64": 56.7,
+    "65-74": 56.1,
+    "75+": 52.1
+   }
+  },
+  "demografia_y_actitudes": {
+   "simulado": {
+    "Aumentará el paro": 42.1,
+    "Creará empleo": 30.0,
+    "Seguirá igual": 13.8,
+    "Destruirá y creará": 2.2,
+    "Cambiará el tipo de trabajo": 10.1,
+    "Duda/otras": 1.8
+   },
+   "real": {
+    "Aumentará el paro": 55.7,
+    "Creará empleo": 12.1,
+    "Seguirá igual": 26.0,
+    "Destruirá y creará": 4.6,
+    "Cambiará el tipo de trabajo": 0.6,
+    "Duda/otras": 1.0
+   },
+   "error_total_pts": 9.374929062766329,
+   "error_polo_pts": -13.550682328360779,
+   "error_edad_pts": 13.110366817841347,
+   "correlacion_edad": 0.32276112322109785,
+   "error_sexo_pts": 16.784587068914263,
+   "polo_edad_sim": {
+    "18-24": 42.2,
+    "25-34": 49.5,
+    "35-44": 20.7,
+    "45-54": 41.2,
+    "55-64": 55.7,
+    "65-74": 54.3,
+    "75+": 34.6
+   },
+   "polo_edad_real": {
+    "18-24": 58.8,
+    "25-34": 54.3,
+    "35-44": 54.9,
+    "45-54": 57.1,
+    "55-64": 56.7,
+    "65-74": 56.1,
+    "75+": 52.1
+   }
+  },
+  "actitudes_relevantes": {
+   "simulado": {
+    "Aumentará el paro": 41.8,
+    "Creará empleo": 21.3,
+    "Seguirá igual": 18.8,
+    "Destruirá y creará": 4.6,
+    "Cambiará el tipo de trabajo": 11.2,
+    "Duda/otras": 2.3
+   },
+   "real": {
+    "Aumentará el paro": 55.7,
+    "Creará empleo": 12.1,
+    "Seguirá igual": 26.0,
+    "Destruirá y creará": 4.6,
+    "Cambiará el tipo de trabajo": 0.6,
+    "Duda/otras": 1.0
+   },
+   "error_total_pts": 7.045108303471515,
+   "error_polo_pts": -13.925642589680287,
+   "error_edad_pts": 14.390656272827254,
+   "correlacion_edad": -0.6489414743115106,
+   "error_sexo_pts": 15.019877296500344,
+   "polo_edad_sim": {
+    "18-24": 31.5,
+    "25-34": 44.5,
+    "35-44": 33.4,
+    "45-54": 39.8,
+    "55-64": 41.7,
+    "65-74": 48.0,
+    "75+": 50.3
+   },
+   "polo_edad_real": {
+    "18-24": 58.8,
+    "25-34": 54.3,
+    "35-44": 54.9,
+    "45-54": 57.1,
+    "55-64": 56.7,
+    "65-74": 56.1,
+    "75+": 52.1
+   }
+  }
+ },
+ "tecnologia_control_miedo": {
+  "solo_demografia": {
+   "simulado": {
+    "Mucho miedo": 6.5,
+    "Bastante miedo": 7.8,
+    "Algo de miedo": 23.5,
+    "Poco miedo": 35.7,
+    "Ningún miedo": 26.4
+   },
+   "real": {
+    "Mucho miedo": 10.0,
+    "Bastante miedo": 23.4,
+    "Algo de miedo": 27.6,
+    "Poco miedo": 21.0,
+    "Ningún miedo": 18.0
+   },
+   "error_total_pts": 9.267659823411318,
+   "error_polo_pts": -19.035583176383035,
+   "error_edad_pts": 19.371820009674202,
+   "correlacion_edad": 0.15861684752295027,
+   "error_sexo_pts": 18.973789133800253,
+   "polo_edad_sim": {
+    "18-24": 12.4,
+    "25-34": 13.5,
+    "35-44": 14.8,
+    "45-54": 13.0,
+    "55-64": 13.7,
+    "65-74": 14.8,
+    "75+": 17.2
+   },
+   "polo_edad_real": {
+    "18-24": 33.3,
+    "25-34": 30.4,
+    "35-44": 33.4,
+    "45-54": 28.6,
+    "55-64": 37.8,
+    "65-74": 39.4,
+    "75+": 32.2
+   }
+  },
+  "demografia_y_actitudes": {
+   "simulado": {
+    "Mucho miedo": 31.2,
+    "Bastante miedo": 1.2,
+    "Algo de miedo": 8.2,
+    "Poco miedo": 34.0,
+    "Ningún miedo": 25.4
+   },
+   "real": {
+    "Mucho miedo": 10.0,
+    "Bastante miedo": 23.4,
+    "Algo de miedo": 27.6,
+    "Poco miedo": 21.0,
+    "Ningún miedo": 18.0
+   },
+   "error_total_pts": 16.654250589284086,
+   "error_polo_pts": -0.9703804734274257,
+   "error_edad_pts": 12.397251219265684,
+   "correlacion_edad": 0.2792647679444782,
+   "error_sexo_pts": 20.393032745486643,
+   "polo_edad_sim": {
+    "18-24": 9.5,
+    "25-34": 1.1,
+    "35-44": 34.2,
+    "45-54": 50.3,
+    "55-64": 36.6,
+    "65-74": 47.5,
+    "75+": 34.0
+   },
+   "polo_edad_real": {
+    "18-24": 33.3,
+    "25-34": 30.4,
+    "35-44": 33.4,
+    "45-54": 28.6,
+    "55-64": 37.8,
+    "65-74": 39.4,
+    "75+": 32.2
+   }
+  },
+  "actitudes_relevantes": {
+   "simulado": {
+    "Mucho miedo": 25.3,
+    "Bastante miedo": 4.3,
+    "Algo de miedo": 13.1,
+    "Poco miedo": 35.9,
+    "Ningún miedo": 21.4
+   },
+   "real": {
+    "Mucho miedo": 10.0,
+    "Bastante miedo": 23.4,
+    "Algo de miedo": 27.6,
+    "Poco miedo": 21.0,
+    "Ningún miedo": 18.0
+   },
+   "error_total_pts": 13.433929756485615,
+   "error_polo_pts": -3.7941728827788914,
+   "error_edad_pts": 13.320249442226084,
+   "correlacion_edad": 0.31147322465011656,
+   "error_sexo_pts": 15.2354612872559,
+   "polo_edad_sim": {
+    "18-24": 2.6,
+    "25-34": 2.6,
+    "35-44": 35.3,
+    "45-54": 41.5,
+    "55-64": 29.1,
+    "65-74": 47.9,
+    "75+": 34.7
+   },
+   "polo_edad_real": {
+    "18-24": 33.3,
+    "25-34": 30.4,
+    "35-44": 33.4,
+    "45-54": 28.6,
+    "55-64": 37.8,
+    "65-74": 39.4,
+    "75+": 32.2
+   }
+  }
+ },
+ "ia_consulta_medica": {
+  "solo_demografia": {
+   "simulado": {
+    "bajo": 41.5,
+    "medio": 39.0,
+    "alto": 19.5
+   },
+   "real": {
+    "bajo": 64.8,
+    "medio": 21.1,
+    "alto": 14.1
+   },
+   "error_total_pts": 15.50724009263252,
+   "error_polo_pts": 5.326492527157249,
+   "error_edad_pts": 6.113484381214377,
+   "correlacion_edad": -0.16332462335657424,
+   "error_sexo_pts": 5.263021352030086,
+   "polo_edad_sim": {
+    "18-24": 22.2,
+    "25-34": 21.1,
+    "35-44": 20.8,
+    "45-54": 20.7,
+    "55-64": 19.4,
+    "65-74": 17.9,
+    "75+": 15.3
+   },
+   "polo_edad_real": {
+    "18-24": 16.9,
+    "25-34": 17.3,
+    "35-44": 15.7,
+    "45-54": 10.4,
+    "55-64": 11.2,
+    "65-74": 11.7,
+    "75+": 19.3
+   }
+  },
+  "demografia_y_actitudes": {
+   "simulado": {
+    "bajo": 61.5,
+    "medio": 12.6,
+    "alto": 25.9
+   },
+   "real": {
+    "bajo": 64.8,
+    "medio": 21.1,
+    "alto": 14.1
+   },
+   "error_total_pts": 7.848096938511439,
+   "error_polo_pts": 11.772145407767166,
+   "error_edad_pts": 14.7281257154629,
+   "correlacion_edad": 0.37896089056164667,
+   "error_sexo_pts": 13.339208009870994,
+   "polo_edad_sim": {
+    "18-24": 53.9,
+    "25-34": 34.6,
+    "35-44": 35.8,
+    "45-54": 21.2,
+    "55-64": 14.6,
+    "65-74": 20.8,
+    "75+": 14.1
+   },
+   "polo_edad_real": {
+    "18-24": 16.9,
+    "25-34": 17.3,
+    "35-44": 15.7,
+    "45-54": 10.4,
+    "55-64": 11.2,
+    "65-74": 11.7,
+    "75+": 19.3
+   }
+  },
+  "actitudes_relevantes": {
+   "simulado": {
+    "bajo": 37.5,
+    "medio": 27.3,
+    "alto": 35.2
+   },
+   "real": {
+    "bajo": 64.8,
+    "medio": 21.1,
+    "alto": 14.1
+   },
+   "error_total_pts": 18.201911716778763,
+   "error_polo_pts": 21.07621855262515,
+   "error_edad_pts": 23.030651207176295,
+   "correlacion_edad": 0.7208617578514296,
+   "error_sexo_pts": 21.50120684075141,
+   "polo_edad_sim": {
+    "18-24": 70.2,
+    "25-34": 44.5,
+    "35-44": 40.5,
+    "45-54": 18.0,
+    "55-64": 21.4,
+    "65-74": 29.8,
+    "75+": 39.3
+   },
+   "polo_edad_real": {
+    "18-24": 16.9,
+    "25-34": 17.3,
+    "35-44": 15.7,
+    "45-54": 10.4,
+    "55-64": 11.2,
+    "65-74": 11.7,
+    "75+": 19.3
+   }
+  }
+ },
+ "ia_radiografias": {
+  "solo_demografia": {
+   "simulado": {
+    "bajo": 50.2,
+    "medio": 28.4,
+    "alto": 21.4
+   },
+   "real": {
+    "bajo": 40.6,
+    "medio": 28.8,
+    "alto": 30.6
+   },
+   "error_total_pts": 6.371942860849561,
+   "error_polo_pts": -9.164857054621883,
+   "error_edad_pts": 10.00265529038216,
+   "correlacion_edad": -0.176230813219449,
+   "error_sexo_pts": 9.316401828045146,
+   "polo_edad_sim": {
+    "18-24": 21.8,
+    "25-34": 21.0,
+    "35-44": 21.5,
+    "45-54": 22.2,
+    "55-64": 21.6,
+    "65-74": 21.0,
+    "75+": 20.6
+   },
+   "polo_edad_real": {
+    "18-24": 39.6,
+    "25-34": 35.7,
+    "35-44": 33.0,
+    "45-54": 26.1,
+    "55-64": 25.3,
+    "65-74": 28.2,
+    "75+": 32.0
+   }
+  },
+  "demografia_y_actitudes": {
+   "simulado": {
+    "bajo": 62.6,
+    "medio": 3.9,
+    "alto": 33.5
+   },
+   "real": {
+    "bajo": 40.6,
+    "medio": 28.8,
+    "alto": 30.6
+   },
+   "error_total_pts": 16.599872158693916,
+   "error_polo_pts": 2.9541270673351434,
+   "error_edad_pts": 8.942713661115645,
+   "correlacion_edad": 0.6633238797816653,
+   "error_sexo_pts": 8.500426359892426,
+   "polo_edad_sim": {
+    "18-24": 45.5,
+    "25-34": 29.8,
+    "35-44": 47.1,
+    "45-54": 13.4,
+    "55-64": 24.2,
+    "65-74": 26.5,
+    "75+": 53.2
+   },
+   "polo_edad_real": {
+    "18-24": 39.6,
+    "25-34": 35.7,
+    "35-44": 33.0,
+    "45-54": 26.1,
+    "55-64": 25.3,
+    "65-74": 28.2,
+    "75+": 32.0
+   }
+  },
+  "actitudes_relevantes": {
+   "simulado": {
+    "bajo": 42.7,
+    "medio": 21.3,
+    "alto": 36.0
+   },
+   "real": {
+    "bajo": 40.6,
+    "medio": 28.8,
+    "alto": 30.6
+   },
+   "error_total_pts": 5.000757276152744,
+   "error_polo_pts": 5.40098201521797,
+   "error_edad_pts": 18.61981598102094,
+   "correlacion_edad": 0.8088682488815996,
+   "error_sexo_pts": 9.333552222580822,
+   "polo_edad_sim": {
+    "18-24": 60.0,
+    "25-34": 50.3,
+    "35-44": 42.0,
+    "45-54": 8.4,
+    "55-64": 7.5,
+    "65-74": 19.9,
+    "75+": 74.4
+   },
+   "polo_edad_real": {
+    "18-24": 39.6,
+    "25-34": 35.7,
+    "35-44": 33.0,
+    "45-54": 26.1,
+    "55-64": 25.3,
+    "65-74": 28.2,
+    "75+": 32.0
+   }
+  }
+ },
+ "ia_datos_clinicos": {
+  "solo_demografia": {
+   "simulado": {
+    "Muy preocupado": 7.9,
+    "Bastante": 9.4,
+    "Regular": 24.0,
+    "Poco": 33.8,
+    "Nada": 24.8
+   },
+   "real": {
+    "Muy preocupado": 26.2,
+    "Bastante": 22.9,
+    "Regular": 0.6,
+    "Poco": 28.4,
+    "Nada": 22.0
+   },
+   "error_total_pts": 12.725639960059334,
+   "error_polo_pts": -31.81409990014833,
+   "error_edad_pts": 30.035575559261247,
+   "correlacion_edad": 0.2281943817847169,
+   "error_sexo_pts": 31.735790063567553,
+   "polo_edad_sim": {
+    "18-24": 13.4,
+    "25-34": 19.5,
+    "35-44": 29.5,
+    "45-54": 17.1,
+    "55-64": 13.7,
+    "65-74": 15.3,
+    "75+": 11.6
+   },
+   "polo_edad_real": {
+    "18-24": 31.0,
+    "25-34": 40.0,
+    "35-44": 51.3,
+    "45-54": 57.7,
+    "55-64": 54.7,
+    "65-74": 52.3,
+    "75+": 43.6
+   }
+  },
+  "demografia_y_actitudes": {
+   "simulado": {
+    "Muy preocupado": 20.8,
+    "Bastante": 2.3,
+    "Regular": 8.9,
+    "Poco": 50.1,
+    "Nada": 17.9
+   },
+   "real": {
+    "Muy preocupado": 26.2,
+    "Bastante": 22.9,
+    "Regular": 0.6,
+    "Poco": 28.4,
+    "Nada": 22.0
+   },
+   "error_total_pts": 12.0280693732293,
+   "error_polo_pts": -25.967742876794862,
+   "error_edad_pts": 23.650513098027012,
+   "correlacion_edad": 0.42919837156760104,
+   "error_sexo_pts": 26.327554334366543,
+   "polo_edad_sim": {
+    "18-24": 20.7,
+    "25-34": 14.2,
+    "35-44": 20.7,
+    "45-54": 22.9,
+    "55-64": 26.8,
+    "65-74": 47.1,
+    "75+": 12.6
+   },
+   "polo_edad_real": {
+    "18-24": 31.0,
+    "25-34": 40.0,
+    "35-44": 51.3,
+    "45-54": 57.7,
+    "55-64": 54.7,
+    "65-74": 52.3,
+    "75+": 43.6
+   }
+  },
+  "actitudes_relevantes": {
+   "simulado": {
+    "Muy preocupado": 17.9,
+    "Bastante": 9.9,
+    "Regular": 18.7,
+    "Poco": 35.1,
+    "Nada": 18.4
+   },
+   "real": {
+    "Muy preocupado": 26.2,
+    "Bastante": 22.9,
+    "Regular": 0.6,
+    "Poco": 28.4,
+    "Nada": 22.0
+   },
+   "error_total_pts": 9.93474946624043,
+   "error_polo_pts": -21.30811723797123,
+   "error_edad_pts": 19.56378287078175,
+   "correlacion_edad": 0.6743219754344015,
+   "error_sexo_pts": 21.567556179389666,
+   "polo_edad_sim": {
+    "18-24": 20.0,
+    "25-34": 20.6,
+    "35-44": 32.9,
+    "45-54": 24.8,
+    "55-64": 35.9,
+    "65-74": 39.3,
+    "75+": 19.9
+   },
+   "polo_edad_real": {
+    "18-24": 31.0,
+    "25-34": 40.0,
+    "35-44": 51.3,
+    "45-54": 57.7,
+    "55-64": 54.7,
+    "65-74": 52.3,
+    "75+": 43.6
+   }
+  }
+ },
+ "banca_online_habilidad": {
+  "solo_demografia": {
+   "simulado": {
+    "Mucha": 12.2,
+    "Bastante": 23.8,
+    "Poca": 36.3,
+    "Nula": 27.7
+   },
+   "real": {
+    "Mucha": 25.9,
+    "Bastante": 42.4,
+    "Poca": 20.0,
+    "Nula": 11.7
+   },
+   "error_total_pts": 16.159293674808232,
+   "error_polo_pts": -32.318587349616465,
+   "error_edad_pts": 31.556687062105826,
+   "correlacion_edad": 0.9933630327611525,
+   "error_sexo_pts": 32.1760631533985,
+   "polo_edad_sim": {
+    "18-24": 45.5,
+    "25-34": 51.1,
+    "35-44": 50.4,
+    "45-54": 43.7,
+    "55-64": 33.5,
+    "65-74": 22.1,
+    "75+": 10.2
+   },
+   "polo_edad_real": {
+    "18-24": 76.0,
+    "25-34": 92.0,
+    "35-44": 87.6,
+    "45-54": 78.6,
+    "55-64": 64.0,
+    "65-74": 49.7,
+    "75+": 29.6
+   }
+  },
+  "demografia_y_actitudes": {
+   "simulado": {
+    "Mucha": 22.4,
+    "Bastante": 26.0,
+    "Poca": 34.0,
+    "Nula": 17.5
+   },
+   "real": {
+    "Mucha": 25.9,
+    "Bastante": 42.4,
+    "Poca": 20.0,
+    "Nula": 11.7
+   },
+   "error_total_pts": 9.935367739620073,
+   "error_polo_pts": -19.870735479240153,
+   "error_edad_pts": 18.58107219164765,
+   "correlacion_edad": 0.8808357135773358,
+   "error_sexo_pts": 19.414918177031023,
+   "polo_edad_sim": {
+    "18-24": 70.3,
+    "25-34": 63.7,
+    "35-44": 76.0,
+    "45-54": 52.7,
+    "55-64": 37.3,
+    "65-74": 22.5,
+    "75+": 24.8
+   },
+   "polo_edad_real": {
+    "18-24": 76.0,
+    "25-34": 92.0,
+    "35-44": 87.6,
+    "45-54": 78.6,
+    "55-64": 64.0,
+    "65-74": 49.7,
+    "75+": 29.6
+   }
+  },
+  "actitudes_relevantes": {
+   "simulado": {
+    "Mucha": 22.4,
+    "Bastante": 20.9,
+    "Poca": 34.5,
+    "Nula": 22.2
+   },
+   "real": {
+    "Mucha": 25.9,
+    "Bastante": 42.4,
+    "Poca": 20.0,
+    "Nula": 11.7
+   },
+   "error_total_pts": 12.512767784146433,
+   "error_polo_pts": -25.025535568292867,
+   "error_edad_pts": 23.52115494333994,
+   "correlacion_edad": 0.86917785098629,
+   "error_sexo_pts": 24.57166635509138,
+   "polo_edad_sim": {
+    "18-24": 70.6,
+    "25-34": 63.2,
+    "35-44": 62.8,
+    "45-54": 52.4,
+    "55-64": 29.4,
+    "65-74": 14.8,
+    "75+": 19.7
+   },
+   "polo_edad_real": {
+    "18-24": 76.0,
+    "25-34": 92.0,
+    "35-44": 87.6,
+    "45-54": 78.6,
+    "55-64": 64.0,
+    "65-74": 49.7,
+    "75+": 29.6
+   }
+  }
+ },
+ "soledad_temor": {
+  "solo_demografia": {
+   "simulado": {
+    "bajo": 39.6,
+    "medio": 38.9,
+    "alto": 21.5
+   },
+   "real": {
+    "bajo": 43.3,
+    "medio": 26.8,
+    "alto": 29.9
+   },
+   "error_total_pts": 8.070759971230599,
+   "error_polo_pts": -8.406519059132666,
+   "error_edad_pts": 9.494775535451955,
+   "correlacion_edad": 0.05598476856676231,
+   "error_sexo_pts": 8.261453118276235,
+   "polo_edad_sim": {
+    "18-24": 19.7,
+    "25-34": 20.2,
+    "35-44": 21.7,
+    "45-54": 21.4,
+    "55-64": 23.8,
+    "65-74": 21.2,
+    "75+": 21.4
+   },
+   "polo_edad_real": {
+    "18-24": 33.4,
+    "25-34": 26.3,
+    "35-44": 26.3,
+    "45-54": 22.9,
+    "55-64": 32.0,
+    "65-74": 34.0,
+    "75+": 40.9
+   }
+  },
+  "demografia_y_actitudes": {
+   "simulado": {
+    "bajo": 36.6,
+    "medio": 22.4,
+    "alto": 41.0
+   },
+   "real": {
+    "bajo": 43.3,
+    "medio": 26.8,
+    "alto": 29.9
+   },
+   "error_total_pts": 7.379934639046357,
+   "error_polo_pts": 11.069901958569535,
+   "error_edad_pts": 14.413286272618715,
+   "correlacion_edad": -0.5371164629997629,
+   "error_sexo_pts": 11.112583993670789,
+   "polo_edad_sim": {
+    "18-24": 27.1,
+    "25-34": 30.7,
+    "35-44": 55.5,
+    "45-54": 48.3,
+    "55-64": 45.7,
+    "65-74": 44.2,
+    "75+": 28.9
+   },
+   "polo_edad_real": {
+    "18-24": 33.4,
+    "25-34": 26.3,
+    "35-44": 26.3,
+    "45-54": 22.9,
+    "55-64": 32.0,
+    "65-74": 34.0,
+    "75+": 40.9
+   }
+  },
+  "actitudes_relevantes": {
+   "simulado": {
+    "bajo": 33.2,
+    "medio": 27.3,
+    "alto": 39.5
+   },
+   "real": {
+    "bajo": 43.3,
+    "medio": 26.8,
+    "alto": 29.9
+   },
+   "error_total_pts": 6.746730458191197,
+   "error_polo_pts": 9.65598635983427,
+   "error_edad_pts": 8.490382347388092,
+   "correlacion_edad": -0.07364655615956708,
+   "error_sexo_pts": 11.153038037417465,
+   "polo_edad_sim": {
+    "18-24": 36.7,
+    "25-34": 33.7,
+    "35-44": 46.2,
+    "45-54": 42.2,
+    "55-64": 32.6,
+    "65-74": 42.6,
+    "75+": 41.2
+   },
+   "polo_edad_real": {
+    "18-24": 33.4,
+    "25-34": 26.3,
+    "35-44": 26.3,
+    "45-54": 22.9,
+    "55-64": 32.0,
+    "65-74": 34.0,
+    "75+": 40.9
+   }
+  }
+ },
+ "soledad_sin_apoyo": {
+  "solo_demografia": {
+   "simulado": {
+    "Mucho temor": 12.6,
+    "Bastante temor": 13.5,
+    "Poco temor": 38.5,
+    "Ningún temor": 35.4
+   },
+   "real": {
+    "Mucho temor": 10.7,
+    "Bastante temor": 21.5,
+    "Poco temor": 41.9,
+    "Ningún temor": 25.9
+   },
+   "error_total_pts": 5.71441196375162,
+   "error_polo_pts": -6.077574833895312,
+   "error_edad_pts": 7.552520394838048,
+   "correlacion_edad": 0.4850129562239018,
+   "error_sexo_pts": 5.998668858625086,
+   "polo_edad_sim": {
+    "18-24": 21.6,
+    "25-34": 22.7,
+    "35-44": 23.5,
+    "45-54": 22.5,
+    "55-64": 24.0,
+    "65-74": 28.7,
+    "75+": 37.6
+   },
+   "polo_edad_real": {
+    "18-24": 40.1,
+    "25-34": 31.6,
+    "35-44": 29.4,
+    "45-54": 25.4,
+    "55-64": 31.3,
+    "65-74": 37.0,
+    "75+": 38.7
+   }
+  },
+  "demografia_y_actitudes": {
+   "simulado": {
+    "Mucho temor": 41.0,
+    "Bastante temor": 1.5,
+    "Poco temor": 23.4,
+    "Ningún temor": 34.1
+   },
+   "real": {
+    "Mucho temor": 10.7,
+    "Bastante temor": 21.5,
+    "Poco temor": 41.9,
+    "Ningún temor": 25.9
+   },
+   "error_total_pts": 19.270869381769376,
+   "error_polo_pts": 10.279438209411317,
+   "error_edad_pts": 11.625202282071655,
+   "correlacion_edad": -0.05584437642711635,
+   "error_sexo_pts": 23.10643149769411,
+   "polo_edad_sim": {
+    "18-24": 31.3,
+    "25-34": 27.1,
+    "35-44": 35.5,
+    "45-54": 51.4,
+    "55-64": 43.6,
+    "65-74": 43.5,
+    "75+": 55.9
+   },
+   "polo_edad_real": {
+    "18-24": 40.1,
+    "25-34": 31.6,
+    "35-44": 29.4,
+    "45-54": 25.4,
+    "55-64": 31.3,
+    "65-74": 37.0,
+    "75+": 38.7
+   }
+  },
+  "actitudes_relevantes": {
+   "simulado": {
+    "Mucho temor": 28.3,
+    "Bastante temor": 6.2,
+    "Poco temor": 39.2,
+    "Ningún temor": 26.3
+   },
+   "real": {
+    "Mucho temor": 10.7,
+    "Bastante temor": 21.5,
+    "Poco temor": 41.9,
+    "Ningún temor": 25.9
+   },
+   "error_total_pts": 9.040887973580547,
+   "error_polo_pts": 2.287642860613744,
+   "error_edad_pts": 9.807690522486736,
+   "correlacion_edad": 0.8792224388330261,
+   "error_sexo_pts": 18.91424087083741,
+   "polo_edad_sim": {
+    "18-24": 44.2,
+    "25-34": 25.3,
+    "35-44": 22.2,
+    "45-54": 13.2,
+    "55-64": 28.9,
+    "65-74": 43.5,
+    "75+": 68.8
+   },
+   "polo_edad_real": {
+    "18-24": 40.1,
+    "25-34": 31.6,
+    "35-44": 29.4,
+    "45-54": 25.4,
+    "55-64": 31.3,
+    "65-74": 37.0,
+    "75+": 38.7
+   }
+  }
+ },
+ "soledad_futuro": {
+  "solo_demografia": {
+   "simulado": {
+    "Más que ahora": 43.3,
+    "Menos que ahora": 28.7,
+    "Igual que ahora": 28.0
+   },
+   "real": {
+    "Más que ahora": 79.7,
+    "Menos que ahora": 6.1,
+    "Igual que ahora": 14.2
+   },
+   "error_total_pts": 24.239364457454638,
+   "error_polo_pts": -36.359046686181955,
+   "error_edad_pts": 35.737173354647574,
+   "correlacion_edad": -0.044391931148630825,
+   "error_sexo_pts": 36.320936974973165,
+   "polo_edad_sim": {
+    "18-24": 40.7,
+    "25-34": 42.1,
+    "35-44": 45.7,
+    "45-54": 42.7,
+    "55-64": 43.0,
+    "65-74": 43.8,
+    "75+": 44.4
+   },
+   "polo_edad_real": {
+    "18-24": 76.8,
+    "25-34": 83.0,
+    "35-44": 86.4,
+    "45-54": 85.0,
+    "55-64": 80.5,
+    "65-74": 78.2,
+    "75+": 62.6
+   }
+  },
+  "demografia_y_actitudes": {
+   "simulado": {
+    "Más que ahora": 50.9,
+    "Menos que ahora": 27.2,
+    "Igual que ahora": 21.8
+   },
+   "real": {
+    "Más que ahora": 79.7,
+    "Menos que ahora": 6.1,
+    "Igual que ahora": 14.2
+   },
+   "error_total_pts": 19.19657355676674,
+   "error_polo_pts": -28.79486033515012,
+   "error_edad_pts": 29.648758951448023,
+   "correlacion_edad": -0.7325668983745574,
+   "error_sexo_pts": 29.44461509629624,
+   "polo_edad_sim": {
+    "18-24": 49.6,
+    "25-34": 59.8,
+    "35-44": 29.6,
+    "45-54": 47.7,
+    "55-64": 43.9,
+    "65-74": 58.1,
+    "75+": 68.7
+   },
+   "polo_edad_real": {
+    "18-24": 76.8,
+    "25-34": 83.0,
+    "35-44": 86.4,
+    "45-54": 85.0,
+    "55-64": 80.5,
+    "65-74": 78.2,
+    "75+": 62.6
+   }
+  },
+  "actitudes_relevantes": {
+   "simulado": {
+    "Más que ahora": 33.1,
+    "Menos que ahora": 37.9,
+    "Igual que ahora": 29.0
+   },
+   "real": {
+    "Más que ahora": 79.7,
+    "Menos que ahora": 6.1,
+    "Igual que ahora": 14.2
+   },
+   "error_total_pts": 31.09100838479525,
+   "error_polo_pts": -46.636512577192875,
+   "error_edad_pts": 45.09811938697346,
+   "correlacion_edad": -0.9494214476862914,
+   "error_sexo_pts": 47.197620067312,
+   "polo_edad_sim": {
+    "18-24": 43.8,
+    "25-34": 27.1,
+    "35-44": 17.5,
+    "45-54": 16.8,
+    "55-64": 28.0,
+    "65-74": 42.8,
+    "75+": 60.9
+   },
+   "polo_edad_real": {
+    "18-24": 76.8,
+    "25-34": 83.0,
+    "35-44": 86.4,
+    "45-54": 85.0,
+    "55-64": 80.5,
+    "65-74": 78.2,
+    "75+": 62.6
+   }
+  }
+ },
+ "vivienda_temor_pago": {
+  "solo_demografia": {
+   "simulado": {
+    "bajo": 40.4,
+    "medio": 37.9,
+    "alto": 21.7
+   },
+   "real": {
+    "bajo": 22.9,
+    "medio": 14.3,
+    "alto": 62.8
+   },
+   "error_total_pts": 27.390068254063674,
+   "error_polo_pts": -41.08510238109551,
+   "error_edad_pts": 41.6275815041321,
+   "correlacion_edad": 0.0677645833727618,
+   "error_sexo_pts": 40.801573525488934,
+   "polo_edad_sim": {
+    "18-24": 19.4,
+    "25-34": 22.2,
+    "35-44": 24.2,
+    "45-54": 23.8,
+    "55-64": 23.8,
+    "65-74": 19.8,
+    "75+": 17.5
+   },
+   "polo_edad_real": {
+    "18-24": 78.5,
+    "25-34": 69.9,
+    "35-44": 66.9,
+    "45-54": 59.9,
+    "55-64": 59.0,
+    "65-74": 51.3,
+    "75+": 56.8
+   }
+  },
+  "demografia_y_actitudes": {
+   "simulado": {
+    "bajo": 33.6,
+    "medio": 31.1,
+    "alto": 35.4
+   },
+   "real": {
+    "bajo": 22.9,
+    "medio": 14.3,
+    "alto": 62.8
+   },
+   "error_total_pts": 18.30388070022488,
+   "error_polo_pts": -27.455821050337327,
+   "error_edad_pts": 27.60156596985134,
+   "correlacion_edad": 0.48266186495198826,
+   "error_sexo_pts": 27.5245200071064,
+   "polo_edad_sim": {
+    "18-24": 38.0,
+    "25-34": 41.1,
+    "35-44": 33.8,
+    "45-54": 34.9,
+    "55-64": 42.7,
+    "65-74": 31.2,
+    "75+": 27.3
+   },
+   "polo_edad_real": {
+    "18-24": 78.5,
+    "25-34": 69.9,
+    "35-44": 66.9,
+    "45-54": 59.9,
+    "55-64": 59.0,
+    "65-74": 51.3,
+    "75+": 56.8
+   }
+  },
+  "actitudes_relevantes": {
+   "simulado": {
+    "bajo": 31.2,
+    "medio": 36.3,
+    "alto": 32.5
+   },
+   "real": {
+    "bajo": 22.9,
+    "medio": 14.3,
+    "alto": 62.8
+   },
+   "error_total_pts": 20.226180562183842,
+   "error_polo_pts": -30.339270843275763,
+   "error_edad_pts": 30.73026745742568,
+   "correlacion_edad": 0.6254547776129851,
+   "error_sexo_pts": 30.31613560191163,
+   "polo_edad_sim": {
+    "18-24": 32.6,
+    "25-34": 36.7,
+    "35-44": 33.9,
+    "45-54": 32.9,
+    "55-64": 34.1,
+    "65-74": 27.4,
+    "75+": 29.4
+   },
+   "polo_edad_real": {
+    "18-24": 78.5,
+    "25-34": 69.9,
+    "35-44": 66.9,
+    "45-54": 59.9,
+    "55-64": 59.0,
+    "65-74": 51.3,
+    "75+": 56.8
+   }
+  }
+ },
+ "vivienda_precio_futuro": {
+  "solo_demografia": {
+   "simulado": {
+    "Subirá": 54.5,
+    "Se mantendrá": 30.0,
+    "Bajará": 15.5
+   },
+   "real": {
+    "Subirá": 76.5,
+    "Se mantendrá": 18.6,
+    "Bajará": 5.0
+   },
+   "error_total_pts": 14.643275598356501,
+   "error_polo_pts": -21.964913397534744,
+   "error_edad_pts": 21.93196091703555,
+   "correlacion_edad": NaN,
+   "error_sexo_pts": 21.959527043711557,
+   "polo_edad_sim": {
+    "18-24": 58.3,
+    "25-34": 59.3,
+    "35-44": 60.3,
+    "45-54": 58.9,
+    "55-64": 55.6,
+    "65-74": 48.8,
+    "75+": 41.8,
+    "NC": NaN
+   },
+   "polo_edad_real": {
+    "18-24": 86.9,
+    "25-34": 81.9,
+    "35-44": 76.2,
+    "45-54": 71.7,
+    "55-64": 75.1,
+    "65-74": 78.0,
+    "75+": 66.7,
+    "NC": 80.4
+   }
+  },
+  "demografia_y_actitudes": {
+   "simulado": {
+    "Subirá": 54.0,
+    "Se mantendrá": 27.6,
+    "Bajará": 18.4
+   },
+   "real": {
+    "Subirá": 76.5,
+    "Se mantendrá": 18.6,
+    "Bajará": 5.0
+   },
+   "error_total_pts": 14.977044817264689,
+   "error_polo_pts": -22.465567225897033,
+   "error_edad_pts": 21.002152216522042,
+   "correlacion_edad": NaN,
+   "error_sexo_pts": 22.926674162028515,
+   "polo_edad_sim": {
+    "18-24": 77.6,
+    "25-34": 80.2,
+    "35-44": 57.7,
+    "45-54": 55.5,
+    "55-64": 62.4,
+    "65-74": 34.3,
+    "75+": 21.8,
+    "NC": NaN
+   },
+   "polo_edad_real": {
+    "18-24": 86.9,
+    "25-34": 81.9,
+    "35-44": 76.2,
+    "45-54": 71.7,
+    "55-64": 75.1,
+    "65-74": 78.0,
+    "75+": 66.7,
+    "NC": 80.4
+   }
+  },
+  "actitudes_relevantes": {
+   "simulado": {
+    "Subirá": 45.9,
+    "Se mantendrá": 25.4,
+    "Bajará": 28.7
+   },
+   "real": {
+    "Subirá": 76.5,
+    "Se mantendrá": 18.6,
+    "Bajará": 5.0
+   },
+   "error_total_pts": 20.382423420151387,
+   "error_polo_pts": -30.573635130227075,
+   "error_edad_pts": 28.814664528469034,
+   "correlacion_edad": NaN,
+   "error_sexo_pts": 30.683598373876805,
+   "polo_edad_sim": {
+    "18-24": 75.0,
+    "25-34": 81.6,
+    "35-44": 54.1,
+    "45-54": 44.8,
+    "55-64": 42.5,
+    "65-74": 16.6,
+    "75+": 20.3,
+    "NC": NaN
+   },
+   "polo_edad_real": {
+    "18-24": 86.9,
+    "25-34": 81.9,
+    "35-44": 76.2,
+    "45-54": 71.7,
+    "55-64": 75.1,
+    "65-74": 78.0,
+    "75+": 66.7,
+    "NC": 80.4
+   }
+  }
+ },
+ "vivienda_comprar": {
+  "solo_demografia": {
+   "simulado": {
+    "Sí": 20.8,
+    "No": 79.2
+   },
+   "real": {
+    "Sí": 11.3,
+    "No": 88.7
+   },
+   "error_total_pts": 9.524110905615842,
+   "error_polo_pts": 9.52411090561584,
+   "error_edad_pts": 10.13400025242739,
+   "correlacion_edad": NaN,
+   "error_sexo_pts": 9.507721764868924,
+   "polo_edad_sim": {
+    "18-24": 24.0,
+    "25-34": 26.2,
+    "35-44": 26.2,
+    "45-54": 22.9,
+    "55-64": 19.4,
+    "65-74": 16.6,
+    "75+": 12.3,
+    "NC": NaN
+   },
+   "polo_edad_real": {
+    "18-24": 7.7,
+    "25-34": 24.9,
+    "35-44": 20.5,
+    "45-54": 11.9,
+    "55-64": 5.9,
+    "65-74": 4.2,
+    "75+": 1.5,
+    "NC": 4.5
+   }
+  },
+  "demografia_y_actitudes": {
+   "simulado": {
+    "Sí": 14.1,
+    "No": 85.9
+   },
+   "real": {
+    "Sí": 11.3,
+    "No": 88.7
+   },
+   "error_total_pts": 2.804699179856912,
+   "error_polo_pts": 2.8046991798569127,
+   "error_edad_pts": 8.002462557365737,
+   "correlacion_edad": NaN,
+   "error_sexo_pts": 5.991424528653263,
+   "polo_edad_sim": {
+    "18-24": 51.3,
+    "25-34": 21.7,
+    "35-44": 20.9,
+    "45-54": 6.8,
+    "55-64": 7.0,
+    "65-74": 6.7,
+    "75+": 1.4,
+    "NC": NaN
+   },
+   "polo_edad_real": {
+    "18-24": 7.7,
+    "25-34": 24.9,
+    "35-44": 20.5,
+    "45-54": 11.9,
+    "55-64": 5.9,
+    "65-74": 4.2,
+    "75+": 1.5,
+    "NC": 4.5
+   }
+  },
+  "actitudes_relevantes": {
+   "simulado": {
+    "Sí": 6.4,
+    "No": 93.6
+   },
+   "real": {
+    "Sí": 11.3,
+    "No": 88.7
+   },
+   "error_total_pts": 4.931093256600384,
+   "error_polo_pts": -4.931093256600378,
+   "error_edad_pts": 5.123547777565849,
+   "correlacion_edad": NaN,
+   "error_sexo_pts": 4.871839659073185,
+   "polo_edad_sim": {
+    "18-24": 9.3,
+    "25-34": 8.2,
+    "35-44": 8.6,
+    "45-54": 7.6,
+    "55-64": 5.4,
+    "65-74": 4.3,
+    "75+": 2.5,
+    "NC": NaN
+   },
+   "polo_edad_real": {
+    "18-24": 7.7,
+    "25-34": 24.9,
+    "35-44": 20.5,
+    "45-54": 11.9,
+    "55-64": 5.9,
+    "65-74": 4.2,
+    "75+": 1.5,
+    "NC": 4.5
+   }
+  }
+ },
+ "salud_temor": {
+  "solo_demografia": {
+   "simulado": {
+    "bajo": 30.4,
+    "medio": 42.1,
+    "alto": 27.5
+   },
+   "real": {
+    "bajo": 8.9,
+    "medio": 13.8,
+    "alto": 77.3
+   },
+   "error_total_pts": 33.20171268319344,
+   "error_polo_pts": -49.802569024790174,
+   "error_edad_pts": 50.097391479103415,
+   "correlacion_edad": 0.7355314162738693,
+   "error_sexo_pts": 49.60065093589406,
+   "polo_edad_sim": {
+    "18-24": 22.8,
+    "25-34": 24.6,
+    "35-44": 25.5,
+    "45-54": 26.5,
+    "55-64": 28.8,
+    "65-74": 30.4,
+    "75+": 31.8
+   },
+   "polo_edad_real": {
+    "18-24": 75.5,
+    "25-34": 74.2,
+    "35-44": 78.0,
+    "45-54": 77.8,
+    "55-64": 75.5,
+    "65-74": 79.1,
+    "75+": 81.1
+   }
+  },
+  "demografia_y_actitudes": {
+   "simulado": {
+    "bajo": 22.8,
+    "medio": 43.0,
+    "alto": 34.2
+   },
+   "real": {
+    "bajo": 8.9,
+    "medio": 13.8,
+    "alto": 77.3
+   },
+   "error_total_pts": 28.719805252378517,
+   "error_polo_pts": -43.079707878567774,
+   "error_edad_pts": 43.55779740247687,
+   "correlacion_edad": 0.5326963646095129,
+   "error_sexo_pts": 43.15394761876041,
+   "polo_edad_sim": {
+    "18-24": 28.1,
+    "25-34": 28.2,
+    "35-44": 28.8,
+    "45-54": 37.7,
+    "55-64": 37.7,
+    "65-74": 39.3,
+    "75+": 36.5
+   },
+   "polo_edad_real": {
+    "18-24": 75.5,
+    "25-34": 74.2,
+    "35-44": 78.0,
+    "45-54": 77.8,
+    "55-64": 75.5,
+    "65-74": 79.1,
+    "75+": 81.1
+   }
+  },
+  "actitudes_relevantes": {
+   "simulado": {
+    "bajo": 26.4,
+    "medio": 46.7,
+    "alto": 26.9
+   },
+   "real": {
+    "bajo": 8.9,
+    "medio": 13.8,
+    "alto": 77.3
+   },
+   "error_total_pts": 33.59581933624141,
+   "error_polo_pts": -50.39372900436212,
+   "error_edad_pts": 50.55791445996211,
+   "correlacion_edad": 0.1765289251499061,
+   "error_sexo_pts": 50.411743821345844,
+   "polo_edad_sim": {
+    "18-24": 24.8,
+    "25-34": 22.8,
+    "35-44": 24.0,
+    "45-54": 26.1,
+    "55-64": 32.9,
+    "65-74": 29.5,
+    "75+": 27.2
+   },
+   "polo_edad_real": {
+    "18-24": 75.5,
+    "25-34": 74.2,
+    "35-44": 78.0,
+    "45-54": 77.8,
+    "55-64": 75.5,
+    "65-74": 79.1,
+    "75+": 81.1
+   }
+  }
+ },
+ "sanidad_satisfaccion": {
+  "solo_demografia": {
+   "simulado": {
+    "bajo": 20.6,
+    "medio": 47.0,
+    "alto": 32.3
+   },
+   "real": {
+    "bajo": 14.8,
+    "medio": 37.5,
+    "alto": 47.7
+   },
+   "error_total_pts": 10.224558929767722,
+   "error_polo_pts": -15.33683839465158,
+   "error_edad_pts": 16.39924236002707,
+   "correlacion_edad": 0.7694254694184364,
+   "error_sexo_pts": 15.350898206525315,
+   "polo_edad_sim": {
+    "18-24": 30.8,
+    "25-34": 29.7,
+    "35-44": 31.8,
+    "45-54": 32.3,
+    "55-64": 32.1,
+    "65-74": 34.0,
+    "75+": 34.8
+   },
+   "polo_edad_real": {
+    "18-24": 49.4,
+    "25-34": 42.9,
+    "35-44": 44.1,
+    "45-54": 42.8,
+    "55-64": 46.6,
+    "65-74": 51.5,
+    "75+": 63.1
+   }
+  },
+  "demografia_y_actitudes": {
+   "simulado": {
+    "bajo": 19.1,
+    "medio": 48.1,
+    "alto": 32.8
+   },
+   "real": {
+    "bajo": 14.8,
+    "medio": 37.5,
+    "alto": 47.7
+   },
+   "error_total_pts": 9.935355213335228,
+   "error_polo_pts": -14.903032820002842,
+   "error_edad_pts": 16.257551293836194,
+   "correlacion_edad": 0.9248482919819331,
+   "error_sexo_pts": 14.722467581776355,
+   "polo_edad_sim": {
+    "18-24": 30.6,
+    "25-34": 24.3,
+    "35-44": 31.4,
+    "45-54": 29.3,
+    "55-64": 26.4,
+    "65-74": 32.7,
+    "75+": 51.9
+   },
+   "polo_edad_real": {
+    "18-24": 49.4,
+    "25-34": 42.9,
+    "35-44": 44.1,
+    "45-54": 42.8,
+    "55-64": 46.6,
+    "65-74": 51.5,
+    "75+": 63.1
+   }
+  },
+  "actitudes_relevantes": {
+   "simulado": {
+    "bajo": 20.1,
+    "medio": 44.8,
+    "alto": 35.0
+   },
+   "real": {
+    "bajo": 14.8,
+    "medio": 37.5,
+    "alto": 47.7
+   },
+   "error_total_pts": 8.429202160428277,
+   "error_polo_pts": -12.64380324064242,
+   "error_edad_pts": 13.858251279468984,
+   "correlacion_edad": 0.8854506486600119,
+   "error_sexo_pts": 12.560498984922072,
+   "polo_edad_sim": {
+    "18-24": 32.7,
+    "25-34": 25.9,
+    "35-44": 31.8,
+    "45-54": 34.3,
+    "55-64": 31.7,
+    "65-74": 40.6,
+    "75+": 46.3
+   },
+   "polo_edad_real": {
+    "18-24": 49.4,
+    "25-34": 42.9,
+    "35-44": 44.1,
+    "45-54": 42.8,
+    "55-64": 46.6,
+    "65-74": 51.5,
+    "75+": 63.1
+   }
+  }
+ },
+ "ansioliticos": {
+  "solo_demografia": {
+   "simulado": {
+    "Sí": 16.2,
+    "No": 83.8
+   },
+   "real": {
+    "Sí": 15.4,
+    "No": 84.6
+   },
+   "error_total_pts": 0.7396471616074471,
+   "error_polo_pts": 0.7396471616074436,
+   "error_edad_pts": 3.412978667699772,
+   "correlacion_edad": 0.40679157563894475,
+   "error_sexo_pts": 6.109147193150204,
+   "polo_edad_sim": {
+    "18-24": 13.0,
+    "25-34": 14.4,
+    "35-44": 17.6,
+    "45-54": 16.8,
+    "55-64": 17.1,
+    "65-74": 17.3,
+    "75+": 15.6
+   },
+   "polo_edad_real": {
+    "18-24": 11.2,
+    "25-34": 11.8,
+    "35-44": 10.3,
+    "45-54": 14.7,
+    "55-64": 20.5,
+    "65-74": 19.7,
+    "75+": 19.8
+   }
+  },
+  "demografia_y_actitudes": {
+   "simulado": {
+    "Sí": 18.4,
+    "No": 81.6
+   },
+   "real": {
+    "Sí": 15.4,
+    "No": 84.6
+   },
+   "error_total_pts": 2.9686321929933968,
+   "error_polo_pts": 2.9686321929933968,
+   "error_edad_pts": 5.202038270041868,
+   "correlacion_edad": 0.42159726449739343,
+   "error_sexo_pts": 6.865791135016105,
+   "polo_edad_sim": {
+    "18-24": 14.5,
+    "25-34": 14.6,
+    "35-44": 18.1,
+    "45-54": 18.4,
+    "55-64": 12.2,
+    "65-74": 26.0,
+    "75+": 23.9
+   },
+   "polo_edad_real": {
+    "18-24": 11.2,
+    "25-34": 11.8,
+    "35-44": 10.3,
+    "45-54": 14.7,
+    "55-64": 20.5,
+    "65-74": 19.7,
+    "75+": 19.8
+   }
+  },
+  "actitudes_relevantes": {
+   "simulado": {
+    "Sí": 24.8,
+    "No": 75.2
+   },
+   "real": {
+    "Sí": 15.4,
+    "No": 84.6
+   },
+   "error_total_pts": 9.368664435394535,
+   "error_polo_pts": 9.368664435394535,
+   "error_edad_pts": 9.526590870795959,
+   "correlacion_edad": 0.5735984155173908,
+   "error_sexo_pts": 9.239098285998686,
+   "polo_edad_sim": {
+    "18-24": 26.5,
+    "25-34": 18.6,
+    "35-44": 18.4,
+    "45-54": 17.9,
+    "55-64": 20.9,
+    "65-74": 32.0,
+    "75+": 40.3
+   },
+   "polo_edad_real": {
+    "18-24": 11.2,
+    "25-34": 11.8,
+    "35-44": 10.3,
+    "45-54": 14.7,
+    "55-64": 20.5,
+    "65-74": 19.7,
+    "75+": 19.8
+   }
+  }
+ },
+ "economia_personal": {
+  "solo_demografia": {
+   "simulado": {
+    "Buena o muy buena": 18.6,
+    "Regular": 46.2,
+    "Mala o muy mala": 35.3
+   },
+   "real": {
+    "Buena o muy buena": 65.6,
+    "Regular": 9.6,
+    "Mala o muy mala": 24.8
+   },
+   "error_total_pts": 31.332410621512732,
+   "error_polo_pts": 10.423552532191234,
+   "error_edad_pts": 10.55406416264911,
+   "correlacion_edad": 0.17251965368728683,
+   "error_sexo_pts": 10.400634145047759,
+   "polo_edad_sim": {
+    "18-24": 30.7,
+    "25-34": 34.9,
+    "35-44": 39.7,
+    "45-54": 34.7,
+    "55-64": 39.3,
+    "65-74": 31.0,
+    "75+": 34.0
+   },
+   "polo_edad_real": {
+    "18-24": 29.6,
+    "25-34": 38.1,
+    "35-44": 30.7,
+    "45-54": 25.4,
+    "55-64": 20.7,
+    "65-74": 16.6,
+    "75+": 15.7
+   }
+  },
+  "demografia_y_actitudes": {
+   "simulado": {
+    "Buena o muy buena": 26.3,
+    "Regular": 18.7,
+    "Mala o muy mala": 54.9
+   },
+   "real": {
+    "Buena o muy buena": 65.6,
+    "Regular": 9.6,
+    "Mala o muy mala": 24.8
+   },
+   "error_total_pts": 26.17111130039498,
+   "error_polo_pts": 30.08850850035388,
+   "error_edad_pts": 30.029376493522438,
+   "correlacion_edad": 0.017800889203025385,
+   "error_sexo_pts": 29.553718026891033,
+   "polo_edad_sim": {
+    "18-24": 57.3,
+    "25-34": 64.2,
+    "35-44": 41.1,
+    "45-54": 48.7,
+    "55-64": 66.6,
+    "65-74": 55.4,
+    "75+": 53.7
+   },
+   "polo_edad_real": {
+    "18-24": 29.6,
+    "25-34": 38.1,
+    "35-44": 30.7,
+    "45-54": 25.4,
+    "55-64": 20.7,
+    "65-74": 16.6,
+    "75+": 15.7
+   }
+  },
+  "actitudes_relevantes": {
+   "simulado": {
+    "Buena o muy buena": 15.4,
+    "Regular": 17.9,
+    "Mala o muy mala": 66.7
+   },
+   "real": {
+    "Buena o muy buena": 65.6,
+    "Regular": 9.6,
+    "Mala o muy mala": 24.8
+   },
+   "error_total_pts": 33.48012783010267,
+   "error_polo_pts": 41.86679277758836,
+   "error_edad_pts": 40.37047199492559,
+   "correlacion_edad": -0.8214897227069077,
+   "error_sexo_pts": 41.405021170052336,
+   "polo_edad_sim": {
+    "18-24": 57.1,
+    "25-34": 52.8,
+    "35-44": 64.7,
+    "45-54": 71.2,
+    "55-64": 72.9,
+    "65-74": 66.3,
+    "75+": 74.4
+   },
+   "polo_edad_real": {
+    "18-24": 29.6,
+    "25-34": 38.1,
+    "35-44": 30.7,
+    "45-54": 25.4,
+    "55-64": 20.7,
+    "65-74": 16.6,
+    "75+": 15.7
+   }
+  }
+ },
+ "economia_espana": {
+  "solo_demografia": {
+   "simulado": {
+    "Buena o muy buena": 4.1,
+    "Regular": 19.1,
+    "Mala o muy mala": 76.8
+   },
+   "real": {
+    "Buena o muy buena": 35.7,
+    "Regular": 6.8,
+    "Mala o muy mala": 57.5
+   },
+   "error_total_pts": 21.074626145534154,
+   "error_polo_pts": 19.300248777417856,
+   "error_edad_pts": 18.81025628151466,
+   "correlacion_edad": 0.1760997373413759,
+   "error_sexo_pts": 19.35268859148546,
+   "polo_edad_sim": {
+    "18-24": 72.6,
+    "25-34": 76.8,
+    "35-44": 81.4,
+    "45-54": 77.5,
+    "55-64": 77.6,
+    "65-74": 77.2,
+    "75+": 73.0
+   },
+   "polo_edad_real": {
+    "18-24": 68.4,
+    "25-34": 78.5,
+    "35-44": 64.3,
+    "45-54": 59.4,
+    "55-64": 50.3,
+    "65-74": 46.0,
+    "75+": 40.8
+   }
+  },
+  "demografia_y_actitudes": {
+   "simulado": {
+    "Buena o muy buena": 6.1,
+    "Regular": 26.8,
+    "Mala o muy mala": 67.1
+   },
+   "real": {
+    "Buena o muy buena": 35.7,
+    "Regular": 6.8,
+    "Mala o muy mala": 57.5
+   },
+   "error_total_pts": 19.73477358969203,
+   "error_polo_pts": 9.606691349811193,
+   "error_edad_pts": 19.958693771397197,
+   "correlacion_edad": -0.6644287790908197,
+   "error_sexo_pts": 17.89603112479317,
+   "polo_edad_sim": {
+    "18-24": 45.7,
+    "25-34": 59.6,
+    "35-44": 61.0,
+    "45-54": 69.1,
+    "55-64": 82.8,
+    "65-74": 64.4,
+    "75+": 75.0
+   },
+   "polo_edad_real": {
+    "18-24": 68.4,
+    "25-34": 78.5,
+    "35-44": 64.3,
+    "45-54": 59.4,
+    "55-64": 50.3,
+    "65-74": 46.0,
+    "75+": 40.8
+   }
+  },
+  "actitudes_relevantes": {
+   "simulado": {
+    "Buena o muy buena": 0.8,
+    "Regular": 12.3,
+    "Mala o muy mala": 86.9
+   },
+   "real": {
+    "Buena o muy buena": 35.7,
+    "Regular": 6.8,
+    "Mala o muy mala": 57.5
+   },
+   "error_total_pts": 23.24997185138118,
+   "error_polo_pts": 29.399673854589444,
+   "error_edad_pts": 28.863138941011833,
+   "correlacion_edad": -0.84262135011348,
+   "error_sexo_pts": 29.302164262179033,
+   "polo_edad_sim": {
+    "18-24": 82.5,
+    "25-34": 75.7,
+    "35-44": 89.6,
+    "45-54": 86.9,
+    "55-64": 89.0,
+    "65-74": 86.9,
+    "75+": 93.5
+   },
+   "polo_edad_real": {
+    "18-24": 68.4,
+    "25-34": 78.5,
+    "35-44": 64.3,
+    "45-54": 59.4,
+    "55-64": 50.3,
+    "65-74": 46.0,
+    "75+": 40.8
+   }
+  }
+ },
+ "crisis_temor": {
+  "solo_demografia": {
+   "simulado": {
+    "bajo": 26.9,
+    "medio": 43.4,
+    "alto": 29.7
+   },
+   "real": {
+    "bajo": 10.0,
+    "medio": 19.6,
+    "alto": 70.5
+   },
+   "error_total_pts": 27.179002463950734,
+   "error_polo_pts": -40.7685036959261,
+   "error_edad_pts": 41.12823774288385,
+   "correlacion_edad": -0.06772513205059004,
+   "error_sexo_pts": 40.455257185042484,
+   "polo_edad_sim": {
+    "18-24": 27.6,
+    "25-34": 28.7,
+    "35-44": 31.0,
+    "45-54": 30.7,
+    "55-64": 32.1,
+    "65-74": 29.9,
+    "75+": 26.9
+   },
+   "polo_edad_real": {
+    "18-24": 66.5,
+    "25-34": 64.1,
+    "35-44": 66.6,
+    "45-54": 67.8,
+    "55-64": 74.1,
+    "65-74": 77.3,
+    "75+": 78.4
+   }
+  },
+  "demografia_y_actitudes": {
+   "simulado": {
+    "bajo": 23.5,
+    "medio": 30.9,
+    "alto": 45.6
+   },
+   "real": {
+    "bajo": 10.0,
+    "medio": 19.6,
+    "alto": 70.5
+   },
+   "error_total_pts": 16.583925583561427,
+   "error_polo_pts": -24.875888375342143,
+   "error_edad_pts": 26.259022168478403,
+   "correlacion_edad": -0.8588239496776573,
+   "error_sexo_pts": 24.835158320934948,
+   "polo_edad_sim": {
+    "18-24": 60.8,
+    "25-34": 72.7,
+    "35-44": 43.5,
+    "45-54": 47.4,
+    "55-64": 45.8,
+    "65-74": 34.5,
+    "75+": 23.5
+   },
+   "polo_edad_real": {
+    "18-24": 66.5,
+    "25-34": 64.1,
+    "35-44": 66.6,
+    "45-54": 67.8,
+    "55-64": 74.1,
+    "65-74": 77.3,
+    "75+": 78.4
+   }
+  },
+  "actitudes_relevantes": {
+   "simulado": {
+    "bajo": 22.0,
+    "medio": 36.1,
+    "alto": 41.9
+   },
+   "real": {
+    "bajo": 10.0,
+    "medio": 19.6,
+    "alto": 70.5
+   },
+   "error_total_pts": 19.038419949631802,
+   "error_polo_pts": -28.557629924447703,
+   "error_edad_pts": 28.177967935336678,
+   "correlacion_edad": -0.9133434400261975,
+   "error_sexo_pts": 28.53908912558767,
+   "polo_edad_sim": {
+    "18-24": 53.5,
+    "25-34": 51.3,
+    "35-44": 44.8,
+    "45-54": 43.6,
+    "55-64": 42.1,
+    "65-74": 29.8,
+    "75+": 32.4
+   },
+   "polo_edad_real": {
+    "18-24": 66.5,
+    "25-34": 64.1,
+    "35-44": 66.6,
+    "45-54": 67.8,
+    "55-64": 74.1,
+    "65-74": 77.3,
+    "75+": 78.4
+   }
+  }
+ }
+}

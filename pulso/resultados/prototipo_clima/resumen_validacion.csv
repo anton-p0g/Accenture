@@ -1,0 +1,9 @@
+validacion,desglose,grupos,error_medio_pts,error_sin_modelo_pts,pct_dentro_margen
+A_directa,total,1,8.4,0.0,0
+A_directa,sexo,2,8.3,7.0,0
+A_directa,grupo_edad,7,9.0,3.7,0
+A_directa,ccaa,19,8.2,4.8,37
+B_reanclada,total,1,0.0,0.0,100
+B_reanclada,sexo,2,1.8,7.0,0
+B_reanclada,grupo_edad,7,3.0,3.7,71
+B_reanclada,ccaa,19,5.3,4.8,74

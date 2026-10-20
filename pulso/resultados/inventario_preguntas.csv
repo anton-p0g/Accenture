@@ -1,0 +1,227 @@
+estudio,variable,temas,etiqueta,n_opciones
+3528,ECOPER,consumo,Valoración de la situación económica personal actual,7
+3528,ECOESP,consumo,Valoración de la situación económica general de España,7
+3528,INGRESHOG,consumo,Nivel de ingresos netos del hogar,8
+3528,IA_I502,vivienda,Viviendas en las que no hay nadie,1
+3528,IA_I503,vivienda,Viviendas en las que se niegan a recibir ninguna explicación,1
+3528,IA_I507,vivienda|salud,"Contactos fallidos por no ser una vivienda (oficinas, consultas médicas, etc.)",1
+3528,IA_I508,vivienda,Viviendas de población extranjera,1
+3528,IA_I528,vivienda,Contacto fallido por no ser una vivienda/persona,1
+3535,FUTUR1,consumo,Valoración prospectiva (10 años) de los cambios económicos y sociales,7
+3535,SAT1,tecnologia_ia,Valoración prospectiva (10 años) del número de robots y sistemas automáticos en las empresas,7
+3535,SAT2,tecnologia_ia,Valoración prospectiva (10 años) del impacto de la utilización de robots y sistemas automáticos en el ámbito del trabajo,9
+3535,DESIN_1,tecnologia_ia,Los robots industriales y los sistemas automáticos de trabajo,7
+3535,DESIN_2,tecnologia_ia,"La biotecnología (por ejemplo, alimentos transgénicos)",7
+3535,DESIN_3,medio_ambiente,"Las nuevas fuentes de energía (solar, eólica)",7
+3535,DESIN_6,tecnologia_ia,"Las nuevas tecnologías del ocio y del esparcimiento (por ejemplo, los videojuegos)",7
+3535,DESIN_7,tecnologia_ia,"Las nuevas tecnologías del hogar (por ejemplo, robots domésticos polivalentes, como el Optimus)",7
+3535,DESIN_9,tecnologia_ia,La inteligencia artificial,7
+3535,IDEASPROS2_4,soledad,Soledad o aislamiento,5
+3535,IDEASPROS2_8,salud,Interés por la salud y el cuidado personal,5
+3535,IDEASPROS3_2,consumo,Diferencias sociales y económicas,5
+3535,IDEASPROS3_3,consumo,Consumo de drogas,5
+3535,IDEASPROS4_1,medio_ambiente,Deterioro del medio ambiente,5
+3535,IDEASPROS4_3,tecnologia_ia,Robots que sustituyen a trabajadores/as,5
+3535,INGRESHOG,consumo,Nivel de ingresos netos del hogar,8
+3535,IA_I507,vivienda|salud,"Contactos fallidos por no ser una vivienda (oficinas, consultas médicas, etc.)",1
+3535,IA_I508,vivienda,Viviendas de población extranjera,1
+3535,IA_I528,vivienda,Contacto fallido por no ser una vivienda/persona,1
+3536,P1,medio_ambiente,Grado de preocupación por el cambio climático,7
+3536,ECOPER,consumo,Valoración de la situación económica personal actual,7
+3536,ECOESP,consumo,Valoración de la situación económica general de España,7
+3536,P8_1,vivienda,Alquilara una vivienda de su propiedad,13
+3536,P11,tecnologia_ia,"Recuerdo de haber visto en las redes sociales contenido que exprese ideas ofensivas o violentas contra personas por motivos étnicos, de raza o religión",6
+3536,INGRESHOG,consumo,Nivel de ingresos netos del hogar,8
+3536,IA_I502,vivienda,Viviendas en las que no hay nadie,1
+3536,IA_I503,vivienda,Viviendas en las que se niegan a recibir ninguna explicación,1
+3536,IA_I507,vivienda|salud,"Contactos fallidos por no ser una vivienda (oficinas, consultas médicas, etc.)",1
+3536,IA_I508,vivienda,Viviendas de población extranjera,1
+3536,IA_I528,vivienda,Contacto fallido por no ser una vivienda/persona,1
+3554,P2_5,soledad,Temor a la soledad,14
+3554,P2_11,vivienda,No poder pagar su vivienda/alquiler/hipoteca,14
+3554,P2_13,salud,Perder la salud,14
+3554,P2A_3,consumo,Una crisis económica,13
+3554,P13,tecnologia_ia,Grado de miedos de la persona entrevistada ante el control por las nuevas tecnologías de su vida,7
+3554,P14,salud|consumo,Consumo de ansiolíticos o antidepresivos de la persona entrevistada en la actualidad,4
+3554,P16,soledad,Grado de temor personal a quedarse solo/a o sin apoyo emocional en momentos difíciles,6
+3554,INGRESHOG,consumo,Nivel de ingresos netos del hogar,8
+3554,IA_I502,vivienda,Viviendas en las que no hay nadie,1
+3554,IA_I503,vivienda,Viviendas en las que se niegan a recibir ninguna explicación,1
+3554,IA_I507,vivienda|salud,"Contactos fallidos por no ser una vivienda (oficinas, consultas médicas, etc.)",1
+3554,IA_I508,vivienda,Viviendas de población extranjera,1
+3554,IA_I528,vivienda,Contacto fallido por no ser una vivienda/persona,1
+3560,P1,tecnologia_ia,Calidad de la conexión a Internet en la zona donde vive la persona entrevistada,8
+3560,P2,tecnologia_ia|consumo,Grado de habilidad para realizar gestiones bancarias habituales a través de Internet,6
+3560,P3,consumo,Nivel de conocimientos sobre temas bancarios y financieros,7
+3560,P4_1,consumo,Depósitos y/o cuentas de ahorro,5
+3560,P4_3,vivienda,Hipoteca,5
+3560,P5_2,consumo,Consultar el saldo de la cuenta bancaria,6
+3560,P5_3,consumo,Pagar recibos o impuestos por el banco,6
+3560,P6_1,consumo,Consultar el saldo de la cuenta bancaria,11
+3560,P6_2,consumo,Consultar el saldo de la cuenta bancaria,11
+3560,P6_3,consumo,Pagar recibos o impuestos del banco,11
+3560,P6_4,consumo,Pagar recibos o impuestos del banco,11
+3560,P7A,consumo,Forma habitual de retirada de efectivo del banco,10
+3560,P7B,consumo,Preferencia de la forma retirada dinero del banco,10
+3560,P9,consumo,Uso habitual de la banca online o app del banco,3
+3560,P9A,consumo,Razón para no usar la banca online o app del banco,11
+3560,P10,consumo,Asistencia habitual a su oficina bancaria,3
+3560,P10A,consumo,Razón para no acudir a su oficina bancaria,15
+3560,P11,consumo,Distancia en kilómetros desde casa hasta la oficina bancaria más cercana,4
+3560,P11A,consumo,Modo de desplazamiento de casa a la oficina bancaria,9
+3560,P12,consumo,"Mayor proximidad de la oficina bancaria habitual a casa, al trabajo, o a otros lugares",6
+3560,P13_8,soledad,Un empleado de la sucursal/oficina le acompaña al cajero automático si es necesario,5
+3560,INGRESHOG,consumo,Nivel de ingresos netos del hogar,8
+3560,IA_I502,vivienda,Viviendas en las que no hay nadie,1
+3560,IA_I503,vivienda,Viviendas en las que se niegan a recibir ninguna explicación,1
+3560,IA_I507,vivienda|salud,"Contactos fallidos por no ser una vivienda (oficinas, consultas médicas, etc.)",1
+3560,IA_I508,vivienda,Viviendas de población extranjera,1
+3560,IA_I528,vivienda,Contacto fallido por no ser una vivienda/persona,1
+3575,P2,consumo,Capacidad de ahorro mensual en el hogar,7
+3575,P3,consumo,Valoración retrospectiva de la situación económica del hogar (6 meses),5
+3575,P4A_1,consumo,Mayor capacidad de ahorro familiar,3
+3575,P4A_4,consumo,Disminución del gasto familiar,3
+3575,P4A_5,vivienda,Ha cubierto/cubrirá deudas pendientes/pago de hipoteca,3
+3575,P4B_1,consumo,Alza continuada de precios/inflación,3
+3575,P4B_5,consumo,Dificultades económicas familiares/ingreso insuficiente,3
+3575,P4B_6,consumo,Aumento del gasto familiar,3
+3575,P4B_8,vivienda|consumo,Alza del precio de la vivienda/tipo de interés,3
+3575,P4B_12,consumo,Disminución de la capacidad de ahorro,3
+3575,P4B_15,vivienda,Pago de hipoteca,3
+3575,P4B_16,consumo,Política económica,3
+3575,P4B_17,consumo,Crisis económica,3
+3575,P8,consumo,Valoración retrospectiva de la situación económica de España (6 meses),5
+3575,P8_1,consumo,Valoración retrospectiva de la situación económica de la comunidad autónoma (6 meses),5
+3575,P11,consumo,Evolución de la capacidad de ahorro personal (1 año),5
+3575,P12,consumo,Valoración prospectiva de la situación económica del hogar (6 meses),5
+3575,P13A_1,consumo,Mayor capacidad de ahorro familiar,3
+3575,P13A_4,consumo,Disminución del gasto familiar,3
+3575,P13A_5,vivienda,Ha cubierto/cubrirá deudas pendientes/pago de hipoteca,3
+3575,P13A_14,consumo,Política económica,3
+3575,P13B_1,consumo,Alza continuada de precios/inflación,3
+3575,P13B_5,consumo,Dificultades económicas familiares/ingreso insuficiente,3
+3575,P13B_6,consumo,Aumento del gasto familiar,3
+3575,P13B_8,vivienda|consumo,Alza del precio de la vivienda/tipo de interés,3
+3575,P13B_12,consumo,Disminución de su capacidad de ahorro,3
+3575,P13B_15,vivienda,Pago de hipoteca,3
+3575,P13B_16,consumo,Política económica,3
+3575,P13B_17,consumo,Crisis económica,3
+3575,P14,consumo,Valoración prospectiva de la situación económica de España (6 meses),5
+3575,P14_1,consumo,Valoración prospectiva de la situación económica de la comunidad autónoma (6 meses),5
+3575,P15,consumo,Valoración prospectiva de la inflación en España (1 año),5
+3575,P17,vivienda|consumo,Evolución del precio de la vivienda en España (1 año),5
+3575,P18,vivienda|consumo,Intención de comprar una vivienda en el próximo año,4
+3575,P25B,consumo,Número de personas en el hogar con ingresos,7
+3575,INGREHOG,consumo,Nivel de ingresos del hogar,7
+3575,VIVIENDA,vivienda,Régimen de tenencia de vivienda,8
+3575,P36,vivienda,Régimen de tenencia de vivienda [recodificada],6
+3575,IA_I507,vivienda|salud,"Contactos fallidos por no ser una vivienda (oficinas, consultas medicas, etc.)",1
+3575,IA_I508,vivienda,Viviendas de población extranjera,1
+3575,IA_I528,vivienda,Contacto fallido por no ser una vivienda/persona,1
+3577,P8,medio_ambiente,Grado de preocupación por los incendios,7
+3577,P9,medio_ambiente,Afectación personal o familiar por los incendios del verano del 2026,4
+3577,P10,medio_ambiente,Afectación personal o familiar futura por algún incendio,4
+3577,P11,medio_ambiente,Atribución de competencias en la prevención y lucha contra los incendios,6
+3577,P12,medio_ambiente,Necesidad de un pacto de Estado para hacer frente a las emergencias del cambio climático,6
+3577,P13,medio_ambiente,Grado de preocupación por el cambio climático,7
+3577,ECOPER,consumo,Valoración de la situación económica personal actual,7
+3577,ECOESP,consumo,Valoración de la situación económica general de España,7
+3577,INGRESHOG,consumo,Nivel de ingresos netos del hogar,8
+3577,IA_I502,vivienda,Viviendas en las que no hay nadie,1
+3577,IA_I503,vivienda,Viviendas en las que se niegan a recibir ninguna explicación,1
+3577,IA_I507,vivienda|salud,"Contactos fallidos por no ser una vivienda (oficinas, consultas médicas, etc.)",1
+3577,IA_I508,vivienda,Viviendas de población extranjera,1
+3577,IA_I528,vivienda,Contacto fallido por no ser una vivienda/persona,1
+8825,CCAASERSAN,salud,Comunidad autónoma donde tiene los servicios sanitarios la persona entrevistada,21
+8825,P1,salud,Valoración del funcionamiento del sistema sanitario español,6
+8825,P2,salud,Escala de satisfacción (1-10) con el funcionamiento del sistema sanitario español,12
+8825,P3_1,salud,Consultas de médicos/as de cabecera (o de familia) y pediatría,5
+8825,P3_3,salud,Ingreso en hospital,5
+8825,P4ES_1,salud,Consultas de atención primaria en centros de salud (médicos/as de familia o de cabecera),12
+8825,P4ES_3,salud,Urgencias en hospitales públicos,12
+8825,P4ES_6,salud,Ingreso y asistencia en hospitales públicos,12
+8825,P5,salud,Asistencia al/la médico/a de familia de la sanidad pública o privada en el último año,6
+8825,P5A,salud,Imposibilidad de consultar con el/la médico/a de familia de la sanidad pública (en los últimos doce meses),6
+8825,P5A_01,salud,Motivo de la imposibilidad de consultar con el/la médico/a de familia de la sanidad pública,12
+8825,P5A_02,salud,Asistencia al servicio de urgencias por la imposibilidad de consultar con el/la médico/a de familia de la sanidad pública,5
+8825,P5_1_6,salud,"Chequeo, revisión médica y protocolos de prevención",3
+8825,P5_1_7,salud,Petición de analíticas y resultados (pruebas médicas y análisis),3
+8825,P5_1_11,salud,"Ingreso hospitalario (operación, intervención)",3
+8825,P5_1_13,salud,Medicación,3
+8825,P5B,salud,Modo de consulta al/la médico/a de familia en el último año,8
+8825,P5C,salud,Tiempo transcurrido hasta que le/la atendió el/la médico/a de familia de la sanidad pública la última vez,9
+8825,P5C_01,salud,Días transcurridos hasta le/la atendió el/la médico/a de familia de la sanidad pública la última vez,10
+8825,P5D_1,salud,"Pudo dar su opinión o participar en las decisiones sobre su problema de salud y su tratamiento, tanto como Ud. hubiera deseado",5
+8825,P5D_2,salud,Le dio el/la médico/a la oportunidad de hacer preguntas o plantear preocupaciones,5
+8825,P5D_4,salud,El médico o la médica de atención primaria le explicó las cosas de una forma fácil de entender,5
+8825,P5E_1,salud,La confianza y seguridad que transmite el personal médico,13
+8825,P5E_3,salud,El tiempo dedicado por el personal médico a cada enfermo/a,13
+8825,P5E_4,salud,El conocimiento del historial y seguimiento de los problemas de salud,13
+8825,P5E_5,salud,La información recibida sobre su problema de salud,13
+8825,P5F,salud,Valoración de la atención recibida en las consultas de medicina de familia de la sanidad pública,8
+8825,P5G,salud,Consulta telefónica con el/la médico/a de familia de la sanidad pública en el último año,4
+8825,P5H,salud,Grado de satisfacción con la consulta telefónica con el/la médico/a de familia de la sanidad pública en el último año,8
+8825,P6_01,salud,Número de visitas al servicio de urgencias de la sanidad pública en el último año,3
+8825,P6A,salud,Último tipo de servicio de urgencias de la sanidad pública que utilizó en el último año,6
+8825,P6B,salud,Valoración de la atención recibida en el servicio de urgencias (atención primaria/hospitalaria) de la sanidad pública,8
+8825,P7,salud,Asistencia al/la médico/a de atención especializada durante el último año,6
+8825,P7A,salud,Motivo de la última visita que realizó al especialista de la sanidad pública en el último año,7
+8825,P7A_0102,salud,Tiempo transcurrido desde la consulta del/la médico/a de familia hasta la del/la especialista de la sanidad pública,3
+8825,P7C_1,salud,"Pudo dar su opinión o participar en las decisiones sobre su problema de salud y su tratamiento, tanto como Ud. hubiera deseado",5
+8825,P7C_2,salud,Le dio el/la médico/a la oportunidad de hacer preguntas o plantear preocupaciones,5
+8825,P7C_3,salud,El médico o médica especialista le explicó las cosas de una forma fácil de entender,5
+8825,P7D_1,salud,El tiempo dedicado por el/la médico/a a cada persona atendida,13
+8825,P7D_3,salud,La información recibida sobre su problema de salud,13
+8825,P7E,salud,Valoración de la atención recibida en las consultas del/la especialista de la sanidad pública,9
+8825,P8,salud,Consulta a un/a profesional sanitario/a de salud mental durante el último año,3
+8825,P8A,salud,Asistencia principal del/la profesional sanitario/a de salud mental,11
+8825,P8B,salud,Profesional principal que le atiende por un tema de salud mental en la sanidad pública,8
+8825,P8C,salud,Seguimiento por el profesional de la sanidad pública que le atendió por un problema de salud mental,4
+8825,P8D_1,salud,"Pudo dar su opinión o participar en las decisiones sobre su problema de salud y su tratamiento, tanto como Ud. hubiera deseado",5
+8825,P8E,salud,Valoración de la atención recibida en las consultas del/la especialista en salud mental de la sanidad pública,8
+8825,P8F,salud,Comparación entre la expectativa y la atención recibida en las consultas del/la especialista en salud mental de la sanidad pública,8
+8825,P8G,salud,Considera que la atención recibida en las consultas del/la especialista en salud mental de la sanidad pública ha mejorado su situación,8
+8825,P9,salud,Ingreso hospitalario en el último año,6
+8825,P9A,salud,Motivo por el ingresó la última vez en un hospital de la sanidad pública,6
+8825,P9B_1,salud,"Pudo dar su opinión o participar en las decisiones sobre su problema de salud y su tratamiento, tanto como Ud. hubiera deseado",5
+8825,P9B_2,salud,Le asignaron un/a medico/a responsable al/a la que acudir para cualquier cosa relacionada con su problema de salud,5
+8825,P9C_1,salud,Los cuidados y atención por parte del personal médico,13
+8825,P9C_4,tecnologia_ia|salud,El equipamiento y medios tecnológicos existentes en los hospitales,13
+8825,P9C_5,salud,La información recibida sobre la evolución de su problema de salud,13
+8825,P9D,salud,Valoración de la atención recibida en el hospital de la sanidad pública,8
+8825,P11,salud,Opinión personal sobre la buena comunicación y coordinación entre distintos servicios médicos del sistema público,8
+8825,P12,salud,Valoración retrospectiva (1 año) de las listas de espera en la sanidad pública,5
+8825,P13,salud|consumo,Imposibilidad de tomar el medicamento recetado por su coste económico en el último año,4
+8825,P14,tecnologia_ia,Acceso a la historia clínica por Internet,5
+8825,P14_01_2,tecnologia_ia,No sabe o no puede usar Internet,3
+8825,P14_01_8,salud,"Prefiero hablar con el/la médico, pedirlo presencialmente",3
+8825,P15,tecnologia_ia|salud,Conocimiento de la posibilidad del acceso de los/las médicos/as a la historia clínica por Internet desde otra comunidad autónoma,5
+8825,P16,salud,Asistencia médica fuera de la comunidad autónoma de residencia en último año,3
+8825,P17,salud,Conocimiento de la posibilidad de retirar medicamentos con receta electrónica fuera de su comunidad autónoma,5
+8825,P18_1,salud,La sanidad pública,3
+8825,P18_2,salud,Una mutualidad de funcionarios con atención por la sanidad pública,3
+8825,P18_3,salud,Una mutualidad de funcionarios con atención por la sanidad privada,3
+8825,P18_4,salud,"Un seguro médico privado, contratado por Ud. o alguna persona de su familia",3
+8825,P18_5,salud,"Un seguro médico privado, contratado por la empresa",3
+8825,P18_6,salud,No tiene ni sanidad pública ni seguro médico privado,3
+8825,P18_01,salud,Preferencia por sanidad pública o privada en caso de problema de salud grave,6
+8825,P21,tecnologia_ia|salud,Conocimiento de las herramientas de inteligencia artificial aplicadas a la salud o los servicios sanitarios,4
+8825,P22_1,tecnologia_ia|salud,Hablar con una IA (asistente virtual) durante una consulta médica que Ud. necesita,12
+8825,P22_2,tecnologia_ia,Someterse a una operación quirúrgica realizada mediante un robot,12
+8825,P22_3,tecnologia_ia,Que interprete sus radiografías un sistema de inteligencia artificial,12
+8825,P22_4,tecnologia_ia,Que siga la evolución de su enfermedad un asistente virtual con IA,12
+8825,P23,tecnologia_ia,Grado de preocupación por la utilización de datos clínicos por empresas privadas para desarrollar la inteligencia artificial,7
+8825,P24,tecnologia_ia,Grado de preocupación por la utilización de datos clínicos por instituciones públicas para desarrollar la inteligencia artificial,7
+8825,P25_1,salud,Legislar de forma específica en temas de salud,7
+8825,P25_2,tecnologia_ia|salud,Informar al paciente cuando los servicios sanitarios utilizan inteligencia artificial en su atención,7
+8825,P25_3,tecnologia_ia,Dar la posibilidad al paciente de negarse a que se utilicen sus datos clínicos para desarrollar sistemas de inteligencia artificial,7
+8825,ESTSALUD,salud,Estado de salud en general,7
+8825,ENFCRONICA,salud,Tenencia de algún problema de salud crónico,3
+8825,INGRESHOG,consumo,Nivel de ingresos netos del hogar,8
+8825,IA_I507,vivienda|salud,"Contactos fallidos por no ser una vivienda (oficinas, consultas médicas, etc.)",1
+8825,IA_I508,vivienda,Viviendas de población extranjera,1
+8825,IA_I528,vivienda,Contacto fallido por no ser una vivienda/persona,1
+8825,P6A_0102,salud,Tiempo que permaneció en el servicio de urgencias (atención primaria/hospitalaria) de la sanidad pública,5
+8825,P7B_0102,salud,Tiempo transcurrido desde la consulta del/la especialista de la sanidad pública hasta el resultado del diagnóstico y tratamiento,4
+8825,P8B_0102,salud,Tiempo transcurrido desde la consulta del/la médico/a de familia hasta la del/la especialista en salud mental de la sanidad pública,4
+8825,P9A_0102,salud,Tiempo transcurrido desde la consulta del/la especialista hasta el ingreso en el hospital de la sanidad pública,3

@@ -51,3 +51,8 @@ npm run dev
 ```
 
 Abre en el navegador la URL que muestra Vite, normalmente `http://127.0.0.1:5173`. La web usa automáticamente el `BACKEND_PORT` definido en el `.env` de la raíz. Para empezar la demo sin preguntas anteriores, recarga la página.
+
+## pulso: motor con datos reales del CIS y nuevo frontend
+
+En `pulso/` está el motor que conecta la población sintética con respuestas reales del CIS (banco de ~300 preguntas,
+validación del LLM) y un frontend nuevo. Instrucciones en [pulso/README.md](pulso/README.md).
