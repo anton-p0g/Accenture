@@ -326,7 +326,14 @@ class Motor:
         salida.sort(key=lambda f: -abs(f["dif_pp"]))
         return [f for f in salida if abs(f["dif_pp"]) >= 3][:3]
 
-    def error_simulacion(self):
+    def error_simulacion(self, modo=None):
+        """Error medido de la simulación: por color si existe (10_validar_ambar_rojo.py), si no el global."""
+        color = {"analogia": "ámbar", "simulacion": "rojo"}.get(modo)
+        try:
+            r = pd.read_csv(CALIBRACION / "por_modo.csv", index_col="color")
+            return round(float(r.loc[color, "error_total_pts"]), 1)
+        except (OSError, KeyError, ValueError):
+            pass
         try:
             r = pd.read_csv(CALIBRACION / "resumen.csv", index_col=0)
             return round(float(r.loc["actitudes_relevantes", "error_total_pts"]), 1)
@@ -381,7 +388,7 @@ class Motor:
                 "fecha": q.get("fecha") or FECHAS.get(q["estudio"], ""), "similitud": round(sim, 3)}
 
     def _confianza_simulacion(self, modo, n_arq, q, extra=""):
-        error = self.error_simulacion()
+        error = self.error_simulacion(modo)
         return {
             "nivel": 2 if modo == "analogia" else 1, "error_pp": error, "n": n_arq,
             "texto": (f"Simulación con {n_arq} perfiles sintéticos que responden con un modelo de lenguaje local, "

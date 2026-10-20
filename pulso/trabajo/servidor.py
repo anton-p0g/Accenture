@@ -120,6 +120,11 @@ def validacion():
         salida["temporal"] = t.to_dict(orient="records")
     except OSError:
         pass
+    try:  # 11_validar_tiempo.py: todas las preguntas repetidas entre olas
+        t = pd.read_csv(res / "validacion_temporal" / "resumen.csv")
+        salida["temporal_banco"] = t.to_dict(orient="records")
+    except OSError:
+        pass
     try:
         c = pd.read_csv(res / "calibracion_simulador" / "calibracion_por_pregunta.csv").fillna(0)  # sin variación por edad → r = 0
         resumen = c.groupby("condicion")[["error_total_pts", "error_uniforme_pts", "correlacion_edad", "error_edad_pts"]].mean().round(2)
@@ -135,6 +140,9 @@ def validacion():
                 puntos.append({"pregunta": textos.get(qid, qid), "condicion": cond,
                                "real": round(sum(r["real"][o] for o in polo), 1), "simulado": round(sum(r["simulado"][o] for o in polo), 1)})
         salida["simulacion"]["puntos"] = puntos
+        modos = res / "calibracion_simulador" / "por_modo.csv"  # 10_validar_ambar_rojo.py
+        if modos.exists():
+            salida["simulacion"]["por_modo"] = pd.read_csv(modos).to_dict(orient="records")
     except (OSError, KeyError, ValueError):
         pass
     return salida
