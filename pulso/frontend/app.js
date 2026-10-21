@@ -990,6 +990,9 @@ if (ESTATICO) indice().then(idx => {
   chips([[`Ver las ${idx.length} preguntas`, abrirCatalogo], ...dest.map(i => [idx[i].tipo === "ab" ? "Test A/B: ahorro o huella de carbono" : idx[i].pregunta, () => elegirPreparada(i)])], "#homeChips");
   $("#homeChips").firstChild.classList.add("prim");
   if (/[?&]preguntas\b/.test(location.search)) abrirCatalogo();   // el QR abre directamente el catálogo
-}); else exampleChips("#homeChips");
+}); else {  // inicio con LLM: «Diseña tu encuesta» primero, luego ejemplos
+  chips([["Diseña tu encuesta", abrirDiseno], ...EJEMPLOS.map(([t, q]) => [t, () => ask(q || t)])], "#homeChips");
+  $("#homeChips").firstChild.classList.add("prim");
+}
 requestAnimationFrame(frame);
 (async () => { await sleep(300); await streamBot(`Hola. Soy <b>pulso</b>. Cada punto es una persona sintética de la España real, con actitudes estimadas a partir de encuestas del CIS.`); })();
