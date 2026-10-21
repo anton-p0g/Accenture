@@ -1,7 +1,8 @@
 """Preguntas del CIS añadidas a mano al banco ampliado como evidencia directa (semáforo verde).
 
 06_banco_ampliado.py descarta voto, líderes y preguntas con decenas de categorías; aquí se añaden
-a mano, con las opciones agrupadas para que se lean bien:
+a mano, con las opciones agrupadas para que se lean bien y redacciones alternativas («alias») para encontrarlas
+al preguntar de forma coloquial:
 - Elecciones (barómetro 3577, sep 2026). Es la intención DIRECTA de voto que dijo la gente al CIS,
   no la estimación de voto que publica el CIS (que corrige con recuerdo de voto y simpatía).
 - El problema que más afecta a cada persona (barómetros 3528, 3536 y 3577: tres olas, con evolución),
@@ -27,6 +28,9 @@ NACIONALISTAS = "Partidos nacionalistas y regionalistas"
 PREGUNTAS = [
     {"estudio": 3577, "variable": "INTENCIONGR", "etiqueta": "Intención de voto en unas supuestas elecciones generales",
      "texto": "Si mañana se celebrasen elecciones generales, ¿a qué partido votaría? (intención directa de voto)",
+     "alias": ["¿A quién vas a votar en las próximas elecciones?", "¿Por quién votarías en las próximas elecciones generales?",
+               "¿A qué partido votarías si hubiera elecciones mañana?", "¿Qué partido vas a votar en las elecciones?"],
+     "no_misma": r"\bgan(a|ara|aria|e|en)\b|\bvencer|\bgobernar",  # predecir quién gana no es la intención propia
      "opciones": {1: "PSOE", 2: "PP", 3: "Vox", 21: "Sumar", 8: "Podemos", 28: "Se Acabó la Fiesta",
                   901: NACIONALISTAS, 902: NACIONALISTAS, 1201: NACIONALISTAS, 1601: NACIONALISTAS, 1602: NACIONALISTAS,
                   503: NACIONALISTAS, 1501: NACIONALISTAS, 101: NACIONALISTAS,
@@ -34,11 +38,13 @@ PREGUNTAS = [
                   8996: "En blanco o nulo", 9977: "En blanco o nulo", 9997: "No votaría", 9998: "No sabe todavía"}},
     {"estudio": 3577, "variable": "PREFPTER", "etiqueta": "Preferencia personal como presidente del Gobierno central",
      "texto": "¿Quién preferiría que fuera el presidente o la presidenta del Gobierno?",
+     "alias": ["¿Quién te gustaría que fuera el presidente del Gobierno?", "¿Quién es tu candidato preferido para presidir el Gobierno?"],
      "opciones": {1: "Pedro Sánchez", 2: "Alberto Núñez Feijóo", 3: "Santiago Abascal", 4: "Yolanda Díaz",
                   8: "Isabel Díaz Ayuso", **{k: "Otro líder" for k in (5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 96)},
                   97: "Ninguno"}},
     {"estudio": 3577, "variable": "PROBVOTO", "etiqueta": "Escala de probabilidad (0-10) de ir a votar en elecciones generales",
      "texto": "Del 0 al 10, ¿qué probabilidad hay de que vaya a votar en las próximas elecciones generales?",
+     "alias": ["¿Vas a ir a votar en las próximas elecciones?", "¿Irás a votar en las elecciones generales?"],
      "opciones": {0: "0 Seguro que no iría a votar", **{k: str(k) for k in range(1, 10)}, 10: "10 Seguro que iría a votar"},
      "escala": True},
 ]
@@ -53,6 +59,7 @@ for estudio in FECHAS:
     PREGUNTAS.append({"estudio": estudio, "variable": "PPERSONAL1",
                       "etiqueta": "Problema que más le afecta personalmente (primer problema)",
                       "texto": "¿Cuál es el problema que más le afecta a usted personalmente?",
+                      "alias": ["¿Qué problema te afecta más a ti personalmente?", "¿Cuál es tu principal problema hoy en día?"],
                       "opciones": {c: g for g, cs in GRUPOS_PROBLEMA.items() for c in cs},
                       "resto": "Otros problemas o ninguno", "ninguno": {997: "Otros problemas o ninguno"}})
 
@@ -91,7 +98,7 @@ def main():
                            "opciones": {str(k): v for k, v in cods.items()}, "valida": True, "pregunta": p["texto"],
                            "tema": "Sociedad"}
         banco.append({"id": clave, "estudio": estudio, "variable": p["variable"], "texto": p["texto"],
-                      "etiqueta": p["etiqueta"], "tema": "Sociedad", "fecha": FECHAS[estudio], "n": int(len(df)),
+                      "etiqueta": p["etiqueta"], "tema": "Sociedad", "fecha": FECHAS[estudio], "n": int(len(df)), "alias": p.get("alias", []), **({"no_misma": p["no_misma"]} if "no_misma" in p else {}),
                       "opciones": [o for o in orden if o in probs.columns] + (["NS/NC"] if "NS/NC" in probs.columns else []),
                       "error_calibracion_pts": round(error, 2)})
         print(f"{clave:20s} n={len(df)} error {error:.2f} pp")

@@ -116,7 +116,10 @@ class Motor:
 
     def _indexar_banco(self):
         ruta = PERFILES / "embeddings_indice.npz"
-        textos = [q["texto"] for q in self.indice]
+        # cada pregunta se busca por su texto y por sus redacciones alternativas («alias»), si las tiene
+        filas = [(i, t) for i, q in enumerate(self.indice) for t in [q["texto"], *q.get("alias", [])]]
+        self._fila_item = np.array([i for i, _ in filas])
+        textos = [t for _, t in filas]
         clave = hashlib.sha1(("|".join(textos) + MODELO_EMB).encode()).hexdigest()
         if ruta.exists():
             guardado = np.load(ruta)
@@ -128,7 +131,9 @@ class Motor:
 
     # ---------- interpretación ----------
     def buscar(self, pregunta, todas=False):
-        sims = self.emb_banco @ embeber([pregunta], "consulta")[0]
+        por_fila = self.emb_banco @ embeber([pregunta], "consulta")[0]
+        sims = np.full(len(self.indice), -1.0)
+        np.maximum.at(sims, self._fila_item, por_fila)  # de cada pregunta, su redacción más parecida
         # a igualdad de parecido, mejor la ola más reciente del CIS
         sims = sims + np.array([0.03 if "2026" in (q.get("fecha") or FECHAS.get(q["estudio"], "")) else 0 for q in self.indice])
         orden = np.argsort(-sims)
@@ -157,15 +162,17 @@ class Motor:
         """Tema y opciones de respuesta para una pregunta nueva (LLM local)."""
         prompt = (f"Pregunta de encuesta: «{pregunta}»\n"
                   f"1) Clasifícala en uno de estos temas: {', '.join(TEMAS)}, Otro.\n"
-                  "2) Si la pregunta ya enumera opciones, úsalas literalmente. Si no, propone entre 2 y 4 "
-                  "respuestas cortas (máximo 5 palabras), excluyentes, en español neutro, sin 'No sabe'.\n"
+                  "2) Si la pregunta ya enumera opciones, úsalas literalmente. Si no, propone entre 2 y 5 "
+                  "respuestas cortas (máximo 5 palabras), excluyentes, en español neutro, sin 'No sabe'. "
+                  "Usa nombres concretos y reales, nunca marcadores como 'Partido A' u 'Opción 1'. "
+                  "Si pregunta por partidos políticos de España, usa: PSOE, PP, Vox, Sumar, Otros partidos.\n"
                   'Devuelve solo JSON: {"tema": "...", "opciones": ["...", "..."]}')
         try:
             r = _post("/api/chat", {"model": MODELO_LLM, "stream": False, "format": "json",
                                     "messages": [{"role": "user", "content": prompt}],
                                     "options": {"temperature": 0, "num_predict": 120}})
             d = json.loads(r["message"]["content"])
-            opciones = [str(o).strip() for o in d.get("opciones", []) if str(o).strip()][:4]
+            opciones = [str(o).strip() for o in d.get("opciones", []) if str(o).strip()][:5]
             tema = d.get("tema") if d.get("tema") in TEMAS else "Otro"
         except (OSError, ValueError, KeyError):
             opciones, tema = [], "Otro"
@@ -378,6 +385,9 @@ class Motor:
         relacion, (q, sim) = self.juzgar(pregunta, candidatos) if candidatos else ("ninguna", todas[0])
         # El juez de 8B es permisivo: solo acepto "misma" si además es la candidata más parecida y muy similar.
         if relacion == "misma" and (q["id"] != candidatos[0][0]["id"] or sim < UMBRAL_MISMA):
+            relacion = "parecida"
+        # algunas preguntas del banco dicen qué NO responden (p. ej. la intención de voto no dice quién ganará)
+        if relacion == "misma" and q.get("no_misma") and re.search(q["no_misma"], _norm(pregunta)):
             relacion = "parecida"
         referencia = self._referencia(q, sim)
 
