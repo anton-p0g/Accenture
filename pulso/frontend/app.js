@@ -279,7 +279,7 @@ function colorRegion(id) {
 }
 const nombreReg = id => (REG[RI[id]] || {}).name || id;
 function rankingReg() { const lead = D.lead; return REG.filter(r => D.reg[r.id]).map(r => ({ id: r.id, v: D.reg[r.id][lead] })).sort((a, b) => b.v - a.v); }
-function elegirComunidad(id) { SELREG = id; HOVREG = null; if (id) tone(660, .09, .04); whoosh(!!id); layout("map", true, false); }
+function elegirComunidad(id) { SELREG = id; HOVREG = null; if (id) tone(660, .09, .04); whoosh(!!id); layout("map", true, false); $("#ccp").scrollTop = 0; }
 // panel lateral de la vista Comunidades: clasificación (sin elegir) o detalle de la comunidad elegida
 function renderPanelCcaa() {
   const el = $("#ccp"), on = MODE === "app" && RES && D && !voting && LAYOUT === "map" && layout.mapa;
@@ -315,6 +315,7 @@ function renderPanelCcaa() {
 $("#volverMapa").addEventListener("click", () => elegirComunidad(null));
 $("#ccp").addEventListener("click", e => {
   const b = e.target.closest("button"); if (!b) return;
+  e.stopPropagation();
   if (b.dataset.id) return elegirComunidad(b.dataset.id);
   if (b.classList.contains("back")) return elegirComunidad(null);
   if (b.classList.contains("filtrar")) { F.reg = F.reg === SELREG ? "all" : SELREG; $("#fReg").value = F.reg; refilter(); renderPanelCcaa(); }
