@@ -272,6 +272,15 @@ class Motor:
                      + f" (estudio {q['estudio']}, {q.get('fecha') or FECHAS.get(q['estudio'], '')}) y aplicado a la población sintética.",
         }
 
+    def _opciones_cis(self, q, opciones):
+        """¿Las opciones que escribió el usuario son las de la pregunta del CIS (sin contar NS/NC)?"""
+        if q.get("tipo") == "ampliado":
+            orden = [o for o in q["opciones"] if o != "NS/NC"]
+        else:
+            orden = ["bajo", "medio", "alto"] if isinstance(q["grupos"], str) else list(q["grupos"])
+        cis = {_norm(e) for e in self._etiquetas(q, orden)}
+        return {_norm(o) for o in opciones if _norm(o) != "ns/nc"} == cis
+
     def _etiquetas(self, q, opciones):
         """Nombres legibles para las escalas 0-10 / 1-10 (con los extremos reales del cuestionario)."""
         if q.get("etiquetas"):
@@ -364,7 +373,8 @@ class Motor:
             relacion = "parecida"
         referencia = self._referencia(q, sim)
 
-        if relacion == "misma" and not opciones:
+        # con opciones escritas por el usuario solo se usa el modelo del CIS si son las mismas que las del CIS
+        if relacion == "misma" and (not opciones or self._opciones_cis(q, opciones)):
             modo, tema = "evidencia", TEMA_BANCO.get(q["tema"], q["tema"])
             informar("convocando", 0, 1)
             probs, etiquetas, confianza = self._evidencia(q, sim, informar)

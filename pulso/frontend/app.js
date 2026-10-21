@@ -646,7 +646,7 @@ function renderTopics() { $("#topics").innerHTML = TOPICS.map(t => `<button type
 $("#topics").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; curTopic = b.textContent; $("#topicAuto").textContent = "elegido a mano"; renderTopics(); });
 function renderOpts() {
   $("#opts").innerHTML = OPTS.map((o, i) => `<div class="opt"><i style="background:${isNS(o) ? NSC : PAL[i % PAL.length]}"></i><input id="opt${i}" value="${o.replace(/"/g, "&quot;")}" placeholder="Opción ${i + 1}" aria-label="Opción ${i + 1}"><button type="button" data-i="${i}" aria-label="Quitar opción">×</button></div>`).join("");
-  $("#addOpt").hidden = OPTS.length >= 4;
+  $("#addOpt").hidden = OPTS.length >= 5;
 }
 $("#opts").addEventListener("input", e => { const m = e.target.id.match(/^opt(\d)$/); if (m) OPTS[+m[1]] = e.target.value; });
 $("#opts").addEventListener("click", e => { const b = e.target.closest("button"); if (!b || OPTS.length <= 2) return; OPTS.splice(+b.dataset.i, 1); renderOpts(); });
