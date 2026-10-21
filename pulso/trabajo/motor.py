@@ -268,8 +268,8 @@ class Motor:
         error = round(float(np.hypot(moe, q["error_calibracion_pts"])), 1)
         return probs, etiquetas, {
             "nivel": 3, "error_pp": error, "n": n,
-            "texto": f"Basado en {n:,} entrevistas reales del CIS".replace(",", ".")
-                     + f" (estudio {q['estudio']}, {q.get('fecha') or FECHAS.get(q['estudio'], '')}).",
+            "texto": f"Modelo entrenado con {n:,} entrevistas del CIS".replace(",", ".")
+                     + f" (estudio {q['estudio']}, {q.get('fecha') or FECHAS.get(q['estudio'], '')}) y aplicado a la población sintética.",
         }
 
     def _etiquetas(self, q, opciones):
@@ -393,7 +393,7 @@ class Motor:
         error = self.error_simulacion(modo)
         return {
             "nivel": 2 if modo == "analogia" else 1, "error_pp": error, "n": n_arq,
-            "texto": (f"Simulación con {n_arq} perfiles sintéticos que responden con un modelo de lenguaje local, "
+            "texto": (f"Simulación con {n_arq} perfiles sintéticos españoles que responden con un modelo de lenguaje local, "
                       "a partir de sus actitudes medidas en el CIS. " + extra
                       + (f"Pregunta real más parecida: «{q['texto']}» (CIS {q['estudio']})."
                          if modo == "analogia" else "No hay ninguna pregunta parecida en las encuestas cargadas: resultado orientativo.")
