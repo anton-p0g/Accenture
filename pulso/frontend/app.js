@@ -562,11 +562,12 @@ addEventListener("keydown", e => { if (e.target.closest && e.target.closest("tex
 /* ================= tira de resultados ================= */
 function renderResults(final) {
   const st = final ? D : LIVE; if (!st || !RES) return;
-  const lead = st.share.indexOf(Math.max(...st.share));
+  const orden = st.share.map((_, i) => i).sort((a, b) => st.share[b] - st.share[a] || a - b);
+  const lead = orden[0];
   $("#res").classList.remove("wait");
-  $("#stack").innerHTML = RES.opciones.map((o, i) => `<i style="background:${optColor(i)};width:${(st.share[i] * 100).toFixed(2)}%"></i>`).join("");
-  $("#legend").innerHTML = RES.opciones.map((o, i) => `<span><i style="background:${optColor(i)}"></i>${o} <b>${pct(st.share[i])}</b></span>`).join("");
-  $("#big").textContent = pct(st.share[lead]); $("#big").style.color = optColor(lead) === "#1A1F3A" ? "#1A1F3A" : "";
+  $("#stack").innerHTML = orden.map(i => `<i style="background:${optColor(i)};width:${(st.share[i] * 100).toFixed(2)}%"></i>`).join("");
+  $("#legend").innerHTML = orden.map(i => `<span><i style="background:${optColor(i)}"></i>${RES.opciones[i]} <b>${pct(st.share[i])}</b></span>`).join("");
+  $("#big").textContent = pct(st.share[lead]); $("#big").style.color = optColor(lead);
   $("#bigL").textContent = `responde «${RES.opciones[lead]}»`;
   if (!final) return;
   const c = RES.confianza, L = c.nivel;
@@ -857,7 +858,7 @@ async function ask(q, opciones = null, fromPanel = false, extra = null) {
   // reinicio visual
   RES = null; D = null; LIVE = null; labelA = 0; SELREG = null; renderPanelCcaa(); P.forEach(p => { p.voted = false; });
   if (!fromPanel) { F.reg = "all"; $("#fReg").value = "all"; F.sex = "all"; segOn($("#fSex"), $('#fSex [data-v="all"]')); $("#aMin").value = 18; $("#aMax").value = 90; syncAge(); contarFiltros(); }
-  $("#res").classList.add("wait"); $("#big").textContent = "--"; $("#bigL").textContent = "Esperando respuestas"; $("#stack").innerHTML = ""; $("#legend").innerHTML = "";
+  $("#res").classList.add("wait"); $("#big").textContent = "--"; $("#big").style.color = ""; $("#bigL").textContent = "Esperando respuestas"; $("#stack").innerHTML = ""; $("#legend").innerHTML = "";
   $("#sema").dataset.l = 0; $("#semaT").textContent = "Confianza"; $("#moe").textContent = "±-- pp · n = --"; $("#base").textContent = "";
   $("#insight").innerHTML = `<small>Lectura rápida</small>Las diferencias entre grupos aparecerán aquí.`;
   $("#qt").textContent = q; $("#eyT").textContent = "Analizando"; $("#stProg").textContent = "";
