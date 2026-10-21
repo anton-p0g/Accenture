@@ -12,7 +12,7 @@ const sleep = ms => new Promise(r => setTimeout(r, RM ? Math.min(ms, 60) : ms));
 function rng(seed) { return function () { seed |= 0; seed = seed + 0x6D2B79F5 | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
 const hex2 = h => [parseInt(h.slice(1, 3), 16), parseInt(h.slice(3, 5), 16), parseInt(h.slice(5, 7), 16)];
 // orden de marca: coral, navy, naranja, azul; a partir de la quinta opción, tonos suaves de los mismos
-const PAL = ["#F0442E", "#1A1F3A", "#FF8A1F", "#3E7CB1", "#F59A8C", "#6B7194", "#FFC285", "#93B7D6"], NSC = "#A9AEC0";
+const PAL = ["#F0442E", "#1A1F3A", "#FF8A1F", "#3E7CB1", "#F59A8C", "#6B7194", "#FFC285", "#93B7D6", "#2F9E8F", "#B2475E", "#C9A227", "#8E7CC3"], NSC = "#A9AEC0";
 const N = 1200, BEAT = 1.6;
 const SPAR = 1.2241, PAR = 0.62;
 
@@ -286,21 +286,21 @@ function renderPanelCcaa() {
   el.classList.toggle("on", !!on); $("#volverMapa").classList.toggle("on", !!(on && SELREG)); if (!on) return;
   Object.assign(el.style, { width: panelW() + "px", top: "46px", bottom: "30px" });
   const lead = D.lead, media = D.share[lead], lc = optColor(lead), rank = rankingReg(), hi = rank.length ? rank[0].v : 1;
-  const pocos = id => (nGrupo("ccaa", id) ?? 1e9) < UMBRAL_N, ast = id => pocos(id) ? `<sup title="Menos de ${UMBRAL_N} entrevistas reales">*</sup>` : "";
+  const pocos = id => (nGrupo("ccaa", id) ?? 1e9) < UMBRAL_N, ast = id => pocos(id) ? `<sup title="Menos de ${UMBRAL_N} entrevistas del CIS">*</sup>` : "";
   const v = SELREG && D.reg[SELREG];
   if (!v) {
     el.innerHTML = `<small class="ey">${shortOpt(lead)} por comunidad</small><p class="hint">Pulsen una comunidad en el mapa o en la lista para ver su reparto completo.</p>
       <ol class="rank">${rank.map(o => `<li><button type="button" data-id="${o.id}"><span class="nm">${nombreReg(o.id)}${ast(o.id)}</span>
         <span class="br"><i style="width:${(o.v / hi * 100).toFixed(1)}%;background:${o.v >= media ? lc : "#3E7CB1"}"></i></span><b>${pct(o.v)}</b></button></li>`).join("")}</ol>
-      <p class="nota">España: ${pct(media)}${rank.some(o => pocos(o.id)) ? ` · * menos de ${UMBRAL_N} entrevistas reales` : ""}</p>`;
+      <p class="nota">España: ${pct(media)}${rank.some(o => pocos(o.id)) ? ` · * menos de ${UMBRAL_N} entrevistas del CIS` : ""}</p>`;
     return;
   }
   const dif = (v[lead] - media) * 100, pos = rank.findIndex(o => o.id === SELREG) + 1, n = nGrupo("ccaa", SELREG), np = P.filter(p => p.per && p.per.ccaa === SELREG).length;
   const esp = filtered() ? "España con el filtro" : "España";
   const signo = x => (x > 0 ? "+" : x < 0 ? "−" : "±") + Math.abs(Math.round(x)) + " pp";
   const fuente = RES.modo === "evidencia"
-    ? (n != null ? `Basado en ${fmt(n)} entrevistas reales del CIS en ${nombreReg(SELREG)}${pocos(SELREG) ? ": pocas entrevistas, más margen de error" : ""}.` : "Basado en encuestas reales del CIS.")
-    : "Estimación con IA: la diferencia con España sale de la composición de la comunidad (edad, sexo, estudios, ideología), no de entrevistas hechas allí.";
+    ? (n != null ? `Modelo entrenado con ${fmt(n)} entrevistas del CIS en ${nombreReg(SELREG)}${pocos(SELREG) ? ": pocas entrevistas, más margen de error" : ""}.` : "Modelo entrenado con microdatos del CIS.")
+    : "Simulación con LLM y perfiles españoles: la diferencia con España sale de la composición de la comunidad (edad, sexo, estudios, ideología), no de entrevistas hechas allí.";
   el.innerHTML = `<button type="button" class="back">← Todas las comunidades</button>
     <h4>${nombreReg(SELREG)}${ast(SELREG)}</h4>
     <div class="big"><b style="color:${lc === "#1A1F3A" ? "#1A1F3A" : lc}">${pct(v[lead])}</b><span>responde ${shortOpt(lead)}</span></div>
@@ -575,7 +575,7 @@ function renderResults(final) {
   const err = c.error_pp != null ? `±${String(c.error_pp).replace(".", ",")} pp` : "±? pp";
   $("#moe").textContent = filtered() ? `${err} · ${fmt(D.n)} personas en el filtro` : `${err} · n = ${fmt(c.n)}${RES.modo === "evidencia" ? "" : " perfiles"}`;
   renderPanelCcaa();
-  $("#base").textContent = RES.modo === "evidencia" ? "Basado en encuestas reales del CIS" : RES.modo === "analogia" ? "Estimación con IA, anclada en una pregunta parecida" : "Estimación con IA";
+  $("#base").textContent = RES.modo === "evidencia" ? "Modelo entrenado con microdatos del CIS" : RES.modo === "analogia" ? "LLM con perfiles españoles, anclado en una pregunta CIS parecida" : "LLM con perfiles sintéticos españoles";
   renderInsight();
 }
 function facts() {
@@ -600,7 +600,7 @@ function insightFor(v) {
   if (v === "hemi") return `<small>Mayor brecha · ${f.maxGap}</small>${o} gana con <b>${pct(D.share[D.lead])}</b>, ${Math.round(f.margin)} pp por delante de la segunda opción.`;
   if (v === "map" && f.regHi) { const aviso = [f.regHi, f.regLo].filter(x => (nGrupo("ccaa", x.r.id) ?? 1e9) < UMBRAL_N).map(x => x.r.name);
     return `<small>Brecha territorial · ${pp(f.regHi.v - f.regLo.v)}</small>Más alto en <b>${f.regHi.r.name} (${pct(f.regHi.v)})</b>. Más bajo en ${f.regLo.r.name} (${pct(f.regLo.v)}).` +
-      (aviso.length ? ` <span style="color:var(--mute);font-size:12px">${aviso.join(" y ")}: pocas entrevistas reales.</span>` : ""); }
+      (aviso.length ? ` <span style="color:var(--mute);font-size:12px">${aviso.join(" y ")}: pocas entrevistas del CIS.</span>` : ""); }
   if (v === "sex") return `<small>Brecha de género · ${pp(f.F - f.M)}</small>${o}: mujeres <b>${pct(f.F)}</b>, hombres <b>${pct(f.M)}</b>.`;
   if (v === "age" && f.unaEdad && f.ageY) return `<small>Filtro de edad activo</small>${o}: <b>${pct(f.ageY.v)}</b> entre las personas de ${f.ageY.a} años.`;
   if (v === "age" && f.ageY) return `<small>Brecha generacional · ${pp(f.ageY.v - f.ageO.v)}</small>${o}: ${f.ageY.a} años <b>${pct(f.ageY.v)}</b>, ${f.ageO.a} años <b>${pct(f.ageO.v)}</b>.`;
@@ -646,7 +646,7 @@ function renderTopics() { $("#topics").innerHTML = TOPICS.map(t => `<button type
 $("#topics").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; curTopic = b.textContent; $("#topicAuto").textContent = "elegido a mano"; renderTopics(); });
 function renderOpts() {
   $("#opts").innerHTML = OPTS.map((o, i) => `<div class="opt"><i style="background:${isNS(o) ? NSC : PAL[i % PAL.length]}"></i><input id="opt${i}" value="${o.replace(/"/g, "&quot;")}" placeholder="Opción ${i + 1}" aria-label="Opción ${i + 1}"><button type="button" data-i="${i}" aria-label="Quitar opción">×</button></div>`).join("");
-  $("#addOpt").hidden = OPTS.length >= 4;
+  $("#addOpt").hidden = OPTS.length >= 5;
 }
 $("#opts").addEventListener("input", e => { const m = e.target.id.match(/^opt(\d)$/); if (m) OPTS[+m[1]] = e.target.value; });
 $("#opts").addEventListener("click", e => { const b = e.target.closest("button"); if (!b || OPTS.length <= 2) return; OPTS.splice(+b.dataset.i, 1); renderOpts(); });
@@ -722,10 +722,16 @@ async function abrirValidacion() {
   const body = $("#validBody");
   try {
     const v = await (await fetch(ESTATICO ? "datos/validacion.json" : "/api/validacion")).json(); let h = "";
-    h += `<div class="vcard"><small><i style="background:#3BD27E"></i>Verde · respuestas reales del CIS</small>
+    h += `<div class="vcard"><small><i style="background:#3BD27E"></i>Verde · modelo entrenado con el CIS</small>
       <div><span class="big">±${num(v.evidencia.error_misma_ola_pp)} pp</span></div>
       <div>Error medio de la población sintética frente al CIS en ${v.evidencia.preguntas} preguntas reales (${fmt(v.evidencia.entrevistas)} entrevistas). Cada pregunta tiene su propio modelo entrenado con microdatos y aplicado a las 25.000 personas.</div></div>`;
-    if (v.temporal) { const r = Object.fromEntries(v.temporal.map(x => [x.validacion + "|" + x.desglose, x]));
+    if (v.temporal_banco) { const T = v.temporal_banco, nq = T[0].preguntas;
+      h += `<div class="vcard"><small><i style="background:#3BD27E"></i>Verde · predicción de la ola siguiente</small>
+        <div>${nq} preguntas que el CIS repitió en la encuesta siguiente (1 a 9 meses después). El modelo de la ola anterior se compara con lo que respondió la gente en la nueva, que no había visto:</div>
+        <table><tr><th>Desglose</th><th class="n">Error pulso</th><th class="n">Repetir la ola anterior</th><th class="n">Ruido de la encuesta</th></tr>
+        ${T.map(x => `<tr><td>${{ total: "España", sexo: "Sexo", grupo_edad: "Edad", ccaa: "Comunidad" }[x.desglose] || x.desglose}</td><td class="n">${num(x.pulso)} pp</td><td class="n">${num(x.persistencia)} pp</td><td class="n">${num(x.ruido)} pp</td></tr>`).join("")}</table>
+        <div style="font-size:12.5px;color:var(--mute)">Error medio por opción. Parte del error es cambio real de opinión entre olas y parte es el propio margen de la encuesta (última columna).</div></div>`; }
+    else if (v.temporal) { const r = Object.fromEntries(v.temporal.map(x => [x.validacion + "|" + x.desglose, x]));
       const b = k => r["B_reanclada|" + k];
       h += `<div class="vcard"><small><i style="background:#FFC24B"></i>Predicción en el tiempo · clima dic 2025 → sep 2026</small>
         <div>Entrenado con diciembre y comparado con septiembre (que el modelo no vio). Con el total nacional conocido, el reparto por grupos acierta:</div>
@@ -733,11 +739,14 @@ async function abrirValidacion() {
         ${["sexo", "grupo_edad", "ccaa"].filter(b).map(k => `<tr><td>${{ sexo: "Sexo", grupo_edad: "Edad", ccaa: "Comunidad" }[k]}</td><td class="n">${num(b(k).error_medio_pts)} pp</td><td class="n">${b(k).error_sin_modelo_pts != null ? num(b(k).error_sin_modelo_pts) + " pp" : "-"}</td></tr>`).join("")}</table>
         <div style="font-size:12.5px;color:var(--mute)">La opinión cambió de verdad entre olas (+9 pp, verano de incendios): por eso pulso ancla el nivel con el dato más reciente.</div></div>`; }
     if (v.simulacion) { const R = v.simulacion.resumen, best = R.slice().sort((a, b) => a.error_total_pts - b.error_total_pts)[0];
-      h += `<div class="vcard"><small><i style="background:#FF5A4A"></i>Rojo · preguntas nuevas simuladas con el LLM</small>
+      h += `<div class="vcard"><small><i style="background:#FF5A4A"></i>Ámbar y rojo · preguntas nuevas simuladas con el LLM</small>
         <div>Tratamos cada pregunta real del CIS como si fuera nueva (sin dejar que el perfil la conozca) y comparamos la simulación con lo que respondió la gente.</div>
         <table><tr><th>Cómo responde el LLM</th><th class="n">Error medio</th><th class="n">Patrón por edad (r)</th></tr>
         ${R.map(x => `<tr class="${x === best ? "best" : ""}"><td>${(COND[x.condicion] || [x.condicion])[0]}</td><td class="n">${num(x.error_total_pts)} pp</td><td class="n">${num(x.correlacion_edad, 2)}</td></tr>`).join("")}
         <tr><td>Referencia: repartir a partes iguales</td><td class="n">${num(R[0].error_uniforme_pts)} pp</td><td class="n">-</td></tr></table>
+        ${v.simulacion.por_modo ? `<div>Según el color que les habría dado el motor (con su propia pregunta quitada del CIS):</div>
+        <table><tr><th>Color</th><th class="n">Preguntas</th><th class="n">Error medio</th><th class="n">Repartir a partes iguales</th></tr>
+        ${v.simulacion.por_modo.filter(x => x.color !== "verde").sort((a, b) => (a.color === "ámbar" ? -1 : 1) - (b.color === "ámbar" ? -1 : 1)).map(x => `<tr><td>${x.color === "ámbar" ? "Ámbar · hay una pregunta CIS parecida" : "Rojo · ninguna pregunta parecida"}</td><td class="n">${x.preguntas}</td><td class="n">${num(x.error_total_pts)} pp</td><td class="n">${num(x.error_uniforme_pts)} pp</td></tr>`).join("")}</table>` : ""}
         <div class="scatter-wrap">${scatter(v.simulacion.puntos)}</div>
         <div style="font-size:12.5px;color:var(--mute)">Cada punto es una pregunta real: horizontal, lo que respondió España; vertical, lo que simuló pulso. Cuanto más cerca de la diagonal, mejor.</div></div>`; }
     else h += `<div class="vcard"><small>Simulación</small><div>La calibración del simulador todavía se está calculando.</div></div>`;
@@ -797,7 +806,7 @@ function renderComparacion(c) {
 $("#compClose").onclick = () => closePanels();
 
 /* ================= la encuesta ================= */
-const MODOS = { evidencia: "Respuestas reales del CIS", analogia: "Simulación anclada en una pregunta CIS parecida", simulacion: "Simulación sin pregunta CIS equivalente" };
+const MODOS = { evidencia: "Modelo entrenado con microdatos del CIS", analogia: "LLM con perfiles españoles, anclado en una pregunta CIS parecida", simulacion: "LLM con perfiles sintéticos españoles (sin pregunta CIS equivalente)" };
 let voting = false, voteSoundT = 0;
 function setSteps(i) { $("#steps").querySelectorAll(":scope > div").forEach((d, j) => { d.classList.toggle("done", j < i); d.classList.toggle("on", j === i); }); }
 function tickVote(p, i) { const c = hex2(optColor(p.ans)); if (i % 9 === 0) rings.push({ p, c, t: performance.now() / 1000 });
@@ -932,7 +941,7 @@ $("#q").addEventListener("input", () => { const q = $("#q"); q.style.height = "a
 /* ================= versión publicada sin LLM: catálogo de preguntas ================= */
 // Sin motor no se pueden responder preguntas nuevas: el chat queda bloqueado y se elige entre las consultas ya calculadas.
 const TEMAS_CAT = ["Vivienda", "Soledad", "Tecnología e IA", "Medio ambiente", "Salud", "Consumo", "Sociedad"];
-const FUENTE_CAT = { evidencia: "Datos reales del CIS", analogia: "IA anclada en el CIS", simulacion: "Simulación con IA" };
+const FUENTE_CAT = { evidencia: "Modelo entrenado con el CIS", analogia: "LLM anclado en el CIS", simulacion: "LLM con perfiles españoles" };
 let temaCat = "Todas";
 const tituloCat = e => e.tipo === "ab" ? `«${e.mensajes[0]}» vs «${e.mensajes[1]}»` : e.tipo === "campana" ? `«${e.mensajes[0]}»` : e.pregunta.replace(/^[“"]|[”"]$/g, "");
 async function abrirCatalogo() {
@@ -981,6 +990,9 @@ if (ESTATICO) indice().then(idx => {
   chips([[`Ver las ${idx.length} preguntas`, abrirCatalogo], ...dest.map(i => [idx[i].tipo === "ab" ? "Test A/B: ahorro o huella de carbono" : idx[i].pregunta, () => elegirPreparada(i)])], "#homeChips");
   $("#homeChips").firstChild.classList.add("prim");
   if (/[?&]preguntas\b/.test(location.search)) abrirCatalogo();   // el QR abre directamente el catálogo
-}); else exampleChips("#homeChips");
+}); else {  // inicio con LLM: «Diseña tu encuesta» primero, luego ejemplos
+  chips([["Diseña tu encuesta", abrirDiseno], ...EJEMPLOS.map(([t, q]) => [t, () => ask(q || t)])], "#homeChips");
+  $("#homeChips").firstChild.classList.add("prim");
+}
 requestAnimationFrame(frame);
 (async () => { await sleep(300); await streamBot(`Hola. Soy <b>pulso</b>. Cada punto es una persona sintética de la España real, con actitudes estimadas a partir de encuestas del CIS.`); })();

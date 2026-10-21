@@ -175,8 +175,10 @@ class Motor:
         try:
             r = _post("/api/chat", {"model": MODELO_LLM, "stream": False, "format": "json",
                                     "messages": [{"role": "user", "content": prompt}],
-                                    "options": {"temperature": 0.4, "num_predict": 400}}, timeout=180)
-            v = json.loads(r["message"]["content"]).get("voces", [])
+                                    "options": {"temperature": 0.4, "num_predict": max(400, 60 * len(opciones))}}, timeout=300)
+            d = json.loads(r["message"]["content"])
+            # el modelo de 8B a veces escribe mal la clave («vocas»): vale la primera lista que devuelva
+            v = d.get("voces") or next((x for x in d.values() if isinstance(x, list)), [])
             v = [[str(f).replace("—", ",") for f in par][:2] for par in v][:len(opciones)]
         except (OSError, ValueError, KeyError, TypeError):
             v = []
@@ -266,9 +268,18 @@ class Motor:
         error = round(float(np.hypot(moe, q["error_calibracion_pts"])), 1)
         return probs, etiquetas, {
             "nivel": 3, "error_pp": error, "n": n,
-            "texto": f"Basado en {n:,} entrevistas reales del CIS".replace(",", ".")
-                     + f" (estudio {q['estudio']}, {q.get('fecha') or FECHAS.get(q['estudio'], '')}).",
+            "texto": f"Modelo entrenado con {n:,} entrevistas del CIS".replace(",", ".")
+                     + f" (estudio {q['estudio']}, {q.get('fecha') or FECHAS.get(q['estudio'], '')}) y aplicado a la población sintética.",
         }
+
+    def _opciones_cis(self, q, opciones):
+        """¿Las opciones que escribió el usuario son las de la pregunta del CIS (sin contar NS/NC)?"""
+        if q.get("tipo") == "ampliado":
+            orden = [o for o in q["opciones"] if o != "NS/NC"]
+        else:
+            orden = ["bajo", "medio", "alto"] if isinstance(q["grupos"], str) else list(q["grupos"])
+        cis = {_norm(e) for e in self._etiquetas(q, orden)}
+        return {_norm(o) for o in opciones if _norm(o) != "ns/nc"} == cis
 
     def _etiquetas(self, q, opciones):
         """Nombres legibles para las escalas 0-10 / 1-10 (con los extremos reales del cuestionario)."""
@@ -326,7 +337,14 @@ class Motor:
         salida.sort(key=lambda f: -abs(f["dif_pp"]))
         return [f for f in salida if abs(f["dif_pp"]) >= 3][:3]
 
-    def error_simulacion(self):
+    def error_simulacion(self, modo=None):
+        """Error medido de la simulación: por color si existe (10_validar_ambar_rojo.py), si no el global."""
+        color = {"analogia": "ámbar", "simulacion": "rojo"}.get(modo)
+        try:
+            r = pd.read_csv(CALIBRACION / "por_modo.csv", index_col="color")
+            return round(float(r.loc[color, "error_total_pts"]), 1)
+        except (OSError, KeyError, ValueError):
+            pass
         try:
             r = pd.read_csv(CALIBRACION / "resumen.csv", index_col=0)
             return round(float(r.loc["actitudes_relevantes", "error_total_pts"]), 1)
@@ -355,7 +373,8 @@ class Motor:
             relacion = "parecida"
         referencia = self._referencia(q, sim)
 
-        if relacion == "misma" and not opciones:
+        # con opciones escritas por el usuario solo se usa el modelo del CIS si son las mismas que las del CIS
+        if relacion == "misma" and (not opciones or self._opciones_cis(q, opciones)):
             modo, tema = "evidencia", TEMA_BANCO.get(q["tema"], q["tema"])
             informar("convocando", 0, 1)
             probs, etiquetas, confianza = self._evidencia(q, sim, informar)
@@ -381,10 +400,10 @@ class Motor:
                 "fecha": q.get("fecha") or FECHAS.get(q["estudio"], ""), "similitud": round(sim, 3)}
 
     def _confianza_simulacion(self, modo, n_arq, q, extra=""):
-        error = self.error_simulacion()
+        error = self.error_simulacion(modo)
         return {
             "nivel": 2 if modo == "analogia" else 1, "error_pp": error, "n": n_arq,
-            "texto": (f"Simulación con {n_arq} perfiles sintéticos que responden con un modelo de lenguaje local, "
+            "texto": (f"Simulación con {n_arq} perfiles sintéticos españoles que responden con un modelo de lenguaje local, "
                       "a partir de sus actitudes medidas en el CIS. " + extra
                       + (f"Pregunta real más parecida: «{q['texto']}» (CIS {q['estudio']})."
                          if modo == "analogia" else "No hay ninguna pregunta parecida en las encuestas cargadas: resultado orientativo.")

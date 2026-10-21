@@ -1,0 +1,24 @@
+pregunta,texto,color,relacion_juez,similitud,pregunta_cis_parecida,estudio_parecida,error_total_pts,error_uniforme_pts
+clima_preocupacion,¿En qué medida le preocupa el cambio climático?,ámbar,parecida,0.778,¿Cuánto miedo o temor le suscita el deterioro ambiental?,3554,17.52,16.76
+clima_pacto_estado,¿Cree necesario un pacto de Estado para hacer frente a las emergencias del cambio climático?,ámbar,parecida,0.682,¿Cuánto le preocupa el cambio climático?,3536,19.56,31.58
+medioambiente_futuro,"Dentro de 10 años, ¿habrá más o menos deterioro del medio ambiente que ahora?",rojo,ninguna,0.741,"Dentro de 10 años, ¿habrá más o menos soledad o aislamiento que ahora?",3535,15.07,14.31
+ia_opinion,"¿Cree que la inteligencia artificial va a desarrollarse mucho, bastante, regular, poco o nada en los próximos diez años?",ámbar,parecida,0.795,¿Cree que los robots industriales y sistemas automáticos van a desarrollarse mucho en los próximos diez años?,3535,9.82,20.76
+robots_opinion,¿Cree que los robots industriales y sistemas automáticos van a desarrollarse mucho en los próximos diez años?,verde,misma,0.911,¿Cree que en 10 años habrá muchos más robots y sistemas automáticos en las empresas?,3535,13.12,19.98
+robots_empleo,"En 10 años, ¿el uso de robots y sistemas automáticos aumentará el paro o creará empleo?",ámbar,parecida,0.808,¿Cree que en diez años habrá más robots que sustituyan a trabajadores/as que ahora?,3535,7.05,16.12
+tecnologia_control_miedo,¿Siente miedo ante el control de su vida por las nuevas tecnologías?,ámbar,parecida,0.746,¿Cree que los medios de comunicación influyen en su sensación de miedo y temor social?,3554,13.43,4.8
+ia_consulta_medica,¿Se sentiría cómodo/a hablando con una IA (asistente virtual) durante una consulta médica?,ámbar,parecida,0.802,¿Cómo se siente al pensar en seguir la evolución de su enfermedad con la ayuda de un asistente virtual con IA?,8825,18.2,20.98
+ia_radiografias,¿Se sentiría cómodo/a si un sistema de inteligencia artificial interpretara sus radiografías?,ámbar,parecida,0.722,¿Se sentiría cómodo/a hablando con una IA (asistente virtual) durante una consulta médica?,8825,5.0,4.84
+ia_datos_clinicos,¿Le preocupa que empresas privadas usen datos clínicos para desarrollar inteligencia artificial?,verde,misma,0.921,¿Cuánto se preocupa usted por que las instituciones públicas utilicen datos clínicos para desarrollar la inteligencia artificial?,8825,9.93,7.78
+banca_online_habilidad,¿Qué habilidad tiene para hacer gestiones bancarias por Internet?,ámbar,parecida,0.668,¿Uso habitual de la banca online o app del banco?,3560,12.51,9.15
+soledad_temor,¿Cuánto miedo o temor le suscita la soledad? (0-10),rojo,ninguna,0.835,¿Cuánto temor le suscita perder la salud? (0-10),3554,6.75,6.64
+soledad_sin_apoyo,¿Teme quedarse solo/a o sin apoyo emocional en momentos difíciles?,ámbar,parecida,0.764,¿Le suscita miedo o temor no tener a una persona a la que amar?,3554,9.04,8.9
+soledad_futuro,"Dentro de 10 años, ¿habrá más o menos soledad o aislamiento que ahora?",ámbar,parecida,0.743,"¿Cree que en diez años tendrá más, menos o la misma relación con la familia que ahora?",3535,31.09,30.91
+vivienda_temor_pago,"¿Cuánto temor le suscita no poder pagar su vivienda, alquiler o hipoteca? (0-10)",ámbar,parecida,0.817,¿Cuánto temor le suscita una crisis económica? (0-10),3554,20.23,19.64
+vivienda_precio_futuro,"¿Cree que el precio de la vivienda en España subirá, se mantendrá o bajará el próximo año?",rojo,ninguna,0.842,¿Qué cree que será la inflación en España en el próximo año?,3575,20.38,28.74
+vivienda_comprar,¿Tiene intención de comprar una vivienda en el próximo año?,ámbar,parecida,0.8,"¿Cree que el precio de la vivienda en España subirá, se mantendrá o bajará el próximo año?",3575,4.93,38.7
+salud_temor,¿Cuánto temor le suscita perder la salud? (0-10),rojo,ninguna,0.835,¿Cuánto miedo o temor le suscita la soledad? (0-10),3554,33.6,29.31
+sanidad_satisfaccion,¿Qué grado de satisfacción tiene con el funcionamiento del sistema sanitario público? (1-10),ámbar,parecida,0.786,¿Cuán satisfecho está con el ingreso y la asistencia en hospitales públicos?,8825,8.43,12.36
+ansioliticos,¿Toma actualmente ansiolíticos o antidepresivos?,rojo,ninguna,0.683,¿Está realizando otros estudios?,3569,9.37,34.6
+economia_personal,"¿Cómo calificaría su situación económica personal: muy buena, buena, regular, mala o muy mala?",rojo,ninguna,0.671,¿Cómo cree que estará la situación económica de su hogar en los próximos 6 meses?,3575,33.48,21.51
+economia_espana,¿Cómo calificaría la situación económica general de España?,verde,misma,0.91,¿Cómo valoraría la situación económica de España en los últimos 6 meses?,3569,23.25,17.69
+crisis_temor,¿Cuánto temor le suscita una crisis económica? (0-10),ámbar,parecida,0.817,"¿Cuánto temor le suscita no poder pagar su vivienda, alquiler o hipoteca? (0-10)",3554,19.04,24.74
