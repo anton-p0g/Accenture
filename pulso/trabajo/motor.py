@@ -175,8 +175,10 @@ class Motor:
         try:
             r = _post("/api/chat", {"model": MODELO_LLM, "stream": False, "format": "json",
                                     "messages": [{"role": "user", "content": prompt}],
-                                    "options": {"temperature": 0.4, "num_predict": 400}}, timeout=180)
-            v = json.loads(r["message"]["content"]).get("voces", [])
+                                    "options": {"temperature": 0.4, "num_predict": max(400, 60 * len(opciones))}}, timeout=300)
+            d = json.loads(r["message"]["content"])
+            # el modelo de 8B a veces escribe mal la clave («vocas»): vale la primera lista que devuelva
+            v = d.get("voces") or next((x for x in d.values() if isinstance(x, list)), [])
             v = [[str(f).replace("—", ",") for f in par][:2] for par in v][:len(opciones)]
         except (OSError, ValueError, KeyError, TypeError):
             v = []

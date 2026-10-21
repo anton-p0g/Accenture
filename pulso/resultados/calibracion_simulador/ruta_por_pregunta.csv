@@ -14,11 +14,11 @@ soledad_temor,¿Cuánto miedo o temor le suscita la soledad? (0-10),rojo,ninguna
 soledad_sin_apoyo,¿Teme quedarse solo/a o sin apoyo emocional en momentos difíciles?,ámbar,parecida,0.764,¿Le suscita miedo o temor no tener a una persona a la que amar?,3554,9.04,8.9
 soledad_futuro,"Dentro de 10 años, ¿habrá más o menos soledad o aislamiento que ahora?",ámbar,parecida,0.743,"¿Cree que en diez años tendrá más, menos o la misma relación con la familia que ahora?",3535,31.09,30.91
 vivienda_temor_pago,"¿Cuánto temor le suscita no poder pagar su vivienda, alquiler o hipoteca? (0-10)",ámbar,parecida,0.817,¿Cuánto temor le suscita una crisis económica? (0-10),3554,20.23,19.64
-vivienda_precio_futuro,"¿Cree que el precio de la vivienda en España subirá, se mantendrá o bajará el próximo año?",rojo,ninguna,0.842,¿Qué cree que será la inflación en España en el próximo año?,3569,20.38,28.74
+vivienda_precio_futuro,"¿Cree que el precio de la vivienda en España subirá, se mantendrá o bajará el próximo año?",rojo,ninguna,0.842,¿Qué cree que será la inflación en España en el próximo año?,3575,20.38,28.74
 vivienda_comprar,¿Tiene intención de comprar una vivienda en el próximo año?,ámbar,parecida,0.8,"¿Cree que el precio de la vivienda en España subirá, se mantendrá o bajará el próximo año?",3575,4.93,38.7
 salud_temor,¿Cuánto temor le suscita perder la salud? (0-10),rojo,ninguna,0.835,¿Cuánto miedo o temor le suscita la soledad? (0-10),3554,33.6,29.31
 sanidad_satisfaccion,¿Qué grado de satisfacción tiene con el funcionamiento del sistema sanitario público? (1-10),ámbar,parecida,0.786,¿Cuán satisfecho está con el ingreso y la asistencia en hospitales públicos?,8825,8.43,12.36
 ansioliticos,¿Toma actualmente ansiolíticos o antidepresivos?,rojo,ninguna,0.683,¿Está realizando otros estudios?,3569,9.37,34.6
 economia_personal,"¿Cómo calificaría su situación económica personal: muy buena, buena, regular, mala o muy mala?",rojo,ninguna,0.671,¿Cómo cree que estará la situación económica de su hogar en los próximos 6 meses?,3575,33.48,21.51
-economia_espana,¿Cómo calificaría la situación económica general de España?,verde,misma,0.91,¿Cómo valoraría la situación económica de España en los últimos 6 meses?,3575,23.25,17.69
+economia_espana,¿Cómo calificaría la situación económica general de España?,verde,misma,0.91,¿Cómo valoraría la situación económica de España en los últimos 6 meses?,3569,23.25,17.69
 crisis_temor,¿Cuánto temor le suscita una crisis económica? (0-10),ámbar,parecida,0.817,"¿Cuánto temor le suscita no poder pagar su vivienda, alquiler o hipoteca? (0-10)",3554,19.04,24.74

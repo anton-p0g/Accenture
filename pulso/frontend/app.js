@@ -12,7 +12,7 @@ const sleep = ms => new Promise(r => setTimeout(r, RM ? Math.min(ms, 60) : ms));
 function rng(seed) { return function () { seed |= 0; seed = seed + 0x6D2B79F5 | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
 const hex2 = h => [parseInt(h.slice(1, 3), 16), parseInt(h.slice(3, 5), 16), parseInt(h.slice(5, 7), 16)];
 // orden de marca: coral, navy, naranja, azul; a partir de la quinta opción, tonos suaves de los mismos
-const PAL = ["#F0442E", "#1A1F3A", "#FF8A1F", "#3E7CB1", "#F59A8C", "#6B7194", "#FFC285", "#93B7D6"], NSC = "#A9AEC0";
+const PAL = ["#F0442E", "#1A1F3A", "#FF8A1F", "#3E7CB1", "#F59A8C", "#6B7194", "#FFC285", "#93B7D6", "#2F9E8F", "#B2475E", "#C9A227", "#8E7CC3"], NSC = "#A9AEC0";
 const N = 1200, BEAT = 1.6;
 const SPAR = 1.2241, PAR = 0.62;
 
