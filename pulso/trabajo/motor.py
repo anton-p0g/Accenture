@@ -7,7 +7,9 @@ Modos:
 """
 import hashlib
 import json
+import os
 import re
+import time
 import unicodedata
 import urllib.request
 from functools import lru_cache
@@ -32,6 +34,9 @@ N_ARQUETIPOS = 100
 UMBRAL_RELEVANTE = 0.50  # actitudes CIS que se consideran relacionadas con la pregunta
 UMBRAL_CANDIDATA = 0.60  # por debajo, ninguna pregunta CIS se parece (medido con bge-m3)
 UMBRAL_MISMA = 0.83      # para usar la evidencia directa, además del juicio del LLM
+# Modo demo (para grabar o presentar): las respuestas ya calculadas tardan lo que tardaría el motor y
+# muestran las mismas fases. Segundos; 0 = al instante. Ej.: PULSO_ESPERA_VERDE=20 PULSO_ESPERA_LLM=120
+ESPERA_DEMO = {"evidencia": float(os.environ.get("PULSO_ESPERA_VERDE", 0)), "llm": float(os.environ.get("PULSO_ESPERA_LLM", 0))}
 TEMAS = ["Vivienda", "Soledad", "Tecnología e IA", "Medio ambiente", "Salud", "Consumo"]
 TEMA_BANCO = {"vivienda": "Vivienda", "soledad": "Soledad", "tecnología e IA": "Tecnología e IA",
               "medio ambiente": "Medio ambiente", "salud": "Salud", "consumo": "Consumo"}
@@ -357,9 +362,12 @@ class Motor:
         mensajes = [m.strip() for m in (mensajes or []) if m and m.strip()]
         clave = hashlib.sha1(json.dumps([pregunta.strip().lower(), opciones or [], tipo, mensajes]).encode()).hexdigest()[:16]
         ruta = CACHE / f"{clave}.json"
-        if ruta.exists():
+        guardada = ruta if ruta.exists() else self._en_cache(pregunta, opciones, tipo, mensajes)
+        if guardada:
+            resultado = json.loads(guardada.read_text(encoding="utf-8"))
+            self._progreso_demo(resultado, informar)
             informar("respondiendo", 1, 1)
-            return json.loads(ruta.read_text(encoding="utf-8"))
+            return resultado
 
         informar("interpretando", 0, 1)
         if tipo in ("campana", "ab"):
@@ -394,6 +402,40 @@ class Motor:
                 referencia = None
         return self._guardar(ruta, pregunta, tema, modo, referencia, etiquetas, probs, confianza, serie, relevantes,
                              excluir={q["id"]} if modo == "evidencia" else (), texto_voces=pregunta)
+
+    @staticmethod
+    def _clave_flexible(pregunta, opciones, tipo, mensajes):
+        """La misma consulta aunque cambien mayúsculas, acentos, signos o espacios (escrita a mano en directo)."""
+        limpio = lambda t: " ".join(re.sub(r"[^a-z0-9 ]+", " ", _norm(t)).split())  # sin acentos ni signos
+        ops = frozenset(limpio(o) for o in (opciones or []) if limpio(o) not in ("ns nc", ""))
+        return limpio(pregunta), ops, tipo or "pregunta", tuple(limpio(m) for m in (mensajes or []))
+
+    def _en_cache(self, pregunta, opciones, tipo, mensajes):
+        """Busca una consulta ya calculada con la misma pregunta y opciones, aunque no esté escrita igual."""
+        if not hasattr(self, "_indice_cache"):
+            self._indice_cache = {}
+            for r in sorted(CACHE.glob("*.json"), key=lambda r: r.stat().st_mtime):
+                d = json.loads(r.read_text(encoding="utf-8"))
+                q, ops, t, m = self._clave_flexible(d["pregunta"], d.get("opciones"), d.get("tipo", "pregunta"), d.get("mensajes"))
+                self._indice_cache[(q, ops, t, m)] = r
+                self._indice_cache.setdefault((q, None, t, m), r)
+        q, ops, t, m = self._clave_flexible(pregunta, opciones, tipo, mensajes)
+        return self._indice_cache.get((q, ops if opciones else None, t, m))
+
+    def _progreso_demo(self, r, informar):
+        """Modo demo: recorre las fases del motor durante el tiempo configurado en vez de responder al instante."""
+        espera = ESPERA_DEMO["evidencia" if r.get("modo") == "evidencia" else "llm"]
+        if espera <= 0:
+            return
+        informar("interpretando", 0, 1); time.sleep(espera * .12)
+        informar("convocando", 0, 1); time.sleep(espera * .1)
+        n = int((r.get("confianza") or {}).get("n") or 0) if r.get("modo") != "evidencia" else 0
+        if n > 1:  # simulación: «k de n perfiles» como cuando responde el LLM
+            for k in range(1, n + 1):
+                informar("respondiendo", k, n); time.sleep(espera * .7 / n)
+        else:
+            informar("respondiendo", 0, 1); time.sleep(espera * .7)
+        informar("confianza", 1, 1); time.sleep(espera * .08)
 
     def _referencia(self, q, sim):
         return {"id": q["id"], "texto": q["texto"], "estudio": q["estudio"],
