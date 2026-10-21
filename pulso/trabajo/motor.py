@@ -5,6 +5,7 @@ Modos:
 - analogia:   hay preguntas CIS parecidas → simulación con LLM, anclada en actitudes reales.
 - simulacion: tema nuevo → simulación con LLM; resultado orientativo.
 """
+import difflib
 import hashlib
 import json
 import os
@@ -80,6 +81,22 @@ def _post(ruta, cuerpo, timeout=120):
 def _norm(texto):
     texto = unicodedata.normalize("NFKD", str(texto))
     return "".join(c for c in texto if not unicodedata.combining(c)).lower().strip()
+
+
+VACIAS = {"el", "la", "los", "las", "lo", "de", "del", "y", "e", "o", "u", "a", "al", "en", "un", "una", "unos", "unas"}
+
+
+def _limpio(texto):
+    """Sin acentos, signos ni espacios de más."""
+    return " ".join(re.sub(r"[^a-z0-9 ]+", " ", _norm(texto)).split())
+
+
+def _palabras(texto):
+    """Palabras con contenido de una opción, en orden: «La economía, el empleo y el coste de la vida» → «coste economia empleo vida»."""
+    return " ".join(sorted(set(_limpio(texto).split()) - VACIAS))
+
+
+NSNC = _palabras("NS/NC")
 
 
 def embeber(textos, tipo):
@@ -290,8 +307,8 @@ class Motor:
             orden = [o for o in q["opciones"] if o != "NS/NC"]
         else:
             orden = ["bajo", "medio", "alto"] if isinstance(q["grupos"], str) else list(q["grupos"])
-        cis = {_norm(e) for e in self._etiquetas(q, orden)}
-        return {_norm(o) for o in opciones if _norm(o) != "ns/nc"} == cis
+        cis = {_palabras(e) for e in self._etiquetas(q, orden)}
+        return {_palabras(o) for o in opciones if _palabras(o) not in (NSNC, "")} == cis  # sin artículos ni signos
 
     def _etiquetas(self, q, opciones):
         """Nombres legibles para las escalas 0-10 / 1-10 (con los extremos reales del cuestionario)."""
@@ -415,10 +432,10 @@ class Motor:
 
     @staticmethod
     def _clave_flexible(pregunta, opciones, tipo, mensajes):
-        """La misma consulta aunque cambien mayúsculas, acentos, signos o espacios (escrita a mano en directo)."""
-        limpio = lambda t: " ".join(re.sub(r"[^a-z0-9 ]+", " ", _norm(t)).split())  # sin acentos ni signos
-        ops = frozenset(limpio(o) for o in (opciones or []) if limpio(o) not in ("ns nc", ""))
-        return limpio(pregunta), ops, tipo or "pregunta", tuple(limpio(m) for m in (mensajes or []))
+        """La misma consulta aunque cambien mayúsculas, acentos, signos, espacios o falte algún artículo
+        (escrita a mano en directo). Las opciones se comparan por sus palabras con contenido."""
+        ops = frozenset(o for o in (_palabras(x) for x in (opciones or [])) if o not in (NSNC, ""))
+        return _limpio(pregunta), ops, tipo or "pregunta", tuple(_limpio(m) for m in (mensajes or []))
 
     def _en_cache(self, pregunta, opciones, tipo, mensajes):
         """Busca una consulta ya calculada con la misma pregunta y opciones, aunque no esté escrita igual."""
@@ -430,7 +447,14 @@ class Motor:
                 self._indice_cache[(q, ops, t, m)] = r
                 self._indice_cache.setdefault((q, None, t, m), r)
         q, ops, t, m = self._clave_flexible(pregunta, opciones, tipo, mensajes)
-        return self._indice_cache.get((q, ops if opciones else None, t, m))
+        exacta = self._indice_cache.get((q, ops if opciones else None, t, m))
+        if exacta or not opciones:
+            return exacta
+        # una errata pequeña en la pregunta (p. ej. «ampañara»), con las mismas opciones
+        parecidas = [(difflib.SequenceMatcher(None, q, k[0]).ratio(), r) for k, r in self._indice_cache.items()
+                     if k[1] == ops and k[2] == t and k[3] == m]
+        mejor = max(parecidas, default=(0, None), key=lambda x: x[0])
+        return mejor[1] if mejor[0] >= .92 else None
 
     def _progreso_demo(self, r, informar):
         """Modo demo: recorre las fases del motor durante el tiempo configurado en vez de responder al instante."""
